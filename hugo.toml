@@ -1,4 +1,4 @@
-baseURL = 'https://maxwelljensen.no/'
+baseURL = 'https://maxwelljensen.eu/'
 languageCode = 'en-gb'
 title = "Maxwell Jensen's Website"
 theme = "gokarna"
@@ -17,7 +17,7 @@ enableEmoji = true
     identifier = "docs"
     name = "Docs"
     pre = "<span data-feather='code'></span>"
-    url = "https://docs.maxwelljensen.no"
+    url = "https://docs.maxwelljensen.eu"
     weight = 2
 
   [[menu.main]]
