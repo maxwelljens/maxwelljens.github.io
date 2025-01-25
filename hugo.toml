@@ -1,0 +1,69 @@
+baseURL = 'https://maxwelljensen.no/'
+languageCode = 'en-gb'
+title = "Maxwell Jensen's Website"
+theme = "gokarna"
+enableRobotsTXT = true
+enableEmoji = true
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+    pre = "<span data-feather='book'></span>"
+
+  [[menu.main]]
+    identifier = "docs"
+    name = "Docs"
+    pre = "<span data-feather='code'></span>"
+    url = "https://docs.maxwelljensen.no"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+    pre = "<span data-feather='tag'></span>"
+
+  [[menu.main]]
+    identifier = "rss"
+    pre = "<span data-feather='rss' color=#d65d0e></span>"
+    url = "/index.xml"
+    weight = 4
+
+[params]
+  dateFormat = "2 January, 2006"
+  footer = "Maxwell Jensen"
+  description = "Website with a blog, documentation, and other things. My website."
+  metaKeywords = ["blog", "programming", "norway"]
+  # showPostsOnHomePage = "recent"
+  accentColor = "#d65d0e"
+  avatarURL = "/avatar.png"
+  avatarSize = "size-s"
+
+  socialIcons = [
+    {name = "github", url = "https://github.com/maxwelljens"},
+    {name = "linkedin", url = "https://www.linkedin.com/in/maxwelljensen"},
+    {name = "email", url = "mailto:maxwelljensen@posteo.net"}
+  ]
+  
+  customCommentHTML = """
+  <script src="https://giscus.app/client.js"
+    data-repo="maxwelljens/giscus"
+    data-repo-id="R_kgDOLBvmOA"
+    data-category="General"
+    data-category-id="DIC_kwDOLBvmOM4CcQLr"
+    data-mapping="pathname"
+    data-strict="1"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="bottom"
+    data-theme="light_high_contrast"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+  </script>
+  """

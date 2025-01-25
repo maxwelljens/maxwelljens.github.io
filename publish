@@ -1,0 +1,5 @@
+#!/bin/sh
+# Publish the website from battle station to home server through rsync
+
+hugo
+rsync -e ssh -acz public/ mjensen@latitude:/usr/share/nginx/html
