@@ -3,6 +3,7 @@ title = "Tyranny: Know-How"
 date = 2022-06-26
 type = "post"
 tags = ["philosophy"]
+draft = true
 +++
 
 European governments are characterised by tyranny in a degenerating western societal order. There are
