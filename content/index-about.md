@@ -7,11 +7,11 @@ reason, you may do so at <maxwelljensen@posteo.net>.
 I do a blog, which you are viewing right now, where I post about various topics
 from time to time. There are also these subdomains:
 
-* [**docs.maxwelljensen.no**](https://docs.maxwelljensen.no)
+* [**docs.maxwelljensen.eu**](https://docs.maxwelljensen.eu)
   : 📘 Documentation for my projects.
-* [**git.maxwelljensen.no**](https://git.maxwelljensen.no)
+* [**git.maxwelljensen.eu**](https://git.maxwelljensen.eu)
   : 🗃️ Mirror of my GitHub repositories.
-* [**bin.maxwelljensen.no**](https://bin.maxwelljensen.no)
+* [**bin.maxwelljensen.eu**](https://bin.maxwelljensen.eu)
   : 📋 [microbin](https://github.com/szabodanika/microbin) instance for easy
 text and file sharing.
 
@@ -19,7 +19,7 @@ text and file sharing.
 
 Because I hunt, I have an arsenal of firearms.
 
-* 1897 Kongsberg Krag-Jørgensen, carbine edition, 6.5x55 SE.
+* ~~1897 Kongsberg Krag-Jørgensen, carbine edition, 6.5x55 SE.~~
 * 1941 Mauser Karabiner 98k, with modern stock, .30-06 Springfield.
 * c. 1970 Husqvarna Model 2002, Krico receiver, .222 Remington.
 
