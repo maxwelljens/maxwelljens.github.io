@@ -9,20 +9,7 @@ from time to time. There are also these subdomains:
 
 * [**docs.maxwelljensen.eu**](https://docs.maxwelljensen.eu)
   : 📘 Documentation for my projects.
-* [**git.maxwelljensen.eu**](https://git.maxwelljensen.eu)
-  : 🗃️ Mirror of my GitHub repositories.
 * [**bin.maxwelljensen.eu**](https://bin.maxwelljensen.eu)
   : 📋 [microbin](https://github.com/szabodanika/microbin) instance for easy
 text and file sharing.
 
-## My arsenal
-
-Because I hunt, I have an arsenal of firearms.
-
-* ~~1897 Kongsberg Krag-Jørgensen, carbine edition, 6.5x55 SE.~~
-* 1941 Mauser Karabiner 98k, with modern stock, .30-06 Springfield.
-* c. 1970 Husqvarna Model 2002, Krico receiver, .222 Remington.
-
-Because commercial ammo is expensive and inflexible, I reload my own
-cartridges. With a weapon like Krag-Jørgensen, it is almost a requirement, as
-the chamber is not capable of withstanding modern maximum charges.
