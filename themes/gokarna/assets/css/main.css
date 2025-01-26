@@ -11,9 +11,11 @@
 html {
   background-color: rgb(var(--light-primary-color));
   color: var(--light-text-color);
-  font-family: -apple-system, BlinkMacSystemFont, "Open Sans", Montserrat, "Segoe UI",
-  Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Open Sans",
+  Montserrat, "Segoe UI", Roboto, sans-serif;
   font-size: 17.5px;
+  font-optical-sizing: auto;
+  font-weight: 300;
   min-height: 100%;
   position: relative;
 }

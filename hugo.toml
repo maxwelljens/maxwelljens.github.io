@@ -6,63 +6,69 @@ enableRobotsTXT = true
 enableEmoji = true
 
 [menu]
-  [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "/posts/"
-    weight = 1
-    pre = "<span data-feather='book'></span>"
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts/"
+weight = 1
+pre = "<span data-feather='book'></span>"
 
-  [[menu.main]]
-    identifier = "docs"
-    name = "Docs"
-    pre = "<span data-feather='code'></span>"
-    url = "https://docs.maxwelljensen.eu"
-    weight = 2
+[[menu.main]]
+identifier = "docs"
+name = "Docs"
+pre = "<span data-feather='code'></span>"
+url = "https://docs.maxwelljensen.eu"
+weight = 2
 
-  [[menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "/tags/"
-    weight = 3
-    pre = "<span data-feather='tag'></span>"
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 3
+pre = "<span data-feather='tag'></span>"
 
-  [[menu.main]]
-    identifier = "rss"
-    pre = "<span data-feather='rss' color=#d65d0e></span>"
-    url = "/index.xml"
-    weight = 4
+[[menu.main]]
+identifier = "rss"
+pre = "<span data-feather='rss' color=#d65d0e></span>"
+url = "/index.xml"
+weight = 4
 
 [params]
-  dateFormat = "2 January, 2006"
-  footer = "Maxwell Jensen"
-  description = "Website with a blog, documentation, and other things. My website."
-  metaKeywords = ["blog", "programming", "norway"]
-  # showPostsOnHomePage = "recent"
-  accentColor = "#d65d0e"
-  avatarURL = "/avatar.png"
-  avatarSize = "size-s"
+dateFormat = "2 January, 2006"
+footer = "Maxwell Jensen"
+description = "Website with a blog, documentation, and other things. My website."
+metaKeywords = ["blog", "programming", "norway"]
+# showPostsOnHomePage = "recent"
+accentColor = "#d65d0e"
+avatarURL = "/avatar.png"
+avatarSize = "size-s"
 
-  socialIcons = [
-    {name = "github", url = "https://github.com/maxwelljens"},
-    {name = "linkedin", url = "https://www.linkedin.com/in/maxwelljensen"},
-    {name = "email", url = "mailto:maxwelljensen@posteo.net"}
-  ]
-  
-  customCommentHTML = """
-  <script src="https://giscus.app/client.js"
-    data-repo="maxwelljens/giscus"
-    data-repo-id="R_kgDONvaPWw"
-    data-category-id="DIC_kwDONvaPW84CmVXm"
-    data-mapping="pathname"
-    data-strict="1"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="bottom"
-    data-theme="gruvbox"
-    data-lang="en"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-  </script>
-  """
+socialIcons = [
+  {name = "github", url = "https://github.com/maxwelljens"},
+  {name = "linkedin", url = "https://www.linkedin.com/in/maxwelljensen"},
+  {name = "email", url = "mailto:maxwelljensen@posteo.net"}
+]
+
+customHeadHTML = """
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;1,14..32,300&display=swap" rel="stylesheet">
+"""
+
+customCommentHTML = """
+<script src="https://giscus.app/client.js"
+  data-repo="maxwelljens/giscus"
+  data-repo-id="R_kgDONvaPWw"
+  data-category-id="DIC_kwDONvaPW84CmVXm"
+  data-mapping="pathname"
+  data-strict="1"
+  data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="bottom"
+  data-theme="gruvbox"
+  data-lang="en"
+  data-loading="lazy"
+  crossorigin="anonymous"
+  async>
+</script>
+"""
