@@ -4,6 +4,7 @@ date = 2023-08-13
 lastmod = 2025-01-26
 type = "post"
 tags = ["internet"]
+image = "/internet_death/media_card.webp"
 +++
 
 The Internet is a mega entertainment complex built on top of a graveyard of
@@ -118,7 +119,7 @@ entertainment complex. Each of the other FAANG companies found their own area
 and dominate it ruthlessly. This is clearest illustrated with the following
 graph:
 
-![Top 50 websites](/top_50_websites.jpg)
+![Top 50 websites](/internet_death/top_50_websites.jpg)
 
 You can probably guess that this was not the situation in early 2000s, let
 alone 1990s. Even the data shows that the Internet is all the same. I was going
