@@ -1,3 +1,7 @@
++++
+image = "/media_card.webp"
++++
+
 My hobbies and passion are in programming, history, philosophy, and culture,
 just to name a few. This is my website to publish posts for the world to read.
 Occasionally I have programming projects, which you can check out on my GitHub.

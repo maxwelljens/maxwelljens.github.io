@@ -28,6 +28,11 @@ a:hover .feather-moon {
   color: var(--dark-text-color);
 }
 
+.gk-social-icons-list .gk-social-icon,
+.gk-social-icons-list .gk-social-icon a:visited {
+  fill: var(--dark-text-color);
+}
+
 .social-icons-list .social-icon,
 .social-icons-list .social-icon a:visited  {
   fill: var(--dark-text-color);
