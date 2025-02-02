@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Internet on Maxwell Jensen&#39;s Website</title>
-    <link>https://maxwelljensen.eu/tags/internet/</link>
+    <link>http://localhost:1313/tags/internet/</link>
     <description>Recent content in Internet on Maxwell Jensen&#39;s Website</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
     <lastBuildDate>Sun, 26 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://maxwelljensen.eu/tags/internet/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/internet/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Internet Death</title>
-      <link>https://maxwelljensen.eu/posts/internet_death/</link>
+      <link>http://localhost:1313/posts/internet_death/</link>
       <pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://maxwelljensen.eu/posts/internet_death/</guid>
+      <guid>http://localhost:1313/posts/internet_death/</guid>
       <description>The Internet is a mega entertainment complex built on top of a graveyard of meaning. Only Silicon Valley-approved content, opinions, and mechanisms may be used to do anything on the Internet. I talk a bit about how the Internet has been slowly choked out and how it is now dead.&#xA;I am not particularly old. BBS, Usenet, MUDs and other such 1990s constructs were not part of my childhood, but I still got to explore some of the wild Internet of the early 2000s.</description>
     </item>
   </channel>
