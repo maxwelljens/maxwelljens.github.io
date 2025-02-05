@@ -3,6 +3,7 @@ title = "Thoughts on Programming Languages"
 date = 2022-12-12
 type = "post"
 tags = ["programming"]
+image = "/thoughts_on_programming_languages/media_card.webp"
 +++
 
 There are a lot of programming languages, but often they are talked of in terms of what realistic applications they
@@ -175,7 +176,7 @@ computing solution. Where performance is not of paramount importance, Go shines,
 daily basis have been developed with it:
 
 * [fzf](https://github.com/junegunn/fzf) - fuzzy search finder, which I use in my Neovim config for any file indexing.
-* [gitea](https://github.com/go-gitea/gitea) - how I host my [web-facing git instance](https://maxwelljensen.no/git).
+* [gitea](https://github.com/go-gitea/gitea) - how I used to host a web-facing git instance.
 * [lazygit](https://github.com/jesseduffield/lazygit) - more sane git management.
 * [croc](https://github.com/schollz/croc) - trivial transfer between machines on the same LAN.
 

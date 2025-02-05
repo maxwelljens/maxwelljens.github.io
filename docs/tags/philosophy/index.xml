@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Philosophy on Maxwell Jensen&#39;s Website</title>
-    <link>https://maxwelljensen.eu/tags/philosophy/</link>
+    <link>http://localhost:1313/tags/philosophy/</link>
     <description>Recent content in Philosophy on Maxwell Jensen&#39;s Website</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
     <lastBuildDate>Sun, 26 Jun 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://maxwelljensen.eu/tags/philosophy/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/philosophy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tyranny: Know-How</title>
-      <link>https://maxwelljensen.eu/posts/tyrants_know_how/</link>
+      <link>http://localhost:1313/posts/tyrants_know_how/</link>
       <pubDate>Sun, 26 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://maxwelljensen.eu/posts/tyrants_know_how/</guid>
+      <guid>http://localhost:1313/posts/tyrants_know_how/</guid>
       <description>European governments are characterised by tyranny in a degenerating western societal order. There are many wrong ways and only some correct ways in combating this degeneration without pointlessly sacrificing yourself, or, more than likely, making matters even worse for everyone. Good news is that all western governments resort to the same trick. Here&amp;rsquo;s what you do.&#xA;Government Before talking about tyranny, it might be worth discussing first what government is at its core.</description>
     </item>
   </channel>

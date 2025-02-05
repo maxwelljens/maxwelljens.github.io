@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Culture on Maxwell Jensen&#39;s Website</title>
+    <link>http://localhost:1313/tags/culture/</link>
+    <description>Recent content in Culture on Maxwell Jensen&#39;s Website</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/culture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Life in Norway</title>
+      <link>http://localhost:1313/posts/my_life_in_norway/</link>
+      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my_life_in_norway/</guid>
+      <description>I was born and raised in Norway. My father was a naval officer from Gdynia, Poland, who sought asylum in the country in 1986, and my mother immigrated from Zambrów in 1996.&#xA;I want to talk a bit about some important decisions I undertook recently in my life. The goal is to share some insights which are relevant to Norwegians, or anyone else who finds multicultural exchanges interesting. As most of us know, we live in a world of global exchange of not just goods, but also ideas and culture.</description>
+    </item>
+  </channel>
+</rss>
