@@ -4,7 +4,7 @@ date = 2023-08-13
 lastmod = 2025-01-26
 type = "post"
 tags = ["internet"]
-image = "/internet_death/media_card.webp"
+cover = "/internet_death/cover.webp"
 +++
 
 The Internet is a mega entertainment complex built on top of a graveyard of

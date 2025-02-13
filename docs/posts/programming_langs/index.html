@@ -1,193 +1,233 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+<head>
+  
+    <title>Thoughts on Programming Languages :: Maxwell Jensen&#39;s Website</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="There are a lot of programming languages, but often they are talked of in terms of what realistic applications they have in the job market. Seldom is there prose about their quality as such; independent of their popularity and application. Here&rsquo;s some of my thoughts.
+Quality versus utility As most software engineers know, there is not really any correlation between the quality of a language and its popularity. There is however a correlation between popularity and utility. Python might not be the best language ever made, but any design flaws it has are offset, in the eyes of most, by the fact that it has libraries for everything. Why? Because it is in top three most popular languages, somewhere around C and Java. Therefore any issue one might encounter probably already has a complete solution in the form of a third-party library. This means that Python has extremely high utility, even if there are design issues with the language that can get in the way of common usage; while writing code.
+" />
+<meta name="keywords" content="" />
 
-    <style>
-        :root {
-            --accent-color: #d65d0e;
-            --font-size: 17.5px;
-        }
-    </style>
+  <meta name="robots" content="noodp" />
 
-    
-    
-    
-    
-    
-    
+<link rel="canonical" href="https://maxwelljensen.eu/posts/programming_langs/" />
 
-    
-    <title>Thoughts on Programming Languages</title>
-    <meta name="description" content="There are a lot of programming languages, but often they are talked of in terms of what realistic applications they have in the job market. Seldom is there …">
-    <meta name="keywords" content='blog, programming, norway'>
 
-    <meta property="og:url" content="https://maxwelljensen.eu/posts/programming_langs/">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Thoughts on Programming Languages">
-    <meta property="og:description" content="There are a lot of programming languages, but often they are talked of in terms of what realistic applications they have in the job market. Seldom is there …">
-    <meta property="og:image" content="https://maxwelljensen.eu/thoughts_on_programming_languages/media_card.webp">
-    <meta property="og:image:secure_url" content="https://maxwelljensen.eu/thoughts_on_programming_languages/media_card.webp">
 
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Thoughts on Programming Languages">
-    <meta name="twitter:description" content="There are a lot of programming languages, but often they are talked of in terms of what realistic applications they have in the job market. Seldom is there …">
-    <meta property="twitter:domain" content="https://maxwelljensen.eu/posts/programming_langs/">
-    <meta property="twitter:url" content="https://maxwelljensen.eu/posts/programming_langs/">
-    <meta name="twitter:image" content="https://maxwelljensen.eu/thoughts_on_programming_languages/media_card.webp">
 
-    
-    <link rel="canonical" href="https://maxwelljensen.eu/posts/programming_langs/">
 
-    
-    <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
+  
+  <link rel="stylesheet" href="https://maxwelljensen.eu/css/terminal.min.efb1aa4c154647e4a97d319be414f26ed895fc30e07138b260afbcf53efe6f59.css">
 
-    
-    <link rel="stylesheet" type="text/css" href="/css/main.min.css">
+  
+  <link rel="stylesheet" href="https://maxwelljensen.eu/css/buttons.min.2bc533403a27dfe0e93105a92502b42ce4587e2e4a87d9f7d349e51e16e09478.css">
 
-    
-    <link id="dark-theme" rel="stylesheet" href="/css/dark.min.css">
+  
+  <link rel="stylesheet" href="https://maxwelljensen.eu/css/code.min.00125962708925857e7b66dbc58391d55be1191a3d0ce2034de8c9cd2c481c36.css">
 
-    
-    <script src="/js/bundle.min.3eb19cb61dde9e37b9522867f3e024aeb68e26ab8e03252e46e365abcb19acf7.js" integrity="sha256-PrGcth3enje5Uihn8&#43;AkrraOJquOAyUuRuNlq8sZrPc="></script>
+  
+  <link rel="stylesheet" href="https://maxwelljensen.eu/css/fonts.min.4881f0c525f3ce2a1864fb6e96676396cebe1e6fcef1933e8e1dde7041004fb5.css">
 
-    
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;1,14..32,300&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://maxwelljensen.eu/css/footer.min.2e3eb191baee58dd05a9f0104ac1fab0827bca7c64dafe0b2579f934c33a1d69.css">
 
-    
+  
+  <link rel="stylesheet" href="https://maxwelljensen.eu/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="https://maxwelljensen.eu/css/header.min.b6fb4423cf82a9f9d7abc9cd010223fa3d70a6526a3f28f8e17d814c06e18f9e.css">
+
+  
+  <link rel="stylesheet" href="https://maxwelljensen.eu/css/main.min.fe8dc560fccb53a458b0db19ccb7b265764ac46b68596b7e099c6793054dd457.css">
+
+  
+  <link rel="stylesheet" href="https://maxwelljensen.eu/css/menu.min.83637a90d903026bc280d3f82f96ceb06c5fc72b7c1a8d686afb5bbf818a29f7.css">
+
+  
+  <link rel="stylesheet" href="https://maxwelljensen.eu/css/pagination.min.82f6400eae7c7c6dc3c866733c2ec0579e4089608fea69400ff85b3880aa0d3c.css">
+
+  
+  <link rel="stylesheet" href="https://maxwelljensen.eu/css/post.min.fc74ca360273c1d828da3c02b8174eba435607b369d98418ccc6f2243cd4e75d.css">
+
+  
+  <link rel="stylesheet" href="https://maxwelljensen.eu/css/prism.min.9023bbc24533d09e97a51a0a42a5a7bfe4c591ae167c5551fb1d2191d11977c0.css">
+
+  
+  <link rel="stylesheet" href="https://maxwelljensen.eu/css/syntax.min.cc789ed9377260d7949ea4c18781fc58959a89287210fe4edbff44ebfc1511b6.css">
+
+  
+  <link rel="stylesheet" href="https://maxwelljensen.eu/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+
+
+
+
+
+<link rel="shortcut icon" href="https://maxwelljensen.eu/favicon.png">
+<link rel="apple-touch-icon" href="https://maxwelljensen.eu/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Thoughts on Programming Languages">
+<meta property="og:description" content="There are a lot of programming languages, but often they are talked of in terms of what realistic applications they have in the job market. Seldom is there prose about their quality as such; independent of their popularity and application. Here&rsquo;s some of my thoughts.
+Quality versus utility As most software engineers know, there is not really any correlation between the quality of a language and its popularity. There is however a correlation between popularity and utility. Python might not be the best language ever made, but any design flaws it has are offset, in the eyes of most, by the fact that it has libraries for everything. Why? Because it is in top three most popular languages, somewhere around C and Java. Therefore any issue one might encounter probably already has a complete solution in the form of a third-party library. This means that Python has extremely high utility, even if there are design issues with the language that can get in the way of common usage; while writing code.
+" />
+<meta property="og:url" content="https://maxwelljensen.eu/posts/programming_langs/" />
+<meta property="og:site_name" content="Maxwell Jensen&#39;s Website" />
+
+  
+  
+  <meta property="og:image" content="https://maxwelljensen.eu/thoughts_on_programming_languages/cover.webp">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2022-12-12 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+
+
 </head>
 <body>
-        <script>
-            
-            setThemeByUserPref();
-        </script><header class="header">
-    <nav class="header-nav">
 
-        
-        <div class="avatar">
-            <a href="https://maxwelljensen.eu/">
-                <img src='/avatar.png' alt="avatar">
-            </a>
-        </div>
-        
 
-        <div class="nav-title">
-            <a class="nav-brand" href="https://maxwelljensen.eu/">Maxwell Jensen&#39;s Website</a>
-        </div>
+<div class="container center">
 
-        <div class="nav-links">
-            
-            <div class="nav-link">
-                <a href="https://maxwelljensen.eu/posts/" aria-label="posts" ><span data-feather='book'></span> Posts </a>
-            </div>
-            
-            <div class="nav-link">
-                <a href="https://docs.maxwelljensen.eu" aria-label="docs" ><span data-feather='code'></span> Docs </a>
-            </div>
-            
-            <div class="nav-link">
-                <a href="https://maxwelljensen.eu/tags/" aria-label="tags" ><span data-feather='tag'></span> Tags </a>
-            </div>
-            
-            <div class="nav-link">
-                <a href="https://maxwelljensen.eu/index.xml" aria-label="rss" ><span data-feather='rss' color=#d65d0e></span>  </a>
-            </div>
-            
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    MJ Blog
+  </div>
+</a>
 
-            <span class="nav-icons-divider"></span>
-            <div class="nav-link dark-theme-toggle">
-                <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
-                <a aria-hidden="true" role="switch">
-                    <span class="theme-toggle-icon" data-feather="moon"></span>
-                </a>
-            </div>
-
-            <div class="nav-link" id="hamburger-menu-toggle">
-                <span class="sr-only hamburger-menu-toggle-screen-reader-target">menu</span>
-                <a aria-checked="false" aria-labelledby="hamburger-menu-toggle" id="hamburger-menu-toggle-target" role="switch">
-                    <span data-feather="menu"></span>
-                </a>
-            </div>
-
-            
-            <ul class="nav-hamburger-list visibility-hidden">
-                
-                <li class="nav-item">
-                    <a href="https://maxwelljensen.eu/posts/" ><span data-feather='book'></span> Posts </a>
-                </li>
-                
-                <li class="nav-item">
-                    <a href="https://docs.maxwelljensen.eu" ><span data-feather='code'></span> Docs </a>
-                </li>
-                
-                <li class="nav-item">
-                    <a href="https://maxwelljensen.eu/tags/" ><span data-feather='tag'></span> Tags </a>
-                </li>
-                
-                <li class="nav-item">
-                    <a href="https://maxwelljensen.eu/index.xml" ><span data-feather='rss' color=#d65d0e></span>  </a>
-                </li>
-                
-                <li class="nav-item dark-theme-toggle">
-                    <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
-                    <a role="switch">
-                        <span class="theme-toggle-icon" data-feather="moon"></span>
-                    </a>
-                </li>
-            </ul>
-
-        </div>
-    </nav>
-</header>
-<main id="content">
-    <div class="post container">
-    <div class="post-header-section">
-        <h1>Thoughts on Programming Languages</h1>
-
-        
-
-        
-	
-	
-	
-	
-        
-
-	
-
-	
-
-	
-          <small role="doc-subtitle"></small>
-	
-
-	
-          <p class="post-date">
-              
-
-              12 December, 2022
-
-              
-          </p>
-	
-
-        <ul class="post-tags">
-          
-           
-             <li class="post-tag"><a href="https://maxwelljensen.eu/tags/programming">programming</a></li>
-           
-         
-        </ul>
     </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/posts">Posts</a></li>
+        
+      
+        
+          <li><a href="https://docs.maxwelljensen.eu/">MJ Docs</a></li>
+        
+      
+        
+          <li><a href="/index.xml">RSS Feed</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
 
-    <div class="post-content">
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/posts" >Posts</a></li>
+        
+      
+        
+          <li><a href="https://docs.maxwelljensen.eu/" >MJ Docs</a></li>
+        
+      
+        
+          <li><a href="/index.xml" >RSS Feed</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="https://maxwelljensen.eu/posts/programming_langs/">Thoughts on Programming Languages</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2022-12-12&nbsp;[Updated:  2022-12-12]</time><span class="post-reading-time">23 min read (4694 words)</span></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="https://maxwelljensen.eu/tags/programming/">programming</a>&nbsp;
+      
+    </span>
+  
+  
+  <img src="https://maxwelljensen.eu/thoughts_on_programming_languages/cover.webp"
+    class="post-cover"
+    alt="Thoughts on Programming Languages"
+    title="Cover Image" />
+
+
+  
+    <div class="table-of-contents">
+      <h2>
+        Table of Contents
+      </h2>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#quality-versus-utility">Quality versus utility</a></li>
+    <li><a href="#good-programming-languages">Good programming languages</a>
+      <ul>
+        <li><a href="#rust">Rust</a></li>
+        <li><a href="#go">Go</a></li>
+        <li><a href="#nim">Nim</a></li>
+        <li><a href="#haskell">Haskell</a></li>
+        <li><a href="#note-on-declarative-and-functional-programming">Note on declarative and functional programming</a></li>
+      </ul>
+    </li>
+    <li><a href="#good-versus-bad">Good versus bad</a></li>
+  </ul>
+</nav>
+    </div>
+  
+
+  <div class="post-content"><div>
         <p>There are a lot of programming languages, but often they are talked of in terms of what realistic applications they
 have in the job market. Seldom is there prose about their quality as such; independent of their popularity and
 application. Here&rsquo;s some of my thoughts.</p>
-<h2 id="quality-versus-utility">Quality versus utility</h2>
+<h2 id="quality-versus-utility">Quality versus utility<a href="#quality-versus-utility" class="hanchor" ariaLabel="Anchor">#</a> </h2>
 <p>As most software engineers know, there is not really any correlation between the quality of a language and its
 popularity. There is however a correlation between popularity and utility. Python might not be the best language ever
 made, but any design flaws it has are offset, in the eyes of most, by the fact that it has libraries for everything.
@@ -242,11 +282,11 @@ In my eyes, this is a big reason why there is a larger entry barrier than necess
 new to software engineering needs to learn Java or JavaScript, but because these languages are disproportionately
 popular, newcomers might be under the very mistaken impression that somehow they are representative of quality. They
 are not. The languages I will talk about will be described in terms of quality, and which ones are good for newcomers.</p>
-<h2 id="good-programming-languages">Good programming languages</h2>
+<h2 id="good-programming-languages">Good programming languages<a href="#good-programming-languages" class="hanchor" ariaLabel="Anchor">#</a> </h2>
 <p>To begin with, I will look at some programming languages that I consider to be good. They appear in no particular
 order, but any languages I will mention I had personal extensive experience with, and do not base it off hearsay from
 other sources of information.</p>
-<h3 id="rust">Rust</h3>
+<h3 id="rust">Rust<a href="#rust" class="hanchor" ariaLabel="Anchor">#</a> </h3>
 <p>Rust appears kind of scary, and it somewhat is. Linus Torvalds said that Rust was really complex, arguing that C is a
 lot simpler. The Rust compiler is certainly a beast, throwing errors at you at seemingly every new line you write. To
 begin with, yes, it is absolutely unforgiving and gruellingly difficult for a beginner. The learning curve is
@@ -315,7 +355,7 @@ cancer</a>, so why would you want that on your computer? This
 is why I think Rust is important: it takes C++ into the 21st century, but without sacrificing performance, and
 therefore is a viable tool for teaching people how computers work. Tech illiteracy in software engineering is actually
 staggering, and more people need to see Rust, so that they can see the error of their ways.</p>
-<h3 id="go">Go</h3>
+<h3 id="go">Go<a href="#go" class="hanchor" ariaLabel="Anchor">#</a> </h3>
 <p>Although often people compare Rust to Go, Go is not a systems programming language. Rather, it is Google&rsquo;s in-house
 solution for Google problems, but has been open-source for a while now, with explosive popularity, due to its big
 backer.</p>
@@ -359,7 +399,7 @@ else. Here&rsquo;s an example of a program that sorts strings and integers:</p>
 other small features add up to a significantly more concise imperative language, without complete sacrifice of
 performance and ability to make dependency-free binaries. That is why the above code is quite concise, compared to C
 and similar languages.</p>
-<h3 id="nim">Nim</h3>
+<h3 id="nim">Nim<a href="#nim" class="hanchor" ariaLabel="Anchor">#</a> </h3>
 <p>Nim is a powerful beast. It is more than likely the most feature-rich programming language I am aware of.</p>
 <ul>
 <li>Compiles dependency-free binaries.</li>
@@ -445,7 +485,7 @@ into ethical hacking, and in new startup companies. That being said, it is still
 which are already only moderately popular when compared to Python, C, and C++. Nevertheless, the merits of Nim cannot
 be overstated, and I hope it becomes a standard in the future for programming. It puts the &ldquo;multi&rdquo; in &ldquo;multi-paradigm
 programming language&rdquo; like no other.</p>
-<h3 id="haskell">Haskell</h3>
+<h3 id="haskell">Haskell<a href="#haskell" class="hanchor" ariaLabel="Anchor">#</a> </h3>
 <p>While the aforementioned languages are predominantly imperative, Haskell is a <em>purely</em> functional language. Put
 differently, it is not a multi-paradigm programming language. Although most multi-paradigm programming languages
 support functional paradigms, they are just that: support. They are not a requirement, unlike Haskell, where the only
@@ -494,7 +534,7 @@ Functional programming helps with that, because then you can reason about any fu
 output. You might be tempted to say that you should keep functions and code short anyway, regardless of language. Have
 one function do one thing only, and do it well. I totally agree, but that is an integral tenet of functional
 programming. Most people in some capacity or another gravitate towards functional programming without even knowing it.
-Although <a href="https://wikiless.tiekoetter.com/wiki/Monad_(functional_programming)?lang=en">monads and monadic I/O</a> sound
+Although <a href="https://wikiless.tiekoetter.com/wiki/Monad_%28functional_programming%29?lang=en">monads and monadic I/O</a> sound
 completely alien, and most software engineers never heard the word &ldquo;monad&rdquo; in their life before, <a href="https://wikiless.tiekoetter.com/wiki/Option_type?lang=en">they know what it
 is</a>. They just don&rsquo;t know it is called a monad, as it&rsquo;s a
 word taken from a subdomain of mathematics known as category theory. Given that Haskell was developed by committee,
@@ -506,7 +546,7 @@ Curry</a>, who was a mathematician. I strongly recommend
 watching <a href="https://www.youtube.com/watch?v=re96UgMk6GQ"><em>&ldquo;The Haskell journey: Watt on earth were were thinking?&rdquo;</em></a> by
 Sir Simon Peyton Jones at Churchill College, University of Cambridge in 2017, for a rundown on a rather unusual
 development of Haskell. Sir Jones is a good presenter.</p>
-<h4 id="declarative-and-functional-programming">Declarative and functional programming</h4>
+<h3 id="note-on-declarative-and-functional-programming">Note on declarative and functional programming<a href="#note-on-declarative-and-functional-programming" class="hanchor" ariaLabel="Anchor">#</a> </h3>
 <p>As for the language itself, it is worth learning Haskell. Much like how Rust is a very good introduction into low-level
 imperative programming, Haskell is, inversely, a very good introduction into what high-level declarative programming
 can look like. It is also purely functional, so you are forced into thinking about logical problems exclusively in
@@ -518,7 +558,7 @@ languages should be a lot less like Python or JavaScript and a lot more like Has
 that you can do everything you can in an imperative language, just without mutation. Diesel engines don&rsquo;t need spark
 plugs to combust fuel, and in the same vein Haskell doesn&rsquo;t need mutation to do its work. The reason why Haskell does
 away with something so taken for granted as variable mutability is simply to prevent
-<a href="https://en.wikipedia.org/wiki/Side_effect_(computer_science)">side-effects</a> and keep <a href="https://en.wikipedia.org/wiki/Pure_function">functions
+<a href="https://en.wikipedia.org/wiki/Side_effect_%28computer_science%29">side-effects</a> and keep <a href="https://en.wikipedia.org/wiki/Pure_function">functions
 pure</a>. Why is this important? It is so that the compiler can reason about
 everything a function does. It is a concept known as <em>referential transparency</em>: the idea that any function will yield
 expected results every time it is run. In mathematics, that would be known as proving a statement. Therefore, a
@@ -558,7 +598,7 @@ DOOM</a> possible to run on 1990s hardware, is a strong advocate for
 functional programming. It is interesting, considering that object-oriented programming, chiefly  with C++, is <a href="https://gamedev.stackexchange.com/questions/14158/how-object-oriented-are-videogames">widely
 regarded as a natural fit for video
 games</a>.</p>
-<h2 id="good-versus-bad">Good versus bad</h2>
+<h2 id="good-versus-bad">Good versus bad<a href="#good-versus-bad" class="hanchor" ariaLabel="Anchor">#</a> </h2>
 <p>Are languages like Java and JavaScript all clout and no substance? It might seem like I am giving a one-dimensional
 overview here with categorising aforementioned languages as good, which implies that most others are bad. Granted, yes,
 imperfections in Python or PHP do not make them one-dimensionally bad. They set out to do a job, and for the most part
@@ -582,18 +622,12 @@ work.</p>
 <p>Although this might seem like a fatalistic assessment of the state of programming languages, I was unable to come to
 any other conclusion.</p>
 
-        
-    </div>
+      </div></div>
 
-    <div class="prev-next">
-        
-    </div>
+  
 
-    
-    
-    
-    <div id="comments">
-        <script src="https://giscus.app/client.js"
+  
+    <script src="https://giscus.app/client.js"
   data-repo="maxwelljens/giscus"
   data-repo-id="R_kgDONvaPWw"
   data-category-id="DIC_kwDONvaPW84CmVXm"
@@ -609,42 +643,36 @@ any other conclusion.</p>
   async>
 </script>
 
-    </div>
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
     
+      <div class="copyright">
+        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
 </div>
 
-
-
-    
-
-        </main><footer class="footer">
-    
-    
-
-    
-
-    
-
-        
-            
-        
-
-        
-
-        
-        
-
-        
-
-    
-
-    
-        <span>&copy; 2022 Maxwell Jensen</span>
-    
-
-    <span>
-        Made with &#10084;&#65039; using <a target="_blank" href="https://github.com/gokarna-theme/gokarna-hugo">Gokarna</a>
-    </span>
-</footer>
 </body>
 </html>

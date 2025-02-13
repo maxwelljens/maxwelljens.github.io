@@ -1,6 +1,9 @@
 +++
-image = "/media_card.webp"
+title = "Maxwell Jensen's Website"
+cover = "/media_card.webp"
 +++
+
+{{< image src="/avatar.png" alt="Logo image" position="center" style="border: none;" >}}
 
 My hobbies and passion are in programming, history, philosophy, and culture,
 just to name a few. This is my website to publish posts for the world to read.

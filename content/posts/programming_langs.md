@@ -3,7 +3,7 @@ title = "Thoughts on Programming Languages"
 date = 2022-12-12
 type = "post"
 tags = ["programming"]
-image = "/thoughts_on_programming_languages/media_card.webp"
+cover = "/thoughts_on_programming_languages/cover.webp"
 +++
 
 There are a lot of programming languages, but often they are talked of in terms of what realistic applications they
@@ -376,7 +376,7 @@ watching [*"The Haskell journey: Watt on earth were were thinking?"*](https://ww
 Sir Simon Peyton Jones at Churchill College, University of Cambridge in 2017, for a rundown on a rather unusual
 development of Haskell. Sir Jones is a good presenter.
 
-#### Declarative and functional programming
+### Note on declarative and functional programming
 
 As for the language itself, it is worth learning Haskell. Much like how Rust is a very good introduction into low-level
 imperative programming, Haskell is, inversely, a very good introduction into what high-level declarative programming
