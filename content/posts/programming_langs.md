@@ -73,13 +73,13 @@ new to software engineering needs to learn Java or JavaScript, but because these
 popular, newcomers might be under the very mistaken impression that somehow they are representative of quality. They
 are not. The languages I will talk about will be described in terms of quality, and which ones are good for newcomers.
 
-# Good programming languages
+## Good programming languages
 
 To begin with, I will look at some programming languages that I consider to be good. They appear in no particular
 order, but any languages I will mention I had personal extensive experience with, and do not base it off hearsay from
 other sources of information.
 
-## Rust
+### Rust
 
 Rust appears kind of scary, and it somewhat is. Linus Torvalds said that Rust was really complex, arguing that C is a
 lot simpler. The Rust compiler is certainly a beast, throwing errors at you at seemingly every new line you write. To
@@ -159,7 +159,7 @@ is why I think Rust is important: it takes C++ into the 21st century, but withou
 therefore is a viable tool for teaching people how computers work. Tech illiteracy in software engineering is actually
 staggering, and more people need to see Rust, so that they can see the error of their ways.
 
-## Go
+### Go
 
 Although often people compare Rust to Go, Go is not a systems programming language. Rather, it is Google's in-house
 solution for Google problems, but has been open-source for a while now, with explosive popularity, due to its big
@@ -210,7 +210,7 @@ other small features add up to a significantly more concise imperative language,
 performance and ability to make dependency-free binaries. That is why the above code is quite concise, compared to C
 and similar languages.
 
-## Nim
+### Nim
 
 Nim is a powerful beast. It is more than likely the most feature-rich programming language I am aware of.
 
@@ -304,7 +304,7 @@ which are already only moderately popular when compared to Python, C, and C++. N
 be overstated, and I hope it becomes a standard in the future for programming. It puts the "multi" in "multi-paradigm
 programming language" like no other.
 
-## Haskell
+### Haskell
 
 While the aforementioned languages are predominantly imperative, Haskell is a *purely* functional language. Put
 differently, it is not a multi-paradigm programming language. Although most multi-paradigm programming languages
@@ -376,7 +376,7 @@ watching [*"The Haskell journey: Watt on earth were were thinking?"*](https://ww
 Sir Simon Peyton Jones at Churchill College, University of Cambridge in 2017, for a rundown on a rather unusual
 development of Haskell. Sir Jones is a good presenter.
 
-### Declarative and functional programming
+#### Declarative and functional programming
 
 As for the language itself, it is worth learning Haskell. Much like how Rust is a very good introduction into low-level
 imperative programming, Haskell is, inversely, a very good introduction into what high-level declarative programming
@@ -434,7 +434,7 @@ functional programming. It is interesting, considering that object-oriented prog
 regarded as a natural fit for video
 games](https://gamedev.stackexchange.com/questions/14158/how-object-oriented-are-videogames).
 
-# Good versus bad
+## Good versus bad
 
 Are languages like Java and JavaScript all clout and no substance? It might seem like I am giving a one-dimensional
 overview here with categorising aforementioned languages as good, which implies that most others are bad. Granted, yes,

@@ -56,7 +56,7 @@ further only got you more and more unique experiences of what people found
 meaningful in life. Granted, most of it was 1980s to 2000s American pop culture
 tripe, but you get the point.
 
-# The shift
+## The shift
 
 Compare this to today where copyright infringement and "family unfriendly"
 content is very aggressively persecuted. This is because Google, Facebook, and
@@ -81,7 +81,7 @@ aspects or part information for your car is impossible. You will get all
 worthless results of aggressively optimised websites that will make sure to
 override any search terms as soon as you mention the word "car" or "auto".
 
-## The carving
+### The carving
 
 Either way, even if search engines actually worked, meaning they were search
 engines and not advertiser engines, there is still one fundamental issue. The 
@@ -126,7 +126,7 @@ alone 1990s. Even the data shows that the Internet is all the same. I was going
 to put up a different illustration that I saw before, but I could not find it,
 because search engines don't really work anymore. Go figure.
 
-## The algorithms and their consequences
+### The algorithms and their consequences
 
 Though the development of commercialised Internet was largely uninteresting, in
 much the same way as watching an animal starve to death in the forest is
@@ -211,7 +211,7 @@ If for you are still not convinced that TikTok is a Chinese weapon, then
 consider the fact that [TikTok is not available in
 China](https://edition.cnn.com/2023/03/24/tech/tiktok-douyin-bytedance-china-intl-hnk/index.html).
 
-## Sleepwalking off a cliff
+### Sleepwalking off a cliff
 
 Yet, even as the current Internet is being weaponised by our mortal enemies,
 the western reaction to the depravity and destructiveness of the Internet is
@@ -253,7 +253,7 @@ We will see the consequences of this in around twenty years, when these
 children grow up. Can they connect two pieces of pipe together without needing
 to watch a Subway Surfers playthrough on the side?
 
-# Dead Internet
+## Dead Internet
 
 Things will continue as always with the Internet, because the Internet is far
 too valuable for Silicon Valley. Regardless of how sorry of a shape it turns

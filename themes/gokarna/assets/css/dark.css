@@ -1,22 +1,22 @@
 :root {
-  --dark-primary-color: 40, 40, 40;
+  --dark-primary-color: #282828;
   --dark-secondary-color: #504945;
   --dark-tertiary-color: #928374;
   --dark-text-color: #ebdbb2;
 }
 
 html {
-  background-color: rgb(var(--dark-primary-color));
+  background-color: var(--dark-primary-color);
   color: var(--dark-text-color);
   fill: var(--dark-text-color);
 }
 
 .header {
-  background-color: rgba(var(--dark-primary-color), 0.95);
+  background-color: var(--dark-primary-color);
 }
 
 .nav-hamburger-list {
-  background: rgba(var(--dark-primary-color), 1);
+  background: var(--dark-primary-color);
 }
 
 .nav-links .nav-icons-divider {
@@ -44,7 +44,7 @@ a:hover .feather-moon {
 
 .post-tags .post-tag:hover {
   background-color: var(--dark-text-color);
-  color: rgb(var(--dark-primary-color));
+  color: var(--dark-primary-color);
 }
 
 .tags-list .post-tags .post-tag a .tag-posts-count {
@@ -53,7 +53,7 @@ a:hover .feather-moon {
 
 .tags-list .post-tags .post-tag:hover a .tag-posts-count {
   background-color: var(--dark-text-color);
-  color: rgb(var(--dark-primary-color));
+  color: var(--dark-primary-color);
 }
 
 .footer {
@@ -94,6 +94,15 @@ pre {
 
 .arrow-logo { 
   background-color: var(--dark-secondary-color);
+}
+
+.post-content h2 {
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--dark-text-color);
+  border-radius: 2px;
+  padding-left: 1rem;
+  margin-top: 35px;
 }
 
 /* TODO: Check if this is needed or not */
