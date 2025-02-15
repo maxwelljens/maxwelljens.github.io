@@ -2,25 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://maxwelljensen.eu/</loc>
-    <lastmod>2025-02-02T00:00:00+00:00</lastmod>
+    <loc>https://maxwelljensen.eu/experience/job-2/</loc>
+    <lastmod>2025-02-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://maxwelljensen.eu/posts/</loc>
-    <lastmod>2025-02-02T00:00:00+00:00</lastmod>
+    <loc>https://maxwelljensen.eu/experience/job-1/</loc>
+    <lastmod>2025-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maxwelljensen.eu/client-work/</loc>
+    <lastmod>2025-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maxwelljensen.eu/experience/</loc>
+    <lastmod>2025-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maxwelljensen.eu/lnx_course_showcase/</loc>
+    <lastmod>2025-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maxwelljensen.eu/</loc>
+    <lastmod>2025-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maxwelljensen.eu/client-work/noroff/</loc>
+    <lastmod>2025-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maxwelljensen.eu/projects/</loc>
+    <lastmod>2025-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maxwelljensen.eu/projects/lnx_course/</loc>
+    <lastmod>2025-02-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/tags/internet/</loc>
     <lastmod>2025-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://maxwelljensen.eu/posts/internet_death/</loc>
+    <loc>https://maxwelljensen.eu/blog/internet_death/</loc>
     <lastmod>2025-01-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/tags/</loc>
     <lastmod>2025-01-26T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://maxwelljensen.eu/blog/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://maxwelljensen.eu/tags/programming/</loc>
     <lastmod>2022-12-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://maxwelljensen.eu/posts/programming_langs/</loc>
+    <loc>https://maxwelljensen.eu/blog/programming_langs/</loc>
     <lastmod>2022-12-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/categories/</loc>

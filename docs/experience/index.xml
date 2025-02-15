@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Experiences on </title>
+    <link>https://maxwelljensen.eu/experience/</link>
+    <description>Recent content in Experiences on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 15 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://maxwelljensen.eu/experience/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tutoring at Noroff</title>
+      <link>https://maxwelljensen.eu/experience/job-2/</link>
+      <pubDate>Sat, 15 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://maxwelljensen.eu/experience/job-2/</guid>
+      <description>&lt;p&gt;People with digital competence and creativity are in extraordinary high&#xA;demand. Many of today&amp;rsquo;s jobs will disappear, and far too few job applicants&#xA;have the knowledge and skills to cover the industry´s current and future needs.&#xA;People’s skill sets need to be developed, and education is the solution.&lt;/p&gt;&#xA;&lt;p&gt;Noroff is the premier academic institution in the Nordics for IT, both at&#xA;university and vocational level. In my time there, I have seen that there were&#xA;many capable teachers and students.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>First job</title>
+      <link>https://maxwelljensen.eu/experience/job-1/</link>
+      <pubDate>Sat, 15 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://maxwelljensen.eu/experience/job-1/</guid>
+      <description>&lt;p&gt;Processing and archiving of shipment bills, correction of shipment errors, help&#xA;on the conveyor belt, and general assistance at the office.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

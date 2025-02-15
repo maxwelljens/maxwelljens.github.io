@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+<meta name="theme-color" content="#478079"/>
+
+<title>MJ Website</title>
+<meta name="description" content='This is my personal website with a blog, as well as a profile site, showcasing my professional and academic work.'>
+<meta name="generator-mode" content='production'>
+<style data-generator="critical-css">
+</style>
+    <link
+      rel="preload"
+      href="/css/bundle.min.4a840981f1a6ccb4ced139d2ee6fab0ed9d4cf719d7f490cbf4aeda180a2006b.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+      integrity="sha256-SoQJgfGmzLTO0TnS7m+rDtnUz3Gdf0kMv0rtoYCiAGs="
+        crossorigin="anonymous"
+    />
+    <noscript>
+      <link 
+        rel="stylesheet"
+        href="/css/bundle.min.4a840981f1a6ccb4ced139d2ee6fab0ed9d4cf719d7f490cbf4aeda180a2006b.css"
+        integrity="sha256-SoQJgfGmzLTO0TnS7m+rDtnUz3Gdf0kMv0rtoYCiAGs="
+        crossorigin="anonymous"
+      />
+    </noscript>
+  
+<link rel="stylesheet" href="https://maxwelljensen.eu/scss/adritian.min.5b5f84ab46b69dd828cf8adb6bb24f0653caa0654eebfe2e2ab4047d0f294e06.css" integrity="sha256-W1&#43;Eq0a2ndgoz4rba7JPBlPKoGVO6/4uKrQEfQ8pTgY=" crossorigin="anonymous"/>
+
+
+
+<script defer src="https://maxwelljensen.eu/js/color-modes.min.76229bbaf3f9964a520c11efaf93f97855166751b6dd31e82e82ebdf73efaeb7.js"></script>
+
+<script src='https://maxwelljensen.eu/js/library/lozad.min.js'></script>
+
+<meta property="og:url" content="https://maxwelljensen.eu/blog/programming_langs/">
+  <meta property="og:site_name" content="Maxwell Jensen&#39;s Website">
+  <meta property="og:title" content="Thoughts on Programming Languages">
+  <meta property="og:description" content="There are a lot of programming languages, but often they are talked of in terms of what realistic applications they have in the job market. Seldom is there prose about their quality as such; independent of their popularity and application. Here’s some of my thoughts.
+Quality versus utility As most software engineers know, there is not really any correlation between the quality of a language and its popularity. There is however a correlation between popularity and utility. Python might not be the best language ever made, but any design flaws it has are offset, in the eyes of most, by the fact that it has libraries for everything. Why? Because it is in top three most popular languages, somewhere around C and Java. Therefore any issue one might encounter probably already has a complete solution in the form of a third-party library. This means that Python has extremely high utility, even if there are design issues with the language that can get in the way of common usage; while writing code.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2022-12-12T00:00:00+00:00">
+    <meta property="article:modified_time" content="2022-12-12T00:00:00+00:00">
+    <meta property="article:tag" content="Programming">
+
+    
+
+</head>
+
+<body class=" page-programming_langs">
+    
+
+
+<a href="#main-content" 
+    class="skip-to-content-link"
+    aria-label='Skip to main content'>
+  Skip to main content
+</a>
+
+<header class="header fixed-top rad-animation-group" id="header">
+  <div class="container rad-fade-in">
+    <nav class="navbar bd-navbar navbar-expand-lg navbar-light p-0">
+      <div class="container-fluid">
+        <a class="navbar-brand mx-auto" href="/">
+            
+          <span>Maxwell Jensen</span>
+          <span>&#39;s Website</span>
+        </a>
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent, #header"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label='Toggle navigation'
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-lg-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="/"
+                >HOME</a
+              >
+            </li>
+            <li class="nav-item">
+              <a data-scroll class="nav-link" href="/blog"
+                >BLOG</a
+              >
+            </li>
+            <li class="nav-item">
+              <a data-scroll class="nav-link" href="https://docs.maxwelljensen.eu"
+                >MJ DOCS</a
+              >
+            </li>
+            <li class="dropdown theme-selector nav-item">
+              
+                
+              
+<div id='header-color-selector'
+  class='d-grid gap-2 col-6 mx-auto nav-link dropdown  '>
+  <button class="btn btn-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center show bd-theme-selector"
+    id='bd-theme-header' type="button" aria-expanded="true" data-bs-toggle="dropdown"
+    data-bs-display="static" aria-label='Toggle theme'>
+    <span class="theme-icon auto d-none" aria-hidden="true"></span>
+    <span class="current-theme">✨ Auto</span>
+    <span class="d-lg-none ms-2 visually-hidden bd-theme-text" id="bd-theme-text-header">Toggle theme</span>
+  </button>
+  <ul id="theme-dropdown-header" class="dropdown-menu dropdown-menu-end " aria-labelledby="bd-theme-text-header" data-bs-popper="static">
+    <li>
+      <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="light"
+        aria-pressed="true">
+        ☀️ Light
+      </button>
+    </li>
+    <li>
+      <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark"
+        aria-pressed="false">
+        🌑 Dark
+        <span class="theme-icon dark d-none" aria-hidden="true"></span>
+      </button>
+    </li>
+    <li>
+      <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto"
+        aria-pressed="false">
+        ✨ Auto
+        <span class="theme-icon light d-none" aria-hidden="true"></span>
+      </button>
+    </li>
+  </ul>
+</div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+  </div>
+</header> 
+  <section id="breadcrumb-bar" class="breadcrumb-bar container">
+    <ul class="breadcrumbs d-print-none">
+        <li class="breadcrum-item"><span><a href="/">Home</a></span></li><li class="breadcrum-item"><span><a href="/blog">Demo Blog</a></span></li><li class="breadcrum-item current">Thoughts on Programming Languages</li></ul>
+</section>
+
+
+    <main class="container">
+        
+<section id="blog-single" class="section section--border-bottom rad-animation-group flex-grow-1">
+  <div id="main-content" class="container">
+    <h1><a href="/blog/programming_langs/">Thoughts on Programming Languages</a></h1>
+
+    <aside id="meta" class="light-border-bottom">
+      <div>
+        <section>
+          Published on 
+          <h4 id="date">Mon Dec 12, 2022</h4>
+          ·
+          <h4 id="wordcount">4694 Words</h4>
+        </section>
+         
+        <ul class="tags">
+          
+          <li><a href="/tags/programming/">Programming</a></li>
+          
+        </ul>
+        
+      </div>
+    </aside>
+
+    <div class="row flex-column-reverse flex-md-row rad-fade-down">
+      <div class="col-12"><p>There are a lot of programming languages, but often they are talked of in terms of what realistic applications they
+have in the job market. Seldom is there prose about their quality as such; independent of their popularity and
+application. Here&rsquo;s some of my thoughts.</p>
+<h2 id="quality-versus-utility">Quality versus utility</h2>
+<p>As most software engineers know, there is not really any correlation between the quality of a language and its
+popularity. There is however a correlation between popularity and utility. Python might not be the best language ever
+made, but any design flaws it has are offset, in the eyes of most, by the fact that it has libraries for everything.
+Why? Because it is in top three most popular languages, somewhere around C and Java. Therefore any issue one might
+encounter probably already has a complete solution in the form of a third-party library. This means that Python has
+extremely high utility, even if there are design issues with the language that can get in the way of common usage;
+while writing code.</p>
+<p>Java is an even better example of this, as it is
+<a href="https://www.theregister.com/2013/01/31/java_security_update/">demonstrably</a> one of the most incompetently designed
+languages in common use. Some people would probably argue it is the worst, although I do not have personal experience
+with it to make that much of a bold statement. From my research, however, I can tell Java is terrible and should be
+avoided if possible. Not the least because the company behind it, Oracle, is possibly <a href="https://www.realclearpolicy.com/articles/2021/12/21/washington_antitrust_efforts_ignore_predatory_practices_of_big_software_vendors_808739.html">one of the most predatory
+companies</a>
+on the planet, and will siphon astronomical amounts of funds from any company that uses any of their Java
+virtualisation technologies in any capacity.</p>
+<p>Still, quality of Java and even its big vendor are entirely irrelevant, and Java continues to be one of the most widely
+used programming languages. Why is that? Well, the answer is rather simple and is applicable to many other widely
+used programming languages: <em>clout of the past</em>. To turn a rather long story short: Java (not under Oracle at the time)
+was taking the software engineering world by storm, as a platform-independent alternative to C and C++. Most notable
+marketing gimmick was the audacious claim <em>&ldquo;write once, run anywhere&rdquo;</em>. It was also riding a then-trendy fad of
+object-oriented programming as being the king solution to every programming problem. Of course, as we found out quite a
+while ago, object-oriented programming is not a be-all and end-all solution, and Java was not even that great at
+<a href="https://www.geeksforgeeks.org/java-not-purely-object-oriented-language/">implementing it</a> to begin with, especially
+when compared to Python, that does everything Java ostensibly does. Regardless, the driving force was not quality of
+the language. It was the extensive marketing behind it, and it was sold to managers, not software engineers. Whether
+software engineers liked it or not, managers said Java was the new company tool of choice, and they had to put up with
+it. The language remains popular, because, even if aforementiomed managers became disillusioned, which they most likely
+did, as they saw that company bottom line remained largely unaffected, <strong>they were now stuck with Java
+infrastructure</strong>. As with almost anything else, it is easier to build something than to replace existing systems. This
+is where Oracle gets you with astronomical bills that nearly bankrupt any company, but that is veering off topic.</p>
+<p>Similar story applies to programming languages like C# or Swift, except instead of a marketing force driving its
+popularity, it is the fact that C# is the premier solution for programming software for Windows. Same with Swift, but
+for macOS. Since nearly everyone uses Windows and macOS, C# and Swift are widely used as well, and Swift is not even
+that difficult to <a href="https://linuxconfig.org/how-to-install-swift-on-ubuntu-20-04">use outside of the macOS ecosystem</a>.
+Surprising, considering it&rsquo;s an Apple product.</p>
+<p>In short, most programming languages are popular not because of their design merits, but because they had some success
+in the past that <em>forces</em> their use today. Even better examples than Java of this are Ada, COBOL, and especially
+<a href="https://www.youtube.com/watch?v=2pL28CcEijU">JavaScript</a>. Although JavaScript is not old like Ada or COBOL, it is
+exclusively an artifact of the early Internet, and it shows that it was <a href="https://github.com/denysdovhan/wtfjs">made in two weeks by an overworked engineer at
+Mozilla</a>. Alternatively, programming languages are popular by mandate of
+companies that run the most popular operating systems, such as Microsoft with C# or Apple with Swift.</p>
+<p>Logically, the converse is true: there are many great programming languages with outstanding design characteristics,
+but &ldquo;nobody&rdquo; uses them, rendering them useless. <strong>It&rsquo;s a chicken and egg problem</strong>: nobody uses them because nobody
+uses them, and because they don&rsquo;t have abundant libraries for solving common problems, because nobody uses them. You
+get the idea. Most languages do not ever get past the hobby stage for this reason. One of the languages I will give my
+thoughts on sort of fits into this category. Whenever there is a major problem in the IT industry, the first available
+solution is what becomes the irreplacable solution. Those solutions become irreplacable, because, as alluded to
+earlier, systems are much more easily built than replaced outright. Python was not particularly popular until it was
+found to be the &ldquo;killer app&rdquo; for prototyping in STEM fields.</p>
+<p>Either way, no matter how you frame the situation, quality of a language itself and its utility do not go hand in hand.
+In my eyes, this is a big reason why there is a larger entry barrier than necessary to software engineering. Nobody
+new to software engineering needs to learn Java or JavaScript, but because these languages are disproportionately
+popular, newcomers might be under the very mistaken impression that somehow they are representative of quality. They
+are not. The languages I will talk about will be described in terms of quality, and which ones are good for newcomers.</p>
+<h2 id="good-programming-languages">Good programming languages</h2>
+<p>To begin with, I will look at some programming languages that I consider to be good. They appear in no particular
+order, but any languages I will mention I had personal extensive experience with, and do not base it off hearsay from
+other sources of information.</p>
+<h3 id="rust">Rust</h3>
+<p>Rust appears kind of scary, and it somewhat is. Linus Torvalds said that Rust was really complex, arguing that C is a
+lot simpler. The Rust compiler is certainly a beast, throwing errors at you at seemingly every new line you write. To
+begin with, yes, it is absolutely unforgiving and gruellingly difficult for a beginner. The learning curve is
+infamously steep, but, once you become acquainted with the compiler, you start to realise that it is basically guiding
+you how to write properly imperative software.</p>
+<p>Rust is intended for systems programming, and it is indeed fast. <a href="https://benchmarksgame-team.pages.debian.net/benchmarksgame/fastest/rust.html">In some cases faster than C and
+C++</a>. What might be surprising is that
+it is easy enough to use for even the simplest scripts, once you get past the initial learning barrier. Other than
+hardcore programmers like Terry A. Davis or Chris Sawyer, nobody would really want to use C or even C++ to program
+everything. If system administrators need a script, they will naturally resort to either Bash or Python, since the
+machine-level mechanisms are much more abstracted away, reducing the cognitive workload. Rust, however, is sufficiently
+high-level that it might be not much of a migraine to get something simple in it going. This would depend largely on
+the person, of course, but Rust is unmistakably better than C and C++ in several domains, with no sacrifice of raw
+efficiency.</p>
+<p>While in C and C++ memory management is manual, Rust utilises a unique mechanism known as the &ldquo;<a href="https://doc.rust-lang.org/1.8.0/book/references-and-borrowing.html">borrow
+checker</a>&rdquo;. Although it is the main source of
+compiler throwing errors at you at every line, it means that the compiler is able to reason about the safety of your
+program at compile time. C and C++ compilers make exactly <em>zero guarantees</em> about the safety of your code at compile
+time, and you have to write systems checking the correctness of your program yourself. Rust, on the contrary,
+eliminates <a href="https://stackoverflow.com/questions/36136201/how-does-rust-guarantee-memory-safety-and-prevent-segfaults/36137381#36137381">entire categories of security vulnerabilities and memory errors at compile
+time</a>.
+With the exception of writing code in an <code>unsafe { ... }</code> block, you simply cannot compile a program that would produce
+memory insecurities: buffer overflows, buffer over-reads, null pointer dereferences, double frees, invalid frees, and
+so on. It will all be a compiler error if your code contains behaviour that would lead to that.</p>
+<p>A question you might be asking yourself: why bother learning Rust if it&rsquo;s so hard and low-level? The answer is really
+rather simple: <strong>you learn how computers work at (almost) the most foundational level</strong>. Although Python is markedly
+easier to start off with, it doesn&rsquo;t teach you how computers work. Because it doesn&rsquo;t teach you how computers work, it
+also doesn&rsquo;t give you a reference point for why certain programming practices exist. Not always, but most programming
+practices exist for efficiency and clarity. Sometimes efficient code is also clear code. Using
+&ldquo;<a href="https://stackabuse.com/variable-length-arguments-in-python-with-args-and-kwargs/">varargs</a>&rdquo; works well in Python
+because of <a href="https://wikiless.tiekoetter.com/wiki/Duck_typing?lang=en">duck typing</a>, but in many other programming
+languages, particularly <a href="https://wikiless.tiekoetter.com/wiki/Strong_and_weak_typing?lang=en">strictly typed</a> ones, it
+is a bad idea or sometimes even impossible due to compiler restrictions. Using lists is almost always the better
+alternative, but because Python strongly depends on and encourages duck typing, these ideas will escape all newcomers
+to software engineering that choose Python as their first language.</p>
+<p>Additionally, the Rust compiler is so sophisticated that it gives you specific errors about issues in your code, like
+so:</p>
+<pre tabindex="0"><code>5 |     let scores = inputs().iter().map(|(a, b)| {
+  |                  ^^^^^^^^ creates a temporary which is freed while still in use
+6 |         a + b
+7 |     });
+  |       - temporary value is freed at the end of this statement
+8 |     println!(&#34;{}&#34;, scores.sum::&lt;i32&gt;());
+  |                    ------ borrow later used here
+  help: consider using a `let` binding to create a longer lived value
+  |
+5 ~     let binding = inputs();
+6 ~     let scores = binding.iter().map(|(a, b)| {
+  |
+
+For more information about this error, try `rustc --explain E0716`.
+</code></pre><p>Sometimes, as in the error message above, the compiler even gives you a potential solution to the problem. The Rust
+compiler is very smart, and in a lot of ways can act as a guide for you in learning how low-level imperative
+programming works. The Python environment is nowhere near as smart and, for a language priding itself on being beginner
+friendly, it oftentimes outputs obtuse error messages that are not at all obvious without looking them up on the
+Internet.</p>
+<p>It is worth learning Rust, even if you figure out the compiler and still think the cognitive load is too big. You would
+get a lot out of the experience. You would get a far greater appreciation of what goes on &ldquo;beneath the hood&rdquo; of a
+computer program, an experience which is severely lacking in today&rsquo;s IT world. It&rsquo;s one of the big reasons behind why
+<a href="https://archive.ph/1UuE9">Electron</a> is deemed an acceptable solution in any domain of general computing whatsoever,
+even though it is demonstrably one of the worst software frameworks to ever exist. No, 275 MB for an <a href="https://stackoverflow.com/questions/59731319/how-can-i-reduce-my-275mb-hello-world-electron-package-size">executable that
+prints &ldquo;Hello,
+world!&rdquo;</a> is
+not acceptable software design. It&rsquo;s <a href="https://wikiless.tiekoetter.com/wiki/Wirth%27s_law?lang=en">software equivalent of
+cancer</a>, so why would you want that on your computer? This
+is why I think Rust is important: it takes C++ into the 21st century, but without sacrificing performance, and
+therefore is a viable tool for teaching people how computers work. Tech illiteracy in software engineering is actually
+staggering, and more people need to see Rust, so that they can see the error of their ways.</p>
+<h3 id="go">Go</h3>
+<p>Although often people compare Rust to Go, Go is not a systems programming language. Rather, it is Google&rsquo;s in-house
+solution for Google problems, but has been open-source for a while now, with explosive popularity, due to its big
+backer.</p>
+<p>What are Google problems, then? That would be cloud and other networking solutions. Go is geared towards that in its
+principal design. Easy multi-threading, easy concurrency, garbage collection for development brevity, very simple
+ruleset, and designed by one of the main inspirations of C, Ken Thompson. The language is explicitly designed to be as
+close as possible to C, but garbage collected; cognitive load significantly lessened during development. It even
+supports generics, unlike C. Despite being garbage collected, it is not that much slower than <a href="https://benchmarksgame-team.pages.debian.net/benchmarksgame/box-plot-summary-charts.html">the other top
+languages</a>. Given that it
+compiles dependency-free binaries, like Rust, Go is excellent not just in the domain of networking, but as a general
+computing solution. Where performance is not of paramount importance, Go shines, and many programs that I use on a
+daily basis have been developed with it:</p>
+<ul>
+<li><a href="https://github.com/junegunn/fzf">fzf</a> - fuzzy search finder, which I use in my Neovim config for any file indexing.</li>
+<li><a href="https://github.com/go-gitea/gitea">gitea</a> - how I used to host a web-facing git instance.</li>
+<li><a href="https://github.com/jesseduffield/lazygit">lazygit</a> - more sane git management.</li>
+<li><a href="https://github.com/schollz/croc">croc</a> - trivial transfer between machines on the same LAN.</li>
+</ul>
+<p>For a programming language primarily designed to solve Google cloud problems, it does a good job at most of everything
+else. Here&rsquo;s an example of a program that sorts strings and integers:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> (
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;fmt&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;sort&#34;</span>
+</span></span><span style="display:flex;"><span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">main</span>() {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">strs</span> <span style="color:#f92672">:=</span> []<span style="color:#66d9ef">string</span>{<span style="color:#e6db74">&#34;c&#34;</span>, <span style="color:#e6db74">&#34;a&#34;</span>, <span style="color:#e6db74">&#34;b&#34;</span>}
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">sort</span>.<span style="color:#a6e22e">Strings</span>(<span style="color:#a6e22e">strs</span>)
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;Strings:&#34;</span>, <span style="color:#a6e22e">strs</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">ints</span> <span style="color:#f92672">:=</span> []<span style="color:#66d9ef">int</span>{<span style="color:#ae81ff">7</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">4</span>}
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">sort</span>.<span style="color:#a6e22e">Ints</span>(<span style="color:#a6e22e">ints</span>)
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;Ints:   &#34;</span>, <span style="color:#a6e22e">ints</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">s</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">sort</span>.<span style="color:#a6e22e">IntsAreSorted</span>(<span style="color:#a6e22e">ints</span>)
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;Sorted: &#34;</span>, <span style="color:#a6e22e">s</span>)
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>With garbage collection, type inference, built-in error interface, generics, closures, less verbose for-loops, and many
+other small features add up to a significantly more concise imperative language, without complete sacrifice of
+performance and ability to make dependency-free binaries. That is why the above code is quite concise, compared to C
+and similar languages.</p>
+<h3 id="nim">Nim</h3>
+<p>Nim is a powerful beast. It is more than likely the most feature-rich programming language I am aware of.</p>
+<ul>
+<li>Compiles dependency-free binaries.</li>
+<li>Cross-compiles to most major platforms, <a href="https://nim-lang.org/docs/nimc.html#crossminuscompilation-for-nintendo-switch">even Nintendo
+Switch</a>.</li>
+<li>Is garbage-collected, <a href="https://github.com/kostya/benchmarks">but has performance very near C and C++</a>, <strong>without
+resorting to manual memory management</strong>!</li>
+<li>Easy, built-in multi-threading and concurrency tools.</li>
+<li>Strictly typed with compile-time type checks.</li>
+<li>Compile-time function evaluation.</li>
+<li>Object-oriented faculties, including inheritance and mutually recursive types.</li>
+<li>Transpiles to C, C++, and JavaScript if needed.</li>
+<li>Is compiled in itself, and can be
+<a href="https://stackoverflow.com/questions/2565572/metaprogramming-self-explanatory-code-tutorials-articles-books/2566561#2566561">metaprogrammed</a>
+without restriction.</li>
+<li>Syntax strongly inspired by Python; no curly brackets needed.</li>
+<li>Syntax is extremely concise thanks to solid type inference and extensive syntactic sugar.</li>
+<li>&hellip; a lot more.</li>
+</ul>
+<p>Here&rsquo;s an example taken from Nim&rsquo;s official website:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-nim" data-lang="nim"><span style="display:flex;"><span><span style="color:#f92672">import</span> std<span style="color:#f92672">/</span>strformat
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">type</span>
+</span></span><span style="display:flex;"><span>  Person <span style="color:#f92672">=</span> <span style="color:#66d9ef">object</span>
+</span></span><span style="display:flex;"><span>    name: <span style="color:#66d9ef">string</span>
+</span></span><span style="display:flex;"><span>    age: Natural <span style="color:#75715e"># Ensures the age is positive</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> people <span style="color:#f92672">=</span> <span style="color:#f92672">[</span>
+</span></span><span style="display:flex;"><span>  Person(name: <span style="color:#e6db74">&#34;John&#34;</span>, age: <span style="color:#ae81ff">45</span>),
+</span></span><span style="display:flex;"><span>  Person(name: <span style="color:#e6db74">&#34;Kate&#34;</span>, age: <span style="color:#ae81ff">30</span>)
+</span></span><span style="display:flex;"><span><span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> person <span style="color:#f92672">in</span> people:
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e"># Type-safe string interpolation,</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e"># evaluated at compile time.</span>
+</span></span><span style="display:flex;"><span>  echo(<span style="color:#e6db74">fmt&#34;{person.name} is {person.age} years old&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Thanks to Nim&#39;s &#39;iterator&#39; and &#39;yield&#39; constructs,</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># iterators are as easy to write as ordinary</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># functions. They are compiled to inline loops.</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">iterator</span> oddNumbers<span style="color:#f92672">[</span>Idx, T<span style="color:#f92672">]</span>(a: <span style="color:#66d9ef">array</span><span style="color:#f92672">[</span>Idx, T<span style="color:#f92672">]</span>): T <span style="color:#f92672">=</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">for</span> x <span style="color:#f92672">in</span> a:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> x <span style="color:#f92672">mod</span> <span style="color:#ae81ff">2</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">yield</span> x
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> odd <span style="color:#f92672">in</span> oddNumbers(<span style="color:#f92672">[</span><span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">6</span>, <span style="color:#ae81ff">9</span>, <span style="color:#ae81ff">12</span>, <span style="color:#ae81ff">15</span>, <span style="color:#ae81ff">18</span><span style="color:#f92672">]</span>):
+</span></span><span style="display:flex;"><span>  echo odd
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Use Nim&#39;s macro system to transform a dense</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># data-centric description of x86 instructions</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># into lookup tables that are used by</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># assemblers and JITs.</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> macros, strutils
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">macro</span> toLookupTable(data: <span style="color:#66d9ef">static</span><span style="color:#f92672">[</span><span style="color:#66d9ef">string</span><span style="color:#f92672">]</span>): untyped <span style="color:#f92672">=</span>
+</span></span><span style="display:flex;"><span>  result <span style="color:#f92672">=</span> newTree(nnkBracket)
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">for</span> w <span style="color:#f92672">in</span> data.split(<span style="color:#e6db74">&#39;;&#39;</span>):
+</span></span><span style="display:flex;"><span>    result.add newLit(w)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span>
+</span></span><span style="display:flex;"><span>  data <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;mov;btc;cli;xor&#34;</span>
+</span></span><span style="display:flex;"><span>  opcodes <span style="color:#f92672">=</span> toLookupTable(data)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> o <span style="color:#f92672">in</span> opcodes:
+</span></span><span style="display:flex;"><span>  echo o
+</span></span></code></pre></div><p>How all of these features are implemented without markedly impacting performance is unknown to me. In all technical
+aspects it is an impressive language. As far as imperative languages go, I consider it to be the most sophisticated,
+advanced, yet pleasant language to program in. Many languages implement several of the aforementioned features: Python,
+C#, Swift, Go, and many others. None of them have <em>all</em> of these features, however, which is what distinguishes Nim
+from any other that I have seen.</p>
+<p>I had so much joy programming in Nim that they led me to my first ever minimally viable projects:
+<a href="https://maxwelljensen.no/git/maxwelljensen/nimjack">nimjack</a> and
+<a href="https://maxwelljensen.no/git/maxwelljensen/nimchain">nimchain</a>. Before these, I would play around with Python, but
+nothing about Python would really stick with me. It had overwhelming complexity, obscure bugs that make no sense, far
+too many ways to do a single common task, and more. It was an unpleasant experience for someone to just start with. Nim
+has a ton of features, but I always felt like there was only one, sometimes two, logical way of solving a logical
+problem. This is where I feel like Python and my other &ldquo;good programming languages&rdquo; list diverge significantly.</p>
+<p>The only issue with Nim that is going to make it an unrealistic option in most environments is the fact that it is
+relatively unknown; unpopular. There is progressively more awareness surrounding it, if slowly. Latest uptick was a
+YouTube video released by Fireship, a substantially large channel about programming, titled <a href="https://www.youtube.com/watch?v=WHyOHQ_GkNo"><em>&ldquo;Nim in 100
+Seconds&rdquo;</em></a>. According to comments under the video, Nim has found its way
+into ethical hacking, and in new startup companies. That being said, it is still vastly less popular than Rust and Go,
+which are already only moderately popular when compared to Python, C, and C++. Nevertheless, the merits of Nim cannot
+be overstated, and I hope it becomes a standard in the future for programming. It puts the &ldquo;multi&rdquo; in &ldquo;multi-paradigm
+programming language&rdquo; like no other.</p>
+<h3 id="haskell">Haskell</h3>
+<p>While the aforementioned languages are predominantly imperative, Haskell is a <em>purely</em> functional language. Put
+differently, it is not a multi-paradigm programming language. Although most multi-paradigm programming languages
+support functional paradigms, they are just that: support. They are not a requirement, unlike Haskell, where the only
+paradigm accepted is functional programming. What does that look like in practice?</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-haskell" data-lang="haskell"><span style="display:flex;"><span><span style="color:#a6e22e">quicksort</span> <span style="color:#f92672">::</span> (<span style="color:#66d9ef">Ord</span> a) <span style="color:#f92672">=&gt;</span> [a] <span style="color:#f92672">-&gt;</span> [a]  
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">quicksort</span> <span style="color:#66d9ef">[]</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">[]</span>  
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">quicksort</span> (x<span style="color:#66d9ef">:</span>xs) <span style="color:#f92672">=</span>   
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">let</span> smallerSorted <span style="color:#f92672">=</span> quicksort [a <span style="color:#f92672">|</span> a <span style="color:#f92672">&lt;-</span> xs, a <span style="color:#f92672">&lt;=</span> x]  
+</span></span><span style="display:flex;"><span>      biggerSorted <span style="color:#f92672">=</span> quicksort [a <span style="color:#f92672">|</span> a <span style="color:#f92672">&lt;-</span> xs, a <span style="color:#f92672">&gt;</span> x]  
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">in</span>  smallerSorted <span style="color:#f92672">++</span> [x] <span style="color:#f92672">++</span> biggerSorted  
+</span></span></code></pre></div><p>Alright, that looks pretty alien. What you are looking at is a <a href="https://www.geeksforgeeks.org/quick-sort/">quicksort
+algorithm</a>, although technically it is not real quicksort, since data is not
+mutated <a href="https://wikiless.tiekoetter.com/wiki/In-place_algorithm?lang=en">in-place</a>. In fact, Haskell explicitly
+prohibits mutation, meaning only immutable variables are allowed. The whole explanation behind above code can be found
+<a href="http://learnyouahaskell.com/recursion#quick-sort">here</a>, but the essence of the language is that you code <em>what</em> you
+want, not <em>how</em> you want something. This makes Haskell a <em>declarative</em> language, as opposed to an <em>imperative</em> one. You
+declare what the output of <code>quicksort</code> is, rather than what <code>quicksort</code> does. As you can imagine, this makes Haskell a
+very high-level language, but it looks nothing like Python, which is another distinctly high-level language. This is
+because Python is an imperative language. Compare the same algorithm in Python:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">partition</span>(array, begin, end):
+</span></span><span style="display:flex;"><span>  pivot <span style="color:#f92672">=</span> begin
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(begin<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>, end<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> array[i] <span style="color:#f92672">&lt;=</span> array[begin]:
+</span></span><span style="display:flex;"><span>      pivot <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>      array[i], array[pivot] <span style="color:#f92672">=</span> array[pivot], array[i]
+</span></span><span style="display:flex;"><span>  array[pivot], array[begin] <span style="color:#f92672">=</span> array[begin], array[pivot]
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> pivot
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">quicksort</span>(array, begin<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>, end<span style="color:#f92672">=</span><span style="color:#66d9ef">None</span>):
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> end <span style="color:#f92672">is</span> <span style="color:#66d9ef">None</span>:
+</span></span><span style="display:flex;"><span>    end <span style="color:#f92672">=</span> len(array) <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">_quicksort</span>(array, begin, end):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> begin <span style="color:#f92672">&gt;=</span> end:
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">return</span>
+</span></span><span style="display:flex;"><span>    pivot <span style="color:#f92672">=</span> partition(array, begin, end)
+</span></span><span style="display:flex;"><span>    _quicksort(array, begin, pivot<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>)
+</span></span><span style="display:flex;"><span>    _quicksort(array, pivot<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>, end)
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> _quicksort(array, begin, end)
+</span></span></code></pre></div><p>Although this one is a real quicksort algorithm, since data is mutated in-place, we can clearly see that the code is a
+lot longer than in the Haskell example, since we have to define all the steps involved in the algorithm. We are
+commanding the program how to act, rather than what the output is. For this reason, the Haskell example is a lot more
+concise, and conciseness is where functional programming shines.</p>
+<p>For me, concise code is the most important matter when writing code. Although one can alleviate the downsides of long
+code with proper documentation, it is best to just write code so simple that ideally documentation is unneeded.
+Functional programming helps with that, because then you can reason about any function only in terms of input and
+output. You might be tempted to say that you should keep functions and code short anyway, regardless of language. Have
+one function do one thing only, and do it well. I totally agree, but that is an integral tenet of functional
+programming. Most people in some capacity or another gravitate towards functional programming without even knowing it.
+Although <a href="https://wikiless.tiekoetter.com/wiki/Monad_%28functional_programming%29?lang=en">monads and monadic I/O</a> sound
+completely alien, and most software engineers never heard the word &ldquo;monad&rdquo; in their life before, <a href="https://wikiless.tiekoetter.com/wiki/Option_type?lang=en">they know what it
+is</a>. They just don&rsquo;t know it is called a monad, as it&rsquo;s a
+word taken from a subdomain of mathematics known as category theory. Given that Haskell was developed by committee,
+explicitly for the purposes of making the all-father of functional programming, it is no surprise that Haskell
+terminology is going to be strange. It also doesn&rsquo;t help that the committee consisted mainly of mathematicians. Even
+those who were not, such as Sir Simon Peyton Jones, still insisted on using mathematical terminology rather than what
+would become more standard in the programming sphere. After all, the language is named after <a href="https://wikiless.tiekoetter.com/wiki/Haskell_Curry?lang=en">Haskell
+Curry</a>, who was a mathematician. I strongly recommend
+watching <a href="https://www.youtube.com/watch?v=re96UgMk6GQ"><em>&ldquo;The Haskell journey: Watt on earth were were thinking?&rdquo;</em></a> by
+Sir Simon Peyton Jones at Churchill College, University of Cambridge in 2017, for a rundown on a rather unusual
+development of Haskell. Sir Jones is a good presenter.</p>
+<h3 id="note-on-declarative-and-functional-programming">Note on declarative and functional programming</h3>
+<p>As for the language itself, it is worth learning Haskell. Much like how Rust is a very good introduction into low-level
+imperative programming, Haskell is, inversely, a very good introduction into what high-level declarative programming
+can look like. It is also purely functional, so you are forced into thinking about logical problems exclusively in
+those terms. It gives you a fresh perspective into programming. For me, learning Haskell was like learning programming
+anew; all over again. One of my friends made an interesting statement about Haskell, upon learning about it: <em>&ldquo;this is
+what I thought programming was before I went into Python and C#&rdquo;</em>, paraphrased. I agree. I think high-level programming
+languages should be a lot less like Python or JavaScript and a lot more like Haskell.</p>
+<p>A common response to Haskell is: if you are not able to mutate variables at all, how can you do anything? The answer is
+that you can do everything you can in an imperative language, just without mutation. Diesel engines don&rsquo;t need spark
+plugs to combust fuel, and in the same vein Haskell doesn&rsquo;t need mutation to do its work. The reason why Haskell does
+away with something so taken for granted as variable mutability is simply to prevent
+<a href="https://en.wikipedia.org/wiki/Side_effect_%28computer_science%29">side-effects</a> and keep <a href="https://en.wikipedia.org/wiki/Pure_function">functions
+pure</a>. Why is this important? It is so that the compiler can reason about
+everything a function does. It is a concept known as <em>referential transparency</em>: the idea that any function will yield
+expected results every time it is run. In mathematics, that would be known as proving a statement. Therefore, a
+function that writes to hard drive is impure, because it is not guaranteed that every time it is run the result will be
+the same. The hard disk can jam, run out of power, or other issues. Granted, at a sufficiently granular level,
+everything in a computer is a side-effect. Writing to CPU register is a side-effect. Therefore functional purity in
+terms of Haskell refers to the environment of I/O versus non-I/O. Functions that depend on I/O are impure, and
+therefore any number, string, float, or any other type that interacts with I/O will be given the type <code>IO a</code>, which is
+a type of monad (but it is not all monads). You can never escape this monad, or any other monad, which is the whole
+point of monads; monadic I/O. As far as I know, no imperative language enforces such a system in their
+compiler/interpreter.</p>
+<p>Ultimately all of this might sound familiar to someone who has worked with software engineering at a professional
+level. You <em>do</em> want to keep side-effects to a minimum, because referential transparency isn&rsquo;t just for the benefit of
+the machine, it is also a benefit to the man behind the code. You <em>do</em> want to know what the program is doing, and
+referential transparency is a good start for making that happen. Well, at least if you are a good software engineer.
+The only difference between your coding practices and Haskell is that Haskell enforces it with its syntax and compiler.</p>
+<p>Lastly, you might be asking yourself: what can the compiler reason about with this referential transparency? For
+instance, parallelising your Haskell code <a href="https://book.realworldhaskell.org/read/concurrent-and-multicore-programming.html">becomes
+trivial</a>. You still have to manually
+specify which sections of the code are to be parallelised, because, although <a href="https://wikiless.tiekoetter.com/wiki/Implicit_parallelism?lang=en">implicit
+parallelism</a> is possible with Haskell, there are
+significant performance disadvantages to a strategy of parallelising everything, because at what level is the compiler
+supposed to parallelise workload? With unrestricted parallelisation, you can easily run into hundreds of thousands or
+millions of tasks, which is completely pointless on a machine with 16 or 32 cores. As threads have a certain overhead,
+you lose more than you gain as soon as the program becomes substantially larger than a dozen lines of code. That being
+said, with referential transparency you eliminate two quintessential categories of parallelisation issues: deadlocks
+and race conditions. At least for pure functions, but with
+<a href="https://wiki.haskell.org/Software_transactional_memory">STMs</a> it is possible even for impure functions (I/O) with some
+tricks. Haskell is also <a href="https://benchmarksgame-team.pages.debian.net/benchmarksgame/fastest/ghc-gcc.html">very fast</a>,
+with the only weakness being algorithms which are best done with in-place mutation, which Haskell currently is unable
+to do. Haskell is constantly worked on, however, and it is possible that some version down the line will come with a
+compiler so smart it knows when to do in-place mutations for maximum efficiency.</p>
+<p>I think it is also worthwhile to read <a href="https://cbarrete.com/carmack.html">John Carmack&rsquo;s thoughts on functional
+programming</a>, and <a href="https://www.defmacro.org/2006/06/19/fp.html">this article</a>. I
+don&rsquo;t think it&rsquo;s a coincidence that John Carmack, the <a href="https://www.youtube.com/watch?v=hYMZsMMlubg">genius that made
+DOOM</a> possible to run on 1990s hardware, is a strong advocate for
+functional programming. It is interesting, considering that object-oriented programming, chiefly  with C++, is <a href="https://gamedev.stackexchange.com/questions/14158/how-object-oriented-are-videogames">widely
+regarded as a natural fit for video
+games</a>.</p>
+<h2 id="good-versus-bad">Good versus bad</h2>
+<p>Are languages like Java and JavaScript all clout and no substance? It might seem like I am giving a one-dimensional
+overview here with categorising aforementioned languages as good, which implies that most others are bad. Granted, yes,
+imperfections in Python or PHP do not make them one-dimensionally bad. They set out to do a job, and for the most part
+they do it well.</p>
+<p>I will, however, make a bold claim: <strong>most programming languages are just plain terrible</strong>. All clout and no substance.
+Java, JavaScript, Ruby, Scala, and many others are popular without substance to justify their popularity. They have
+minimal gains for all the disadvantages they come with. Most of them do not even the job they set out to do all that
+well. Java is bloated and incoherent. JavaScript specification is a cognitohazard. Ruby is painfully slow and does
+nothing that Python or PHP already don&rsquo;t. Scala is just a band-aid over Java that fundamentally does nothing to address
+the utter dumpster fire that is the Java runtime environment. There are other languages I have reviewed, but you get
+the idea. When compared to existing languages, I simply do not see the value that justifies the existence of these
+languages. Of course, I already outlined the explanation for why the clout exists in the first paragraphs of this
+article. However, there are people who genuinely defend these languages as good, or even great, when that is factually
+incorrect. Everyone is correct in saying that Java, JavaScript, Ruby, and Scala are popular languages, but conflating
+that with quality is completely irrational. Quality and popularity of a language, as already briefly explained, do not
+go hand in hand at all. Cursory review of histories of all the languages mentioned by name in this article demonstrates
+this unambiguously. I do not admonish people who have to deal with these terrible languages as part of the professional
+career. If Java development pays, that is fine, but defence of Java as a quality language is inexcusable. I think even
+suggesting such things is sign of software engineering incompetence, and fundamental misunderstanding of how computers
+work.</p>
+<p>Although this might seem like a fatalistic assessment of the state of programming languages, I was unable to come to
+any other conclusion.</p>
+</div>
+    </div>
+
+    <aside class="content-browser light-border-top">
+      Continue reading
+      <div>
+        
+        ■
+        
+        <a class="next" href="/blog/internet_death/"> Internet Death ↪</a>
+        
+      </div>
+    </aside>
+  </div>
+</section>
+
+    </main>
+
+    <div class="d-print-none">
+        <footer class="footer w-100 d-print-none">
+  <div class="container">
+    <div class="container-fluid">
+      <div class="row w-100 align-items-center">
+        <div class="footer_left col-12 col-lg-4 mb-3 mb-lg-0 text-center text-lg-start">
+          <div class="footer__copy">
+            <span>© Maxwell Jensen. Free Hugo theme by Adrián Moreno Peña.</span>
+          </div>
+        </div>
+        <div class="footer_links col-12 col-lg-6 mb-3 mb-lg-0 text-center text-lg-start">
+          <ul class="navbar-nav w-100 align-items-center justify-content-center justify-content-lg-start d-flex flex-wrap gap-2">
+            <li class="nav-item">
+              <a class="nav-link px-2" href="/"
+                >🏠 HOME</a
+              >
+            </li>
+            
+          </ul>
+        </div>
+        <div class="footer_right col-12 col-lg-2 mb-3 mb-lg-0 text-center text-lg-end">
+          <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-2 d-grid col-12 ">
+            
+            
+            
+<div id='footer-color-selector'
+  class='d-grid gap-2 col-6 mx-auto nav-link dropdown dropup '>
+  <button class="btn btn-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center show bd-theme-selector"
+    id='bd-theme-footer' type="button" aria-expanded="true" data-bs-toggle="dropdown"
+    data-bs-display="static" aria-label='Toggle theme'>
+    <span class="theme-icon auto d-none" aria-hidden="true"></span>
+    <span class="current-theme">✨ Auto</span>
+    <span class="d-lg-none ms-2 visually-hidden bd-theme-text" id="bd-theme-text-footer">Toggle theme</span>
+  </button>
+  <ul id="theme-dropdown-footer" class="dropdown-menu dropdown-menu-end " aria-labelledby="bd-theme-text-footer" data-bs-popper="static">
+    <li>
+      <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="light"
+        aria-pressed="true">
+        ☀️ Light
+      </button>
+    </li>
+    <li>
+      <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark"
+        aria-pressed="false">
+        🌑 Dark
+        <span class="theme-icon dark d-none" aria-hidden="true"></span>
+      </button>
+    </li>
+    <li>
+      <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto"
+        aria-pressed="false">
+        ✨ Auto
+        <span class="theme-icon light d-none" aria-hidden="true"></span>
+      </button>
+    </li>
+  </ul>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    
+    <script>
+  window.addEventListener("load", function() {
+    try{
+      var observer = window.lozad(".lozad", {
+        rootMargin: window.innerHeight / 2 + "px 0px",
+        threshold: 0.01
+      }); 
+      observer.observe();
+    } catch(e) {
+      console.error(e);
+    }
+  });
+</script>
+<script defer src='https://maxwelljensen.eu/js/rad-animations.js'></script>
+<script defer src='https://maxwelljensen.eu/js/library/smooth-scroll.polyfills.min.js'></script>
+<script defer src='https://maxwelljensen.eu/js/sticky-header.js'></script>
+<script defer src='https://maxwelljensen.eu/js/smooth-scroll-init.js'></script>
+<script defer src="/assets/js/vendor/bootstrap.bundle.min.0833b2e9c3a26c258476c46266e6877fc75218625162e0460be9a3a098a61c6c.js"></script>
+
+
+
+
+<script>
+  window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+</script>
+</body>
+</html> 

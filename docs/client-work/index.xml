@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Client-Works on </title>
+    <link>https://maxwelljensen.eu/client-work/</link>
+    <description>Recent content in Client-Works on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 15 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://maxwelljensen.eu/client-work/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Noroff</title>
+      <link>https://maxwelljensen.eu/client-work/noroff/</link>
+      <pubDate>Sat, 15 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://maxwelljensen.eu/client-work/noroff/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

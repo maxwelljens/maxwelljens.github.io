@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on </title>
+    <link>https://maxwelljensen.eu/projects/</link>
+    <description>Recent content in Projects on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 15 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://maxwelljensen.eu/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The educational Linux course</title>
+      <link>https://maxwelljensen.eu/projects/lnx_course/</link>
+      <pubDate>Sat, 15 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://maxwelljensen.eu/projects/lnx_course/</guid>
+      <description>&lt;p&gt;During my tenure as tutor at Noroff vocational online school, I was tasked by&#xA;my team leader to recreate the Linux course &amp;ndash; part of the Network and System&#xA;Administration program &amp;ndash; in order to modernise it; make it more digestible for&#xA;students. The course I inherited, and went through myself as a student, was&#xA;getting crusty.&lt;/p&gt;&#xA;&lt;p&gt;After close to &lt;strong&gt;eleven months of continuous work&lt;/strong&gt;, I managed to create a&#xA;five-week-long course, for full-time studies, that consisted of purely&#xA;original:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

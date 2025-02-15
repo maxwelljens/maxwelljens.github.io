@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Demo Blog on </title>
+    <link>https://maxwelljensen.eu/blog/</link>
+    <description>Recent content in Demo Blog on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 26 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://maxwelljensen.eu/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Internet Death</title>
+      <link>https://maxwelljensen.eu/blog/internet_death/</link>
+      <pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://maxwelljensen.eu/blog/internet_death/</guid>
+      <description>&lt;p&gt;The Internet is a mega entertainment complex built on top of a graveyard of&#xA;meaning. Only Silicon Valley-approved content, opinions, and mechanisms may be&#xA;used to do anything on the Internet. I talk a bit about how the Internet has&#xA;been slowly choked out and how it is now dead.&lt;/p&gt;&#xA;&lt;p&gt;I am not particularly old. BBS, Usenet, MUDs and other such 1990s constructs&#xA;were not part of my childhood, but I still got to explore some of the wild&#xA;Internet of the early 2000s. Practically speaking, it was like entering&#xA;international waters. Seemingly no rules applied, and no law held dominion.&#xA;This was the case for many years, far before the start of the 21st century,&#xA;although of course the Internet did not get substantially bigger until this&#xA;century.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Thoughts on Programming Languages</title>
+      <link>https://maxwelljensen.eu/blog/programming_langs/</link>
+      <pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://maxwelljensen.eu/blog/programming_langs/</guid>
+      <description>&lt;p&gt;There are a lot of programming languages, but often they are talked of in terms of what realistic applications they&#xA;have in the job market. Seldom is there prose about their quality as such; independent of their popularity and&#xA;application. Here&amp;rsquo;s some of my thoughts.&lt;/p&gt;&#xA;&lt;h2 id=&#34;quality-versus-utility&#34;&gt;Quality versus utility&lt;/h2&gt;&#xA;&lt;p&gt;As most software engineers know, there is not really any correlation between the quality of a language and its&#xA;popularity. There is however a correlation between popularity and utility. Python might not be the best language ever&#xA;made, but any design flaws it has are offset, in the eyes of most, by the fact that it has libraries for everything.&#xA;Why? Because it is in top three most popular languages, somewhere around C and Java. Therefore any issue one might&#xA;encounter probably already has a complete solution in the form of a third-party library. This means that Python has&#xA;extremely high utility, even if there are design issues with the language that can get in the way of common usage;&#xA;while writing code.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
