@@ -11,7 +11,7 @@ weight: 98
 
 People with digital competence and creativity are in extraordinary high
 demand. Many of today's jobs will disappear, and far too few job applicants
-have the knowledge and skills to cover the industry´s current and future needs.
+have the knowledge and skills to cover the industry's current and future needs.
 People’s skill sets need to be developed, and education is the solution.
 
 Noroff is the premier academic institution in the Nordics for IT, both at
