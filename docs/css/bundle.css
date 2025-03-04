@@ -16,12 +16,12 @@ html body {
 }
 
 /* Makes underlined links consistent across dark and light theme */
-.posts-list a p, #blog-single p a {
+.posts-list p a, #blog-single p a {
   border-bottom: 1px solid var(--bs-body-color);
 }
 
 /* Include unordered lists too, since they are treated differently by default */
-.posts-list ul p, #blog-single ul a {
+.posts-list ul a, #blog-single ul a {
   border-bottom: 1px solid var(--bs-body-color);
   color: var(--bs-body-color);
   font-weight: 600;

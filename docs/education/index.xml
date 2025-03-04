@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Educations on </title>
+    <link>https://maxwelljensen.eu/education/</link>
+    <description>Recent content in Educations on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 04 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://maxwelljensen.eu/education/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Noroff</title>
+      <link>https://maxwelljensen.eu/education/noroff_hpd/</link>
+      <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://maxwelljensen.eu/education/noroff_hpd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Noroff</title>
+      <link>https://maxwelljensen.eu/education/noroff_pd/</link>
+      <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://maxwelljensen.eu/education/noroff_pd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Noroff High School</title>
+      <link>https://maxwelljensen.eu/education/noroff_hs/</link>
+      <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://maxwelljensen.eu/education/noroff_hs/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

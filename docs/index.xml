@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Maxwell Jensen&#39;s Website on </title>
+    <title></title>
     <link>https://maxwelljensen.eu/</link>
-    <description>Recent content in Maxwell Jensen&#39;s Website on </description>
+    <description>Recent content on </description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 15 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://maxwelljensen.eu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tutoring at Noroff</title>
@@ -21,6 +21,34 @@
       <pubDate>Sat, 15 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://maxwelljensen.eu/experience/job-1/</guid>
       <description>&lt;p&gt;Processing and archiving of shipment bills, correction of shipment errors, help&#xA;on the conveyor belt, and general assistance at the office.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Janrik Oberholzer</title>
+      <link>https://maxwelljensen.eu/testimonial/janrik_oberholzer/</link>
+      <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://maxwelljensen.eu/testimonial/janrik_oberholzer/</guid>
+      <description>&lt;p&gt;It is with great enthusiasm that I recommend Maxwell Jensen, an exceptional educator who&#xA;has made a positive impact on our Network and IT Security Administration program.&#xA;Maxwell joined Noroff as a student in 2021, where he distinguished himself through&#xA;dedication and excellence, earning his Professional Degree in Network and System&#xA;Administration.&lt;/p&gt;&#xA;&lt;p&gt;[&amp;hellip;]&lt;/p&gt;&#xA;&lt;p&gt;Under Maxwell’s leadership, the Linux course has become a favourite among students,&#xA;praised for its clarity, relevance, and accessibility. His ability to distil complex concepts into&#xA;engaging, student-friendly lessons reflects both his technical mastery and his commitment&#xA;to pedagogical excellence.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Noroff</title>
+      <link>https://maxwelljensen.eu/education/noroff_hpd/</link>
+      <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://maxwelljensen.eu/education/noroff_hpd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Noroff</title>
+      <link>https://maxwelljensen.eu/education/noroff_pd/</link>
+      <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://maxwelljensen.eu/education/noroff_pd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Noroff High School</title>
+      <link>https://maxwelljensen.eu/education/noroff_hs/</link>
+      <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://maxwelljensen.eu/education/noroff_hs/</guid>
+      <description></description>
     </item>
     <item>
       <title>Linux course showcase</title>
@@ -56,6 +84,13 @@
       <pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate>
       <guid>https://maxwelljensen.eu/blog/programming_langs/</guid>
       <description>&lt;p&gt;There are a lot of programming languages, but often they are talked of in terms of what realistic applications they&#xA;have in the job market. Seldom is there prose about their quality as such; independent of their popularity and&#xA;application. Here&amp;rsquo;s some of my thoughts.&lt;/p&gt;&#xA;&lt;h2 id=&#34;quality-versus-utility&#34;&gt;Quality versus utility&lt;/h2&gt;&#xA;&lt;p&gt;As most software engineers know, there is not really any correlation between the quality of a language and its&#xA;popularity. There is however a correlation between popularity and utility. Python might not be the best language ever&#xA;made, but any design flaws it has are offset, in the eyes of most, by the fact that it has libraries for everything.&#xA;Why? Because it is in top three most popular languages, somewhere around C and Java. Therefore any issue one might&#xA;encounter probably already has a complete solution in the form of a third-party library. This means that Python has&#xA;extremely high utility, even if there are design issues with the language that can get in the way of common usage;&#xA;while writing code.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Home</title>
+      <link>https://maxwelljensen.eu/home/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://maxwelljensen.eu/home/home/</guid>
+      <description>&lt;section id=&#34;showcase&#34; class=&#34;rad-showcase rad-showcase--index rad-animation-group rad-fade-down&#34;&gt;&#xA;  &lt;div id=&#34;main-content&#34; class=&#34;container&#34;&gt;&#xA;      &#xA;&#xA;&#xA;        &#xA;        &#xA;&#xA;    &lt;div class=&#34;showcase-section row flex-column-reverse flex-md-row rad-fade-down rad-waiting rad-animate&#34;&gt;&#xA;      &lt;div class=&#34;col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6&#34;&gt;&#xA;        &lt;h1 class=&#34;display-1&#34;&gt;&#xA;          Hello.&#xA;          &lt;br /&gt;&#xA;          &lt;span&gt; &lt;/span&gt;&#xA;        &lt;/h1&gt;&#xA;        &lt;div class=&#34;lead&#34;&gt;&#xA;          My hobbies and passion are in &lt;b&gt;programming, history, philosophy&lt;/b&gt;, and &lt;b&gt;culture&lt;/b&gt;, just to name a few. This is my website to publish posts for the world to read. Occasionally I have programming projects, which you can check out on my GitHub. If you have questions or want to come into contact with me for any other reason, you are welcome to do so. &lt;br&gt; Other than that, this is my professional frontpage with some of the things I have done, professionally and academically.&#xA;        &lt;/div&gt;&#xA;        &#xA;      &lt;/div&gt;&#xA;      &lt;div class=&#34;col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 profile-image&#34;&gt;&#xA;&#xA;        &#xA;        &#xA;&#xA;        &#xA;        &#xA;&#xA;        &#xA;        &#xA;              &#xA;         &#xA;&#xA;        &#xA;        &#xA;&#xA;        &lt;picture&gt;&#xA;          &lt;source srcset=&#34;https://maxwelljensen.eu/profile_image_hu_43e1633ef4622eb3.webp 1x, https://maxwelljensen.eu/profile_image_hu_43e1633ef4622eb3.webp 2x&#34; type=&#34;image/webp&#34; /&gt;&#xA;          &lt;source srcset=&#34;https://maxwelljensen.eu/profile_image.png 1x, https://maxwelljensen.eu/profile_image.png 2x&#34; type=&#34;image/webp&#34;&gt;&#xA;          &lt;img&#xA;            width=&#34;561&#34;&#xA;            height=&#34;535&#34;&#xA;            class=&#34;lozad img-responsive&#34;&#xA;            src=&#34;data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs=&#34;&#xA;            srcset=&#34;https://maxwelljensen.eu/profile_image.png 1x, https://maxwelljensen.eu/profile_image.png 2x&#34;&#xA;            data-src=&#34;https://maxwelljensen.eu/profile_image.png&#34;&#xA;            data-srcset=&#34;https://maxwelljensen.eu/profile_image.png 1x, https://maxwelljensen.eu/profile_image.png 2x&#34;&#xA;            alt=&#39;A picture of Cool Name&#39;&#xA;          /&gt;&#xA;        &lt;/picture&gt;&#xA;        &#xA;        &#xA;&#xA;&#xA;&#xA;      &lt;/div&gt;&#xA;    &lt;div class=&#34;col-12 inner-content&#34;&gt;&#xA;      &#xA;&#xA;&#xA;    &lt;/div&gt;&#xA;    &#xA;&#xA;    &lt;/div&gt;&#xA;&#xA;&#xA;    &lt;div class=&#34;row platform-links&#34;&gt;&#xA;      &lt;div class=&#34;col-12&#34;&gt;&lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;  &#xA;&lt;/section&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;section id=&#34;about&#34; class=&#34;section rad-animation-group pb-0&#34;&gt;&#xA;  &lt;div class=&#34;container rad-fade-down&#34;&gt;&#xA;    &lt;div class=&#34;row d-flex flex-column-reverse flex-md-row&#34;&gt;&#xA;      &lt;div class=&#34;about__profile-picture col-12 col-md-6&#34;&gt;&#xA;        &#xA;          &#xA;            &#xA;            &#xA;            &lt;picture&gt;&#xA;              &lt;source srcset=&#34;https://maxwelljensen.eu/profile_tux_hu_4ab274cd44a9e165.webp 1x, https://maxwelljensen.eu/profile_tux_hu_4ab274cd44a9e165.webp 2x&#34; type=&#34;image/webp&#34; /&gt;&#xA;              &lt;source srcset=&#34;https://maxwelljensen.eu/profile_tux.png 1x, https://maxwelljensen.eu/profile_tux.png 2x&#34; type=&#34;image/webp&#34;&gt;&#xA;              &lt;img&#xA;                width=&#34;790&#34;&#xA;                height=&#34;484&#34;&#xA;                class=&#34;lozad img-responsive image-left-overflow&#34;&#xA;                src=&#34;data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs=&#34;&#xA;                srcset=&#34;https://maxwelljensen.eu/profile_tux.png 1x, https://maxwelljensen.eu/profile_tux.png 2x&#34;&#xA;                data-src=&#34;https://maxwelljensen.eu/profile_tux.png&#34;&#xA;                data-srcset=&#34;https://maxwelljensen.eu/profile_tux.png 1x, https://maxwelljensen.eu/profile_tux.png 2x&#34;&#xA;                alt=&#39;&#39;&#xA;              /&gt;&#xA;            &lt;/picture&gt;&#xA;          &#xA;        &#xA;      &lt;/div&gt;&#xA;      &lt;div class=&#34;col-12 col-md-6 my-auto my-auto&#34;&gt;&#xA;        &lt;h2&gt;As a professional&lt;/h2&gt;&#xA;        &lt;div class=&#34;about-me content lead&#34;&gt;&#xA;          &lt;p class=&#39;lead&#39;&gt; Chiefly an IT specialist, with a background as a tutor at &lt;a href=&#39;https://noroff.no/&#39;&gt;Noroff vocational online school&lt;/a&gt;. &lt;/br&gt; My passions, however, are wide, and I find myself at home in many work environments. I love: &lt;ul&gt; &lt;li&gt;UNIX and Linux systems&lt;/li&gt; &lt;li&gt;System administration&lt;/li&gt; &lt;li&gt;Technical solutions and crafting&lt;/li&gt; &lt;/ul&gt; &lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
