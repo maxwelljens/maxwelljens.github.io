@@ -377,14 +377,13 @@ etc., depending on the theme's capabilities. More on project configuration
 
 Unless you are very unfamiliar with the CLI, in which case you may not be able
 to fully comprehend the above steps, you should have a fully functional website
-after following these steps. 
-
+after following these steps.
 
 [Hugo's
 documentation](https://gohugo.io/hosting-and-deployment/hosting-on-github/) has
 a page on how to host on GitHub Pages. It is entirely free of charge, but you
-might also consider [hosting fully
-independently](/docs/landchad/get_a_website/) like a landchad.
+might also consider [hosting fully independently](https://landchad.net/) like a
+landchad.
 
 ## Working with templates
 
