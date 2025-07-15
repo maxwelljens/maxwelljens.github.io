@@ -1,19 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Internet on </title>
-    <link>https://maxwelljensen.eu/tags/internet/</link>
-    <description>Recent content in Internet on </description>
-    <generator>Hugo</generator>
+    <title>Internet on Maxwell Jensen&#39;s Personal Website</title>
+    <link>https://maxwelljense.eu/tags/internet/</link>
+    <description>Recent content in Internet on Maxwell Jensen&#39;s Personal Website</description>
+    <image>
+      <title>Maxwell Jensen&#39;s Personal Website</title>
+      <url>https://maxwelljense.eu/images/papermod-cover.png</url>
+      <link>https://maxwelljense.eu/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.148.1</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 26 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://maxwelljensen.eu/tags/internet/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Maxwell Jensen</copyright>
+    <lastBuildDate>Thu, 06 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://maxwelljense.eu/tags/internet/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Internet Death</title>
-      <link>https://maxwelljensen.eu/blog/internet_death/</link>
-      <pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://maxwelljensen.eu/blog/internet_death/</guid>
-      <description>&lt;p&gt;The Internet is a mega entertainment complex built on top of a graveyard of&#xA;meaning. Only Silicon Valley-approved content, opinions, and mechanisms may be&#xA;used to do anything on the Internet. I talk a bit about how the Internet has&#xA;been slowly choked out and how it is now dead.&lt;/p&gt;&#xA;&lt;p&gt;I am not particularly old. BBS, Usenet, MUDs and other such 1990s constructs&#xA;were not part of my childhood, but I still got to explore some of the wild&#xA;Internet of the early 2000s. Practically speaking, it was like entering&#xA;international waters. Seemingly no rules applied, and no law held dominion.&#xA;This was the case for many years, far before the start of the 21st century,&#xA;although of course the Internet did not get substantially bigger until this&#xA;century.&lt;/p&gt;</description>
+      <title>AI on Fedora</title>
+      <link>https://maxwelljense.eu/posts/ai_on_fedora/</link>
+      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://maxwelljense.eu/posts/ai_on_fedora/</guid>
+      <description>This article goes through some technical details of getting certain Fedora-specific problems out of the way when setting up your AI on Fedora.</description>
+    </item>
+    <item>
+      <title>Creating a Website</title>
+      <link>https://maxwelljense.eu/posts/websites_for_beginners/</link>
+      <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://maxwelljense.eu/posts/websites_for_beginners/</guid>
+      <description> In this beginner&amp;#39;s guide, we will go through the simplest method of creating a statically generated website, which you can host anywhere easily, using Hugo.</description>
     </item>
   </channel>
 </rss>

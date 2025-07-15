@@ -1,6 +1,4 @@
-github.com/panr/hugo-theme-terminal/v4 v4.1.0 h1:1y9PqRTacLk1/qXGlO5KiyKQcRIIOJ20L9TGr8vw8pA=
-github.com/panr/hugo-theme-terminal/v4 v4.1.0/go.mod h1:W0sFodm5ipL5gjRqOFjg4zD+euoQ8hCtyDDtqSpihxM=
-github.com/zetxek/adritian-free-hugo-theme v1.5.13 h1:qyL2aZ1hU4nPyUa0b+XIx5n8acJQjKZH9jyokBUIEic=
-github.com/zetxek/adritian-free-hugo-theme v1.5.13/go.mod h1:RZxMuUPx+AJwqABiHDQWSVEskypgZCqZ0MwOgCvA6o0=
-github.com/zetxek/adritian-free-hugo-theme v1.7.0 h1:5aY8CB5NPtPnt1JVJYG9elCEpyESRw5wOqwnIldHfyE=
-github.com/zetxek/adritian-free-hugo-theme v1.7.0/go.mod h1:RZxMuUPx+AJwqABiHDQWSVEskypgZCqZ0MwOgCvA6o0=
+github.com/martignoni/hugo-notice v0.0.0-20250320135530-d7e24b0222d4 h1:rrCIACq6uJVIVqQNSBNukxW4KbH/Hv9VN3nfLbYwClI=
+github.com/martignoni/hugo-notice v0.0.0-20250320135530-d7e24b0222d4/go.mod h1:MIQPOMgEcbyRC0gNLzQFSgrS+wIy3RuQ/HbaZYtTOKU=
+github.com/rvanhorn/hugo-dynamic-tabs v0.0.0-20220116224547-38f93d6f4e5d h1:rWgTHrxC0hZq/gvJNEfC5CbnBz0CyiFSXBh1oTCwUNI=
+github.com/rvanhorn/hugo-dynamic-tabs v0.0.0-20220116224547-38f93d6f4e5d/go.mod h1:aAaIk1c3YJ8Is8cuXswMwXZYBiNS67hCptwTCvH1H0w=

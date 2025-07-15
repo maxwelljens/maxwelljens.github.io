@@ -1,8 +1,8 @@
-module maxwelljensen.eu
+module github.com/maxwelljens/maxwelljens.github.io
 
-go 1.23.6
+go 1.24.4
 
 require (
-	github.com/panr/hugo-theme-terminal/v4 v4.1.0 // indirect
-	github.com/zetxek/adritian-free-hugo-theme v1.7.0 // indirect
+	github.com/martignoni/hugo-notice v0.0.0-20250320135530-d7e24b0222d4 // indirect
+	github.com/rvanhorn/hugo-dynamic-tabs v0.0.0-20220116224547-38f93d6f4e5d // indirect
 )
