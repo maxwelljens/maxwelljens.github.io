@@ -347,7 +347,3 @@ and frustration to gather -- probably more. The worst part is that some of it
 is still a bit unsure. My hope is that this page can become a small repository
 of Fedora-specific knowledge that other Fedora users can use to help each
 other, since getting AI to work on Fedora can be quite frustrating.
-
-Leave a comment below, or place an issue / pull request [on
-GitHub](https://github.com/docs-mj/docs-mj.github.io), if you want to share
-something not covered here, or, better yet, correct discrepancies.
