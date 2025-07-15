@@ -1,4 +1,4 @@
-baseURL: https://maxwelljense.eu/
+baseURL: https://maxwelljensen.eu/
 title: Maxwell Jensen's Personal Website
 theme: [PaperMod]
 copyright: "© Maxwell Jensen"
@@ -42,7 +42,7 @@ languages:
     menu:
       main:
         - name: Posts
-          url: posts
+          url: /posts
           weight: 5
         - name: Search
           url: search/

@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Maxwell Jensen&#39;s Personal Website</title>
-    <link>https://maxwelljense.eu/tags/</link>
+    <link>https://maxwelljensen.eu/tags/</link>
     <description>Recent content in Tags on Maxwell Jensen&#39;s Personal Website</description>
     <image>
       <title>Maxwell Jensen&#39;s Personal Website</title>
-      <url>https://maxwelljense.eu/images/papermod-cover.png</url>
-      <link>https://maxwelljense.eu/images/papermod-cover.png</link>
+      <url>https://maxwelljensen.eu/images/papermod-cover.png</url>
+      <link>https://maxwelljensen.eu/images/papermod-cover.png</link>
     </image>
     <generator>Hugo -- 0.148.1</generator>
     <language>en</language>
     <copyright>Maxwell Jensen</copyright>
     <lastBuildDate>Thu, 06 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://maxwelljense.eu/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://maxwelljensen.eu/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Guide</title>
-      <link>https://maxwelljense.eu/tags/guide/</link>
+      <link>https://maxwelljensen.eu/tags/guide/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://maxwelljense.eu/tags/guide/</guid>
+      <guid>https://maxwelljensen.eu/tags/guide/</guid>
       <description></description>
     </item>
     <item>
       <title>Internet</title>
-      <link>https://maxwelljense.eu/tags/internet/</link>
+      <link>https://maxwelljensen.eu/tags/internet/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://maxwelljense.eu/tags/internet/</guid>
+      <guid>https://maxwelljensen.eu/tags/internet/</guid>
       <description></description>
     </item>
     <item>
       <title>Software</title>
-      <link>https://maxwelljense.eu/tags/software/</link>
+      <link>https://maxwelljensen.eu/tags/software/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://maxwelljense.eu/tags/software/</guid>
+      <guid>https://maxwelljensen.eu/tags/software/</guid>
       <description></description>
     </item>
   </channel>

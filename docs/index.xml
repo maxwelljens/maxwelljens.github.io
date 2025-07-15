@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Maxwell Jensen&#39;s Personal Website</title>
-    <link>https://maxwelljense.eu/</link>
+    <link>https://maxwelljensen.eu/</link>
     <description>Recent content on Maxwell Jensen&#39;s Personal Website</description>
     <image>
       <title>Maxwell Jensen&#39;s Personal Website</title>
-      <url>https://maxwelljense.eu/images/papermod-cover.png</url>
-      <link>https://maxwelljense.eu/images/papermod-cover.png</link>
+      <url>https://maxwelljensen.eu/images/papermod-cover.png</url>
+      <link>https://maxwelljensen.eu/images/papermod-cover.png</link>
     </image>
     <generator>Hugo -- 0.148.1</generator>
     <language>en</language>
     <copyright>Maxwell Jensen</copyright>
     <lastBuildDate>Thu, 06 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://maxwelljense.eu/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://maxwelljensen.eu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI on Fedora</title>
-      <link>https://maxwelljense.eu/posts/ai_on_fedora/</link>
+      <link>https://maxwelljensen.eu/posts/ai_on_fedora/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://maxwelljense.eu/posts/ai_on_fedora/</guid>
+      <guid>https://maxwelljensen.eu/posts/ai_on_fedora/</guid>
       <description>This article goes through some technical details of getting certain Fedora-specific problems out of the way when setting up your AI on Fedora.</description>
     </item>
     <item>
       <title>Creating a Website</title>
-      <link>https://maxwelljense.eu/posts/websites_for_beginners/</link>
+      <link>https://maxwelljensen.eu/posts/websites_for_beginners/</link>
       <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://maxwelljense.eu/posts/websites_for_beginners/</guid>
+      <guid>https://maxwelljensen.eu/posts/websites_for_beginners/</guid>
       <description> In this beginner&amp;#39;s guide, we will go through the simplest method of creating a statically generated website, which you can host anywhere easily, using Hugo.</description>
     </item>
     <item>
       <title>Licensing for Beginners</title>
-      <link>https://maxwelljense.eu/posts/licensing_for_beginners/</link>
+      <link>https://maxwelljensen.eu/posts/licensing_for_beginners/</link>
       <pubDate>Tue, 22 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://maxwelljense.eu/posts/licensing_for_beginners/</guid>
+      <guid>https://maxwelljensen.eu/posts/licensing_for_beginners/</guid>
       <description>Here&amp;#39;s how to correctly licence your software, and what licensing means to begin with.</description>
     </item>
   </channel>
