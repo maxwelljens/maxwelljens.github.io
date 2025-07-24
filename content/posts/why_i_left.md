@@ -53,8 +53,8 @@ don't know any better.
 Culturally and socially, Norway is not in such a dire state, but that doesn't
 mean there isn't room for improvement, or that Norwegians don't live in some
 kind of bubble. Ultimately, we all do. It's only a matter of extent. By no
-means do I consider myself some learned world traveler; I speak only three
-languages and have never traveled outside of Europe.
+means do I consider myself some learnt world traveler; I speak only three
+languages and have never travelled outside of Europe.
 
 There are many reasons why I decided to move to Poland. Not all of them are
 related to the cultural or political situation in Norway, but they are a big
@@ -226,7 +226,7 @@ be on a moving train. It’s another thing entirely to know where the train
 started and how fast it’s going.
 
 Norway’s train left the station of deep-rooted tradition long before I was
-born. It has been moving at full speed for 50 years, fueled by oil wealth and
+born. It has been moving at full speed for 50 years, fuelled by oil wealth and
 insulated from the shocks that force a society to remember what matters. The
 journey has been so smooth for so long that the destination -- a society of
 comfortable, risk-averse dependents -- is not just in sight, it's the next
@@ -263,7 +263,7 @@ There's a million and one more things that I could have written about here,
 such as:
 
 - [The continual demonisation of investors and entrepreneurs by the ruling
-polticians](https://www.finansavisen.no/politikk/2025/07/11/8278162/norske-eiere-rommer-fire-ar-med-brannsalg),
+politicians](https://www.finansavisen.no/politikk/2025/07/11/8278162/norske-eiere-rommer-fire-ar-med-brannsalg),
 for reasons that still remain entirely unknown.
 - [How the government doubled down on highest taxation in the world despite
 having a budget surplus equal to 14% of its
