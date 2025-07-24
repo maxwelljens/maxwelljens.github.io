@@ -12,8 +12,15 @@
     <generator>Hugo -- 0.148.1</generator>
     <language>en</language>
     <copyright>Maxwell Jensen</copyright>
-    <lastBuildDate>Thu, 06 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://maxwelljensen.eu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Life in Norway, and Why I Moved On</title>
+      <link>https://maxwelljensen.eu/posts/why_i_left/</link>
+      <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://maxwelljensen.eu/posts/why_i_left/</guid>
+      <description>I want to talk a bit about some important decisions I undertook recently in my life.</description>
+    </item>
     <item>
       <title>AI on Fedora</title>
       <link>https://maxwelljensen.eu/posts/ai_on_fedora/</link>
