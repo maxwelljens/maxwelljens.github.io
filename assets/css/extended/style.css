@@ -1,0 +1,38 @@
+/* Gruvbox Light Theme */
+:root {
+    --theme: #fbf1c7; /* bg0 */
+    --entry: #ebdbb2; /* bg1 */
+    --primary: #3c3836; /* fg1 */
+    --secondary: #7c6f64; /* gray */
+    --tertiary: rgba(60, 56, 54, 0.08); /* fg1 with low opacity */
+    --content: #282828; /* fg0 */
+    --hljs-bg: #ebdbb2; /* bg1 */
+    --code-bg: #d5c4a1; /* bg2 */
+    --border: #d5c4a1; /* bg2 */
+}
+
+/* Gruvbox Dark Theme */
+.dark {
+    --theme: #282828; /* bg0 */
+    --entry: #3c3836; /* bg1 */
+    --primary: #ebdbb2; /* fg0 */
+    --secondary: #a89984; /* gray */
+    --tertiary: rgba(235, 219, 178, 0.1); /* fg0 with low opacity */
+    --content: #d5c4a1; /* fg1 */
+    --hljs-bg: #1d2021; /* bg0_hard */
+    --code-bg: #504945; /* bg2 */
+    --border: #504945; /* bg2 */
+}
+
+/* Gruvbox Light Theme fixes with notices */
+.notice a {
+  color: #ebdbb2;
+}
+
+.notice code {
+  background: #282828;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
