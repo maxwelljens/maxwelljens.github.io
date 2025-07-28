@@ -3,6 +3,8 @@ title: "Licensing for Beginners"
 description: "Here's how to correctly licence your software, and what licensing means to begin with."
 date: "2022-03-22"
 tags: ["guide", "software"]
+cover:
+  image: /licensing_for_beginners/card.webp
 lastmod: "2025-02-02"
 ---
 

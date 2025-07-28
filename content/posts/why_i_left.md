@@ -1,7 +1,7 @@
 ---
 title: "My Life in Norway, and Why I Moved On"
 description: "I want to talk a bit about some important decisions I undertook recently in my life."
-tags: ["culture"]
+tags: ["economics", "culture", "politics", "norway", "poland"]
 cover:
   image: /why_i_moved_on/card.jpg
 date: 2025-07-24
