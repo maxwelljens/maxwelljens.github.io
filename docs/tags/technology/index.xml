@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Technology on Maxwell Jensen&#39;s Personal Website</title>
+    <link>https://maxwelljensen.eu/tags/technology/</link>
+    <description>Recent content in Technology on Maxwell Jensen&#39;s Personal Website</description>
+    <generator>Hugo -- 0.148.1</generator>
+    <language>en</language>
+    <copyright>Maxwell Jensen</copyright>
+    <lastBuildDate>Sun, 03 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://maxwelljensen.eu/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Debunking the Anti-AI Cult</title>
+      <link>https://maxwelljensen.eu/posts/debunking_anti_ai_cult/</link>
+      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://maxwelljensen.eu/posts/debunking_anti_ai_cult/</guid>
+      <description>Is AI the first stepping stone to an utopia, or the downfall of civilisation as we know it? There&amp;#39;s a lot to be said, but let&amp;#39;s address the doom and gloom.</description>
+    </item>
+  </channel>
+</rss>

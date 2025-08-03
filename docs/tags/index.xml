@@ -7,8 +7,22 @@
     <generator>Hugo -- 0.148.1</generator>
     <language>en</language>
     <copyright>Maxwell Jensen</copyright>
-    <lastBuildDate>Mon, 28 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://maxwelljensen.eu/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Internet</title>
+      <link>https://maxwelljensen.eu/tags/internet/</link>
+      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://maxwelljensen.eu/tags/internet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technology</title>
+      <link>https://maxwelljensen.eu/tags/technology/</link>
+      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://maxwelljensen.eu/tags/technology/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Economics</title>
       <link>https://maxwelljensen.eu/tags/economics/</link>
@@ -56,13 +70,6 @@
       <link>https://maxwelljensen.eu/tags/guide/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://maxwelljensen.eu/tags/guide/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Internet</title>
-      <link>https://maxwelljensen.eu/tags/internet/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://maxwelljensen.eu/tags/internet/</guid>
       <description></description>
     </item>
     <item>
