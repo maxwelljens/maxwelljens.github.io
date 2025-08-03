@@ -153,7 +153,7 @@ database is publicly available at a given URL. In other words: AI is not a
 substitute for skill and paying attention.
 
 Of course, there are some real serious benefits to AI technologies. The most
-notable example is that [AI deployed at UK's National Healthy Agency is better
+notable example is that [AI deployed at UK's National Health Agency is better
 at detecting cancer from body scans than its oncologists
 are](https://www.bbc.com/news/technology-68607059). An actual life-saving
 implementation! Indeed, there are many ways in which AI is generally
