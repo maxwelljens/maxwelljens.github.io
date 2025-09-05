@@ -198,7 +198,7 @@ are only a limited amount of ways of teaching mathematics in a way that imparts
 the needed mathematical skill.
 
 Mathematics, chemistry, physics: these domains demand a foundation of
-brute-force memorization and abstract logic. Few dispute this, but this is only
+brute-force memorisation and abstract logic. Few dispute this, but this is only
 a fraction of what a well-rounded school entails. What of history, of religion,
 of the arts? These are the realms of human drama, of epic struggle, of heroism
 and betrayal. Yet how are they presented? The thunder of legions and the
@@ -243,7 +243,7 @@ Norwegian.
 
 Meanwhile, in a prison, you actually have a lot in common with the other
 prisoners right out of the gate: you have sinned. Depending on the severity of
-your crime, there are no pretenses that someone is below you or above you, that
+your crime, there are no pretences that someone is below you or above you, that
 their family is different from yours, or that your mother tongue is not native.
 Of course, there is a large difference between most European prisons and what's
 essentially [a mass isolation chamber of El Salvador where most MS-13 gang
@@ -304,7 +304,7 @@ by a student in the middle of an ongoing lesson.
 the verge of mental collapse, the natural outlet was pornography, readily
 accessible through the Internet.
 
-![](/public_education_prison/head_vi.jpg)
+{{< figure src="/public_education_prison/head_vi.jpg" attr="Francis Bacon's 'Head VI.' An accurate depiction of what the 'social aspect' of school feels like." target="_blank" >}}
 
 In my mind, this is the actual social curriculum. It is a fifteen-year
 masterclass in navigating a world without honour, a practicum in mistrust, and
