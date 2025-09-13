@@ -2,19 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://maxwelljensen.eu/posts/age_of_weimarica/</loc>
+    <lastmod>2025-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maxwelljensen.eu/tags/christianity/</loc>
+    <lastmod>2025-09-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://maxwelljensen.eu/tags/culture/</loc>
-    <lastmod>2025-09-04T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/</loc>
-    <lastmod>2025-09-04T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maxwelljensen.eu/tags/politics/</loc>
+    <lastmod>2025-09-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/posts/</loc>
-    <lastmod>2025-09-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://maxwelljensen.eu/posts/public_education_prison/</loc>
-    <lastmod>2025-09-04T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/tags/</loc>
+    <lastmod>2025-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maxwelljensen.eu/posts/public_education_prison/</loc>
     <lastmod>2025-09-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/posts/debunking_anti_ai_cult/</loc>
@@ -36,9 +45,6 @@
     <lastmod>2025-07-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/posts/norway_vs_eu/</loc>
-    <lastmod>2025-07-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://maxwelljensen.eu/tags/politics/</loc>
     <lastmod>2025-07-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/posts/why_i_left/</loc>
