@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.148.1</generator>
     <language>en</language>
     <copyright>Maxwell Jensen</copyright>
-    <lastBuildDate>Thu, 06 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://maxwelljensen.eu/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Thoughts on Unreal Engine, Unity, and Godot</title>
+      <link>https://maxwelljensen.eu/posts/game_engine_thoughts/</link>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://maxwelljensen.eu/posts/game_engine_thoughts/</guid>
+      <description>As a Linux user, after having tried all the major game engines, I can give an honest review and overview. Here are my thoughts.</description>
+    </item>
     <item>
       <title>AI on Fedora</title>
       <link>https://maxwelljensen.eu/posts/ai_on_fedora/</link>
