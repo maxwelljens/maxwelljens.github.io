@@ -113,8 +113,8 @@ AAA industry, and ignoring it would make any comparative review incomplete.
 To Epic Games' credit, the initial hook for a Linux user is surprisingly
 frictionless. Discovering that getting UE5 running on Linux is practically a
 one-click affair was enough to entice me into giving it a fair shot.
-Furthermore, the licensing model—free access up to a million dollars in gross
-revenue—is an objectively good deal. I might advocate for software freedom, but
+Furthermore, the licensing model, free access up to a million dollars in gross
+revenue, is an objectively good deal. I might advocate for software freedom, but
 I am also a pragmatist capable of recognising a compelling business
 proposition. But once you look past the initial "wow" factor, the reality of
 working within Epic's ecosystem reveals a deeply flawed architecture that
@@ -125,7 +125,7 @@ actively fights against clean software engineering and platform independence.
 There is no denying that Unreal Engine 5 offers a staggering breadth of
 features straight out of the box. If your goal is to achieve cinematic fidelity
 in record time, UE5 is unparalleled. During my evaluation, I grabbed a free
-limited-time asset—the [Brushify Desert Mountains
+limited-time asset, the [Brushify Desert Mountains
 Pack](https://www.fab.com/listings/ae80aa4f-7f9f-4140-8afb-8f91f4ac41fa), which
 normally runs for 1,000 USD under a pro licence. Within an afternoon, I had
 dragged and dropped my way into a sprawling, photorealistic landscape that
@@ -369,7 +369,7 @@ forums probably knows, but to an outsider it is a mystery.
 ### The Multiplayer Miracle: Mirror
 
 While Unity's built-in toolset can feel spartan, its component-based
-architecture allows for third-party frameworks to integrate seamlessly—and
+architecture allows for third-party frameworks to integrate seamlessly, and
 nowhere is this more apparent than in networking.
 
 Networking is notoriously the domain of dedicated engineers who spend years
@@ -404,7 +404,7 @@ to ignore the faint rattle because the alternative is walking.
 
 Because I use a Wayland-based desktop environment (Niri), the interface
 constantly fought me. Dropdown menus render in the wrong place. Context menus
-flash and disappear. There is zero UI scaling on Linux—everything is either
+flash and disappear. There is zero UI scaling on Linux: everything is either
 microscopic, or, if you force `GDK_SCALE=2`, comically massive. But the most
 infuriating bug was that certain dropdowns simply could not be clicked. Adding
 collision layers, a fundamental task for any game, was impossible through the
