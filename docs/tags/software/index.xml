@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.148.1</generator>
     <language>en</language>
     <copyright>Maxwell Jensen</copyright>
-    <lastBuildDate>Thu, 19 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://maxwelljensen.eu/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GDScript Enums: The Backbone of Clean Architecture</title>
+      <link>https://maxwelljensen.eu/posts/gdscript_enums/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://maxwelljensen.eu/posts/gdscript_enums/</guid>
+      <description>Simple introduction for novices: why enumerations in GDScript are the ultimate antidote to spaghetti code and magic numbers in game development.</description>
+    </item>
     <item>
       <title>My Thoughts on Unreal Engine, Unity, and Godot</title>
       <link>https://maxwelljensen.eu/posts/game_engine_thoughts/</link>

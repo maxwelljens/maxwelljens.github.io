@@ -7,19 +7,26 @@
     <generator>Hugo -- 0.148.1</generator>
     <language>en</language>
     <copyright>Maxwell Jensen</copyright>
-    <lastBuildDate>Thu, 19 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://maxwelljensen.eu/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gamedev</title>
       <link>https://maxwelljensen.eu/tags/gamedev/</link>
-      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
       <guid>https://maxwelljensen.eu/tags/gamedev/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Godot</title>
+      <link>https://maxwelljensen.eu/tags/godot/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://maxwelljensen.eu/tags/godot/</guid>
       <description></description>
     </item>
     <item>
       <title>Software</title>
       <link>https://maxwelljensen.eu/tags/software/</link>
-      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
       <guid>https://maxwelljensen.eu/tags/software/</guid>
       <description></description>
     </item>

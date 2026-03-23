@@ -1,7 +1,7 @@
 ---
 title: "My Thoughts on Unreal Engine, Unity, and Godot"
 description: "As a Linux user, after having tried all the major game engines, I can give an honest review and overview. Here are my thoughts."
-tags: ["software", "gamedev"]
+tags: ["software", "gamedev", "godot"]
 cover:
  image: /game_engine_thoughts/card.png
 date: 2026-03-19
