@@ -412,7 +412,7 @@ Ultimately, using enums in these ways represents a philosophical shift. You
 stop treating GDScript like a loose scripting language and start treating it
 like a strict systems language. You force the computer to do the tedious work
 of remembering what numbers mean, freeing up your mental bandwidth to actually
-engineer project, confidently and without hassle.
+engineer your project -- confidently and without hassle.
 
 ## Final Thoughts
 
