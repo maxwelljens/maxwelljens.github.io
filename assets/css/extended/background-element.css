@@ -1,0 +1,38 @@
+.bg-element {
+  /* Position it fixed so it stays in the corner even when scrolling */
+  position: fixed;
+  top: 50px;
+  /* Distance from the top border */
+  right: 50px;
+  /* Distance from the right border */
+
+  background-image: url(/mandylion.png);
+  background-repeat: no-repeat;
+  background-size: 400px;
+
+  /* Size of your background element */
+  width: 400px;
+  height: 400px;
+
+  /* Styling: Using theme variables and opacity so it looks good in light & dark mode */
+  /* background-color: var(--primary); */
+  opacity: 0.05;
+  /* Makes it translucent */
+  border-radius: 50%;
+  /* Gives it rounded corners. Change to 50% for a perfect circle */
+
+  /* IMPORTANT: Push it behind content and prevent it from blocking clicks */
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* Optional: Hide or shrink the element on smaller mobile screens to prevent crowding */
+@media (max-width: 768px) {
+  .bg-element {
+    background-size: 150px;
+    top: 20px;
+    right: 20px;
+    width: 150px;
+    height: 150px;
+  }
+}

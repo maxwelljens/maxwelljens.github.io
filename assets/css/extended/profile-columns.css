@@ -1,0 +1,37 @@
+.profile-columns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* Allows the columns to stack on small mobile screens */
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  /* Adjust this to change the space between columns */
+  width: 100%;
+  max-width: 1000px;
+  /* Maximum width of the two columns combined */
+  margin: 0 auto;
+}
+
+.profile-columns .profile_inner {
+  flex: 1 1 0;
+  /* Ensures both columns take up equal space */
+  min-width: 300px;
+  /* Forces columns to stack on screens narrower than this */
+  width: 100%;
+}
+
+.profile img.secondary-image {
+  border-radius: 8px;
+  /* Changes it from a circle to slightly rounded corners. Change to 0 for sharp corners */
+  height: auto;
+  /* Ensures the height perfectly scales with the width */
+  object-fit: cover;
+  /* Failsafe to prevent stretching */
+  margin-bottom: 1rem;
+  max-width: 100%;
+}
+
+.profile .secondary-text {
+  margin-top: 10px;
+}

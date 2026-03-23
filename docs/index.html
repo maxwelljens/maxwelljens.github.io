@@ -11,7 +11,7 @@
 <meta name="description" content="My website">
 <meta name="author" content="Maxwell Jensen">
 <link rel="canonical" href="https://maxwelljensen.eu/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.e951e1999d2be451160f4126c9264157ebaa68ca5d771dae4c600ebbbc8e4cbb.css" integrity="sha256-6VHhmZ0r5FEWD0EmySZBV&#43;uqaMpddx2uTGAOu7yOTLs=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.1ab0c60699aa28db2ef5b06bede9e2ece35b1cb8e22e2199133da1b1921af51d.css" integrity="sha256-GrDGBpmqKNsu9bBr7eni7ONbHLjiLiGZEz2hsZIa9R0=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://maxwelljensen.eu/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://maxwelljensen.eu/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://maxwelljensen.eu/favicon-32x32.png">
@@ -145,11 +145,14 @@
     </nav>
 </header>
 <main class="main"><div class="profile">
-    <div class="profile_inner">
-        <img draggable="false" src="https://maxwelljensen.eu/me.jpg" alt="Portrait" title="Portrait"
-            height="150" width="150" />
-        <h1>Maxwell Jensen</h1>
-        <span></span><div class="social-icons" >
+    <div class="profile-columns">
+        
+        
+        <div class="profile_inner">
+            <img draggable="false" src="https://maxwelljensen.eu/me.jpg" alt="Portrait" title="Portrait"
+                height="150" width="150" />
+            <h1>Maxwell Jensen</h1>
+            <span></span><div class="social-icons" >
     <a href="https://www.linkedin.com/in/maxwelljensen/" target="_blank" rel="noopener noreferrer me"
         title="LinkedIn Page">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -176,18 +179,27 @@
     </a>
 </div>
 
-        <div class="buttons">
-            <a class="button" href="posts" rel="noopener" title="Posts">
-                <span class="button-inner">
-                    Posts
-                </span>
-            </a>
-            <a class="button" href="tags" rel="noopener" title="Tags">
-                <span class="button-inner">
-                    Tags
-                </span>
-            </a>
+            <div class="buttons">
+                <a class="button" href="posts" rel="noopener" title="Posts">
+                    <span class="button-inner">
+                        Posts
+                    </span>
+                </a>
+                <a class="button" href="tags" rel="noopener" title="Tags">
+                    <span class="button-inner">
+                        Tags
+                    </span>
+                </a>
+            </div>
         </div>
+
+        
+        <div class="profile_inner">
+            <img class="secondary-image" draggable="false" src="https://maxwelljensen.eu/st_tsar_nicholas_ii_icon.jpg" alt="Orthodox icon of St. Tsar Nicholas II of the Romanov Dynasty" title="Orthodox icon of St. Tsar Nicholas II of the Romanov Dynasty"
+                width="350" />
+            <span class="secondary-text"><strong>St. Tsar Nicholas II Romanov</strong><br>My patron saint.</span>
+        </div>
+
     </div>
 </div>
 
@@ -207,6 +219,8 @@
         <path d="M12 6H0l6-6z" />
     </svg>
 </a>
+<div class="bg-element"></div>
+
 
 <script>
     let menu = document.getElementById('menu')

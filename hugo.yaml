@@ -84,6 +84,10 @@ params:
         url: posts
       - name: Tags
         url: tags
+    secondImageUrl: "st_tsar_nicholas_ii_icon.jpg" # Place inside 'assets/' folder
+    secondImageTitle: "Orthodox icon of St. Tsar Nicholas II of the Romanov Dynasty"
+    secondImageWidth: 350
+    secondText: "**St. Tsar Nicholas II Romanov**<br>My patron saint."
 
   homeInfoParams:
     Title: "PaperMod's Demo"
