@@ -226,16 +226,17 @@ underlying code.
 
 ## Bitmasking and the Elegance of Binary Math
 
-Standard enums represent mutually exclusive states—an enemy is either `IDLE` or
-`ATTACKING`, but rarely both. However, game logic often requires entities to
-hold multiple overlapping states simultaneously. For example, a player might be
-poisoned, slowed, and bleeding all at once. 
+Standard enums represent mutually exclusive states: an enemy is either
+`IDLE` or `ATTACKING`, but rarely both. However, game logic often
+requires entities to hold multiple overlapping states simultaneously.
+For example, a player might be poisoned, slowed, and bleeding all at
+once.
 
 Novice developers will typically solve this by writing a sprawling list of
 boolean variables (`is_poisoned = true`, `is_bleeding = false`, etc.). There is
 nothing inherently wrong with this approach. Only when there are many states,
 it can bloat the script and you risk running into a state-checking nightmare of
-`if/else` chains. 
+`if/else` chains.
 
 The pragmatic, systems-level approach is to use enums as bit flags. By
 assigning each enum value to a power of two using the bitwise left-shift
