@@ -1,0 +1,130 @@
+/* Default: Inline TOC styling for mobile/tablets */
+.floating-toc {
+  margin: 0 0 40px 0;
+  border: 1px solid var(--border);
+  background: var(--code-bg);
+  border-radius: var(--radius);
+  padding: 0.8em;
+}
+
+.floating-toc summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.floating-toc .inner {
+  margin-top: 10px;
+}
+
+.floating-toc a {
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+/* Active TOC link class (applied by JS) */
+.floating-toc a.active-toc-link {
+  color: var(--primary);
+  font-weight: bold;
+  transition: all 0.2s;
+}
+
+/* Desktop: Floating / Sticky */
+@media screen and (min-width: 1300px) {
+  .floating-toc {
+    position: fixed;
+    top: 120px;
+    /* Aligns TOC nicely to the right of the main article content */
+    left: calc(50% + (var(--main-width) / 2) + 40px);
+    width: 250px;
+    max-height: calc(100vh - 140px);
+    overflow-y: auto;
+    border: none;
+    background: transparent;
+    padding: 0;
+  }
+
+  /* Hide the dropdown arrow and force it to act like a static box on desktop */
+  .floating-toc summary {
+    pointer-events: none;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .floating-toc summary::-webkit-details-marker {
+    display: none;
+  }
+}
+
+/* ------------------------------------------------ */
+/* Clean up Hugo's default TOC list styles (Mobile & Desktop) */
+/* ------------------------------------------------ */
+
+.floating-toc #TableOfContents ul {
+  list-style: none;
+  /* Removes the bullet points */
+  padding-inline-start: 0;
+  /* Removes the default left padding */
+  margin: 0;
+}
+
+.floating-toc #TableOfContents>ul {
+  margin-top: 10px;
+  /* Spacing at the very top of the TOC */
+}
+
+.floating-toc #TableOfContents li {
+  margin: 8px 0;
+  /* Space between individual items */
+  line-height: 1.4;
+}
+
+.floating-toc #TableOfContents a {
+  display: block;
+  /* Makes the whole line clickable */
+  color: var(--secondary);
+  text-decoration: none;
+  transition: color 0.2s, font-weight 0.2s;
+}
+
+.floating-toc #TableOfContents a:hover {
+  color: var(--primary);
+  /* Highlights on hover */
+}
+
+/* ------------------------------------------------ */
+/* Depth, Indentation, and Font Scaling for Nested Headers */
+/* ------------------------------------------------ */
+
+/* First nested level (e.g., H3 headers) */
+.floating-toc #TableOfContents ul li {
+  padding-inline-start: 18px;
+  /* Indent the nested items */
+  margin: 6px 0;
+}
+
+.floating-toc #TableOfContents ul li a {
+  font-size: 0.92em;
+  /* Make text slightly smaller */
+  opacity: 0.9;
+  /* Make text slightly softer to establish hierarchy */
+}
+
+.floating-toc #TableOfContents ul li ul a {
+  font-size: 0.85em;
+  /* Make text even smaller */
+  opacity: 0.75;
+  /* Push further into the background */
+}
+
+/* ------------------------------------------------ */
+/* Active Scroll-Spy State */
+/* ------------------------------------------------ */
+
+.floating-toc #TableOfContents a.active-toc-link {
+  color: var(--primary);
+  font-weight: 700;
+  opacity: 1;
+  /* Ensure active links are fully visible even if nested */
+}

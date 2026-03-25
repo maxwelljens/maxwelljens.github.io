@@ -1,27 +1,45 @@
 /* Gruvbox Light Theme */
 :root {
-    --theme: #fbf1c7; /* bg0 */
-    --entry: #ebdbb2; /* bg1 */
-    --primary: #3c3836; /* fg1 */
-    --secondary: #7c6f64; /* gray */
-    --tertiary: rgba(60, 56, 54, 0.08); /* fg1 with low opacity */
-    --content: #282828; /* fg0 */
-    --hljs-bg: #ebdbb2; /* bg1 */
-    --code-bg: #d5c4a1; /* bg2 */
-    --border: #d5c4a1; /* bg2 */
+  --theme: #fbf1c7;
+  /* bg0 */
+  --entry: #ebdbb2;
+  /* bg1 */
+  --primary: #3c3836;
+  /* fg1 */
+  --secondary: #7c6f64;
+  /* gray */
+  --tertiary: rgba(60, 56, 54, 0.08);
+  /* fg1 with low opacity */
+  --content: #282828;
+  /* fg0 */
+  --hljs-bg: #ebdbb2;
+  /* bg1 */
+  --code-bg: #d5c4a1;
+  /* bg2 */
+  --border: #d5c4a1;
+  /* bg2 */
 }
 
 /* Gruvbox Dark Theme */
 .dark {
-    --theme: #282828; /* bg0 */
-    --entry: #3c3836; /* bg1 */
-    --primary: #ebdbb2; /* fg0 */
-    --secondary: #a89984; /* gray */
-    --tertiary: rgba(235, 219, 178, 0.1); /* fg0 with low opacity */
-    --content: #d5c4a1; /* fg1 */
-    --hljs-bg: #1d2021; /* bg0_hard */
-    --code-bg: #504945; /* bg2 */
-    --border: #504945; /* bg2 */
+  --theme: #282828;
+  /* bg0 */
+  --entry: #3c3836;
+  /* bg1 */
+  --primary: #ebdbb2;
+  /* fg0 */
+  --secondary: #a89984;
+  /* gray */
+  --tertiary: rgba(235, 219, 178, 0.1);
+  /* fg0 with low opacity */
+  --content: #d5c4a1;
+  /* fg1 */
+  --hljs-bg: #1d2021;
+  /* bg0_hard */
+  --code-bg: #504945;
+  /* bg2 */
+  --border: #504945;
+  /* bg2 */
 }
 
 /* Gruvbox Light Theme fixes with notices */
@@ -35,4 +53,39 @@
 
 body {
   font-family: "Work Sans", sans-serif;
+}
+
+/* Apply Grenze Gotisch to Titles, H1, and H2 */
+h1,
+h2,
+.post-title,
+.page-header h1,
+.post-content h1,
+.post-content h2 {
+  line-height: 1.0;
+  font-family: "Grenze Gotisch", serif;
+  font-size: 56px;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  text-shadow: 2px 2px var(--tertiary);
+}
+
+.post-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.post-content h2 {
+  font-size: 48px;
+  margin-top: 40px;
+  border-bottom: 1px solid var(--border);
+  /* Adds a subtle line under H2s for extra clarity */
+  padding-bottom: 8px;
+}
+
+.entry-header h2 {
+  line-height: 1.0;
+  font-size: 48px;
+  text-shadow: 2px 2px var(--tertiary);
 }

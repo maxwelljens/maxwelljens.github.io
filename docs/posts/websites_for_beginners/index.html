@@ -10,7 +10,7 @@
 <meta name="description" content=" In this beginner&#39;s guide, we will go through the simplest method of creating a statically generated website, which you can host anywhere easily, using Hugo.">
 <meta name="author" content="Maxwell Jensen">
 <link rel="canonical" href="https://maxwelljensen.eu/posts/websites_for_beginners/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.1ab0c60699aa28db2ef5b06bede9e2ece35b1cb8e22e2199133da1b1921af51d.css" integrity="sha256-GrDGBpmqKNsu9bBr7eni7ONbHLjiLiGZEz2hsZIa9R0=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.8d6fc37e3dd4e2cf179a4ffc5341b19f1a264d98e79cf34e32ca4b68e5de1833.css" integrity="sha256-jW/Dfj3U4s8Xmk/8U0GxnxomTZjnnPNOMspLaOXeGDM=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://maxwelljensen.eu/favicon/favicon.svg">
 <link rel="icon" type="image/png" sizes="16x16" href="https://maxwelljensen.eu/favicon/favicon16x16">
 <link rel="icon" type="image/png" sizes="32x32" href="https://maxwelljensen.eu/favicon/favicon32x32">
@@ -58,6 +58,7 @@
 </noscript><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&display=swap" rel="stylesheet">
 <meta property="og:url" content="https://maxwelljensen.eu/posts/websites_for_beginners/">
   <meta property="og:site_name" content="Maxwell Jensen&#39;s Personal Website">
   <meta property="og:title" content="Creating a Website">
@@ -208,79 +209,49 @@
 <figure class="entry-cover">
         <img loading="eager" src="https://maxwelljensen.eu/creating_a_website/card.webp" alt="">
         
-</figure><div class="toc">
-    <details >
-        <summary accesskey="c" title="(Alt + C)">
-            <span class="details">Table of Contents</span>
-        </summary>
-
-        <div class="inner"><ul><ul>
-                <li>
-                    <a href="#why-a-static-site-over-something-like-wordpress" aria-label="Why a static site over something like WordPress?">Why a static site over something like WordPress?</a></li>
-                <li>
-                    <a href="#how-do-you-have-a-search-bar" aria-label="How do you have a search bar?">How do you have a search bar?</a></li></ul>
-                    
-                <li>
-                    <a href="#nature-of-this-guide" aria-label="Nature of this guide">Nature of this guide</a></li>
-                <li>
-                    <a href="#introduction-to-hugo" aria-label="Introduction to Hugo">Introduction to Hugo</a></li>
-                <li>
-                    <a href="#setting-up-hugo" aria-label="Setting up Hugo">Setting up Hugo</a><ul>
-                        <ul>
-                        
-                <li>
-                    <a href="#for-windows-users" aria-label="For Windows users:">For Windows users:</a></li>
-                <li>
-                    <a href="#for-macos-users-with-homebrew-installed" aria-label="For macOS users with Homebrew installed:">For macOS users with Homebrew installed:</a></li>
-                <li>
-                    <a href="#for-ubuntudebian-users" aria-label="For Ubuntu/Debian users:">For Ubuntu/Debian users:</a></li>
-                <li>
-                    <a href="#for-fedora-users" aria-label="For Fedora users:">For Fedora users:</a></li></ul>
-                    
-                <li>
-                    <a href="#fundamentals-of-hugo" aria-label="Fundamentals of Hugo">Fundamentals of Hugo</a></li>
-                <li>
-                    <a href="#edit-content" aria-label="Edit content">Edit content</a></li>
-                <li>
-                    <a href="#compile-website" aria-label="Compile website">Compile website</a></li>
-                <li>
-                    <a href="#deploy-website" aria-label="Deploy website">Deploy website</a></li></ul>
-                </li>
-                <li>
-                    <a href="#understanding-the-directory-structure" aria-label="Understanding the directory structure">Understanding the directory structure</a></li>
-                <li>
-                    <a href="#creating-your-first-website" aria-label="Creating your first website">Creating your first website</a><ul>
-                        
-                <li>
-                    <a href="#initialise-a-new-hugo-project" aria-label="Initialise a new Hugo project">Initialise a new Hugo project</a></li>
-                <li>
-                    <a href="#add-content" aria-label="Add content">Add content</a></li>
-                <li>
-                    <a href="#select-and-install-a-theme" aria-label="Select and install a theme">Select and install a theme</a></li>
-                <li>
-                    <a href="#build-and-serve-the-site" aria-label="Build and serve the site">Build and serve the site</a></li>
-                <li>
-                    <a href="#customise-your-site" aria-label="Customise your site">Customise your site</a><ul>
-                        
-                <li>
-                    <a href="#yaml" aria-label="YAML">YAML</a></li>
-                <li>
-                    <a href="#toml" aria-label="TOML">TOML</a></li></ul>
-                </li></ul>
-                </li>
-                <li>
-                    <a href="#working-with-templates" aria-label="Working with templates">Working with templates</a><ul>
-                        
-                <li>
-                    <a href="#adding-custom-cssjavascript" aria-label="Adding Custom CSS/JavaScript">Adding Custom CSS/JavaScript</a>
-                </li>
-            </ul>
-            </li>
-            </ul>
-        </div>
-    </details>
-</div>
-
+</figure><details class="floating-toc" open>
+    <summary accesskey="c" title="(Alt + C)">
+        <span class="details">Table of Contents</span>
+    </summary>
+    <div class="inner">
+        <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#why-a-static-site-over-something-like-wordpress">Why a static site over something like WordPress?</a></li>
+        <li><a href="#how-do-you-have-a-search-bar">How do you have a search bar?</a></li>
+      </ul>
+    </li>
+    <li><a href="#nature-of-this-guide">Nature of this guide</a></li>
+    <li><a href="#introduction-to-hugo">Introduction to Hugo</a></li>
+    <li><a href="#setting-up-hugo">Setting up Hugo</a>
+      <ul>
+        <li></li>
+        <li><a href="#fundamentals-of-hugo">Fundamentals of Hugo</a></li>
+        <li><a href="#edit-content">Edit content</a></li>
+        <li><a href="#compile-website">Compile website</a></li>
+        <li><a href="#deploy-website">Deploy website</a></li>
+      </ul>
+    </li>
+    <li><a href="#understanding-the-directory-structure">Understanding the directory structure</a></li>
+    <li><a href="#creating-your-first-website">Creating your first website</a>
+      <ul>
+        <li><a href="#initialise-a-new-hugo-project">Initialise a new Hugo project</a></li>
+        <li><a href="#add-content">Add content</a></li>
+        <li><a href="#select-and-install-a-theme">Select and install a theme</a></li>
+        <li><a href="#build-and-serve-the-site">Build and serve the site</a></li>
+        <li><a href="#customise-your-site">Customise your site</a></li>
+      </ul>
+    </li>
+    <li><a href="#working-with-templates">Working with templates</a>
+      <ul>
+        <li><a href="#adding-custom-cssjavascript">Adding Custom CSS/JavaScript</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+</details>
   <div class="post-content"><p>Dynamic websites are websites that generate content on-the-fly, tailored to
 each user&rsquo;s request. Unlike static websites, which serve the same page every
 time someone visits, dynamic sites pull data from a database or other sources
@@ -826,6 +797,73 @@ directory or within your project&rsquo;s <code>assets</code> folder. For example
     </svg>
 </a>
 <div class="bg-element"></div>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const toc = document.querySelector(".floating-toc");
+  if (!toc) return;
+
+  const tocLinks = toc.querySelectorAll('a[href^="#"]');
+  if (tocLinks.length === 0) return;
+
+  const headingIds = Array.from(tocLinks).map((link) => link.getAttribute("href").substring(1));
+  const headings = headingIds.map((id) => document.getElementById(decodeURIComponent(id))).filter(Boolean);
+  if (headings.length === 0) return;
+
+  let currentActiveLink = null;
+  let isHashNavigation = false;
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      if (isHashNavigation) return;
+
+      const visibleHeadings = entries.filter((entry) => entry.isIntersecting).map((entry) => entry.target);
+      if (visibleHeadings.length === 0) return;
+
+      const topMostHeading = visibleHeadings.reduce((closest, heading) => {
+        const headingTop = heading.getBoundingClientRect().top;
+        const closestTop = closest.getBoundingClientRect().top;
+        return Math.abs(headingTop) < Math.abs(closestTop) ? heading : closest;
+      });
+
+      const targetId = encodeURIComponent(topMostHeading.id).toLowerCase();
+      const targetLink = toc.querySelector(`a[href="#${targetId}"]`);
+
+      if (targetLink && targetLink !== currentActiveLink) {
+        if (currentActiveLink) {
+          currentActiveLink.classList.remove("active-toc-link");
+        }
+        targetLink.classList.add("active-toc-link");
+        currentActiveLink = targetLink;
+      }
+    },
+    {
+      rootMargin: "-20px 0px -60% 0px", 
+      threshold:[0, 0.1, 0.5, 1],
+    }
+  );
+
+  headings.forEach((heading) => observer.observe(heading));
+
+  function handleHashNavigation() {
+    const hash = window.location.hash; 
+    if (hash) {
+      const targetLink = toc.querySelector(`a[href="${hash}"]`);
+      if (targetLink) {
+        isHashNavigation = true;
+        if (currentActiveLink) {
+          currentActiveLink.classList.remove("active-toc-link");
+        }
+        targetLink.classList.add("active-toc-link");
+        currentActiveLink = targetLink;
+        setTimeout(() => { isHashNavigation = false; }, 500);
+      }
+    }
+  }
+
+  window.addEventListener("hashchange", handleHashNavigation);
+  setTimeout(handleHashNavigation, 100);
+});
+</script>
 
 
 <script>

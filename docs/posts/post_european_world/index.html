@@ -10,7 +10,7 @@
 <meta name="description" content="With the suicide of western powers, doubling down on chasing civilisational dead-ends, is it time to call it game?">
 <meta name="author" content="Maxwell Jensen">
 <link rel="canonical" href="https://maxwelljensen.eu/posts/post_european_world/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.1ab0c60699aa28db2ef5b06bede9e2ece35b1cb8e22e2199133da1b1921af51d.css" integrity="sha256-GrDGBpmqKNsu9bBr7eni7ONbHLjiLiGZEz2hsZIa9R0=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.8d6fc37e3dd4e2cf179a4ffc5341b19f1a264d98e79cf34e32ca4b68e5de1833.css" integrity="sha256-jW/Dfj3U4s8Xmk/8U0GxnxomTZjnnPNOMspLaOXeGDM=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://maxwelljensen.eu/favicon/favicon.svg">
 <link rel="icon" type="image/png" sizes="16x16" href="https://maxwelljensen.eu/favicon/favicon16x16">
 <link rel="icon" type="image/png" sizes="32x32" href="https://maxwelljensen.eu/favicon/favicon32x32">
@@ -58,6 +58,7 @@
 </noscript><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&display=swap" rel="stylesheet">
 <meta property="og:url" content="https://maxwelljensen.eu/posts/post_european_world/">
   <meta property="og:site_name" content="Maxwell Jensen&#39;s Personal Website">
   <meta property="og:title" content="Are We Entering a Post-European World?">
@@ -207,27 +208,21 @@
 <figure class="entry-cover">
         <img loading="eager" src="https://maxwelljensen.eu/post_european_world/card.jpg" alt="">
         
-</figure><div class="toc">
-    <details >
-        <summary accesskey="c" title="(Alt + C)">
-            <span class="details">Table of Contents</span>
-        </summary>
-
-        <div class="inner"><ul>
-                <li>
-                    <a href="#the-anatomy-of-the-collapse" aria-label="The anatomy of the collapse">The anatomy of the collapse</a></li>
-                <li>
-                    <a href="#accidentally-resurrecting-the-sino-russian-alliance" aria-label="Accidentally resurrecting the Sino-Russian alliance">Accidentally resurrecting the Sino-Russian alliance</a></li>
-                <li>
-                    <a href="#the-us-is-tired-the-dragon-rises" aria-label="The US is tired, the dragon rises">The US is tired, the dragon rises</a></li>
-                <li>
-                    <a href="#the-sun-sets-in-the-west-but-rises-in-the-east" aria-label="The sun sets in the West, but rises in the East">The sun sets in the West, but rises in the East</a>
-                </li>
-            </ul>
-        </div>
-    </details>
-</div>
-
+</figure><details class="floating-toc" open>
+    <summary accesskey="c" title="(Alt + C)">
+        <span class="details">Table of Contents</span>
+    </summary>
+    <div class="inner">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#the-anatomy-of-the-collapse">The anatomy of the collapse</a></li>
+    <li><a href="#accidentally-resurrecting-the-sino-russian-alliance">Accidentally resurrecting the Sino-Russian alliance</a></li>
+    <li><a href="#the-us-is-tired-the-dragon-rises">The US is tired, the dragon rises</a></li>
+    <li><a href="#the-sun-sets-in-the-west-but-rises-in-the-east">The sun sets in the West, but rises in the East</a></li>
+  </ul>
+</nav>
+    </div>
+</details>
   <div class="post-content"><p>I am a proud European, but, a lot more than that, I am also a citizen of the
 Republic of Poland. Watching what is happening west of us is difficult to put
 into words. When watching nations, that were formerly the greatest empires to
@@ -553,6 +548,73 @@ three centuries, the pieces are ours to move. What a time to live in.</p>
     </svg>
 </a>
 <div class="bg-element"></div>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const toc = document.querySelector(".floating-toc");
+  if (!toc) return;
+
+  const tocLinks = toc.querySelectorAll('a[href^="#"]');
+  if (tocLinks.length === 0) return;
+
+  const headingIds = Array.from(tocLinks).map((link) => link.getAttribute("href").substring(1));
+  const headings = headingIds.map((id) => document.getElementById(decodeURIComponent(id))).filter(Boolean);
+  if (headings.length === 0) return;
+
+  let currentActiveLink = null;
+  let isHashNavigation = false;
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      if (isHashNavigation) return;
+
+      const visibleHeadings = entries.filter((entry) => entry.isIntersecting).map((entry) => entry.target);
+      if (visibleHeadings.length === 0) return;
+
+      const topMostHeading = visibleHeadings.reduce((closest, heading) => {
+        const headingTop = heading.getBoundingClientRect().top;
+        const closestTop = closest.getBoundingClientRect().top;
+        return Math.abs(headingTop) < Math.abs(closestTop) ? heading : closest;
+      });
+
+      const targetId = encodeURIComponent(topMostHeading.id).toLowerCase();
+      const targetLink = toc.querySelector(`a[href="#${targetId}"]`);
+
+      if (targetLink && targetLink !== currentActiveLink) {
+        if (currentActiveLink) {
+          currentActiveLink.classList.remove("active-toc-link");
+        }
+        targetLink.classList.add("active-toc-link");
+        currentActiveLink = targetLink;
+      }
+    },
+    {
+      rootMargin: "-20px 0px -60% 0px", 
+      threshold:[0, 0.1, 0.5, 1],
+    }
+  );
+
+  headings.forEach((heading) => observer.observe(heading));
+
+  function handleHashNavigation() {
+    const hash = window.location.hash; 
+    if (hash) {
+      const targetLink = toc.querySelector(`a[href="${hash}"]`);
+      if (targetLink) {
+        isHashNavigation = true;
+        if (currentActiveLink) {
+          currentActiveLink.classList.remove("active-toc-link");
+        }
+        targetLink.classList.add("active-toc-link");
+        currentActiveLink = targetLink;
+        setTimeout(() => { isHashNavigation = false; }, 500);
+      }
+    }
+  }
+
+  window.addEventListener("hashchange", handleHashNavigation);
+  setTimeout(handleHashNavigation, 100);
+});
+</script>
 
 
 <script>

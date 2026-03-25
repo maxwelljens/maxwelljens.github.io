@@ -10,7 +10,7 @@
 <meta name="description" content="As a Linux user, after having tried all the major game engines, I can give an honest review and overview. Here are my thoughts.">
 <meta name="author" content="Maxwell Jensen">
 <link rel="canonical" href="https://maxwelljensen.eu/posts/game_engine_thoughts/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.1ab0c60699aa28db2ef5b06bede9e2ece35b1cb8e22e2199133da1b1921af51d.css" integrity="sha256-GrDGBpmqKNsu9bBr7eni7ONbHLjiLiGZEz2hsZIa9R0=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.8d6fc37e3dd4e2cf179a4ffc5341b19f1a264d98e79cf34e32ca4b68e5de1833.css" integrity="sha256-jW/Dfj3U4s8Xmk/8U0GxnxomTZjnnPNOMspLaOXeGDM=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://maxwelljensen.eu/favicon/favicon.svg">
 <link rel="icon" type="image/png" sizes="16x16" href="https://maxwelljensen.eu/favicon/favicon16x16">
 <link rel="icon" type="image/png" sizes="32x32" href="https://maxwelljensen.eu/favicon/favicon32x32">
@@ -58,6 +58,7 @@
 </noscript><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&display=swap" rel="stylesheet">
 <meta property="og:url" content="https://maxwelljensen.eu/posts/game_engine_thoughts/">
   <meta property="og:site_name" content="Maxwell Jensen&#39;s Personal Website">
   <meta property="og:title" content="My Thoughts on Unreal Engine, Unity, and Godot">
@@ -208,71 +209,49 @@
 <figure class="entry-cover">
         <img loading="eager" src="https://maxwelljensen.eu/game_engine_thoughts/card.png" alt="">
         
-</figure><div class="toc">
-    <details >
-        <summary accesskey="c" title="(Alt + C)">
-            <span class="details">Table of Contents</span>
-        </summary>
-
-        <div class="inner"><ul>
-                <li>
-                    <a href="#the-allure-of-the-impossible" aria-label="The Allure of the Impossible">The Allure of the Impossible</a></li>
-                <li>
-                    <a href="#the-analytical-outsider" aria-label="The Analytical Outsider">The Analytical Outsider</a></li>
-                <li>
-                    <a href="#linux-and-the-free-software-lens" aria-label="Linux and the Free Software Lens">Linux and the Free Software Lens</a></li>
-                <li>
-                    <a href="#unreal-engine-5" aria-label="Unreal Engine 5">Unreal Engine 5</a><ul>
-                        
-                <li>
-                    <a href="#the-aaa-toolbox-and-the-asset-flip-trap" aria-label="The AAA Toolbox and the Asset Flip Trap">The AAA Toolbox and the Asset Flip Trap</a></li>
-                <li>
-                    <a href="#the-scripting-conundrum-c-vs-binary-spaghetti" aria-label="The Scripting Conundrum: C&#43;&#43; vs. Binary Spaghetti">The Scripting Conundrum: C++ vs. Binary Spaghetti</a></li>
-                <li>
-                    <a href="#ecosystem-fragility-and-the-fab-fiasco" aria-label="Ecosystem Fragility and the Fab Fiasco">Ecosystem Fragility and the Fab Fiasco</a></li>
-                <li>
-                    <a href="#the-enshittification-of-real-time-graphics" aria-label="The Enshittification of Real-Time Graphics">The Enshittification of Real-Time Graphics</a></li>
-                <li>
-                    <a href="#the-deferred-rendering-trap" aria-label="The Deferred Rendering Trap">The Deferred Rendering Trap</a></li></ul>
-                </li>
-                <li>
-                    <a href="#unity-6" aria-label="Unity 6">Unity 6</a><ul>
-                        
-                <li>
-                    <a href="#the-barebones-toolbox-and-c-elegance" aria-label="The Barebones Toolbox and C# Elegance">The Barebones Toolbox and C# Elegance</a></li>
-                <li>
-                    <a href="#the-multiplayer-miracle-mirror" aria-label="The Multiplayer Miracle: Mirror">The Multiplayer Miracle: Mirror</a></li>
-                <li>
-                    <a href="#the-linux-experience-an-honest-kind-of-broken" aria-label="The Linux Experience: An Honest Kind of Broken">The Linux Experience: An Honest Kind of Broken</a></li>
-                <li>
-                    <a href="#ecosystem-fragmentation-and-the-tooling-tax" aria-label="Ecosystem Fragmentation and the Tooling Tax">Ecosystem Fragmentation and the Tooling Tax</a></li>
-                <li>
-                    <a href="#the-verdict" aria-label="The Verdict">The Verdict</a></li></ul>
-                </li>
-                <li>
-                    <a href="#godot-46" aria-label="Godot 4.6">Godot 4.6</a><ul>
-                        
-                <li>
-                    <a href="#the-dream-of-godot" aria-label="The Dream of Godot">The Dream of Godot</a></li>
-                <li>
-                    <a href="#architecture-scenes-and-structure" aria-label="Architecture: Scenes and Structure">Architecture: Scenes and Structure</a></li>
-                <li>
-                    <a href="#gdscript-typing-and-the-neovim-workflow" aria-label="GDScript, Typing, and the Neovim Workflow">GDScript, Typing, and the Neovim Workflow</a></li>
-                <li>
-                    <a href="#caveats-3d-physics-and-web-builds" aria-label="Caveats: 3D, Physics, and Web Builds">Caveats: 3D, Physics, and Web Builds</a></li>
-                <li>
-                    <a href="#greatness-of-the-gui-toolkit" aria-label="Greatness of the GUI Toolkit">Greatness of the GUI Toolkit</a></li>
-                <li>
-                    <a href="#the-ecosystem-and-the-fork-escape-hatch" aria-label="The Ecosystem and the Fork Escape Hatch">The Ecosystem and the Fork Escape Hatch</a></li></ul>
-                </li>
-                <li>
-                    <a href="#final-thoughts-the-right-tool-for-the-right-mind" aria-label="Final Thoughts: The Right Tool for the Right Mind">Final Thoughts: The Right Tool for the Right Mind</a>
-                </li>
-            </ul>
-        </div>
-    </details>
-</div>
-
+</figure><details class="floating-toc" open>
+    <summary accesskey="c" title="(Alt + C)">
+        <span class="details">Table of Contents</span>
+    </summary>
+    <div class="inner">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#the-allure-of-the-impossible">The Allure of the Impossible</a></li>
+    <li><a href="#the-analytical-outsider">The Analytical Outsider</a></li>
+    <li><a href="#linux-and-the-free-software-lens">Linux and the Free Software Lens</a></li>
+    <li><a href="#unreal-engine-5">Unreal Engine 5</a>
+      <ul>
+        <li><a href="#the-aaa-toolbox-and-the-asset-flip-trap">The AAA Toolbox and the Asset Flip Trap</a></li>
+        <li><a href="#the-scripting-conundrum-c-vs-binary-spaghetti">The Scripting Conundrum: C++ vs. Binary Spaghetti</a></li>
+        <li><a href="#ecosystem-fragility-and-the-fab-fiasco">Ecosystem Fragility and the Fab Fiasco</a></li>
+        <li><a href="#the-enshittification-of-real-time-graphics">The Enshittification of Real-Time Graphics</a></li>
+        <li><a href="#the-deferred-rendering-trap">The Deferred Rendering Trap</a></li>
+      </ul>
+    </li>
+    <li><a href="#unity-6">Unity 6</a>
+      <ul>
+        <li><a href="#the-barebones-toolbox-and-c-elegance">The Barebones Toolbox and C# Elegance</a></li>
+        <li><a href="#the-multiplayer-miracle-mirror">The Multiplayer Miracle: Mirror</a></li>
+        <li><a href="#the-linux-experience-an-honest-kind-of-broken">The Linux Experience: An Honest Kind of Broken</a></li>
+        <li><a href="#ecosystem-fragmentation-and-the-tooling-tax">Ecosystem Fragmentation and the Tooling Tax</a></li>
+        <li><a href="#the-verdict">The Verdict</a></li>
+      </ul>
+    </li>
+    <li><a href="#godot-46">Godot 4.6</a>
+      <ul>
+        <li><a href="#the-dream-of-godot">The Dream of Godot</a></li>
+        <li><a href="#architecture-scenes-and-structure">Architecture: Scenes and Structure</a></li>
+        <li><a href="#gdscript-typing-and-the-neovim-workflow">GDScript, Typing, and the Neovim Workflow</a></li>
+        <li><a href="#caveats-3d-physics-and-web-builds">Caveats: 3D, Physics, and Web Builds</a></li>
+        <li><a href="#greatness-of-the-gui-toolkit">Greatness of the GUI Toolkit</a></li>
+        <li><a href="#the-ecosystem-and-the-fork-escape-hatch">The Ecosystem and the Fork Escape Hatch</a></li>
+      </ul>
+    </li>
+    <li><a href="#final-thoughts-the-right-tool-for-the-right-mind">Final Thoughts: The Right Tool for the Right Mind</a></li>
+  </ul>
+</nav>
+    </div>
+</details>
   <div class="post-content"><p>In this article, I will dissect what are unmistakably the three most widely
 used game engines in PC gaming today:</p>
 <ul>
@@ -1048,6 +1027,73 @@ at UE5 games is not enough proof.&#160;<a href="#fnref:1" class="footnote-backre
     </svg>
 </a>
 <div class="bg-element"></div>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const toc = document.querySelector(".floating-toc");
+  if (!toc) return;
+
+  const tocLinks = toc.querySelectorAll('a[href^="#"]');
+  if (tocLinks.length === 0) return;
+
+  const headingIds = Array.from(tocLinks).map((link) => link.getAttribute("href").substring(1));
+  const headings = headingIds.map((id) => document.getElementById(decodeURIComponent(id))).filter(Boolean);
+  if (headings.length === 0) return;
+
+  let currentActiveLink = null;
+  let isHashNavigation = false;
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      if (isHashNavigation) return;
+
+      const visibleHeadings = entries.filter((entry) => entry.isIntersecting).map((entry) => entry.target);
+      if (visibleHeadings.length === 0) return;
+
+      const topMostHeading = visibleHeadings.reduce((closest, heading) => {
+        const headingTop = heading.getBoundingClientRect().top;
+        const closestTop = closest.getBoundingClientRect().top;
+        return Math.abs(headingTop) < Math.abs(closestTop) ? heading : closest;
+      });
+
+      const targetId = encodeURIComponent(topMostHeading.id).toLowerCase();
+      const targetLink = toc.querySelector(`a[href="#${targetId}"]`);
+
+      if (targetLink && targetLink !== currentActiveLink) {
+        if (currentActiveLink) {
+          currentActiveLink.classList.remove("active-toc-link");
+        }
+        targetLink.classList.add("active-toc-link");
+        currentActiveLink = targetLink;
+      }
+    },
+    {
+      rootMargin: "-20px 0px -60% 0px", 
+      threshold:[0, 0.1, 0.5, 1],
+    }
+  );
+
+  headings.forEach((heading) => observer.observe(heading));
+
+  function handleHashNavigation() {
+    const hash = window.location.hash; 
+    if (hash) {
+      const targetLink = toc.querySelector(`a[href="${hash}"]`);
+      if (targetLink) {
+        isHashNavigation = true;
+        if (currentActiveLink) {
+          currentActiveLink.classList.remove("active-toc-link");
+        }
+        targetLink.classList.add("active-toc-link");
+        currentActiveLink = targetLink;
+        setTimeout(() => { isHashNavigation = false; }, 500);
+      }
+    }
+  }
+
+  window.addEventListener("hashchange", handleHashNavigation);
+  setTimeout(handleHashNavigation, 100);
+});
+</script>
 
 
 <script>

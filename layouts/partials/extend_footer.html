@@ -1,2 +1,69 @@
 <!-- Custom Translucent Background Element -->
 <div class="bg-element"></div>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const toc = document.querySelector(".floating-toc");
+  if (!toc) return;
+
+  const tocLinks = toc.querySelectorAll('a[href^="#"]');
+  if (tocLinks.length === 0) return;
+
+  const headingIds = Array.from(tocLinks).map((link) => link.getAttribute("href").substring(1));
+  const headings = headingIds.map((id) => document.getElementById(decodeURIComponent(id))).filter(Boolean);
+  if (headings.length === 0) return;
+
+  let currentActiveLink = null;
+  let isHashNavigation = false;
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      if (isHashNavigation) return;
+
+      const visibleHeadings = entries.filter((entry) => entry.isIntersecting).map((entry) => entry.target);
+      if (visibleHeadings.length === 0) return;
+
+      const topMostHeading = visibleHeadings.reduce((closest, heading) => {
+        const headingTop = heading.getBoundingClientRect().top;
+        const closestTop = closest.getBoundingClientRect().top;
+        return Math.abs(headingTop) < Math.abs(closestTop) ? heading : closest;
+      });
+
+      const targetId = encodeURIComponent(topMostHeading.id).toLowerCase();
+      const targetLink = toc.querySelector(`a[href="#${targetId}"]`);
+
+      if (targetLink && targetLink !== currentActiveLink) {
+        if (currentActiveLink) {
+          currentActiveLink.classList.remove("active-toc-link");
+        }
+        targetLink.classList.add("active-toc-link");
+        currentActiveLink = targetLink;
+      }
+    },
+    {
+      rootMargin: "-20px 0px -60% 0px", 
+      threshold:[0, 0.1, 0.5, 1],
+    }
+  );
+
+  headings.forEach((heading) => observer.observe(heading));
+
+  function handleHashNavigation() {
+    const hash = window.location.hash; 
+    if (hash) {
+      const targetLink = toc.querySelector(`a[href="${hash}"]`);
+      if (targetLink) {
+        isHashNavigation = true;
+        if (currentActiveLink) {
+          currentActiveLink.classList.remove("active-toc-link");
+        }
+        targetLink.classList.add("active-toc-link");
+        currentActiveLink = targetLink;
+        setTimeout(() => { isHashNavigation = false; }, 500);
+      }
+    }
+  }
+
+  window.addEventListener("hashchange", handleHashNavigation);
+  setTimeout(handleHashNavigation, 100);
+});
+</script>
