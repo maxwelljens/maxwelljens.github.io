@@ -186,10 +186,10 @@ living in the room. So yes, that man died yesterday."*
 The silence in the small cabinet becomes heavy, thick with the unsaid. The
 father confessor, who has spent his life dispensing words of counsel and
 comfort, finds he has none. He slowly leans back in his chair, the slight creak
-of the wood was the only sound in the sudden silence. He breaks eye contact
-with the man, looking down at his own hands, folded on the desk, as if
-confessing something truly embarrassing to his bishop. He has to squint a bit,
-with the summer sunshine flooding the room brighter than ever. The curtains are
+of the wood the only sound in the sudden silence. He breaks eye contact with
+the man, looking down at his own hands, folded on the desk, as if confessing
+something truly embarrassing to his bishop. He has to squint a bit, with the
+summer sunshine flooding the room brighter than ever. The curtains are
 unfurled. The birds seem to be chirping prettier melodies than usual.
 
 He clears his throat, but the first words that come out are little more than a
