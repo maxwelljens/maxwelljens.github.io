@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.148.1</generator>
     <language>en</language>
     <copyright>Maxwell Jensen</copyright>
-    <lastBuildDate>Mon, 23 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://maxwelljensen.eu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>&#34;I Died Yesterday&#34;</title>
+      <link>https://maxwelljensen.eu/posts/i_died_yesterday/</link>
+      <pubDate>Sun, 05 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://maxwelljensen.eu/posts/i_died_yesterday/</guid>
+      <description>A short story detailing the relationship between an Eastern Orthodox layman and his priest, culminating in something beyond this world.</description>
+    </item>
     <item>
       <title>GDScript Enums: The Backbone of Clean Architecture</title>
       <link>https://maxwelljensen.eu/posts/gdscript_enums/</link>
