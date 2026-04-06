@@ -31,9 +31,28 @@ outputs:
     - RSS
     - JSON
 
+defaultContentLanguage: en
 languages:
   en:
     languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Posts
+          url: /posts
+          weight: 5
+        - name: Search
+          url: search/
+          weight: 10
+        - name: Tags
+          url: tags/
+          weight: 15
+  pl:
+    languageName: "Polski"
     weight: 1
     taxonomies:
       category: categories
