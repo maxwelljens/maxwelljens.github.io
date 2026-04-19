@@ -1,0 +1,240 @@
+/* Steps shortcode styling (PaperMod theme) */
+.steps-container {
+  counter-reset: step;
+  margin: var(--content-gap) 0;
+  padding-left: 1.5rem;
+  border-left: 3px solid var(--border);
+  position: relative;
+}
+
+/* Add pseudo-element to draw border from first step number center */
+.steps-container::before {
+  content: '';
+  position: absolute;
+  left: -3px;
+  top: 1.2em; /* Adjust to align with first step number center */
+  bottom: 0;
+  width: 3px;
+  background-color: var(--border);
+  z-index: 0;
+}
+
+/* Hide the original border-left for the notch area */
+.steps-container {
+  border-left: 3px solid transparent;
+}
+
+.steps-container h2,
+.steps-container h3,
+.steps-container h4,
+.steps-container h5,
+.steps-container h6 {
+  position: relative;
+  counter-increment: step;
+  margin-left: 0;
+  padding-left: 2.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  z-index: 1; /* Ensure headings appear above the border */
+}
+
+/* Remove top margin from first heading to prevent border notch */
+.steps-container > h2:first-child,
+.steps-container > h3:first-child,
+.steps-container > h4:first-child,
+.steps-container > h5:first-child,
+.steps-container > h6:first-child,
+.steps-container > :first-child > h2:first-child,
+.steps-container > :first-child > h3:first-child,
+.steps-container > :first-child > h4:first-child,
+.steps-container > :first-child > h5:first-child,
+.steps-container > :first-child > h6:first-child {
+  margin-top: 0;
+}
+
+.steps-container h2:before,
+.steps-container h3:before,
+.steps-container h4:before,
+.steps-container h5:before,
+.steps-container h6:before {
+  content: counter(step);
+  position: absolute;
+  left: -2.5rem;
+  top: 0.1em;
+  width: 2rem;
+  height: 2rem;
+  background-color: var(--entry);
+  border: 2px solid var(--theme);
+  border-radius: 50%;
+  color: var(--secondary);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.8rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dark .steps-container h2:before,
+.dark .steps-container h3:before,
+.dark .steps-container h4:before,
+.dark .steps-container h5:before,
+.dark .steps-container h6:before {
+  background-color: var(--entry);
+  border-color: var(--theme);
+  color: var(--content);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Tabs shortcode styling (PaperMod theme) */
+.tabs-container {
+  margin: var(--content-gap) 0;
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--border);
+}
+
+.tabs-scrollbar {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.tabs-header {
+  display: flex;
+  border-bottom: 1px solid var(--border);
+  background-color: var(--entry);
+  min-width: 100%;
+}
+
+.tabs-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.75rem 1.5rem;
+  color: var(--secondary);
+  font-weight: 500;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.tabs-button:hover {
+  color: var(--primary);
+  background-color: rgba(var(--primary-rgb), 0.05);
+}
+
+.tabs-button-active {
+  color: var(--primary);
+  border-bottom-color: var(--primary);
+  font-weight: 600;
+}
+
+.tabs-icon {
+  font-size: 1.1em;
+}
+
+.tabs-content {
+  background-color: var(--entry);
+}
+
+.tabs-panel {
+  padding: 1.5rem;
+}
+
+.tabs-panel-hidden {
+  display: none;
+}
+
+/* Callout shortcode styling (PaperMod theme) */
+.callout {
+  margin: var(--content-gap) 0;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background-color: var(--entry);
+  overflow: hidden;
+}
+
+.callout-inner {
+  display: flex;
+  padding: 1rem 1.5rem;
+  gap: 1rem;
+}
+
+.callout-icon {
+  flex-shrink: 0;
+  font-size: 1.2em;
+  margin-top: 0.1em;
+}
+
+.callout-emoji {
+  font-size: 1.5em;
+}
+
+.callout-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.callout-title {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--primary);
+}
+
+.callout-text {
+  color: var(--content);
+  line-height: 1.6;
+}
+
+.callout-text > *:first-child {
+  margin-top: 0;
+}
+
+.callout-text > *:last-child {
+  margin-bottom: 0;
+}
+
+/* Callout type variations */
+.callout-default,
+.callout-info {
+  border-left: 4px solid #3b82f6;
+}
+
+.callout-default .callout-icon,
+.callout-info .callout-icon {
+  color: #3b82f6;
+}
+
+.callout-warning,
+.callout-error {
+  border-left: 4px solid #f59e0b;
+}
+
+.callout-warning .callout-icon,
+.callout-error .callout-icon {
+  color: #f59e0b;
+}
+
+.callout-important {
+  border-left: 4px solid #8b5cf6;
+}
+
+.callout-important .callout-icon {
+  color: #8b5cf6;
+}
+
+.dark .callout-default,
+.dark .callout-info {
+  border-left-color: #60a5fa;
+}
+
+.dark .callout-warning,
+.dark .callout-error {
+  border-left-color: #fbbf24;
+}
+
+.dark .callout-important {
+  border-left-color: #a78bfa;
+}

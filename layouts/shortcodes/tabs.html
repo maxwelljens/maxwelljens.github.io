@@ -1,0 +1,156 @@
+{{- /*
+Create a tabbed interface with the given items (PaperMod style).
+
+@example {{< tabs >}}{{< tab name="Tab 1" >}}Content 1{{< /tab >}}{{< /tabs >}}
+*/ -}}
+
+{{- /* Unused, but required for the shortcode to work with closing tag */ -}}
+{{- .Inner -}}
+
+{{- /* Enable syncing of tabs across the page. */ -}}
+{{- $enableSync := false -}}
+{{- if or (eq .Page.Params.tabs.sync false) (eq .Page.Params.tabs.sync true) -}}
+  {{- $enableSync = .Page.Params.tabs.sync -}}
+{{- else -}}
+  {{- $enableSync = site.Params.page.tabs.sync | default false -}}
+{{- end -}}
+
+{{- $tabs := ($.Store.Get "tabs") | default slice -}}
+
+{{- /* Compatibility with previous parameter "items". */ -}}
+{{- if .Get "defaultIndex" -}}
+  {{- warnf "The 'defaultIndex' parameter of the 'tabs' shortcode is deprecated. Please use 'selected' on 'tab' instead." -}}
+{{- end -}}
+
+{{- if .Get "items" -}}
+  {{- warnf "The 'items' parameter of the 'tabs' shortcode is deprecated. Please use 'name' on 'tab' instead." -}}
+
+  {{- $items := split (.Get "items") "," -}}
+
+  {{- $temp := slice -}}
+  {{- range $i, $item := $items -}}
+    {{- $tab := index $tabs $i -}}
+    {{- $temp = $temp | append (merge $tab (dict "name" $item)) -}}
+  {{- end -}}
+
+  {{- $tabs = $temp -}}
+{{- end -}}
+
+{{- $tabsID := .Ordinal }}
+
+{{- if eq (len $tabs) 0 -}}
+  {{ errorf "tabs must have at least one tab" }}
+{{- end -}}
+
+{{- /* Create group data for syncing and select the first tab if none is selected. */ -}}
+{{- $selectedIndex := 0 -}}
+{{  $dataTabGroup := slice -}}
+
+{{- range $i, $item := $tabs -}}
+  {{- $dataTabGroup = $dataTabGroup | append ($item.name) -}}
+
+  {{- if $item.selected -}}
+    {{- $selectedIndex = $i -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* Generate a unique ID for each tab group. */ -}}
+{{- $globalID := printf "tabs-%02v" $tabsID -}}
+
+<div class="tabs-container">
+  <div class="tabs-scrollbar">
+    <div class="tabs-header" role="tablist"{{- if $enableSync }} data-tab-group="{{ delimit $dataTabGroup `,` }}"{{- end }}>
+      {{- range $i, $item := $tabs -}}
+        <button 
+          class="tabs-button {{ if eq $i $selectedIndex }}tabs-button-active{{ end }}" 
+          id="tabs-tab-{{ $globalID }}-{{ $item.id }}" 
+          role="tab" 
+          type="button" 
+          aria-controls="tabs-panel-{{ $globalID }}-{{ $item.id }}" 
+          aria-selected="{{ if eq $i $selectedIndex }}true{{ else }}false{{ end }}" 
+          tabindex="{{ if eq $i $selectedIndex }}0{{ else }}-1{{ end }}"
+          onclick="switchTab('{{ $globalID }}', {{ $i }})"
+        >
+          {{- if $item.icon -}}
+            <span class="tabs-icon">
+              {{- $item.icon -}}
+            </span>
+          {{- end -}}
+          <span>{{- $item.name -}}</span>
+        </button>
+      {{- end -}}
+    </div>
+  </div>
+  <div class="tabs-content">
+    {{- range $i, $item := $tabs -}}
+      <div 
+        class="tabs-panel {{ if ne $i $selectedIndex }}tabs-panel-hidden{{ end }}" 
+        id="tabs-panel-{{ $globalID }}-{{ $item.id }}" 
+        role="tabpanel" 
+        aria-labelledby="tabs-tab-{{ $globalID }}-{{ $item.id }}"
+        aria-hidden="{{ if eq $i $selectedIndex }}false{{ else }}true{{ end }}"
+      >
+        {{- $item.content | markdownify -}}
+      </div>
+    {{- end -}}
+  </div>
+</div>
+
+<script>
+function switchTab(containerId, tabIndex) {
+  const container = document.querySelector(`[data-tab-group*="${containerId}"]`)?.closest('.tabs-container') || 
+                    document.getElementById(`tabs-tab-${containerId}-0`)?.closest('.tabs-container');
+  
+  if (!container) return;
+  
+  // Update buttons
+  container.querySelectorAll('.tabs-button').forEach((btn, idx) => {
+    const isActive = idx === tabIndex;
+    btn.classList.toggle('tabs-button-active', isActive);
+    btn.setAttribute('aria-selected', isActive);
+    btn.setAttribute('tabindex', isActive ? '0' : '-1');
+  });
+  
+  // Update panes
+  container.querySelectorAll('.tabs-panel').forEach((pane, idx) => {
+    const isActive = idx === tabIndex;
+    pane.classList.toggle('tabs-panel-hidden', !isActive);
+    pane.setAttribute('aria-hidden', !isActive);
+  });
+  
+  // Sync across page if enabled
+  const tabGroup = container.querySelector('.tabs-header').dataset.tabGroup;
+  if (tabGroup) {
+    document.querySelectorAll(`[data-tab-group="${tabGroup}"]`).forEach(otherHeader => {
+      if (otherHeader !== container.querySelector('.tabs-header')) {
+        const otherContainer = otherHeader.closest('.tabs-container');
+        otherContainer.querySelectorAll('.tabs-button').forEach((btn, idx) => {
+          const isActive = idx === tabIndex;
+          btn.classList.toggle('tabs-button-active', isActive);
+          btn.setAttribute('aria-selected', isActive);
+          btn.setAttribute('tabindex', isActive ? '0' : '-1');
+        });
+        otherContainer.querySelectorAll('.tabs-panel').forEach((pane, idx) => {
+          pane.classList.toggle('tabs-panel-hidden', idx !== tabIndex);
+          pane.setAttribute('aria-hidden', idx !== tabIndex);
+        });
+      }
+    });
+  }
+}
+
+// Initialize tabs on page load
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.tabs-container').forEach(container => {
+    const activeButton = container.querySelector('.tabs-button-active');
+    if (!activeButton) {
+      const firstButton = container.querySelector('.tabs-button');
+      if (firstButton) {
+        firstButton.classList.add('tabs-button-active');
+        firstButton.setAttribute('aria-selected', 'true');
+        firstButton.setAttribute('tabindex', '0');
+      }
+    }
+  });
+});
+</script>

@@ -122,17 +122,22 @@ software](/docs/licensing_for_beginners/#free-software) static site generators
 available today. It's written in Go (a programming language known for its
 efficiency) and is very simple to use. Here are some key features:
 
-- **Works on all platforms**: Windows, macOS, and Linux.
-- **Plenty of themes**: Hugo has a large ecosystem. As such,
-there's [many themes to choose from](https://themes.gohugo.io/).
-- **Template-based design**: Uses templates to define
-how your content will look. This makes it easy to customise themes, if you want
-to modify one you found, or to make one from scratch.
-- **Write in Markdown**: Allows you to write
-content in [Markdown](https://www.markdownguide.org/getting-started/), a
-lightweight markup language that’s easy to learn and use. No need for laggy
-WYSIWYG WordPress editors or other wheel reinventions. Looks something like the
-following:
+{{< tabs >}}
+{{< tab name="Cross-platform" >}}
+**Works on all platforms**: Windows, macOS, and Linux. Hugo is truly cross-platform and works consistently across all major operating systems.
+{{< /tab >}}
+{{< tab name="Themes" >}}
+**Plenty of themes**: Hugo has a large ecosystem. As such, there's [many themes to choose from](https://themes.gohugo.io/). You can easily switch themes or customize existing ones.
+{{< /tab >}}
+{{< tab name="Templates" >}}
+**Template-based design**: Uses Go templates to define how your content will look. This makes it easy to customise themes, modify existing ones, or create new themes from scratch.
+{{< /tab >}}
+{{< tab name="Markdown" >}}
+**Write in Markdown**: Allows you to write content in [Markdown](https://www.markdownguide.org/getting-started/), a lightweight markup language that's easy to learn. No need for laggy WYSIWYG editors.
+{{< /tab >}}
+{{< /tabs >}}
+
+Markdown looks something like the following:
 ```md
 # This is a title
 Some text, and a list of things
@@ -142,12 +147,11 @@ Some text, and a list of things
 With some `code text`
 ```
 
-{{< notice note >}}
+{{< callout type="info" >}}
 Hugo is a command-line interface (CLI) program, which means that you need to
 interface with it using the terminal. On Windows, you will have to use
-PowerShell, which is not the same as Windows PowerShell. Command Prompt will
-not work.
-{{< /notice >}}
+PowerShell (not Windows PowerShell). Command Prompt will not work.
+{{< /callout >}}
 
 ## Setting up Hugo
 
@@ -175,11 +179,11 @@ brew install hugo
 sudo apt update && sudo apt install hugo
 ```
 
-{{< notice warning >}}
+{{< callout type="warning" emoji="⚠️" >}}
 Hugo in the Debian respository is very outdated. It is recommended to
 manually install the binary from [Hugo's GitHub
 repository](https://github.com/gohugoio/hugo/releases) instead.
-{{< /notice >}}
+{{< /callout >}}
 
 #### For Fedora users:
 
@@ -187,10 +191,10 @@ repository](https://github.com/gohugoio/hugo/releases) instead.
 sudo dnf install hugo
 ```
 
-{{< notice info >}}
+{{< callout type="info" emoji="ℹ️" >}}
 Hugo in the Fedora respository is slightly outdated. Some themes might depend
 on latest version of Hugo to work fully.
-{{< /notice >}}
+{{< /callout >}}
 
 ---
 
@@ -219,6 +223,8 @@ By compiling your site once and serving those static files, Hugo simplifies web
 development while offering the flexibility to create sophisticated websites.
 The workflow is always something like the following:
 
+{{% steps %}}
+
 ### Edit content
 
 Set up your posts, articles, documentation, or whatever in the `content`
@@ -233,6 +239,8 @@ ms.
 
 Deploy files from the `public` directory, where your complete website is
 contained, to your hosting service.
+
+{{% /steps %}}
 
 [Further details on the basics of
 Hugo](https://gohugo.io/getting-started/usage/).

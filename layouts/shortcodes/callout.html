@@ -1,0 +1,88 @@
+{{- /*
+A shortcode to create a PaperMod-style callout (compatible with Hextra syntax).
+
+@param {string} type The type of the callout (default, info, warning, error, important).
+@param {string} emoji Optional emoji for the callout.
+@param {string} icon Optional icon for the callout.
+@param {string} title Optional title for the callout (PaperMod extension).
+
+@example {{< callout type="info" >}}Content{{< /callout >}}
+@example {{< callout type="warning" emoji="⚠️" >}}Warning content{{< /callout >}}
+*/ -}}
+
+{{- $type := .Get "type" | default "default" -}}
+{{- $emoji := .Get "emoji" -}}
+{{- $icon := .Get "icon" -}}
+{{- $title := .Get "title" -}}
+
+{{- /* Define styles for each callout type using PaperMod CSS variables */ -}}
+{{- $styles := newScratch -}}
+
+{{- /* Map Hextra types to PaperMod notice types for compatibility */ -}}
+{{- $typeMap := dict 
+  "default" "note"
+  "info" "note" 
+  "warning" "warning"
+  "error" "warning"
+  "important" "warning"
+-}}
+
+{{- $papermodType := index $typeMap $type | default "note" -}}
+
+{{- /* Define CSS classes for each type */ -}}
+{{- $styles.Set "default" (dict
+  "emoji" "💡"
+  "icon" "light-bulb"
+  "class" "callout-default"
+  )
+-}}
+{{- $styles.Set "info" (dict
+  "emoji" "📝"
+  "icon" "information-circle"
+  "class" "callout-info"
+  )
+-}}
+{{- $styles.Set "warning" (dict
+  "emoji" "⚠️"
+  "icon" "exclamation"
+  "class" "callout-warning"
+  )
+-}}
+{{- $styles.Set "error" (dict
+  "emoji" "❌"
+  "icon" "ban"
+  "class" "callout-error"
+  )
+-}}
+{{- $styles.Set "important" (dict
+  "emoji" "❗"
+  "icon" "exclamation-circle"
+  "class" "callout-important"
+  )
+-}}
+
+{{- $style := or ($styles.Get $type) ($styles.Get "default") -}}
+
+{{- if and (not $emoji) (not $icon) -}}
+  {{- $emoji = $style.emoji -}}
+{{- end -}}
+
+{{- $content := .InnerDeindent | markdownify -}}
+
+<div class="callout {{ $style.class }}">
+  <div class="callout-inner">
+    {{- if $emoji -}}
+      <div class="callout-icon callout-emoji">{{ $emoji }}</div>
+    {{- else if $icon -}}
+      <div class="callout-icon callout-symbol">{{ $icon }}</div>
+    {{- end -}}
+    <div class="callout-content">
+      {{- if $title -}}
+        <div class="callout-title">{{ $title }}</div>
+      {{- end -}}
+      <div class="callout-text">
+        {{- $content -}}
+      </div>
+    </div>
+  </div>
+</div>

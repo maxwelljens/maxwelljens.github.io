@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Test on Maxwell Jensen&#39;s Personal Website</title>
+    <link>http://localhost:1313/tags/test/</link>
+    <description>Recent content in Test on Maxwell Jensen&#39;s Personal Website</description>
+    <generator>Hugo -- 0.148.1</generator>
+    <language>en</language>
+    <copyright>Maxwell Jensen</copyright>
+    <lastBuildDate>Sun, 19 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testing Hextra Shortcodes</title>
+      <link>http://localhost:1313/posts/test-hextra-shortcodes/</link>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/test-hextra-shortcodes/</guid>
+      <description>&lt;p&gt;This article demonstrates the implementation of Hextra shortcodes in PaperMod theme.&lt;/p&gt;
+&lt;h2 id=&#34;tabs-shortcode&#34;&gt;Tabs Shortcode&lt;/h2&gt;
+&lt;p&gt;Here&amp;rsquo;s an example of tabs:&lt;/p&gt;
+
+
+
+
+&lt;div class=&#34;tabs-container&#34;&gt;
+  &lt;div class=&#34;tabs-scrollbar&#34;&gt;
+    &lt;div class=&#34;tabs-header&#34; role=&#34;tablist&#34;&gt;&lt;button 
+          class=&#34;tabs-button &#34; 
+          id=&#34;tabs-tab-tabs-00-0&#34; 
+          role=&#34;tab&#34; 
+          type=&#34;button&#34; 
+          aria-controls=&#34;tabs-panel-tabs-00-0&#34; 
+          aria-selected=&#34;false&#34; 
+          tabindex=&#34;-1&#34;
+          onclick=&#34;switchTab(&#39;tabs-00&#39;,  0 )&#34;
+        &gt;&lt;span&gt;First Tab&lt;/span&gt;
+        &lt;/button&gt;&lt;button 
+          class=&#34;tabs-button tabs-button-active&#34; 
+          id=&#34;tabs-tab-tabs-00-1&#34; 
+          role=&#34;tab&#34; 
+          type=&#34;button&#34; 
+          aria-controls=&#34;tabs-panel-tabs-00-1&#34; 
+          aria-selected=&#34;true&#34; 
+          tabindex=&#34;0&#34;
+          onclick=&#34;switchTab(&#39;tabs-00&#39;,  1 )&#34;
+        &gt;&lt;span&gt;Second Tab&lt;/span&gt;
+        &lt;/button&gt;&lt;button 
+          class=&#34;tabs-button &#34; 
+          id=&#34;tabs-tab-tabs-00-2&#34; 
+          role=&#34;tab&#34; 
+          type=&#34;button&#34; 
+          aria-controls=&#34;tabs-panel-tabs-00-2&#34; 
+          aria-selected=&#34;false&#34; 
+          tabindex=&#34;-1&#34;
+          onclick=&#34;switchTab(&#39;tabs-00&#39;,  2 )&#34;
+        &gt;&lt;span&gt;Third Tab&lt;/span&gt;
+        &lt;/button&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;tabs-content&#34;&gt;&lt;div 
+        class=&#34;tabs-panel tabs-panel-hidden&#34; 
+        id=&#34;tabs-panel-tabs-00-0&#34; 
+        role=&#34;tabpanel&#34; 
+        aria-labelledby=&#34;tabs-tab-tabs-00-0&#34;
+        aria-hidden=&#34;true&#34;
+      &gt;&lt;h3 id=&#34;content-for-first-tab&#34;&gt;Content for first tab&lt;/h3&gt;
+&lt;p&gt;This is the content of the first tab. You can put any markdown here.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;List item 1&lt;/li&gt;
+&lt;li&gt;List item 2&lt;/li&gt;
+&lt;li&gt;List item 3&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;div 
+        class=&#34;tabs-panel &#34; 
+        id=&#34;tabs-panel-tabs-00-1&#34; 
+        role=&#34;tabpanel&#34; 
+        aria-labelledby=&#34;tabs-tab-tabs-00-1&#34;
+        aria-hidden=&#34;false&#34;
+      &gt;&lt;h3 id=&#34;content-for-second-tab&#34;&gt;Content for second tab&lt;/h3&gt;
+&lt;p&gt;This tab is selected by default.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

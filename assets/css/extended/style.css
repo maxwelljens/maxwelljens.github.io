@@ -1,3 +1,5 @@
+@import "shortcodes.css";
+
 /* Gruvbox Light Theme */
 :root {
   --theme: #fbf1c7;
