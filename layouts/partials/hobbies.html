@@ -1,34 +1,51 @@
-<section class="hobbies-section">
+<section class="hobbies-section" aria-label="Hobbies">
   <div class="hobbies-layout">
-    <div class="hobbies-cards">
+    <div class="hobbies-cards" role="tablist" aria-label="Hobby categories">
       {{- range $index, $hobby := . }}
-      <div class="hobby-card{{ if eq $index 0 }} active{{ end }}" data-index="{{ $index }}">
+      <button class="hobby-card{{ if eq $index 0 }} active{{ end }}"
+              data-index="{{ $index }}"
+              role="tab"
+              aria-selected="{{ if eq $index 0 }}true{{ else }}false{{ end }}"
+              aria-controls="hobby-content-{{ $index }}"
+              tabindex="{{ if eq $index 0 }}0{{ else }}-1{{ end }}">
         <div>
-          <h3>{{ .title }}</h3>
           {{- if .icon }}
-          <i class="{{ .icon }}"></i>
+          <i class="{{ .icon }}" aria-hidden="true"></i>
           {{- end }}
+          <h3>{{ .title }}</h3>
         </div>
         <p>{{ .tagline }}</p>
         {{- if .link }}
-        <a href="{{ .link.url }}" {{ if .link.external }}target="_blank" rel="noopener"{{ end }}>{{ .link.text }}</a>
+        <a href="{{ .link.url }}" class="hobby-card-link" target="_blank" rel="noopener">{{ .link.text }} <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
         {{- end }}
-      </div>
+      </button>
       {{- end }}
     </div>
 
     {{- range $index, $hobby := . }}
-    <div class="hobby-introduction{{ if gt $index 0 }} hidden{{ end }}" data-index="{{ $index }}">
+    <div class="hobby-introduction{{ if gt $index 0 }} hidden{{ end }}"
+         id="hobby-content-{{ $index }}"
+         role="tabpanel"
+         aria-labelledby="hobby-tab-{{ $index }}"
+         data-index="{{ $index }}">
       <p>{{ i18n "introduction" }}</p>
       <h2>{{ $hobby.heading }}</h2>
-      {{- if $hobby.subheading }}
-      <h4>{{ $hobby.subheading }}</h4>
-      {{- end }}
+
       <p>{{ $hobby.description }}</p>
       {{- if $hobby.images }}
       <div class="hobby-images">
         {{- range $hobby.images }}
-        <img src="{{ . }}" alt="image" loading="lazy" />
+        {{- $src := . }}
+        {{- $isRemote := hasPrefix $src "http" }}
+        {{- if $isRemote }}
+        <img src="{{ $src }}" alt="image" loading="lazy" />
+        {{- else }}
+        {{- $img := resources.Get $src }}
+        {{- with $img }}
+        {{- $processed := .Resize "1000x webp" }}
+        <img src="{{ $processed.RelPermalink }}" alt="image" loading="lazy" />
+        {{- end }}
+        {{- end }}
         {{- end }}
       </div>
       {{- end }}
@@ -42,20 +59,52 @@ document.addEventListener('DOMContentLoaded', function() {
   const cards = document.querySelectorAll('.hobby-card');
   const introductions = document.querySelectorAll('.hobby-introduction');
   
+  function activateCard(card) {
+    const index = card.dataset.index;
+    
+    cards.forEach(c => {
+      c.classList.remove('active');
+      c.setAttribute('aria-selected', 'false');
+      c.setAttribute('tabindex', '-1');
+    });
+    card.classList.add('active');
+    card.setAttribute('aria-selected', 'true');
+    card.setAttribute('tabindex', '0');
+    
+    introductions.forEach((intro, i) => {
+      if (i == index) {
+        intro.classList.remove('hidden');
+      } else {
+        intro.classList.add('hidden');
+      }
+    });
+  }
+  
   cards.forEach(card => {
-    card.addEventListener('click', function() {
-      const index = this.dataset.index;
+    card.addEventListener('click', function(e) {
+      if (e.target.closest('.hobby-card-link')) return;
+      activateCard(this);
+    });
+    
+    card.addEventListener('keydown', function(e) {
+      const currentIndex = parseInt(this.dataset.index);
+      let targetIndex = null;
       
-      cards.forEach(c => c.classList.remove('active'));
-      this.classList.add('active');
+      if (e.key === 'ArrowDown' || e.key === 'ArrowRight') {
+        targetIndex = (currentIndex + 1) % cards.length;
+      } else if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') {
+        targetIndex = (currentIndex - 1 + cards.length) % cards.length;
+      } else if (e.key === 'Home') {
+        targetIndex = 0;
+      } else if (e.key === 'End') {
+        targetIndex = cards.length - 1;
+      }
       
-      introductions.forEach((intro, i) => {
-        if (i == index) {
-          intro.classList.remove('hidden');
-        } else {
-          intro.classList.add('hidden');
-        }
-      });
+      if (targetIndex !== null) {
+        e.preventDefault();
+        cards[targetIndex].focus();
+        activateCard(cards[targetIndex]);
+      }
     });
   });
 });

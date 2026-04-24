@@ -71,21 +71,28 @@ languages:
           jobTitle: "Sales Manager"
           startDate: "2025-07-01"
           endDate: "2026-02-01"
-          description: "Managing the sale of petrochemicals to and from abroad. Negotiating terms with Asian suppliers, and reviewing product availability and customer availability in Poland."
+          description: "Managing the sale of petrochemicals to and from abroad.
+          Negotiating terms with Asian suppliers, and reviewing product
+          availability and customer availability in Poland."
           url: ""
           logo: "/images/hamot_logo_full.png"
         - company: "Noroff"
           jobTitle: "Network & IT Security Teacher"
           startDate: "2023-01-01"
           endDate: "2025-05-01"
-          description: "Vocational school teacher at Noroff VOC. Course lead for Linux and introductory course. Created a new Linux course, as it required modernisation and a better pedagogic experience for the students."
+          description: "Vocational school teacher at Noroff VOC. Course lead
+          for Linux and introductory course. Created a new Linux course, as it
+          required modernisation and a better pedagogic experience for the
+          students."
           url: "https://www.noroff.no"
           logo: "/images/noroff-logo.png"
         - company: "UPS"
           jobTitle: "Warehouse Assistant"
           startDate: "2018-12-01"
           endDate: "2019-01-01"
-          description: "Processing and archiving of shipment bills, correction of shipment errors, help on the conveyor belt, and general assistance at the office."
+          description: "Processing and archiving of shipment bills, correction
+          of shipment errors, help on the conveyor belt, and general assistance
+          at the office."
           url: "https://www.ups.com"
           logo: "/images/ups-logo.jpg"
       education:
@@ -95,7 +102,9 @@ languages:
           endDate: "2025-01-01"
           degree: "Higher Professional Degree"
           grade: "B"
-          description: "IT education focused on the practice and theory of securing information systems; programming, ethical hacking, and digital forensics."
+          description: "IT education focused on the practice and theory of
+          securing information systems; programming, ethical hacking, and
+          digital forensics."
           url: "https://www.noroff.no"
           logo: "/images/noroff-logo.png"
         - institution: "Noroff"
@@ -104,7 +113,10 @@ languages:
           endDate: "2022-01-01"
           degree: "Professional Degree"
           grade: "B"
-          description: "Practical IT education in administration of networks and systems. Studies centred around Microsoft- and UNIX-based technologies, alongside network and server infrastructure, with focus on IT security."
+          description: "Practical IT education in administration of networks
+          and systems. Studies centred around Microsoft- and UNIX-based
+          technologies, alongside network and server infrastructure, with focus
+          on IT security."
           url: "https://www.noroff.no"
           logo: "/images/noroff-logo.png"
         - institution: "Noroff High School"
@@ -117,31 +129,39 @@ languages:
           url: "https://www.noroff.no"
           logo: "/images/noroff-logo.png"
       hobbies:
-        - title: "< Game Developer />"
+        - title: "Game Developer"
           icon: "fa-solid fa-gamepad"
           tagline: "Creating immersive experiences and digital worlds"
-          heading: "Hello! I'm Maxwell Jensen"
-          subheading: "Creating Games That Bring Joy"
-          description: "As a hobbyist game developer, I create games using Godot Engine. My focus is on building unique gameplay mechanics and delivering memorable experiences. I believe games have the power to tell stories and evoke emotions in ways no other medium can."
-          link:
-            text: "See Projects"
-            url: "https://github.com/maxwelljens"
+          heading: "Bringing joy to everyone"
+          description: "As a hobbyist game developer, I create games using
+          Godot Engine. My focus is on building unique gameplay mechanics and
+          delivering memorable experiences. I believe games have the power to
+          tell stories and evoke emotions in ways no other medium can."
           images:
-            - "https://github-readme-stats.vercel.app/api/top-langs?username=maxwelljens&theme=onedark&hide_border=true&include_all_commits=false&count_private=false&layout=compact"
-        - title: "< Free Software />"
+            - "/images/hobby_1.png"
+            - "/images/hobby_5.png"
+            - "/images/hobby_4.png"
+        - title: "Free Software"
           icon: "fa-solid fa-code"
           tagline: "Empowering the community with open contributions"
-          heading: "Hello! I'm Maxwell Jensen"
-          subheading: "Fueling the Future...!!!"
-          description: "As an Open Source enthusiast, I am fueled by the collaborative spirit and the boundless opportunities it offers. Together, we embark on a journey of creativity, breaking barriers, and shaping the future. Let's unite to make a lasting impact on technology, knowledge, and the world at large."
+          heading: "Liberty or death"
+          description: "As a free software enthusiast, I am fueled by the
+          collaborative spirit and the boundless opportunities it offers.
+          I believe that all software should be free for everyone to modify,
+          distribute, and run."
+          link:
+            text: "See Projects"
+            url: "https://codeberg.org/maxwelljensen"
           images:
             - "https://github-readme-stats.vercel.app/api?username=maxwelljens&theme=onedark&no-frame=true&no-bg=true&margin-w=4"
-        - title: "< Writing />"
+        - title: "Writing"
           icon: "fa-solid fa-pen-nib"
           tagline: "Exploring ideas through the written word"
-          heading: "Hello! I'm Maxwell Jensen"
-          subheading: "Unleashing Creativity...!!!"
-          description: "As a writer, I explore ideas and share perspectives through essays, articles, and short stories. Whether discussing technology, culture, or faith, I aim to spark thoughtful conversations and provide valuable insights to readers."
+          heading: "Waking emotions"
+          description: "As a writer, I explore ideas and share perspectives
+          through essays, articles, and short stories. Whether discussing
+          technology, culture, or faith, I hope to spark thoughtful
+          conversations and provide valuable insights to readers."
   pl:
     languageName: "Polski"
     weight: 2
@@ -180,21 +200,27 @@ languages:
           jobTitle: "Kierownik sprzedaży"
           startDate: "2025-07-01"
           endDate: "2026-02-01"
-          description: "Zarządzanie sprzedażą środków petrochemicznych z i do zagranicy. Rozmowy i uzgodnienia warunków z dostawcami z Azji, rozpatrywanie dostępności towarów i klientów w Polsce."
+          description: "Zarządzanie sprzedażą środków petrochemicznych z i do
+          zagranicy. Rozmowy i uzgodnienia warunków z dostawcami z Azji,
+          rozpatrywanie dostępności towarów i klientów w Polsce."
           url: ""
           logo: "/images/hamot_logo_full.png"
         - company: "Noroff"
           jobTitle: "Nauczyciel bezpieczeństwa sieci i systemów informatycznych"
           startDate: "2023-01-01"
           endDate: "2025-05-01"
-          description: "Nauczyciel w kolegium zawodowym Noroff. Główny nauczyciel Linuxa i kursu wstępnego. Stworzyłem całkowicie nowy kurs Linuxa, ponieważ wymagał on modernizacji i lepszej pedagogiki."
+          description: "Nauczyciel w kolegium zawodowym Noroff. Główny
+          nauczyciel Linuxa i kursu wstępnego. Stworzyłem całkowicie nowy kurs
+          Linuxa, ponieważ wymagał on modernizacji i lepszej pedagogiki."
           url: "https://www.noroff.no"
           logo: "/images/noroff-logo.png"
         - company: "UPS"
           jobTitle: "Asystent magazynowy"
           startDate: "2018-12-01"
           endDate: "2019-01-01"
-          description: "Przetwarzanie i archiwizowanie listów przewozowych, korygowanie błędów w przesyłkach, pomoc przy taśmie produkcyjnej i ogólne wsparcie w biurze."
+          description: "Przetwarzanie i archiwizowanie listów przewozowych,
+          korygowanie błędów w przesyłkach, pomoc przy taśmie produkcyjnej i
+          ogólne wsparcie w biurze."
           url: "https://www.ups.com"
           logo: "/images/ups-logo.jpg"
       education:
@@ -204,7 +230,9 @@ languages:
           endDate: "2025-01-01"
           degree: "Wyższy stopień zawodowy"
           grade: "B"
-          description: "Wykształcenie informatyczne skupione na praktyce i teorii zabezpieczania systemów informatycznych; programowaniu, etycznym hakowaniu i kryminalistyce cyfrowej."
+          description: "Wykształcenie informatyczne skupione na praktyce i
+          teorii zabezpieczania systemów informatycznych; programowaniu,
+          etycznym hakowaniu i kryminalistyce cyfrowej."
           url: "https://www.noroff.no"
           logo: "/images/noroff-logo.png"
         - institution: "Noroff"
@@ -213,7 +241,10 @@ languages:
           endDate: "2022-01-01"
           degree: "Stopień zawodowy"
           grade: "B"
-          description: "Praktyczna edukacja informatyczna w zakresie administrowania sieciami i systemami. Studia skupione wokół technologii opartych na Microsoft i UNIX; infrastruktury sieciowej i serwerowej, ze szczególnym uwzględnieniem bezpieczeństwa tych sieci."
+          description: "Praktyczna edukacja informatyczna w zakresie
+          administrowania sieciami i systemami. Studia skupione wokół
+          technologii opartych na Microsoft i UNIX; infrastruktury sieciowej i
+          serwerowej, ze szczególnym uwzględnieniem bezpieczeństwa tych sieci."
           url: "https://www.noroff.no"
           logo: "/images/noroff-logo.png"
         - institution: "Liceum Noroff"
@@ -222,35 +253,44 @@ languages:
           endDate: "2015-01-01"
           degree: "Dyplom szkoły średniej"
           grade: "5,0"
-          description: "Projekty specjalizacji: media społecznościowe, projektowanie graficzne"
+          description: "Projekty specjalizacji: media społecznościowe,
+          projektowanie graficzne"
           url: "https://www.noroff.no"
           logo: "/images/noroff-logo.png"
       hobbies:
-        - title: "< Twórca gier />"
+        - title: "Twórca gier"
           icon: "fa-solid fa-gamepad"
           tagline: "Tworzenie immersyjnych doświadczeń i cyfrowych światów"
-          heading: "Cześć! Jestem Maxwell Jensen"
-          subheading: "Tworzę gry, które dają radość"
-          description: "Jako hobbystyczny twórca gier tworzę gry w silniku Godot. Moim celem jest budowanie unikalnych mechanik gameplayu i dostarczanie niezapomnianych wrażeń. Wierzę, że gry mają moc opowiadania historii i wywoływania emocji w sposób, w jaki żaden inny medium nie jest w stanie."
-          link:
-            text: "Zobacz projekty"
-            url: "https://github.com/maxwelljens"
+          heading: "Przynoszenie radości wszystkim"
+          description: "Jako hobbystyczny twórca gier tworzę gry w silniku
+          Godot. Moim celem jest budowanie unikalnych mechanik gameplayu i
+          dostarczanie niezapomnianych wrażeń. Wierzę, że gry mają moc
+          opowiadania historii i wywoływania emocji w sposób, w jaki żaden inny
+          medium nie jest w stanie."
           images:
-            - "https://github-readme-stats.vercel.app/api/top-langs?username=maxwelljens&theme=onedark&hide_border=true&include_all_commits=false&count_private=false&layout=compact"
-        - title: "< Wolne oprogramowanie />"
+            - "/images/hobby_1.png"
+            - "/images/hobby_5.png"
+            - "/images/hobby_4.png"
+        - title: "Wolne oprogramowanie"
           icon: "fa-solid fa-code"
           tagline: "Wspieranie społeczności otwartymi kontrybucjami"
-          heading: "Cześć! Jestem Maxwell Jensen"
-          subheading: "Napędzam przyszłość...!!!"
-          description: "Jako entuzjasta Open Source jestem napędzany духом współpracy i nieograniczone możliwości, jakie oferuje. Razem wyruszamy w podróż kreatywności, przełamujemy bariery i kształtujemy przyszłość. Połączmy siły, aby wywrzeć trwały wpływ na technologię, wiedzę i świat."
+          heading: "Wolność albo śmierć"
+          description: "Jako entuzjasta wolnego oprogramowania jestem napędzany
+          duchem współpracy i nieograniczone możliwości, jakie ono oferuje.
+          Wierzę, że wszelkie oprogramowanie powinno być wolne dla każdego do
+          modyfikowania, dystrybuowania i uruchamiania."
+          link:
+            text: "Zobacz projekty"
+            url: "https://codeberg.org/maxwelljensen"
           images:
-            - "https://github-readme-stats.vercel.app/api?username=maxwelljens&theme=onedark&no-frame=true&no-bg=true&margin-w=4"
-        - title: "< Pisanie />"
+        - title: "Pisanie"
           icon: "fa-solid fa-pen-nib"
           tagline: "Badanie idei poprzez pisane słowo"
-          heading: "Cześć! Jestem Maxwell Jensen"
-          subheading: "Uwalnianie kreatywności...!!!"
-          description: "Jako pisarz badam idee i dzielę się perspektywami poprzez eseje, artykuły i opowiadania. Niezależnie od tego, czy dyskutuję o technologii, kulturze czy wierze, dążę do wywołania przemyślanych rozmów i dostarczenia cennych spostrzeżeń czytelnikom."
+          heading: "Wzbudzanie emocji"
+          description: "Jako pisarz badam idee i dzielę się perspektywami
+          poprzez eseje, artykuły i opowiadania. Niezależnie od tego, czy
+          dyskutuję o technologii, kulturze czy wierze, dążę do wywołania
+          przemyślanych rozmów i dostarczenia cennych spostrzeżeń czytelnikom."
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -285,9 +325,9 @@ params:
     - name: whatsapp
       title: WhatsApp Number
       url: "https://wa.me/48726777465"
-    - name: github
-      title: GitHub Page
-      url: "https://github.com/maxwelljens"
+    - name: codeberg
+      title: Codeberg Page
+      url: "https://codeberg.org/maxwelljensen"
 
   # editPost:
   #   URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
