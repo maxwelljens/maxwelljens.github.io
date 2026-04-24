@@ -2,27 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://maxwelljensen.eu/posts/i_died_yesterday/</loc>
-    <lastmod>2026-04-05T00:00:00+00:00</lastmod>
+    <loc>https://maxwelljensen.eu/posts/atlas_turns/</loc>
+    <lastmod>2026-04-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="https://maxwelljensen.eu/pl/posts/i_died_yesterday/"
+                href="https://maxwelljensen.eu/pl/posts/atlas_turns/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://maxwelljensen.eu/posts/i_died_yesterday/"
+                href="https://maxwelljensen.eu/posts/atlas_turns/"
                 />
   </url><url>
     <loc>https://maxwelljensen.eu/tags/christianity/</loc>
-    <lastmod>2026-04-05T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://maxwelljensen.eu/pl/tags/christianity/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://maxwelljensen.eu/tags/christianity/"
+                />
   </url><url>
     <loc>https://maxwelljensen.eu/tags/creative/</loc>
-    <lastmod>2026-04-05T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://maxwelljensen.eu/pl/tags/creative/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://maxwelljensen.eu/tags/creative/"
+                />
   </url><url>
     <loc>https://maxwelljensen.eu/</loc>
-    <lastmod>2026-04-05T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
@@ -35,7 +55,7 @@
                 />
   </url><url>
     <loc>https://maxwelljensen.eu/posts/</loc>
-    <lastmod>2026-04-05T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
@@ -48,7 +68,7 @@
                 />
   </url><url>
     <loc>https://maxwelljensen.eu/tags/</loc>
-    <lastmod>2026-04-05T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
@@ -58,6 +78,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://maxwelljensen.eu/tags/"
+                />
+  </url><url>
+    <loc>https://maxwelljensen.eu/posts/i_died_yesterday/</loc>
+    <lastmod>2026-04-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://maxwelljensen.eu/pl/posts/i_died_yesterday/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://maxwelljensen.eu/posts/i_died_yesterday/"
                 />
   </url><url>
     <loc>https://maxwelljensen.eu/tags/gamedev/</loc>
