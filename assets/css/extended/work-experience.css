@@ -1,9 +1,5 @@
 .work-experience {
   margin-top: 3rem;
-  padding: 0 1rem;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .work-experience-header {
@@ -13,7 +9,7 @@
 }
 
 .work-experience-header h2 {
-  font-size: 48px;
+  font-size: calc(var(--main-width, 720px) * 0.0667);
   font-family: "Grenze Gotisch", serif;
   font-optical-sizing: auto;
   font-weight: 700;

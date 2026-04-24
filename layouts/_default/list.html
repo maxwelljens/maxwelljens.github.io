@@ -3,6 +3,7 @@
 {{- if (and site.Params.profileMode.enabled .IsHome) }}
 {{- partial "index_profile.html" . }}
 
+<div class="experience-grid">
 {{- with site.Params.workExperience }}
 {{- partial "work_experience.html" . }}
 {{- end }}
@@ -10,6 +11,7 @@
 {{- with site.Params.education }}
 {{- partial "education.html" . }}
 {{- end }}
+</div>
 
 {{- else }} {{/* if not profileMode */}}
 
