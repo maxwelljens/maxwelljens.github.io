@@ -53,7 +53,7 @@ languages:
           weight: 15
   pl:
     languageName: "Polski"
-    weight: 1
+    weight: 2
     taxonomies:
       category: categories
       tag: tags
@@ -69,6 +69,29 @@ languages:
         - name: Tags
           url: tags/
           weight: 15
+    params:
+      workExperience:
+        - company: "P.P.H. HAMOT"
+          jobTitle: "Kierownik sprzedaży"
+          startDate: "2025-07-01"
+          endDate: "2026-02-01"
+          description: "Zarządzanie sprzedażą środków petrochemicznych z i do zagranicy. Rozmowy i uzgodnienia warunków z dostawcami z Azji, rozpatrywanie dostępności towarów i klientów w Polsce."
+          url: ""
+          logo: "/images/hamot_logo_full.png"
+        - company: "Noroff"
+          jobTitle: "Nauczyciel bezpieczeństwa sieci i systemów informatycznych"
+          startDate: "2023-01-01"
+          endDate: "2025-05-01"
+          description: "Nauczyciel w kolegium zawodowym Noroff. Główny nauczyciel Linuxa i kursu wstępnego. Stworzyłem całkowicie nowy kurs Linuxa, ponieważ wymagał on modernizacji i lepszej pedagogiki."
+          url: "https://www.noroff.no"
+          logo: "/images/noroff-logo.png"
+        - company: "UPS"
+          jobTitle: "Asystent magazynowy"
+          startDate: "2018-12-01"
+          endDate: "2019-01-01"
+          description: "Przetwarzanie i archiwizowanie listów przewozowych, korygowanie błędów w przesyłkach, pomoc przy taśmie produkcyjnej i ogólne wsparcie w biurze."
+          url: "https://www.ups.com"
+          logo: "/images/ups-logo.jpg"
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -90,6 +113,29 @@ params:
   ShowToc: true
   # comments: false
   # images: ["images/papermod-cover.png"]
+
+  workExperience:
+    - company: "P.P.H. HAMOT"
+      jobTitle: "Sales Manager"
+      startDate: "2025-07-01"
+      endDate: "2026-02-01"
+      description: "Managing the sale of petrochemicals to and from abroad. Negotiating terms with Asian suppliers, and reviewing product availability and customer availability in Poland."
+      url: ""
+      logo: "/images/hamot_logo_full.png"
+    - company: "Noroff"
+      jobTitle: "Network & IT Security Teacher"
+      startDate: "2023-01-01"
+      endDate: "2025-05-01"
+      description: "Vocational school teacher at Noroff VOC. Course lead for Linux and introductory course. Created a new Linux course, as it required modernisation and a better pedagogic experience for the students."
+      url: "https://www.noroff.no"
+      logo: "/images/noroff-logo.png"
+    - company: "UPS"
+      jobTitle: "Warehouse Assistant"
+      startDate: "2018-12-01"
+      endDate: "2019-01-01"
+      description: "Processing and archiving of shipment bills, correction of shipment errors, help on the conveyor belt, and general assistance at the office."
+      url: "https://www.ups.com"
+      logo: "/images/ups-logo.jpg"
 
   profileMode:
     enabled: true

@@ -1,0 +1,55 @@
+<section class="work-experience">
+  <div class="work-experience-header">
+    <h2>{{ i18n "work_experience" }}</h2>
+  </div>
+
+  <div class="work-grid">
+    {{- range . }}
+    <div class="work-card">
+      {{- if .logo }}
+      <div class="work-logo">
+        {{- $img := "" }}
+        {{- if not (urls.Parse .logo).IsAbs }}
+          {{- $img = resources.Get .logo }}
+        {{- end }}
+        {{- if $img }}
+          {{- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) }}
+          {{- if and $img $prod }}
+            {{- $img = $img.Resize "50x50" }}
+          {{- end }}
+          <img src="{{ $img.Permalink }}" alt="{{ .company }} logo" width="50" height="50" loading="lazy" />
+        {{- else }}
+          <img src="{{ .logo | absURL }}" alt="{{ .company }} logo" width="50" height="50" loading="lazy" />
+        {{- end }}
+      </div>
+      {{- end }}
+      
+      <div class="work-details">
+        {{- if .url }}
+        <h3 class="work-company"><a href="{{ .url }}" target="_blank" rel="noopener">{{ .company }}</a></h3>
+        {{- else }}
+        <h3 class="work-company">{{ .company }}</h3>
+        {{- end }}
+        <p class="work-title">{{ .jobTitle }}</p>
+        
+        <time class="work-date">
+          {{- if .startDate }}
+            {{- $start := time .startDate }}
+            {{ $start.Format "Jan 2006" }}
+          {{- end }}
+          {{- if .endDate }}
+            {{- $end := time .endDate }}
+             — {{ $end.Format "Jan 2006" }}
+          {{- else }}
+             — <span class="work-present">{{ i18n "present" }}</span>
+          {{- end }}
+        </time>
+        
+        {{- if .description }}
+        <p class="work-description">{{ .description }}</p>
+        {{- end }}
+      </div>
+    </div>
+    {{- end }}
+  </div>
+</section>
