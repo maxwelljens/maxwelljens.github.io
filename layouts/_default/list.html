@@ -13,6 +13,12 @@
 {{- end }}
 </div>
 
+{{- partial "section_divider.html" (dict "label" "Hobbies") }}
+
+{{- with site.Params.hobbies }}
+{{- partial "hobbies.html" . }}
+{{- end }}
+
 {{- else }} {{/* if not profileMode */}}
 
 {{- if not .IsHome | and .Title }}

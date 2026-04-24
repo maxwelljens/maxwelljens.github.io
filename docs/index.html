@@ -11,7 +11,7 @@
 <meta name="description" content="My website">
 <meta name="author" content="Maxwell Jensen">
 <link rel="canonical" href="https://maxwelljensen.eu/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.eacc8dd42e98ccd361c1730dd0607424e38daa9df6dbeaa5d8d796729d80bf03.css" integrity="sha256-6syN1C6YzNNhwXMN0GB0JOONqp322&#43;ql2NeWcp2AvwM=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.74312bd09e20a6c0a2355553bcc6a56ed8d3b3684a89bdb42af640694728a3c1.css" integrity="sha256-dDEr0J4gpsCiNVVTvMalbtjTs2hKib20KvZAaUcoo8E=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://maxwelljensen.eu/favicon/favicon.svg">
 <link rel="icon" type="image/png" sizes="16x16" href="https://maxwelljensen.eu/favicon/favicon16x16">
 <link rel="icon" type="image/png" sizes="32x32" href="https://maxwelljensen.eu/favicon/favicon32x32">
@@ -63,6 +63,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
 <meta property="og:url" content="https://maxwelljensen.eu/">
   <meta property="og:site_name" content="Maxwell Jensen&#39;s Personal Website">
   <meta property="og:title" content="Maxwell Jensen&#39;s Personal Website">
@@ -331,7 +332,86 @@
   </div>
 </section>
 
-</div>
+</div><div class="section-divider">
+  <span class="section-divider-line"></span>
+  <span class="section-divider-label">Hobbies</span>
+  <span class="section-divider-line"></span>
+</div><section class="hobbies-section">
+  <div class="hobbies-layout">
+    <div class="hobbies-cards">
+      <div class="hobby-card active" data-index="0">
+        <div>
+          <h3>&lt; Game Developer /&gt;</h3>
+          <i class="fa-solid fa-gamepad"></i>
+        </div>
+        <p>Creating immersive experiences and digital worlds</p>
+        <a href="https://github.com/maxwelljens" >See Projects</a>
+      </div>
+      <div class="hobby-card" data-index="1">
+        <div>
+          <h3>&lt; Free Software /&gt;</h3>
+          <i class="fa-solid fa-code"></i>
+        </div>
+        <p>Empowering the community with open contributions</p>
+      </div>
+      <div class="hobby-card" data-index="2">
+        <div>
+          <h3>&lt; Writing /&gt;</h3>
+          <i class="fa-solid fa-pen-nib"></i>
+        </div>
+        <p>Exploring ideas through the written word</p>
+      </div>
+    </div>
+    <div class="hobby-introduction" data-index="0">
+      <p>Introduction</p>
+      <h2>Hello! I&#39;m Maxwell Jensen</h2>
+      <h4>Creating Games That Bring Joy</h4>
+      <p>As a hobbyist game developer, I create games using Godot Engine. My focus is on building unique gameplay mechanics and delivering memorable experiences. I believe games have the power to tell stories and evoke emotions in ways no other medium can.</p>
+      <div class="hobby-images">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs?username=maxwelljens&amp;theme=onedark&amp;hide_border=true&amp;include_all_commits=false&amp;count_private=false&amp;layout=compact" alt="image" loading="lazy" />
+      </div>
+    </div>
+    <div class="hobby-introduction hidden" data-index="1">
+      <p>Introduction</p>
+      <h2>Hello! I&#39;m Maxwell Jensen</h2>
+      <h4>Fueling the Future...!!!</h4>
+      <p>As an Open Source enthusiast, I am fueled by the collaborative spirit and the boundless opportunities it offers. Together, we embark on a journey of creativity, breaking barriers, and shaping the future. Let&#39;s unite to make a lasting impact on technology, knowledge, and the world at large.</p>
+      <div class="hobby-images">
+        <img src="https://github-readme-stats.vercel.app/api?username=maxwelljens&amp;theme=onedark&amp;no-frame=true&amp;no-bg=true&amp;margin-w=4" alt="image" loading="lazy" />
+      </div>
+    </div>
+    <div class="hobby-introduction hidden" data-index="2">
+      <p>Introduction</p>
+      <h2>Hello! I&#39;m Maxwell Jensen</h2>
+      <h4>Unleashing Creativity...!!!</h4>
+      <p>As a writer, I explore ideas and share perspectives through essays, articles, and short stories. Whether discussing technology, culture, or faith, I aim to spark thoughtful conversations and provide valuable insights to readers.</p>
+    </div>
+  </div>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const cards = document.querySelectorAll('.hobby-card');
+  const introductions = document.querySelectorAll('.hobby-introduction');
+  
+  cards.forEach(card => {
+    card.addEventListener('click', function() {
+      const index = this.dataset.index;
+      
+      cards.forEach(c => c.classList.remove('active'));
+      this.classList.add('active');
+      
+      introductions.forEach((intro, i) => {
+        if (i == index) {
+          intro.classList.remove('hidden');
+        } else {
+          intro.classList.add('hidden');
+        }
+      });
+    });
+  });
+});
+</script>
     </main>
     
 <footer class="footer">

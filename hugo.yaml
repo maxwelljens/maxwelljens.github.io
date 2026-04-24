@@ -51,6 +51,97 @@ languages:
         - name: Tags
           url: tags/
           weight: 15
+    params:
+      profileMode:
+        enabled: true
+        title: Maxwell Jensen
+        imageUrl: "/me.jpg"
+        imageTitle: Portrait
+        buttons:
+          - name: Posts
+            url: posts
+          - name: Tags
+            url: tags
+        secondImageUrl: "st_tsar_nicholas_ii_icon.jpg"
+        secondImageTitle: "Orthodox icon of St. Tsar Nicholas II of the Romanov Dynasty"
+        secondImageWidth: 350
+        secondText: "**St. Tsar Nicholas II Romanov**<br>My patron saint."
+      workExperience:
+        - company: "P.P.H. HAMOT"
+          jobTitle: "Sales Manager"
+          startDate: "2025-07-01"
+          endDate: "2026-02-01"
+          description: "Managing the sale of petrochemicals to and from abroad. Negotiating terms with Asian suppliers, and reviewing product availability and customer availability in Poland."
+          url: ""
+          logo: "/images/hamot_logo_full.png"
+        - company: "Noroff"
+          jobTitle: "Network & IT Security Teacher"
+          startDate: "2023-01-01"
+          endDate: "2025-05-01"
+          description: "Vocational school teacher at Noroff VOC. Course lead for Linux and introductory course. Created a new Linux course, as it required modernisation and a better pedagogic experience for the students."
+          url: "https://www.noroff.no"
+          logo: "/images/noroff-logo.png"
+        - company: "UPS"
+          jobTitle: "Warehouse Assistant"
+          startDate: "2018-12-01"
+          endDate: "2019-01-01"
+          description: "Processing and archiving of shipment bills, correction of shipment errors, help on the conveyor belt, and general assistance at the office."
+          url: "https://www.ups.com"
+          logo: "/images/ups-logo.jpg"
+      education:
+        - institution: "Noroff"
+          field: "Network & IT Security"
+          startDate: "2024-01-01"
+          endDate: "2025-01-01"
+          degree: "Higher Professional Degree"
+          grade: "B"
+          description: "IT education focused on the practice and theory of securing information systems; programming, ethical hacking, and digital forensics."
+          url: "https://www.noroff.no"
+          logo: "/images/noroff-logo.png"
+        - institution: "Noroff"
+          field: "Network & Systems Administration"
+          startDate: "2021-01-01"
+          endDate: "2022-01-01"
+          degree: "Professional Degree"
+          grade: "B"
+          description: "Practical IT education in administration of networks and systems. Studies centred around Microsoft- and UNIX-based technologies, alongside network and server infrastructure, with focus on IT security."
+          url: "https://www.noroff.no"
+          logo: "/images/noroff-logo.png"
+        - institution: "Noroff High School"
+          field: "Media & Communications"
+          startDate: "2012-01-01"
+          endDate: "2015-01-01"
+          degree: "High School Diploma"
+          grade: "5.0"
+          description: "Specialisation projects: social media, graphic design"
+          url: "https://www.noroff.no"
+          logo: "/images/noroff-logo.png"
+      hobbies:
+        - title: "< Game Developer />"
+          icon: "fa-solid fa-gamepad"
+          tagline: "Creating immersive experiences and digital worlds"
+          heading: "Hello! I'm Maxwell Jensen"
+          subheading: "Creating Games That Bring Joy"
+          description: "As a hobbyist game developer, I create games using Godot Engine. My focus is on building unique gameplay mechanics and delivering memorable experiences. I believe games have the power to tell stories and evoke emotions in ways no other medium can."
+          link:
+            text: "See Projects"
+            url: "https://github.com/maxwelljens"
+          images:
+            - "https://github-readme-stats.vercel.app/api/top-langs?username=maxwelljens&theme=onedark&hide_border=true&include_all_commits=false&count_private=false&layout=compact"
+        - title: "< Free Software />"
+          icon: "fa-solid fa-code"
+          tagline: "Empowering the community with open contributions"
+          heading: "Hello! I'm Maxwell Jensen"
+          subheading: "Fueling the Future...!!!"
+          description: "As an Open Source enthusiast, I am fueled by the collaborative spirit and the boundless opportunities it offers. Together, we embark on a journey of creativity, breaking barriers, and shaping the future. Let's unite to make a lasting impact on technology, knowledge, and the world at large."
+          images:
+            - "https://github-readme-stats.vercel.app/api?username=maxwelljens&theme=onedark&no-frame=true&no-bg=true&margin-w=4"
+        - title: "< Writing />"
+          icon: "fa-solid fa-pen-nib"
+          tagline: "Exploring ideas through the written word"
+          heading: "Hello! I'm Maxwell Jensen"
+          subheading: "Unleashing Creativity...!!!"
+          description: "As a writer, I explore ideas and share perspectives through essays, articles, and short stories. Whether discussing technology, culture, or faith, I aim to spark thoughtful conversations and provide valuable insights to readers."
   pl:
     languageName: "Polski"
     weight: 2
@@ -60,16 +151,30 @@ languages:
       series: series
     menu:
       main:
-        - name: Posts
+        - name: Posty
           url: /posts
           weight: 5
-        - name: Search
+        - name: Szukaj
           url: search/
           weight: 10
-        - name: Tags
+        - name: Tagi
           url: tags/
           weight: 15
     params:
+      profileMode:
+        enabled: true
+        title: Maxwell Jensen
+        imageUrl: "/me.jpg"
+        imageTitle: Zdjęcie
+        buttons:
+          - name: Posty
+            url: posts
+          - name: Tagi
+            url: tags
+        secondImageUrl: "st_tsar_nicholas_ii_icon.jpg"
+        secondImageTitle: "Ikona św. Cara Mikołaja II Romanowa"
+        secondImageWidth: 350
+        secondText: "**Św. Car Mikołaj II Romanow**<br>Mój patron."
       workExperience:
         - company: "P.P.H. HAMOT"
           jobTitle: "Kierownik sprzedaży"
@@ -120,6 +225,32 @@ languages:
           description: "Projekty specjalizacji: media społecznościowe, projektowanie graficzne"
           url: "https://www.noroff.no"
           logo: "/images/noroff-logo.png"
+      hobbies:
+        - title: "< Twórca gier />"
+          icon: "fa-solid fa-gamepad"
+          tagline: "Tworzenie immersyjnych doświadczeń i cyfrowych światów"
+          heading: "Cześć! Jestem Maxwell Jensen"
+          subheading: "Tworzę gry, które dają radość"
+          description: "Jako hobbystyczny twórca gier tworzę gry w silniku Godot. Moim celem jest budowanie unikalnych mechanik gameplayu i dostarczanie niezapomnianych wrażeń. Wierzę, że gry mają moc opowiadania historii i wywoływania emocji w sposób, w jaki żaden inny medium nie jest w stanie."
+          link:
+            text: "Zobacz projekty"
+            url: "https://github.com/maxwelljens"
+          images:
+            - "https://github-readme-stats.vercel.app/api/top-langs?username=maxwelljens&theme=onedark&hide_border=true&include_all_commits=false&count_private=false&layout=compact"
+        - title: "< Wolne oprogramowanie />"
+          icon: "fa-solid fa-code"
+          tagline: "Wspieranie społeczności otwartymi kontrybucjami"
+          heading: "Cześć! Jestem Maxwell Jensen"
+          subheading: "Napędzam przyszłość...!!!"
+          description: "Jako entuzjasta Open Source jestem napędzany духом współpracy i nieograniczone możliwości, jakie oferuje. Razem wyruszamy w podróż kreatywności, przełamujemy bariery i kształtujemy przyszłość. Połączmy siły, aby wywrzeć trwały wpływ na technologię, wiedzę i świat."
+          images:
+            - "https://github-readme-stats.vercel.app/api?username=maxwelljens&theme=onedark&no-frame=true&no-bg=true&margin-w=4"
+        - title: "< Pisanie />"
+          icon: "fa-solid fa-pen-nib"
+          tagline: "Badanie idei poprzez pisane słowo"
+          heading: "Cześć! Jestem Maxwell Jensen"
+          subheading: "Uwalnianie kreatywności...!!!"
+          description: "Jako pisarz badam idee i dzielę się perspektywami poprzez eseje, artykuły i opowiadania. Niezależnie od tego, czy dyskutuję o technologii, kulturze czy wierze, dążę do wywołania przemyślanych rozmów i dostarczenia cennych spostrzeżeń czytelnikom."
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -141,75 +272,6 @@ params:
   ShowToc: true
   # comments: false
   # images: ["images/papermod-cover.png"]
-
-  workExperience:
-    - company: "P.P.H. HAMOT"
-      jobTitle: "Sales Manager"
-      startDate: "2025-07-01"
-      endDate: "2026-02-01"
-      description: "Managing the sale of petrochemicals to and from abroad. Negotiating terms with Asian suppliers, and reviewing product availability and customer availability in Poland."
-      url: ""
-      logo: "/images/hamot_logo_full.png"
-    - company: "Noroff"
-      jobTitle: "Network & IT Security Teacher"
-      startDate: "2023-01-01"
-      endDate: "2025-05-01"
-      description: "Vocational school teacher at Noroff VOC. Course lead for Linux and introductory course. Created a new Linux course, as it required modernisation and a better pedagogic experience for the students."
-      url: "https://www.noroff.no"
-      logo: "/images/noroff-logo.png"
-    - company: "UPS"
-      jobTitle: "Warehouse Assistant"
-      startDate: "2018-12-01"
-      endDate: "2019-01-01"
-      description: "Processing and archiving of shipment bills, correction of shipment errors, help on the conveyor belt, and general assistance at the office."
-      url: "https://www.ups.com"
-      logo: "/images/ups-logo.jpg"
-
-  education:
-    - institution: "Noroff"
-      field: "Network & IT Security"
-      startDate: "2024-01-01"
-      endDate: "2025-01-01"
-      degree: "Higher Professional Degree"
-      grade: "B"
-      description: "IT education focused on the practice and theory of securing information systems; programming, ethical hacking, and digital forensics."
-      url: "https://www.noroff.no"
-      logo: "/images/noroff-logo.png"
-    - institution: "Noroff"
-      field: "Network & Systems Administration"
-      startDate: "2021-01-01"
-      endDate: "2022-01-01"
-      degree: "Professional Degree"
-      grade: "B"
-      description: "Practical IT education in administration of networks and systems. Studies centred around Microsoft- and UNIX-based technologies, alongside network and server infrastructure, with focus on IT security."
-      url: "https://www.noroff.no"
-      logo: "/images/noroff-logo.png"
-    - institution: "Noroff High School"
-      field: "Media & Communications"
-      startDate: "2012-01-01"
-      endDate: "2015-01-01"
-      degree: "High School Diploma"
-      grade: "5.0"
-      description: "Specialisation projects: social media, graphic design"
-      url: "https://www.noroff.no"
-      logo: "/images/noroff-logo.png"
-
-  profileMode:
-    enabled: true
-    title: Maxwell Jensen
-    imageUrl: "/me.jpg"
-    imageTitle: Portrait
-    # imageWidth: 120
-    # imageHeight: 120
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
-    secondImageUrl: "st_tsar_nicholas_ii_icon.jpg" # Place inside 'assets/' folder
-    secondImageTitle: "Orthodox icon of St. Tsar Nicholas II of the Romanov Dynasty"
-    secondImageWidth: 350
-    secondText: "**St. Tsar Nicholas II Romanov**<br>My patron saint."
 
   homeInfoParams:
     Title: "PaperMod's Demo"

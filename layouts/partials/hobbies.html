@@ -1,0 +1,62 @@
+<section class="hobbies-section">
+  <div class="hobbies-layout">
+    <div class="hobbies-cards">
+      {{- range $index, $hobby := . }}
+      <div class="hobby-card{{ if eq $index 0 }} active{{ end }}" data-index="{{ $index }}">
+        <div>
+          <h3>{{ .title }}</h3>
+          {{- if .icon }}
+          <i class="{{ .icon }}"></i>
+          {{- end }}
+        </div>
+        <p>{{ .tagline }}</p>
+        {{- if .link }}
+        <a href="{{ .link.url }}" {{ if .link.external }}target="_blank" rel="noopener"{{ end }}>{{ .link.text }}</a>
+        {{- end }}
+      </div>
+      {{- end }}
+    </div>
+
+    {{- range $index, $hobby := . }}
+    <div class="hobby-introduction{{ if gt $index 0 }} hidden{{ end }}" data-index="{{ $index }}">
+      <p>{{ i18n "introduction" }}</p>
+      <h2>{{ $hobby.heading }}</h2>
+      {{- if $hobby.subheading }}
+      <h4>{{ $hobby.subheading }}</h4>
+      {{- end }}
+      <p>{{ $hobby.description }}</p>
+      {{- if $hobby.images }}
+      <div class="hobby-images">
+        {{- range $hobby.images }}
+        <img src="{{ . }}" alt="image" loading="lazy" />
+        {{- end }}
+      </div>
+      {{- end }}
+    </div>
+    {{- end }}
+  </div>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const cards = document.querySelectorAll('.hobby-card');
+  const introductions = document.querySelectorAll('.hobby-introduction');
+  
+  cards.forEach(card => {
+    card.addEventListener('click', function() {
+      const index = this.dataset.index;
+      
+      cards.forEach(c => c.classList.remove('active'));
+      this.classList.add('active');
+      
+      introductions.forEach((intro, i) => {
+        if (i == index) {
+          intro.classList.remove('hidden');
+        } else {
+          intro.classList.add('hidden');
+        }
+      });
+    });
+  });
+});
+</script>
