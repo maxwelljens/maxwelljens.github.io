@@ -10,6 +10,11 @@
   margin: 0 auto;
 }
 
+.main .profile {
+  min-height: auto;
+  padding: 10rem 0;
+}
+
 .profile-columns .profile_inner {
   flex: 1 1 0;
   min-width: 300px;
@@ -36,7 +41,7 @@
   margin: var(--gap) auto 0;
 }
 
-.experience-grid > * {
+.experience-grid>* {
   flex: 0 0 var(--main-width, 720px);
   max-width: var(--main-width, 720px);
 }
@@ -46,7 +51,7 @@
     flex-wrap: wrap;
   }
 
-  .experience-grid > * {
+  .experience-grid>* {
     flex: 1 1 100%;
     max-width: 100%;
   }
