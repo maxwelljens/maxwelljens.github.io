@@ -1,0 +1,146 @@
+.education {
+  margin-top: 3rem;
+  padding: 0 1rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.education-header {
+  margin-bottom: 2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.education-header h2 {
+  font-size: 48px;
+  font-family: "Grenze Gotisch", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  margin: 0;
+  color: var(--primary);
+  text-shadow: 2px 2px var(--tertiary);
+  line-height: 1.0;
+}
+
+.education-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.education-card {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.education-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.education-logo {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  max-width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--theme);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.education-logo img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.education-details {
+  flex: 1;
+  min-width: 0;
+}
+
+.education-institution {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin: 0;
+  font-family: inherit;
+}
+
+.education-institution a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.education-institution a:hover {
+  text-decoration: underline;
+}
+
+.education-field {
+  font-size: 0.95rem;
+  color: var(--secondary);
+  margin: 0.25rem 0 0 0;
+}
+
+.education-date {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: 0.5rem;
+}
+
+.education-present {
+  color: var(--tertiary-color, #98971a);
+  font-weight: 600;
+}
+
+.dark .education-present {
+  color: #98971a;
+}
+
+.education-degree {
+  font-size: 0.85rem;
+  color: var(--content);
+  margin: 0.5rem 0 0 0;
+  font-style: italic;
+}
+
+.education-grade {
+  font-size: 0.8rem;
+  color: var(--secondary);
+  margin: 0.25rem 0 0 0;
+}
+
+.education-description {
+  font-size: 0.9rem;
+  color: var(--content);
+  margin: 0.5rem 0 0 0;
+  line-height: 1.5;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .education-card {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .education-logo {
+    width: 40px;
+    height: 40px;
+    max-width: 40px;
+  }
+}

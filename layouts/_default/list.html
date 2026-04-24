@@ -7,6 +7,10 @@
 {{- partial "work_experience.html" . }}
 {{- end }}
 
+{{- with site.Params.education }}
+{{- partial "education.html" . }}
+{{- end }}
+
 {{- else }} {{/* if not profileMode */}}
 
 {{- if not .IsHome | and .Title }}
