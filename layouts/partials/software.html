@@ -1,0 +1,34 @@
+<section class="software-section" aria-label="Software">
+  {{- $sectionLabel := i18n "software" | default "Software" }}
+  {{- partial "section_divider.html" (dict "label" $sectionLabel) }}
+
+  <div class="software-grid">
+    {{- range $repo := . }}
+    <article class="software-card">
+      <div class="software-card-header">
+        <h3 class="software-card-title">
+          <a href="{{ $repo.url }}" target="_blank" rel="noopener">{{ $repo.name }}</a>
+        </h3>
+      </div>
+      {{- if $repo.description }}
+      <p class="software-card-description">{{ $repo.description }}</p>
+      {{- end }}
+      {{- if $repo.topics }}
+      <ul class="software-card-topics">
+        {{- range first 4 $repo.topics }}
+        <li>{{ . }}</li>
+        {{- end }}
+      </ul>
+      {{- end }}
+    </article>
+    {{- end }}
+  </div>
+
+  {{- $moreUrl := "https://codeberg.org/maxwelljensen" }}
+  <div class="software-more">
+    <a href="{{ $moreUrl }}" target="_blank" rel="noopener" class="software-more-link">
+      <span>{{ i18n "view_all_repositories" | default "View All Repositories" }}</span>
+      <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+    </a>
+  </div>
+</section>

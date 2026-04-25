@@ -166,6 +166,35 @@ languages:
           link:
             text: "My Prose"
             url: "/posts"
+      software:
+        - name: "hugo-PaperMod-extras"
+          description: "Custom shortcodes, partials, and styling for PaperMod theme"
+          url: "https://codeberg.org/maxwelljens/hugo-PaperMod-extras"
+          topics:
+            - hugo
+            - theme
+            - shortcodes
+        - name: "ansible-role-gitea"
+          description: "Ansible role for deploying Gitea, the self-hosted Git service"
+          url: "https://codeberg.org/maxwelljens/ansible-role-gitea"
+          topics:
+            - ansible
+            - gitea
+            - deployment
+        - name: "maxwelljens.github.io"
+          description: "Source code for this website, built with Hugo"
+          url: "https://codeberg.org/maxwelljens/maxwelljens.github.io"
+          topics:
+            - hugo
+            - website
+            - static-site
+        - name: "nixos-config"
+          description: "My NixOS and home-manager configurations for declarative system setup"
+          url: "https://codeberg.org/maxwelljens/nixos-config"
+          topics:
+            - nixos
+            - home-manager
+            - dotfiles
   pl:
     languageName: "Polski"
     weight: 2
@@ -300,6 +329,35 @@ languages:
           link:
             text: "Moja proza"
             url: "/posts"
+      software:
+        - name: "hugo-PaperMod-extras"
+          description: "Custom shortcodes, partials, and styling for PaperMod theme"
+          url: "https://codeberg.org/maxwelljens/hugo-PaperMod-extras"
+          topics:
+            - hugo
+            - theme
+            - shortcodes
+        - name: "ansible-role-gitea"
+          description: "Ansible role for deploying Gitea, the self-hosted Git service"
+          url: "https://codeberg.org/maxwelljens/ansible-role-gitea"
+          topics:
+            - ansible
+            - gitea
+            - deployment
+        - name: "maxwelljens.github.io"
+          description: "Source code for this website, built with Hugo"
+          url: "https://codeberg.org/maxwelljens/maxwelljens.github.io"
+          topics:
+            - hugo
+            - website
+            - static-site
+        - name: "nixos-config"
+          description: "My NixOS and home-manager configurations for declarative system setup"
+          url: "https://codeberg.org/maxwelljens/nixos-config"
+          topics:
+            - nixos
+            - home-manager
+            - dotfiles
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.

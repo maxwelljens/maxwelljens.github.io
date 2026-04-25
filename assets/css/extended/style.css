@@ -2,6 +2,7 @@
 @import "work-experience.css";
 @import "education.css";
 @import "hobbies.css";
+@import "software.css";
 
 /* Gruvbox Light Theme */
 :root {
@@ -21,8 +22,8 @@
   /* bg1 */
   --code-bg: #d5c4a1;
   /* bg2 */
-  --border: #d5c4a1;
-  /* bg2 */
+  --border: #7c6f64;
+  /* gray */
 }
 
 /* Gruvbox Dark Theme */
@@ -43,8 +44,8 @@
   /* bg0_hard */
   --code-bg: #504945;
   /* bg2 */
-  --border: #504945;
-  /* bg2 */
+  --border: #a89984;
+  /* gray */
 }
 
 /* Gruvbox Light Theme fixes with notices */

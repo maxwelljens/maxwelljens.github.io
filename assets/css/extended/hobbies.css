@@ -43,7 +43,7 @@
   transform: translateX(4px);
 }
 
-.hobby-card h3 {
+.hobby-card-title {
   font-size: 1rem;
   font-weight: 700;
   margin: 0;
@@ -158,7 +158,7 @@
 }
 
 /* Section Divider */
-.hobbies-section-divider {
+.section-divider {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -168,13 +168,13 @@
   margin: 0 auto;
 }
 
-.hobbies-section-divider-line {
+.section-divider-line {
   flex: 1;
   height: 1px;
   background: var(--border);
 }
 
-.hobbies-section-divider-label {
+.section-divider-label {
   color: var(--secondary);
   font-size: 0.85rem;
   text-transform: uppercase;

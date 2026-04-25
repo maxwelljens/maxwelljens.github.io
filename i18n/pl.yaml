@@ -6,3 +6,7 @@ education:
   other: Wykształcenie
 grade:
   other: Ocena średnia
+software:
+  other: Oprogramowanie
+view_all_repositories:
+  other: Zobacz wszystkie repozytoria
