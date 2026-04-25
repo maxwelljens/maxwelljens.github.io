@@ -167,34 +167,34 @@ languages:
             text: "My Prose"
             url: "/posts"
       software:
-        - name: "hugo-PaperMod-extras"
-          description: "Custom shortcodes, partials, and styling for PaperMod theme"
-          url: "https://codeberg.org/maxwelljens/hugo-PaperMod-extras"
+        - name: "bibel"
+          description: "A MOTD for Scripture. Shows today's Gospel reading when you open your terminal."
+          url: "https://codeberg.org/maxwelljensen/bibel"
           topics:
-            - hugo
-            - theme
-            - shortcodes
-        - name: "ansible-role-gitea"
-          description: "Ansible role for deploying Gitea, the self-hosted Git service"
-          url: "https://codeberg.org/maxwelljens/ansible-role-gitea"
+            - go
+            - cli
+            - tui
+        - name: "gibman"
+          description: "A DOOM WAD manager for nerds"
+          url: "https://github.com/maxwelljens/gibman"
           topics:
-            - ansible
-            - gitea
-            - deployment
-        - name: "maxwelljens.github.io"
-          description: "Source code for this website, built with Hugo"
-          url: "https://codeberg.org/maxwelljens/maxwelljens.github.io"
+            - nim
+            - cli
+            - doom
+        - name: "llm_aggregator"
+          description: "A CLI tool to aggregate RSS feeds and summarise them with LLMs"
+          url: "https://codeberg.org/maxwelljensen/llm_aggregator"
           topics:
-            - hugo
-            - website
-            - static-site
-        - name: "nixos-config"
-          description: "My NixOS and home-manager configurations for declarative system setup"
-          url: "https://codeberg.org/maxwelljens/nixos-config"
+            - go
+            - cli
+            - rss
+        - name: "mdget"
+          description: "Fetches a webpage and converts HTML to clean Markdown"
+          url: "https://codeberg.org/maxwelljensen/mdget"
           topics:
-            - nixos
-            - home-manager
-            - dotfiles
+            - go
+            - cli
+            - markdown
   pl:
     languageName: "Polski"
     weight: 2
@@ -330,34 +330,34 @@ languages:
             text: "Moja proza"
             url: "/posts"
       software:
-        - name: "hugo-PaperMod-extras"
-          description: "Custom shortcodes, partials, and styling for PaperMod theme"
-          url: "https://codeberg.org/maxwelljens/hugo-PaperMod-extras"
+        - name: "bibel"
+          description: "MOTD dla Pisma. Wyświetla dzisiejsze czytanie z Ewangelii po otwarciu terminala."
+          url: "https://codeberg.org/maxwelljensen/bibel"
           topics:
-            - hugo
-            - theme
-            - shortcodes
-        - name: "ansible-role-gitea"
-          description: "Ansible role for deploying Gitea, the self-hosted Git service"
-          url: "https://codeberg.org/maxwelljens/ansible-role-gitea"
+            - go
+            - cli
+            - tui
+        - name: "gibman"
+          description: "Menadżer WADów DOOM-a dla nerdów"
+          url: "https://github.com/maxwelljens/gibman"
           topics:
-            - ansible
-            - gitea
-            - deployment
-        - name: "maxwelljens.github.io"
-          description: "Source code for this website, built with Hugo"
-          url: "https://codeberg.org/maxwelljens/maxwelljens.github.io"
+            - nim
+            - cli
+            - doom
+        - name: "llm_aggregator"
+          description: "CLI do agregacji kanałów RSS i podsumowywania ich za pomocą LLM"
+          url: "https://codeberg.org/maxwelljensen/llm_aggregator"
           topics:
-            - hugo
-            - website
-            - static-site
-        - name: "nixos-config"
-          description: "My NixOS and home-manager configurations for declarative system setup"
-          url: "https://codeberg.org/maxwelljens/nixos-config"
+            - go
+            - cli
+            - rss
+        - name: "mdget"
+          description: "Pobiera stronę i konwertuje HTML na czysty Markdown"
+          url: "https://codeberg.org/maxwelljensen/mdget"
           topics:
-            - nixos
-            - home-manager
-            - dotfiles
+            - go
+            - cli
+            - markdown
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
