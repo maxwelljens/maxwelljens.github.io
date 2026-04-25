@@ -11,7 +11,7 @@
 <meta name="description" content="My website">
 <meta name="author" content="Maxwell Jensen">
 <link rel="canonical" href="https://maxwelljensen.eu/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.647f1593edd21fc303e4a0a92e0d5f97630e23ffd363d5b8191cdd5ee86193e4.css" integrity="sha256-ZH8Vk&#43;3SH8MD5KCpLg1fl2MOI//TY9W4GRzdXuhhk&#43;Q=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.8f21db7b5b61cd9fed45364afbb7d0e4b8a44a4c6bc6cb9242fb38dab3a7e920.css" integrity="sha256-jyHbe1thzZ/tRTZK&#43;7fQ5LikSkxrxsuSQvs42rOn6SA=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://maxwelljensen.eu/favicon/favicon.svg">
 <link rel="icon" type="image/png" sizes="16x16" href="https://maxwelljensen.eu/favicon/favicon16x16">
 <link rel="icon" type="image/png" sizes="32x32" href="https://maxwelljensen.eu/favicon/favicon32x32">
@@ -219,7 +219,7 @@
   <div class="work-grid">
     <div class="work-card">
       <div class="work-logo">
-          <img src="https://maxwelljensen.eu/images/hamot_logo_full.png" alt="P.P.H. HAMOT logo" width="50" height="50" loading="lazy" />
+          <img src="https://maxwelljensen.eu/images/hamot-logo.png" alt="P.P.H. HAMOT logo" width="50" height="50" loading="lazy" />
       </div>
       
       <div class="work-details">
@@ -251,7 +251,7 @@
     </div>
     <div class="work-card">
       <div class="work-logo">
-          <img src="https://maxwelljensen.eu/images/ups-logo.jpg" alt="UPS logo" width="50" height="50" loading="lazy" />
+          <img src="https://maxwelljensen.eu/images/ups-logo.png" alt="UPS logo" width="50" height="50" loading="lazy" />
       </div>
       
       <div class="work-details">
@@ -476,67 +476,185 @@ document.addEventListener('DOMContentLoaded', function() {
   <span class="section-divider-line"></span>
 </div>
 
-  <div class="software-grid">
-    <article class="software-card">
-      <div class="software-card-header">
-        <h3 class="software-card-title">
-          <a href="https://codeberg.org/maxwelljensen/bibel" target="_blank" rel="noopener">bibel</a>
-        </h3>
-      </div>
-      <p class="software-card-description">A MOTD for Scripture. Shows today&#39;s Gospel reading when you open your terminal.</p>
-      <ul class="software-card-topics">
-        <li>go</li>
-        <li>cli</li>
-        <li>tui</li>
-      </ul>
-    </article>
-    <article class="software-card">
-      <div class="software-card-header">
-        <h3 class="software-card-title">
-          <a href="https://github.com/maxwelljens/gibman" target="_blank" rel="noopener">gibman</a>
-        </h3>
-      </div>
-      <p class="software-card-description">A DOOM WAD manager for nerds</p>
-      <ul class="software-card-topics">
-        <li>nim</li>
-        <li>cli</li>
-        <li>doom</li>
-      </ul>
-    </article>
-    <article class="software-card">
-      <div class="software-card-header">
-        <h3 class="software-card-title">
-          <a href="https://codeberg.org/maxwelljensen/llm_aggregator" target="_blank" rel="noopener">llm_aggregator</a>
-        </h3>
-      </div>
-      <p class="software-card-description">A CLI tool to aggregate RSS feeds and summarise them with LLMs</p>
-      <ul class="software-card-topics">
-        <li>go</li>
-        <li>cli</li>
-        <li>rss</li>
-      </ul>
-    </article>
-    <article class="software-card">
-      <div class="software-card-header">
-        <h3 class="software-card-title">
-          <a href="https://codeberg.org/maxwelljensen/mdget" target="_blank" rel="noopener">mdget</a>
-        </h3>
-      </div>
-      <p class="software-card-description">Fetches a webpage and converts HTML to clean Markdown</p>
-      <ul class="software-card-topics">
-        <li>go</li>
-        <li>cli</li>
-        <li>markdown</li>
-      </ul>
-    </article>
-  </div>
-  <div class="software-more">
-    <a href="https://codeberg.org/maxwelljensen" target="_blank" rel="noopener" class="software-more-link">
-      <span>View All Repositories</span>
-      <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
-    </a>
+  <div class="software-layout">
+    <div class="software-info" id="software-info" role="tabpanel">
+      <h2 class="software-info-title">Select a project</h2>
+      <p class="software-info-description">Click a project on the right to learn more about it.</p>
+      <ul class="software-info-topics hidden"></ul>
+      <a href="#" class="software-info-link hidden" target="_blank" rel="noopener">
+        <span>View Repository</span>
+        <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+      </a>
+    </div>
+
+    <div class="software-buttons" role="tablist" aria-label="Software projects">
+      <button class="software-card active"
+              data-index="0"
+              data-name="bibel"
+              data-description="A MOTD for Scripture. Shows today&#39;s Gospel reading when you open your terminal."
+              data-url="https://codeberg.org/maxwelljensen/bibel"
+              data-topics="go,cli,tui"
+              role="tab"
+              aria-selected="true"
+              aria-controls="software-info"
+              tabindex="0">
+        <div class="software-card-header">
+          <h3 class="software-card-title">
+            <a href="https://codeberg.org/maxwelljensen/bibel" target="_blank" rel="noopener" onclick="event.stopPropagation()">bibel</a>
+          </h3>
+        </div>
+        <p class="software-card-description">A MOTD for Scripture. Shows today&#39;s Gospel reading when you open your terminal.</p>
+        <ul class="software-card-topics">
+          <li>go</li>
+          <li>cli</li>
+          <li>tui</li>
+        </ul>
+      </button>
+      <button class="software-card"
+              data-index="1"
+              data-name="gibman"
+              data-description="A DOOM WAD manager for nerds"
+              data-url="https://github.com/maxwelljens/gibman"
+              data-topics="nim,cli,doom"
+              role="tab"
+              aria-selected="false"
+              aria-controls="software-info"
+              tabindex="-1">
+        <div class="software-card-header">
+          <h3 class="software-card-title">
+            <a href="https://github.com/maxwelljens/gibman" target="_blank" rel="noopener" onclick="event.stopPropagation()">gibman</a>
+          </h3>
+        </div>
+        <p class="software-card-description">A DOOM WAD manager for nerds</p>
+        <ul class="software-card-topics">
+          <li>nim</li>
+          <li>cli</li>
+          <li>doom</li>
+        </ul>
+      </button>
+      <button class="software-card"
+              data-index="2"
+              data-name="llm_aggregator"
+              data-description="A CLI tool to aggregate RSS feeds and summarise them with LLMs"
+              data-url="https://codeberg.org/maxwelljensen/llm_aggregator"
+              data-topics="go,cli,rss"
+              role="tab"
+              aria-selected="false"
+              aria-controls="software-info"
+              tabindex="-1">
+        <div class="software-card-header">
+          <h3 class="software-card-title">
+            <a href="https://codeberg.org/maxwelljensen/llm_aggregator" target="_blank" rel="noopener" onclick="event.stopPropagation()">llm_aggregator</a>
+          </h3>
+        </div>
+        <p class="software-card-description">A CLI tool to aggregate RSS feeds and summarise them with LLMs</p>
+        <ul class="software-card-topics">
+          <li>go</li>
+          <li>cli</li>
+          <li>rss</li>
+        </ul>
+      </button>
+      <button class="software-card"
+              data-index="3"
+              data-name="mdget"
+              data-description="Fetches a webpage and converts HTML to clean Markdown"
+              data-url="https://codeberg.org/maxwelljensen/mdget"
+              data-topics="go,cli,markdown"
+              role="tab"
+              aria-selected="false"
+              aria-controls="software-info"
+              tabindex="-1">
+        <div class="software-card-header">
+          <h3 class="software-card-title">
+            <a href="https://codeberg.org/maxwelljensen/mdget" target="_blank" rel="noopener" onclick="event.stopPropagation()">mdget</a>
+          </h3>
+        </div>
+        <p class="software-card-description">Fetches a webpage and converts HTML to clean Markdown</p>
+        <ul class="software-card-topics">
+          <li>go</li>
+          <li>cli</li>
+          <li>markdown</li>
+        </ul>
+      </button>
+    </div>
   </div>
 </section>
+
+<script>
+(function() {
+  const buttons = document.querySelectorAll('.software-card');
+  const infoPanel = document.getElementById('software-info');
+  const infoTitle = infoPanel.querySelector('.software-info-title');
+  const infoDesc = infoPanel.querySelector('.software-info-description');
+  const infoTopics = infoPanel.querySelector('.software-info-topics');
+  const infoLink = infoPanel.querySelector('.software-info-link');
+
+  function activateSoftware(button) {
+    const index = button.dataset.index;
+    const name = button.dataset.name;
+    const description = button.dataset.description;
+    const url = button.dataset.url;
+    const topicsStr = button.dataset.topics;
+
+    buttons.forEach(b => {
+      b.classList.remove('active');
+      b.setAttribute('aria-selected', 'false');
+      b.setAttribute('tabindex', '-1');
+    });
+    button.classList.add('active');
+    button.setAttribute('aria-selected', 'true');
+    button.setAttribute('tabindex', '0');
+
+    infoTitle.textContent = name;
+    infoDesc.textContent = description || '';
+    infoLink.href = url;
+
+    if (topicsStr) {
+      const topics = topicsStr.split(',');
+      infoTopics.innerHTML = topics.map(t => `<li>${t}</li>`).join('');
+      infoTopics.classList.remove('hidden');
+    } else {
+      infoTopics.innerHTML = '';
+      infoTopics.classList.add('hidden');
+    }
+
+    infoLink.classList.remove('hidden');
+  }
+
+  buttons.forEach(button => {
+    button.addEventListener('click', function(e) {
+      if (e.target.closest('.software-card-title a')) return;
+      activateSoftware(this);
+    });
+
+    button.addEventListener('keydown', function(e) {
+      const currentIndex = parseInt(this.dataset.index);
+      let targetIndex = null;
+
+      if (e.key === 'ArrowDown' || e.key === 'ArrowRight') {
+        targetIndex = (currentIndex + 1) % buttons.length;
+      } else if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') {
+        targetIndex = (currentIndex - 1 + buttons.length) % buttons.length;
+      } else if (e.key === 'Home') {
+        targetIndex = 0;
+      } else if (e.key === 'End') {
+        targetIndex = buttons.length - 1;
+      }
+
+      if (targetIndex !== null) {
+        e.preventDefault();
+        buttons[targetIndex].focus();
+        activateSoftware(buttons[targetIndex]);
+      }
+    });
+  });
+
+  const activeButton = document.querySelector('.software-card.active');
+  if (activeButton) {
+    activateSoftware(activeButton);
+  }
+})();
+</script>
     </main>
     
 <footer class="footer">

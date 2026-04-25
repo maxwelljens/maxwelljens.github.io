@@ -75,7 +75,7 @@ languages:
           Negotiating terms with Asian suppliers, and reviewing product
           availability and customer availability in Poland."
           url: ""
-          logo: "/images/hamot_logo_full.png"
+          logo: "/images/hamot-logo.png"
         - company: "Noroff"
           jobTitle: "Network & IT Security Teacher"
           startDate: "2023-01-01"
@@ -94,7 +94,7 @@ languages:
           of shipment errors, help on the conveyor belt, and general assistance
           at the office."
           url: "https://www.ups.com"
-          logo: "/images/ups-logo.jpg"
+          logo: "/images/ups-logo.png"
       education:
         - institution: "Noroff"
           field: "Network & IT Security"
@@ -237,7 +237,7 @@ languages:
           zagranicy. Rozmowy i uzgodnienia warunków z dostawcami z Azji,
           rozpatrywanie dostępności towarów i klientów w Polsce."
           url: ""
-          logo: "/images/hamot_logo_full.png"
+          logo: "/images/hamot-logo.png"
         - company: "Noroff"
           jobTitle: "Nauczyciel bezpieczeństwa sieci i systemów informatycznych"
           startDate: "2023-01-01"
@@ -255,7 +255,7 @@ languages:
           korygowanie błędów w przesyłkach, pomoc przy taśmie produkcyjnej i
           ogólne wsparcie w biurze."
           url: "https://www.ups.com"
-          logo: "/images/ups-logo.jpg"
+          logo: "/images/ups-logo.png"
       education:
         - institution: "Noroff"
           field: "Bezpieczeństwo sieci i systemów informatycznych"

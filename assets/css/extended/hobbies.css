@@ -164,7 +164,7 @@
   gap: 1rem;
   padding: 3rem 0;
   width: 100%;
-  max-width: calc(var(--main-width, 720px) * 2);
+  max-width: var(--main-width, 720px);
   margin: 0 auto;
 }
 

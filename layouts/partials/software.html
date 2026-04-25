@@ -2,33 +2,124 @@
   {{- $sectionLabel := i18n "software" | default "Software" }}
   {{- partial "section_divider.html" (dict "label" $sectionLabel) }}
 
-  <div class="software-grid">
-    {{- range $repo := . }}
-    <article class="software-card">
-      <div class="software-card-header">
-        <h3 class="software-card-title">
-          <a href="{{ $repo.url }}" target="_blank" rel="noopener">{{ $repo.name }}</a>
-        </h3>
-      </div>
-      {{- if $repo.description }}
-      <p class="software-card-description">{{ $repo.description }}</p>
-      {{- end }}
-      {{- if $repo.topics }}
-      <ul class="software-card-topics">
-        {{- range first 4 $repo.topics }}
-        <li>{{ . }}</li>
-        {{- end }}
-      </ul>
-      {{- end }}
-    </article>
-    {{- end }}
-  </div>
+  <div class="software-layout">
+    <div class="software-info" id="software-info" role="tabpanel">
+      <h2 class="software-info-title">Select a project</h2>
+      <p class="software-info-description">Click a project on the right to learn more about it.</p>
+      <ul class="software-info-topics hidden"></ul>
+      <a href="#" class="software-info-link hidden" target="_blank" rel="noopener">
+        <span>View Repository</span>
+        <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+      </a>
+    </div>
 
-  {{- $moreUrl := "https://codeberg.org/maxwelljensen" }}
-  <div class="software-more">
-    <a href="{{ $moreUrl }}" target="_blank" rel="noopener" class="software-more-link">
-      <span>{{ i18n "view_all_repositories" | default "View All Repositories" }}</span>
-      <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
-    </a>
+    <div class="software-buttons" role="tablist" aria-label="Software projects">
+      {{- range $index, $repo := . }}
+      <button class="software-card{{ if eq $index 0 }} active{{ end }}"
+              data-index="{{ $index }}"
+              data-name="{{ $repo.name }}"
+              data-description="{{ $repo.description }}"
+              data-url="{{ $repo.url }}"
+              {{- if $repo.topics }}
+              data-topics="{{ delimit $repo.topics "," }}"
+              {{- end }}
+              role="tab"
+              aria-selected="{{ if eq $index 0 }}true{{ else }}false{{ end }}"
+              aria-controls="software-info"
+              tabindex="{{ if eq $index 0 }}0{{ else }}-1{{ end }}">
+        <div class="software-card-header">
+          <h3 class="software-card-title">
+            <a href="{{ $repo.url }}" target="_blank" rel="noopener" onclick="event.stopPropagation()">{{ $repo.name }}</a>
+          </h3>
+        </div>
+        {{- if $repo.description }}
+        <p class="software-card-description">{{ $repo.description }}</p>
+        {{- end }}
+        {{- if $repo.topics }}
+        <ul class="software-card-topics">
+          {{- range first 4 $repo.topics }}
+          <li>{{ . }}</li>
+          {{- end }}
+        </ul>
+        {{- end }}
+      </button>
+      {{- end }}
+    </div>
   </div>
 </section>
+
+<script>
+(function() {
+  const buttons = document.querySelectorAll('.software-card');
+  const infoPanel = document.getElementById('software-info');
+  const infoTitle = infoPanel.querySelector('.software-info-title');
+  const infoDesc = infoPanel.querySelector('.software-info-description');
+  const infoTopics = infoPanel.querySelector('.software-info-topics');
+  const infoLink = infoPanel.querySelector('.software-info-link');
+
+  function activateSoftware(button) {
+    const index = button.dataset.index;
+    const name = button.dataset.name;
+    const description = button.dataset.description;
+    const url = button.dataset.url;
+    const topicsStr = button.dataset.topics;
+
+    buttons.forEach(b => {
+      b.classList.remove('active');
+      b.setAttribute('aria-selected', 'false');
+      b.setAttribute('tabindex', '-1');
+    });
+    button.classList.add('active');
+    button.setAttribute('aria-selected', 'true');
+    button.setAttribute('tabindex', '0');
+
+    infoTitle.textContent = name;
+    infoDesc.textContent = description || '';
+    infoLink.href = url;
+
+    if (topicsStr) {
+      const topics = topicsStr.split(',');
+      infoTopics.innerHTML = topics.map(t => `<li>${t}</li>`).join('');
+      infoTopics.classList.remove('hidden');
+    } else {
+      infoTopics.innerHTML = '';
+      infoTopics.classList.add('hidden');
+    }
+
+    infoLink.classList.remove('hidden');
+  }
+
+  buttons.forEach(button => {
+    button.addEventListener('click', function(e) {
+      if (e.target.closest('.software-card-title a')) return;
+      activateSoftware(this);
+    });
+
+    button.addEventListener('keydown', function(e) {
+      const currentIndex = parseInt(this.dataset.index);
+      let targetIndex = null;
+
+      if (e.key === 'ArrowDown' || e.key === 'ArrowRight') {
+        targetIndex = (currentIndex + 1) % buttons.length;
+      } else if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') {
+        targetIndex = (currentIndex - 1 + buttons.length) % buttons.length;
+      } else if (e.key === 'Home') {
+        targetIndex = 0;
+      } else if (e.key === 'End') {
+        targetIndex = buttons.length - 1;
+      }
+
+      if (targetIndex !== null) {
+        e.preventDefault();
+        buttons[targetIndex].focus();
+        activateSoftware(buttons[targetIndex]);
+      }
+    });
+  });
+
+  const activeButton = document.querySelector('.software-card.active');
+  if (activeButton) {
+    activateSoftware(activeButton);
+  }
+})();
+</script>
