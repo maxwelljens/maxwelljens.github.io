@@ -19,6 +19,9 @@
 {{- partial "hobbies.html" . }}
 {{- end }}
 
+{{- partial "section_divider.html" (dict "label" (i18n "recommendations")) }}
+{{- partial "recommendations.html" . }}
+
 {{- with site.Params.software }}
 {{- partial "section_divider.html" (dict "label" (i18n "software")) }}
 {{- partial "software.html" . }}

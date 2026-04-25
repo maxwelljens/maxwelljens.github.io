@@ -1,0 +1,39 @@
+{{- $testimonials := where site.RegularPages "Type" "testimonial" }}
+{{- if $testimonials }}
+<section class="recommendations-section" aria-label="Recommendations">
+  <div class="recommendations-container">
+    {{- range $testimonials }}
+    <div class="recommendation-card"{{ if .Params.links_to }} data-link="{{ .Params.links_to }}"{{ end }}>
+      <div class="recommendation-header">
+        <i class="fa-solid fa-quote-left recommendation-quote-icon" aria-hidden="true"></i>
+        <span class="recommendation-author-name">{{ .Params.name }}</span>
+      </div>
+      <div class="recommendation-content">{{ .Content }}</div>
+      <div class="recommendation-author">
+        {{- if .Params.image }}
+        <div class="recommendation-author-image">
+          <img src="{{ .Params.image }}" alt="{{ .Params.name }}" loading="lazy" />
+        </div>
+        {{- end }}
+        <div class="recommendation-author-info">
+          {{- if .Params.title }}
+          <span class="recommendation-author-title">{{ .Params.title }}</span>
+          {{- end }}
+        </div>
+      </div>
+    </div>
+    {{- end }}
+  </div>
+</section>
+{{- end }}
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const cards = document.querySelectorAll('.recommendation-card[data-link]');
+  cards.forEach(card => {
+    card.addEventListener('click', function() {
+      window.open(this.dataset.link, '_blank', 'noopener,noreferrer');
+    });
+  });
+});
+</script>

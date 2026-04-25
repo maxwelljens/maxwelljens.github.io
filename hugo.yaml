@@ -13,7 +13,7 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
-mainsections: ["posts"]
+mainsections: ["posts", "testimonial"]
 
 minify:
   disableXML: true
