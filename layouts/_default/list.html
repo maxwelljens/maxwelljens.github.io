@@ -13,14 +13,14 @@
 {{- end }}
 </div>
 
-{{- partial "section_divider.html" (dict "label" "Hobbies") }}
+{{- partial "section_divider.html" (dict "label" (i18n "hobbies")) }}
 
 {{- with site.Params.hobbies }}
 {{- partial "hobbies.html" . }}
 {{- end }}
 
 {{- with site.Params.software }}
-{{- partial "section_divider.html" (dict "label" "Software") }}
+{{- partial "section_divider.html" (dict "label" (i18n "software")) }}
 {{- partial "software.html" . }}
 {{- end }}
 

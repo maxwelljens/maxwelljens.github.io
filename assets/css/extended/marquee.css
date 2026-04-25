@@ -1,0 +1,42 @@
+/* Marquee */
+.marquee {
+  overflow: hidden;
+}
+
+.marquee-track {
+  display: flex;
+  gap: 2.5rem;
+  width: max-content;
+  will-change: transform;
+  animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(calc(-100% / 2)); }
+}
+
+.marquee-icon {
+  height: 40px;
+  width: 40px;
+  flex-shrink: 0;
+  opacity: 0.6;
+  transition: opacity 0.2s ease;
+}
+
+.marquee-icon:hover {
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track {
+    animation: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .marquee-icon {
+    height: 32px;
+    width: 32px;
+  }
+}

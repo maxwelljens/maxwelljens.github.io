@@ -189,3 +189,29 @@
     transform: none;
   }
 }
+
+/* Logo Marquee Container */
+.logo-marquee-container {
+  width: 100%;
+  max-width: var(--main-width, 720px);
+  padding-top: 2rem;
+  margin-top: 2rem;
+  overflow: hidden;
+}
+
+.logo-marquee-header {
+  color: var(--secondary);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0 0 1rem 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .logo-marquee-container {
+    max-width: 100%;
+    padding-top: 1.5rem;
+    margin-top: 1rem;
+  }
+}

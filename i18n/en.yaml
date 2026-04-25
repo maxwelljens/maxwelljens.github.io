@@ -6,7 +6,11 @@ education:
   other: Education
 grade:
   other: Grade
+hobbies:
+  other: Hobbies
 software:
   other: Software
+programming_languages:
+  other: Programming languages I like
 view_all_repositories:
   other: View All Repositories

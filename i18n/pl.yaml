@@ -6,7 +6,11 @@ education:
   other: Wykształcenie
 grade:
   other: Ocena średnia
+hobbies:
+  other: Hobby
 software:
   other: Oprogramowanie
+programming_languages:
+  other: Języki programowania, które lubię
 view_all_repositories:
   other: Zobacz wszystkie repozytoria
