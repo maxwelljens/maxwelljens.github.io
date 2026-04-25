@@ -99,13 +99,17 @@
 }
 
 .recommendation-author-title {
-  font-size: 14px;
   font-weight: 700;
   color: var(--primary);
   opacity: 0.8;
 }
 
 @media (max-width: 768px) {
+  .recommendations-section {
+    width: 100%;
+    margin-left: 0;
+  }
+
   .recommendations-container {
     grid-template-columns: 1fr;
     gap: 1rem;

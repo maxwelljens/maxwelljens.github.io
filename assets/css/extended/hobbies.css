@@ -126,10 +126,7 @@
 
 .hobby-introduction>p {
   color: var(--secondary);
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 0.75rem;
-  margin-bottom: 0.5rem;
+  text-align: justify;
 }
 
 .hobby-introduction h2 {
@@ -226,10 +223,6 @@
 
   .hobby-introduction.hidden {
     display: none;
-  }
-
-  .hobby-introduction h2 {
-    font-size: 1.5rem;
   }
 
   .hobby-images {
