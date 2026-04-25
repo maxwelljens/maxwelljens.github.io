@@ -38,9 +38,30 @@
 
 .hobby-card:hover,
 .hobby-card.active {
-  background: var(--tertiary);
-  border-color: var(--primary);
+  background: var(--accent-bg);
+  border-color: var(--dark-text);
   transform: translateX(4px);
+}
+
+.hobby-card:hover .hobby-card-link,
+.hobby-card.active .hobby-card-link {
+  border-color: var(--dark-text);
+}
+
+.hobby-card:hover .hobby-card-title,
+.hobby-card.active .hobby-card-title,
+.hobby-card:hover p,
+.hobby-card.active p {
+  color: var(--dark-text);
+}
+
+.hobby-card:hover i,
+.hobby-card.active i,
+.hobby-card:hover .hobby-card-link,
+.hobby-card.active .hobby-card-link,
+.hobby-card:hover .hobby-card-link i,
+.hobby-card.active .hobby-card-link i {
+  color: var(--dark-text);
 }
 
 .hobby-card-title {
@@ -67,18 +88,6 @@
   color: var(--secondary);
   font-size: 0.85rem;
   line-height: 1.4;
-}
-
-.hobby-card a {
-  display: inline-block;
-  color: var(--primary);
-  font-weight: 500;
-  text-decoration: none;
-  padding: 0.4rem 0.8rem;
-  border: 1px solid var(--primary);
-  border-radius: 4px;
-  font-size: 0.85rem;
-  transition: all 0.2s ease;
 }
 
 .hobby-card-link {
@@ -152,31 +161,6 @@
   width: 100%;
   height: 200px;
   object-fit: cover;
-}
-
-/* Section Divider */
-.section-divider {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  padding: 3rem 0;
-  width: 100%;
-  max-width: var(--main-width, 720px);
-  margin: 0 auto;
-}
-
-.section-divider-line {
-  flex: 1;
-  height: 1px;
-  background: var(--border);
-}
-
-.section-divider-label {
-  color: var(--secondary);
-  font-size: 0.85rem;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  white-space: nowrap;
 }
 
 @media screen and (max-width: 480px) {

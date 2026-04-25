@@ -29,13 +29,14 @@
   display: flex;
   gap: 1rem;
   padding: 1rem;
+  border-radius: var(--radius);
   background: var(--entry);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .education-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--card-shadow);
 }
 
 .education-logo {
@@ -97,12 +98,8 @@
 }
 
 .education-present {
-  color: var(--tertiary-color, #98971a);
+  color: var(--accent);
   font-weight: 600;
-}
-
-.dark .education-present {
-  color: #98971a;
 }
 
 .education-degree {
@@ -123,18 +120,4 @@
   color: var(--content);
   margin: 0.5rem 0 0 0;
   line-height: 1.5;
-}
-
-/* Responsive adjustments */
-@media (max-width: 480px) {
-  .education-card {
-    flex-direction: column;
-    gap: 0.75rem;
-  }
-
-  .education-logo {
-    width: 40px;
-    height: 40px;
-    max-width: 40px;
-  }
 }

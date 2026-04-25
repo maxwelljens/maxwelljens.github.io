@@ -29,13 +29,15 @@
   display: flex;
   gap: 1rem;
   padding: 1rem;
+  border-radius: var(--radius);
   background: var(--entry);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.work-card:hover {
+.work-card:hover,
+.education-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--card-shadow);
 }
 
 .work-logo {
@@ -88,12 +90,8 @@
 }
 
 .work-present {
-  color: var(--tertiary-color, #98971a);
+  color: var(--accent);
   font-weight: 600;
-}
-
-.dark .work-present {
-  color: #98971a;
 }
 
 .work-description {

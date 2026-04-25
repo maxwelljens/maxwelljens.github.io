@@ -1,4 +1,5 @@
 @import "shortcodes.css";
+@import "section-divider.css";
 @import "work-experience.css";
 @import "education.css";
 @import "hobbies.css";
@@ -25,6 +26,14 @@
   /* bg2 */
   --border: #7c6f64;
   /* gray */
+  --accent-bg: #98971a;
+  /* yellow accent for active states */
+  --accent: #98971a;
+  /* green accent for "present" indicators */
+  --dark-text: #3c3836;
+  /* dark text for use on light backgrounds */
+  --card-shadow: rgba(0, 0, 0, 0.1);
+  /* default card hover shadow */
 }
 
 /* Gruvbox Dark Theme */
@@ -47,6 +56,14 @@
   /* bg2 */
   --border: #a89984;
   /* gray */
+  --accent-bg: #98971a;
+  /* yellow accent for active states */
+  --accent: #98971a;
+  /* green accent for "present" indicators */
+  --dark-text: #3c3836;
+  /* dark text for use on light backgrounds */
+  --card-shadow: rgba(0, 0, 0, 0.1);
+  /* default card hover shadow */
 }
 
 /* Gruvbox Light Theme fixes with notices */
@@ -95,4 +112,21 @@ h2,
   line-height: 1.0;
   font-size: 48px;
   text-shadow: 2px 2px var(--tertiary);
+}
+
+/* Post footer styling */
+.share-buttons,
+.paginav {
+  border: none !important;
+  background: var(--code-bg);
+}
+
+.post-tags a {
+  border: 1px solid var(--border);
+}
+
+.post-tags a:hover,
+.paginav a:hover {
+  background: var(--hljs-bg) !important;
+  color: var(--primary) !important;
 }
