@@ -13,7 +13,7 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
-mainsections: ["posts", "testimonial"]
+mainsections: ["posts", "curios", "testimonial"]
 
 minify:
   disableXML: true
@@ -45,12 +45,15 @@ languages:
         - name: Posts
           url: /posts
           weight: 5
+        - name: Curios
+          url: /curios
+          weight: 10
         - name: Search
           url: search/
-          weight: 10
+          weight: 15
         - name: Tags
           url: tags/
-          weight: 15
+          weight: 20
     params:
       profileMode:
         enabled: true
