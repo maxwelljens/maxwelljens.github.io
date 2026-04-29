@@ -109,36 +109,64 @@
 }
 
 .software-card:hover .software-card-title,
-.software-card.active .software-card-title,
-.software-card:hover .software-card-title a,
-.software-card.active .software-card-title a,
+.software-card.active .software-card-title {
+  color: var(--dark-text);
+}
+
 .software-card:hover .software-card-description,
 .software-card.active .software-card-description {
   color: var(--dark-text);
 }
 
-.software-card:hover .software-card-title a:hover,
-.software-card.active .software-card-title a:hover {
-  text-decoration: underline;
+.software-card:hover .software-card-link,
+.software-card.active .software-card-link {
+  background: var(--dark-text);
+  color: var(--accent-bg);
 }
 
 .software-card-header {
   margin-bottom: 0.75rem;
 }
 
+.software-card-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
 .software-card-title {
   margin: 0;
   font-size: 1.1rem;
+  color: var(--primary);
 }
 
-.software-card-title a {
+.software-card-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--code-bg);
   color: var(--primary);
   text-decoration: none;
-  transition: color 0.2s ease;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
 }
 
-.software-card-title a:hover {
-  color: var(--secondary);
+.software-card-link:hover {
+  background: var(--primary);
+  color: var(--theme);
+}
+
+.software-card-link i {
+  font-size: 0.85rem;
+  transition: transform 0.2s ease;
+}
+
+.software-card-link:hover i {
+  transform: translateX(2px);
 }
 
 .software-card-description {
@@ -195,6 +223,11 @@
   }
 
   .software-card:hover {
+    transform: none;
+  }
+
+  .software-card:hover .software-card-link,
+  .software-card.active .software-card-link {
     transform: none;
   }
 }

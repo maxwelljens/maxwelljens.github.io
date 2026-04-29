@@ -25,9 +25,12 @@
               aria-controls="software-info"
               tabindex="{{ if eq $index 0 }}0{{ else }}-1{{ end }}">
         <div class="software-card-header">
-          <h3 class="software-card-title">
-            <a href="{{ $repo.url }}" target="_blank" rel="noopener" onclick="event.stopPropagation()">{{ $repo.name }}</a>
-          </h3>
+          <div class="software-card-title-row">
+            <h3 class="software-card-title">{{ $repo.name }}</h3>
+            <a href="{{ $repo.url }}" class="software-card-link" target="_blank" rel="noopener" aria-label="View {{ $repo.name }} repository" onclick="event.stopPropagation()">
+              <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </div>
         </div>
         {{- if $repo.description }}
         <p class="software-card-description">{{ $repo.description }}</p>
@@ -96,29 +99,4 @@
 
     button.addEventListener('keydown', function(e) {
       const currentIndex = parseInt(this.dataset.index);
-      let targetIndex = null;
-
-      if (e.key === 'ArrowDown' || e.key === 'ArrowRight') {
-        targetIndex = (currentIndex + 1) % buttons.length;
-      } else if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') {
-        targetIndex = (currentIndex - 1 + buttons.length) % buttons.length;
-      } else if (e.key === 'Home') {
-        targetIndex = 0;
-      } else if (e.key === 'End') {
-        targetIndex = buttons.length - 1;
-      }
-
-      if (targetIndex !== null) {
-        e.preventDefault();
-        buttons[targetIndex].focus();
-        activateSoftware(buttons[targetIndex]);
-      }
-    });
-  });
-
-  const activeButton = document.querySelector('.software-card.active');
-  if (activeButton) {
-    activateSoftware(activeButton);
-  }
-})();
 </script>

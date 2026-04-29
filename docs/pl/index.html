@@ -11,7 +11,7 @@
 <meta name="description" content="My website">
 <meta name="author" content="Maxwell Jensen">
 <link rel="canonical" href="https://maxwelljensen.eu/pl/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.1892d389baaabe514f0380849e8b27d861f9e813bffca2196707dd56055213fb.css" integrity="sha256-GJLTibqqvlFPA4CEnosn2GH56BO//KIZZwfdVgVSE/s=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.d8363b514cb4c5329f75059bde8c56e01e18610e331cf16ced4c67b67f309dbc.css" integrity="sha256-2DY7UUy0xTKfdQWb3oxW4B4YYQ4zHPFs7Uxntn8wnbw=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://maxwelljensen.eu/favicon/favicon.svg">
 <link rel="icon" type="image/png" sizes="16x16" href="https://maxwelljensen.eu/favicon/favicon16x16">
 <link rel="icon" type="image/png" sizes="32x32" href="https://maxwelljensen.eu/favicon/favicon32x32">
@@ -498,9 +498,12 @@ document.addEventListener('DOMContentLoaded', function() {
               aria-controls="software-info"
               tabindex="0">
         <div class="software-card-header">
-          <h3 class="software-card-title">
-            <a href="https://codeberg.org/maxwelljensen/bibel" target="_blank" rel="noopener" onclick="event.stopPropagation()">bibel</a>
-          </h3>
+          <div class="software-card-title-row">
+            <h3 class="software-card-title">bibel</h3>
+            <a href="https://codeberg.org/maxwelljensen/bibel" class="software-card-link" target="_blank" rel="noopener" aria-label="View bibel repository" onclick="event.stopPropagation()">
+              <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </div>
         </div>
         <p class="software-card-description">MOTD dla Pisma. Wyświetla dzisiejsze czytanie z Ewangelii po otwarciu terminala.</p>
         <ul class="software-card-topics">
@@ -520,9 +523,12 @@ document.addEventListener('DOMContentLoaded', function() {
               aria-controls="software-info"
               tabindex="-1">
         <div class="software-card-header">
-          <h3 class="software-card-title">
-            <a href="https://github.com/maxwelljens/gibman" target="_blank" rel="noopener" onclick="event.stopPropagation()">gibman</a>
-          </h3>
+          <div class="software-card-title-row">
+            <h3 class="software-card-title">gibman</h3>
+            <a href="https://github.com/maxwelljens/gibman" class="software-card-link" target="_blank" rel="noopener" aria-label="View gibman repository" onclick="event.stopPropagation()">
+              <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </div>
         </div>
         <p class="software-card-description">Menadżer WADów DOOM-a dla nerdów</p>
         <ul class="software-card-topics">
@@ -542,9 +548,12 @@ document.addEventListener('DOMContentLoaded', function() {
               aria-controls="software-info"
               tabindex="-1">
         <div class="software-card-header">
-          <h3 class="software-card-title">
-            <a href="https://codeberg.org/maxwelljensen/llm_aggregator" target="_blank" rel="noopener" onclick="event.stopPropagation()">llm_aggregator</a>
-          </h3>
+          <div class="software-card-title-row">
+            <h3 class="software-card-title">llm_aggregator</h3>
+            <a href="https://codeberg.org/maxwelljensen/llm_aggregator" class="software-card-link" target="_blank" rel="noopener" aria-label="View llm_aggregator repository" onclick="event.stopPropagation()">
+              <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </div>
         </div>
         <p class="software-card-description">CLI do agregacji kanałów RSS i podsumowywania ich za pomocą LLM</p>
         <ul class="software-card-topics">
@@ -564,9 +573,12 @@ document.addEventListener('DOMContentLoaded', function() {
               aria-controls="software-info"
               tabindex="-1">
         <div class="software-card-header">
-          <h3 class="software-card-title">
-            <a href="https://codeberg.org/maxwelljensen/mdget" target="_blank" rel="noopener" onclick="event.stopPropagation()">mdget</a>
-          </h3>
+          <div class="software-card-title-row">
+            <h3 class="software-card-title">mdget</h3>
+            <a href="https://codeberg.org/maxwelljensen/mdget" class="software-card-link" target="_blank" rel="noopener" aria-label="View mdget repository" onclick="event.stopPropagation()">
+              <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </div>
         </div>
         <p class="software-card-description">Pobiera stronę i konwertuje HTML na czysty Markdown</p>
         <ul class="software-card-topics">
@@ -653,31 +665,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     button.addEventListener('keydown', function(e) {
       const currentIndex = parseInt(this.dataset.index);
-      let targetIndex = null;
-
-      if (e.key === 'ArrowDown' || e.key === 'ArrowRight') {
-        targetIndex = (currentIndex + 1) % buttons.length;
-      } else if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') {
-        targetIndex = (currentIndex - 1 + buttons.length) % buttons.length;
-      } else if (e.key === 'Home') {
-        targetIndex = 0;
-      } else if (e.key === 'End') {
-        targetIndex = buttons.length - 1;
-      }
-
-      if (targetIndex !== null) {
-        e.preventDefault();
-        buttons[targetIndex].focus();
-        activateSoftware(buttons[targetIndex]);
-      }
-    });
-  });
-
-  const activeButton = document.querySelector('.software-card.active');
-  if (activeButton) {
-    activateSoftware(activeButton);
-  }
-})();
 </script><div class="section-divider">
   <span class="section-divider-line"></span>
   <span class="section-divider-label">Rekomendacje</span>
