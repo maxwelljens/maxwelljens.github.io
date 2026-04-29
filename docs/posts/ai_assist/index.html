@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>AI-Assisted Programming: My Workflow | Maxwell Jensen&#39;s Personal Website</title>
+<meta name="keywords" content="guide, software">
+<meta name="description" content="In this article, I go through my setup and workflow for AI-assisted programming.">
+<meta name="author" content="Maxwell Jensen">
+<link rel="canonical" href="https://maxwelljensen.eu/posts/ai_assist/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.1892d389baaabe514f0380849e8b27d861f9e813bffca2196707dd56055213fb.css" integrity="sha256-GJLTibqqvlFPA4CEnosn2GH56BO//KIZZwfdVgVSE/s=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://maxwelljensen.eu/favicon/favicon.svg">
+<link rel="icon" type="image/png" sizes="16x16" href="https://maxwelljensen.eu/favicon/favicon16x16">
+<link rel="icon" type="image/png" sizes="32x32" href="https://maxwelljensen.eu/favicon/favicon32x32">
+<link rel="apple-touch-icon" href="https://maxwelljensen.eu/apple-touch-icon.png">
+<link rel="mask-icon" href="https://maxwelljensen.eu/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://maxwelljensen.eu/posts/ai_assist/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+<meta property="og:url" content="https://maxwelljensen.eu/posts/ai_assist/">
+  <meta property="og:site_name" content="Maxwell Jensen&#39;s Personal Website">
+  <meta property="og:title" content="AI-Assisted Programming: My Workflow">
+  <meta property="og:description" content="In this article, I go through my setup and workflow for AI-assisted programming.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-04-28T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-04-28T00:00:00+00:00">
+    <meta property="article:tag" content="Guide">
+    <meta property="article:tag" content="Software">
+    <meta property="og:image" content="https://maxwelljensen.eu/ai_assist/card.webp">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://maxwelljensen.eu/ai_assist/card.webp">
+<meta name="twitter:title" content="AI-Assisted Programming: My Workflow">
+<meta name="twitter:description" content="In this article, I go through my setup and workflow for AI-assisted programming.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://maxwelljensen.eu/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "AI-Assisted Programming: My Workflow",
+      "item": "https://maxwelljensen.eu/posts/ai_assist/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "AI-Assisted Programming: My Workflow",
+  "name": "AI-Assisted Programming: My Workflow",
+  "description": "In this article, I go through my setup and workflow for AI-assisted programming.",
+  "keywords": [
+    "guide", "software"
+  ],
+  "articleBody": "If you have read anything I’ve written about artificial intelligence, you already know I don’t belong to either of the warring cults that dominate the conversation. I’m not a pro-AI cultist who believes a prompt box will think for him, code his dating app, and balance his chequebook while he vibe-codes his way to a yacht. I’m also not an anti-AI cultist who treats a statistical pattern-matcher as a soul-sucking digital monster birthed from theft. Both positions substitute hysteria for reasoned debate, and they both make it impossible to talk honestly about what these tools actually are.\n📝If you don’t care about my rationale, skip to the section titled “My workflow” I say this up front because this article is about how I, a sceptic-from-start of Silicon Valley’s reality-distortion field, ended up with a genuinely useful AI-assisted programming workflow.\nTo begin with, I never was too fond of the idea of AI-assisted programming, especially given the impossible hype surrounding American companies that burn through billions of dollars like it’s morning breakfast. I kept my eyes on the Chinese competitors, but only to see how badly the Americans get humiliated.\nThen Deepseek V3.5 arrived, and suddenly watching the humiliation wasn’t the only interesting thing. Its API pricing was so aggressively reasonable that it made Anthropic’s burn rate – twenty dollars gone in under an hour of casual prompting – look like a protection racket rather than a service. I’m not the sort of person who will pay a Silicon Valley giant a mortgage-sized subscription just to have a robot finish my if-else statements. But when a model offers genuinely useful completions at a cost that feels less like a billable lawyer and more like a cheap utility, the pragmatist in me is required to pay attention. That was the gap between hype and reality I’d been waiting to see close, and it’s what finally convinced me to wire a language model into my meticulously hand-crafted Neovim environment. Not because I suddenly believed the pro-AI gospel, but because the business proposition finally started making any kind of sense.\nStarting slow I called the approach I unknowingly starting with starting slow, and I mean that literally. The first thing you notice when you try to turn DeepSeek into a proper coding agent – the kind that reads your whole codebase, writes patches, and iterates on compiler errors – is that it is slow. Not broken, not stupid, just unhurried. For an assistant that lives in your editor and occasionally finishes a line or suggests a refactor as you type, that’s perfectly fine. For an agentic workflow where you’re waiting on a dozen sequential calls to generate, evaluate, and re-generate a solution, that latency compounds into a genuinely painful experience. It felt less like a coding partner and more like a philosopher methodically typing out their thoughts with a single finger.\nBut that slowness isn’t a flaw of the model; it’s a category error in how I was trying to use it. DeepSeek V3.5 (V4 is out now) is an excellent competitor to Google Gemini, to the non-agentic offerings of Anthropic, and absolutely blows the doors off anything OpenAI has been phoning in lately. For the kind of work I actually do most of the time, meaning asking a language model to explain a cryptic API, generate a well-typed GDScript function from a plain-English description, or translate a blob of bash into a safer alternative… it is more than adequate. The completions are sharp, the price is embarrassingly low next to Anthropic’s burn rate, and I’m not showering money on a company that’s trying to reinvent the dot-com bubble with worse economics. Compared to Google Gemini, which is otherwise quite reasonably priced, DeepSeek still undercuts it while delivering reasonable code generation quality in the languages I care about. Does not have Google’s irreplaceable training data, but whatever.\nSo I stopped trying to make it into an agent. I let it be what it was: a fast-thinking, slow-replying librarian with encyclopedic knowledge of APIs who charged me pocket change for the privilege.\nMinmaxing my flow Since I did not mind giving the Chinese some money for a good service, the five dollars I paid for DeepSeek’s API gave me an appetite for more, and better, solutions. I had already proven to myself that a non-agentic assistant could be genuinely useful. But the moment you taste what a model can do when it’s allowed to read your files, iterate on errors, and make surgical edits, the appeal of something more autonomous becomes hard to ignore. I wanted an agent. I just didn’t want to pay a Silicon Valley landlord twenty dollars for the privilege of watching my rate limits evaporate after two prompts.\nThat’s where MiniMax-M2.7 entered the picture. It’s a Chinese model, backed by a company that apparently decided the path to world domination did not involve charging each token like it was a rare earth mineral. The pricing alone is a polemic against the Americans. For ten dollars a month, you get a subscription with API call limits so generous that I have never managed to push my usage above thirty percent, even during heavy agentic sessions spanning eight hours. Meanwhile, over in Anthropic land, developers making their LLMs roleplay as cavemen in their system prompts just to shave off token counts, because every syllable costs as much as a sprinkle of saffron. People are literally removing punctuation and writing in broken pidgin to stay within their monthly allowance. That’s not prompt engineering, that’s hilarious.\nNow, let me be clear: I’m not claiming MiniMax-M2.7 is outright better than Claude. It’s not. From what people say: Claude’s reasoning is sharper in some edge cases, its prose is often more natural, and its ability to handle truly massive context windows is genuinely impressive. But the question isn’t which model wins in a white-glove academic benchmark. The question is which model lets you do real work without constantly glancing at a meter running in the corner of your screen. When a single afternoon of agentic coding can burn through a twenty-dollar Claude subscription faster than a toddler with a credit card in a mobile game, any marginal “intelligence” advantage becomes irrelevant. I’m not paying a monthly tithe to Anthropic just so their model can occasionally be ten percent better at writing a Dockerfile. Or help missiles target Iranian schoolgirls.\nMy ten dollars go through without a second thought, and I still haven’t hit that ceiling. That’s the kind of pricing that makes you stop worrying about the tool and start focusing on the craft. And, as I like to say, that’s the whole point: a computer is supposed to be a machine that allows for magic, not a platform for corporate plumbing. MiniMax, remarkably, understands that.\nThe fact that their model weights are open just sealed the deal for me, whereas Anthropic and ClosedAI still refuse to do such a basic thing.\nProperly interfacing As one would expect, there’s a ton of AI coding tools out there, and most of them are genuinely useless. That’s not hyperbole; it’s what happens when a gold rush meets a low barrier to entry. The landscape is flooded with proprietary, Electron-wrapped disasters that exist solely because someone vibecoded a frontend onto an OpenAI API key and called it a startup. They lock you into a single provider, which is often with opaque pricing and zero configurability, and then charge a subscription for the wrapper. The irony is thick: you’re paying a premium to interface with an API that already uses a well-documented, open standard, but you’ve forfeited the ability to swap models or tweak parameters because the tool’s developer didn’t think that far ahead. In a world where the OpenAI API format and the Anthropic API format are the only de facto standards, there’s no technical reason for such lock-in. It’s a business decision, and a lazy one at that. A lot of people get sucked into it, from what I can see.\nThe more insidious problem is that most of these tools are themselves products of the very vibecoding culture they enable. They are buggy, slow, and abandon every principle of software craftsmanship. The quality is evident in how poorly they function: crashes, failed edits, and the peculiar kind of jank that comes from a codebase nobody fully understands. I spent a solid week testing candidates. For instance: Goose, a free software agent that initially seemed promising for its multi-provider support and decent licensing, turned out to be mediocre and prone to silent failures. It would occasionally spin out into a loop of edits that made things actively worse, and its interface felt like it was fighting me at every turn. Finding the right tools took time, which is why I am writing this article, so that you don’t have to do this painful search yourself.\nMy workflow After a week of kicking tyres on every AI coding tool I could find, I landed on Crush. It is a terminal-native agent from the Charmbracelet ecosystem: the same people behind Glow, Gum, and a constellation of other tools that actually make the terminal look fabulous. If you have ever used a Charm project, you know what that means: fast, keyboard-driven, and utterly free of Electron-shaped bloat.\nCrush ticks every box I care about. It is free software with crush.json as its single configuration file. JSON is annoying to edit by hand. I would have preferred TOML, but it is declarative, deterministic, and trivial to parse, which makes it arguably the least bad choice for a tool that needs to be scriptable across environments. One file, and I know exactly what my agent believes is true.\nIt is exactly the sort of tool I would have built myself if I had a spare twenty years and a lot more patience. Because everything lives in a single crush.json, I can show you the exact configuration that powers my daily work without any handwaving:\n{ \"$schema\": \"https://charm.land/crush.json\", \"mcp\": { \"mcp_minimax\": { \"type\": \"stdio\", \"command\": \"uvx\", \"args\": [\"minimax-coding-plan-mcp\", \"-y\"], \"env\": { \"MINIMAX_API_KEY\": \"$(echo $MINIMAX_API_KEY)\", \"MINIMAX_API_HOST\": \"https://api.minimax.io\" } }, \"mcp_browser\": { \"type\": \"stdio\", \"command\": \"bunx\", \"args\": [\"@browsermcp/mcp@latest\"] }, \"mcp_svelte\": { \"type\": \"http\", \"url\": \"https://mcp.svelte.dev/mcp\" } }, \"lsp\": { \"go\": { \"command\": \"gopls\" } }, \"permissions\": { \"allowed_tools\": [ \"view\", \"ls\", \"grep\", \"edit\", \"mcp_minimax\", \"mcp_svelte\" ] } } The Model Context Protocol (MCP) servers are where most of the capability lives beyond the base model. The mcp_minimax server provides MiniMax’s own coding plan capabilities over a simple stdio bridge: no proprietary daemon, no black-box background process, just a command executed on demand. The browser MCP server gives the agent access to live web documentation when it needs to pull in current API references or debug something that postdates its training cutoff. The Svelte MCP server is there because I occasionally poke at frontend work and, pragmatically, having the framework’s own context server available through a standard HTTP endpoint is a genuine productivity win. None of these are mandatory; each is a composable service I can add or remove without rewriting anything, other than the JSON configuration file. I think it’s amazing.\nThe LSP block currently only specifies gopls for Go, but the point is that Crush is not limited to string matching. It can hook into the same language server my computer uses, giving it structured knowledge of types, definitions, and references.\nFinally, the permissions model is something welcome to see, given that the tool can edit files; explicit and restrictive. I whitelist the built-in tools (view, ls, grep, edit) and select MCP servers. The agent cannot spawn arbitrary processes, access the network outside of the defined MCP bridges, or touch files I haven’t explicitly allowed. However, despite this, I still opt into the “YOLO mode,” which is what Crush calls its autonomous agent mode.\nSharpening the tool with skills Even the best agent is only as good as the instructions you give it. A raw LLM dropped into a codebase has no shared language, no alignment on what you actually want, and a tendency to produce twenty files of code where one would do, because millions of assumptions are being made on part of the LLM. The fix for this, surprisingly, isn’t more prompting on your end: it’s training the agent to grill you.\nThat realisation came from Matt Pocock’s skills repository, which unexpectedly went viral for a collection of composable, model-agnostic “skills”, which are small markdown files that shape agent behavior. Pocock’s skills do something counterintuitive: instead of you asking the questions, the agent interrogates you until clarity is achieved. The flagship is /grill-me (shown below), and it is single-handedly capable of extracting the design model out of your head and crystallising it into a living document. I use an adaptation that outputs to ARCHITECTURE.md, but the principle is the same: the agent walks down every branch of the decision tree, resolves dependencies one by one, and refuses to proceed until both parties understand the shape of the problem.\n--- name: grill-me description: Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree. Use when user wants to stress-test a plan, get grilled on their design, or mentions \"grill me\". --- Interview me relentlessly about every aspect of this plan until we reach a shared understanding. Walk down each branch of the design tree, resolving dependencies between decisions one-by-one. For each question, provide your recommended answer. Ask the questions one at a time. If a question can be answered by exploring the codebase, explore the codebase instead. The power of this approach is hard to overstate. Before I adopted it, I’d watch agents build the wrong thing at lightning speed because they made a hidden assumption five turns ago. Now, the grilling session surfaces those assumptions before a single line of code is written. Pocock’s repository has a whole ecosystem of these skills: /grill-with-docs for domain-driven design sessions, /diagnose for disciplined debugging loops, /tdd for red-green-refactor cycles, and so on. Each a small, composable piece of engineering wisdom that you can drop into any agent. Crush’s support for the Agent Skills standard means they plug directly into my workflow with no adaptation required.\nCombined with a tool like Crush, these skills transform the agent from a script kiddie on too many energy drinks into something closer to a sharp, methodical junior developer who demands clarity before making a mess of your codebase. They don’t just make the LLM context-aware; they make it context-driven. And that, in a domain where misalignment is the single most common failure mode, is the difference between a tool you trust and a toy you tolerate. The talk on YouTube linked earlier is a good watch.\nPutting it all together I would gladly write a neat explanation approximating a list of steps, like Do this → Do that → Then finally this, in order to hand you the perfect workflow, but that’s not really how any of this works. Everyone has different needs, different operating systems, different levels of tolerance for JSON, or whatever else. Most of what I’m describing probably wouldn’t work as well on Windows; I have no idea how Crush behaves under PowerShell, and I’d rather not pretend it’s a universal turnkey solution. What I can do, however, is lay out what I found to work best, what fell flat, and the principles that helped me stop wasting time.\nProgramming skills A blank-slate agent is a stupid agent. Every new conversation forces it to rediscover your project structure, your naming conventions, your architectural preferences, all of which you already know. The agent can, too! The solution is to preload context. In the case of Go, Samber’s cc-skills-golang is the best example I’ve found of how to do that in practice. It shows how to seed your agent with a cache of project conventions, file layout, testing strategy, and idiomatic patterns for the Go programming language, so that every interaction doesn’t start from zero.\nAdapt the concept to your own stack. It’s not just for Go. You’ll stop paying tokens to re-teach the same lessons every session.\n… or make your own skill Once you’ve seen what a well-crafted skill does, the natural next step is setting up your own. That’s where Pocock’s /write-a-skill skill closes the loop. It teaches the agent how to write skills, which means the agent can then generate new skills on demand. Makes sense, right?\nSay you want the agent to become fluent in a niche programming language. You feed it the language reference, like a PDF spec, or a markdown cheat sheet, or the official docs, and invoke /write-a-skill. The agent follows the skill-writing process: it asks you about the specific use cases, decides whether utility scripts are needed, and drafts a SKILL.md with the correct structure. Two minutes later you have a composable, reusable skill file that permanently encodes the language’s idioms, footguns, and standard library patterns. Every future session starts with the agent already speaking the dialect correctly.\nThe same pattern works for any domain that requires repeated context: a company’s internal API conventions, a specific database schema, the rules of a board game you’re implementing. Instead of re-pasting reference material into every conversation, you crystallise it once into a skill and move on.\nThe structure the agent follows is straightforward: a SKILL.md with a description that tells the agent:\nwhen to trigger the skill, the description, and, optionally, references to other files whenever needed (according to standard: under a /references directory next to the SKILL.md). It is the only thing the agent sees when deciding which skill to load. The description format is deliberately constrained: one sentence on what the skill does, another on triggers, written in third person, under 1024 characters. It’s just enough for the agent to know the skill exists and when to use it.\nThis bootstrapping property is what makes the skills ecosystem self-reinforcing. Each new skill makes the agent more capable, which makes it faster to produce the next skill. I haven’t tested this extensively to say anything more, but skills should not be ignored.\nFinding good MCPs The Model Context Protocol ecosystem is expanding rapidly, and the difference between a mediocre agent and a great one often comes down to having the right MCP server plugged in. A good resource to use is the Awesome MCP Servers list as a starting point: it’s a community-curated directory of servers for everything from filesystem access to database introspection to browser automation. A standout example, and one I started leaning on, is Browser MCP, which gives the agent a headless browser for extremely fast testing of web UIs, documentation scraping, or checking live deployment output. It’s lightweight, composable, and does exactly one thing well.\nPrompting sanely Perhaps this is obvious by now, but do not type “Make a financial payment app” and expect anything other than a profoundly undercooked, useless bundle of files. Vague prompts produce vague code, and the agent will happily oblige. The skills I discussed earlier, especially /grill-me, are essentially a forcing function for precise thinking. Digesting a problem into its constituent pieces, if you will. Before you let the agent touch a file, you should be able to describe, in concrete terms, what success looks like, which invariants must hold, and where the boundaries of the current task lie. If you can’t do that, you’re not ready to prompt; you’re just vibecoding with extra steps, and the results will reflect that. I treat the craft of prompting as an extension of software design itself: the clearer my intent, the less I have to fix afterwards.\nIt turns out that’s a skill that transfers straight back into writing better code on my own, too, because it’s a two-for-one: I let a bot do boring work, but also talk to a rubber duck at the same time, getting a better understanding of the problem I am trying to solve.\nConclusion So that’s the stack: Crush as the agent, Deepseek as the heavy lifter, MiniMax as the quick runner, a handful of well-chosen MCP servers, and a growing collection of composable skills that keep every session from starting at zero. It’s not the only way to do AI-assisted programming, and I don’t claim it is the best. I’ve been doing it only for a short while. But it’s the first setup I’ve used that feels like a genuine multiplier rather than a toy I’m perpetually debugging and getting bored with after a few days.\nIf you take one thing away from this, it should be that experimentation is mandatory. The landscape is moving too fast for dogma. Try different providers, test free software tools before paying for proprietary ones, and if a piece of software feels like it’s fighting you, throw it out. There’s thousands out there. Most importantly, there are tools that respect your workflow, that load in under two seconds, that don’t lock you to a single AI vendor, that don’t punish you financially for iterating. Those are the ones worth keeping. The ones that don’t are somebody else’s business model.\nBut the far more important point, the one I would carve into the monitor bezel of every junior developer if I could, is this: prompt engineering is not a substitute for software engineering skill. You can prompt your way into a working prototype, but you cannot prompt your way into a system that is maintainable, secure, or well-architected. That still requires you to understand data structures, to reason about state, to anticipate failure modes, and to recognise when the agent has confidently produced something dangerously wrong. The agent amplifies skill; it does not replace it. A sharp developer with a mediocre model will consistently destroy a vibecoder with a state-of-the-art one.\nWhat I’ve described is a set of tools that, together, help me write better software more quickly, but only because I already knew what good software looks like. I am an intermediate programmer. Treat AI as a force multiplier for your existing discipline, not as a shortcut around the hard parts. Learn the craft first. Then let the agent handle the boilerplate while you focus on the magic.\n",
+  "wordCount" : "3696",
+  "inLanguage": "en",
+  "image":"https://maxwelljensen.eu/ai_assist/card.webp","datePublished": "2026-04-28T00:00:00Z",
+  "dateModified": "2026-04-28T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Maxwell Jensen"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://maxwelljensen.eu/posts/ai_assist/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Maxwell Jensen's Personal Website",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://maxwelljensen.eu/favicon/favicon.svg"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://maxwelljensen.eu/" accesskey="h" title="Maxwell Jensen&#39;s Personal Website (Alt + H)">Maxwell Jensen&#39;s Personal Website</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="https://maxwelljensen.eu/pl/" title="Polski"
+                            aria-label="Polski">Polski</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://maxwelljensen.eu/posts" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://maxwelljensen.eu/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://maxwelljensen.eu/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://maxwelljensen.eu/">Home</a>&nbsp;»&nbsp;<a href="https://maxwelljensen.eu/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      AI-Assisted Programming: My Workflow
+    </h1>
+    <div class="post-description">
+      In this article, I go through my setup and workflow for AI-assisted programming.
+    </div>
+    <div class="post-meta"><span title='2026-04-28 00:00:00 +0000 UTC'>28 Apr 2026</span>&nbsp;·&nbsp;18 min&nbsp;·&nbsp;Maxwell Jensen
+
+</div>
+  </header> 
+<figure class="entry-cover">
+        <img loading="eager" src="https://maxwelljensen.eu/ai_assist/card.webp" alt="">
+        
+</figure><details class="floating-toc" open>
+    <summary accesskey="c" title="(Alt + C)">
+        <span class="details">Table of Contents</span>
+    </summary>
+    <div class="inner">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#starting-slow">Starting slow</a></li>
+    <li><a href="#minmaxing-my-flow">Minmaxing my flow</a></li>
+    <li><a href="#properly-interfacing">Properly interfacing</a></li>
+    <li><a href="#my-workflow">My workflow</a></li>
+    <li><a href="#sharpening-the-tool-with-skills">Sharpening the tool with skills</a></li>
+    <li><a href="#putting-it-all-together">Putting it all together</a>
+      <ul>
+        <li><a href="#programming-skills">Programming skills</a></li>
+        <li><a href="#-or-make-your-own-skill">&hellip; or make your own skill</a></li>
+        <li><a href="#finding-good-mcps">Finding good MCPs</a></li>
+        <li><a href="#prompting-sanely">Prompting sanely</a></li>
+      </ul>
+    </li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+    </div>
+</details>
+  <div class="post-content"><p>If you have read anything <a href="/posts/debunking_anti_ai_cult/">I&rsquo;ve written about artificial
+intelligence</a>, you already know I don&rsquo;t belong to
+either of the warring cults that dominate the conversation. I&rsquo;m not a <em>pro-AI
+cultist</em> who believes a prompt box will think for him, code his dating app, and
+balance his chequebook while he vibe-codes his way to a yacht. I&rsquo;m also not an
+<em>anti-AI cultist</em> who treats a statistical pattern-matcher as a soul-sucking
+digital monster birthed from theft. Both positions substitute hysteria for
+reasoned debate, and they both make it impossible to talk honestly about what
+these tools actually are.</p>
+<div class="callout callout-info">
+  <div class="callout-inner"><div class="callout-icon callout-emoji">📝</div><div class="callout-content"><div class="callout-text">If you don&rsquo;t care about my rationale, skip to the section titled <br> <em>&ldquo;My
+workflow&rdquo;</em></div>
+    </div>
+  </div>
+</div>
+<p>I say this up front because this article is about how I, a sceptic-from-start
+of Silicon Valley&rsquo;s reality-distortion field, ended up with a genuinely useful
+AI-assisted programming workflow.</p>
+<p>To begin with, I never was too fond of the idea of AI-assisted programming,
+especially given the impossible hype surrounding American companies that burn
+through billions of dollars like it&rsquo;s morning breakfast. I kept my eyes on the
+Chinese competitors, but only to see how badly the Americans get humiliated.</p>
+<p>Then Deepseek V3.5 arrived, and suddenly watching the humiliation wasn&rsquo;t the
+only interesting thing. Its API pricing was so aggressively reasonable that it
+made Anthropic&rsquo;s burn rate &ndash; twenty dollars gone in under an hour of casual
+prompting &ndash; look like a protection racket rather than a service. I&rsquo;m not the
+sort of person who will pay a Silicon Valley giant a mortgage-sized
+subscription just to have a robot finish my <code>if-else</code> statements. But when a
+model offers genuinely useful completions at a cost that feels less like a
+billable lawyer and more like a cheap utility, the pragmatist in me is required
+to pay attention. That was the gap between hype and reality I&rsquo;d been waiting to
+see close, and it&rsquo;s what finally convinced me to wire a language model into my
+meticulously hand-crafted Neovim environment. Not because I suddenly believed
+the pro-AI gospel, but because the business proposition finally started making
+any kind of sense.</p>
+<h2 id="starting-slow">Starting slow<a hidden class="anchor" aria-hidden="true" href="#starting-slow">#</a></h2>
+<p><img loading="lazy" src="/ai_assist/deepseek_logo.png"></p>
+<p>I called the approach I unknowingly starting with <em>starting slow</em>, and I mean
+that literally. The first thing you notice when you try to turn DeepSeek into a
+proper coding agent &ndash; the kind that reads your whole codebase, writes patches,
+and iterates on compiler errors &ndash; is that it is <em>slow</em>. Not broken, not
+stupid, just unhurried. For an assistant that lives in your editor and
+occasionally finishes a line or suggests a refactor as you type, that&rsquo;s
+perfectly fine. For an agentic workflow where you&rsquo;re waiting on a dozen
+sequential calls to generate, evaluate, and re-generate a solution, that
+latency compounds into a genuinely painful experience. It felt less like a
+coding partner and more like a philosopher methodically typing out their
+thoughts with a single finger.</p>
+<p>But that slowness isn&rsquo;t a flaw of the model; it&rsquo;s a category error in how I was
+trying to use it. <a href="https://deepseek.com/"><strong>DeepSeek V3.5</strong></a> (V4 is out now) is
+an excellent competitor to Google Gemini, to the non-agentic offerings of
+Anthropic, and absolutely blows the doors off anything OpenAI has been phoning
+in lately. For the kind of work I actually do most of the time, meaning asking
+a language model to explain a cryptic API, generate a well-typed GDScript
+function from a plain-English description, or translate a blob of bash into a
+safer alternative&hellip; it is more than adequate. The completions are sharp, the
+price is embarrassingly low next to Anthropic&rsquo;s burn rate, and I&rsquo;m not
+showering money on a company that&rsquo;s trying to reinvent the dot-com bubble with
+worse economics. Compared to Google Gemini, which is otherwise quite reasonably
+priced, DeepSeek still undercuts it while delivering reasonable code generation
+quality in the languages I care about. Does not have Google&rsquo;s irreplaceable
+training data, but whatever.</p>
+<p>So I stopped trying to make it into an agent. I let it be what it was: a
+fast-thinking, slow-replying librarian with encyclopedic knowledge of APIs who
+charged me pocket change for the privilege.</p>
+<h2 id="minmaxing-my-flow">Minmaxing my flow<a hidden class="anchor" aria-hidden="true" href="#minmaxing-my-flow">#</a></h2>
+<p><img loading="lazy" src="/ai_assist/minimax_logo.png"></p>
+<p>Since I did not mind giving the Chinese some money for a good service, the five
+dollars I paid for DeepSeek&rsquo;s API gave me an appetite for more, and better,
+solutions. I had already proven to myself that a non-agentic assistant could be
+genuinely useful. But the moment you taste what a model can do when it&rsquo;s
+allowed to read your files, iterate on errors, and make surgical edits, the
+appeal of something more autonomous becomes hard to ignore. I wanted an agent.
+I just didn&rsquo;t want to pay a Silicon Valley landlord twenty dollars for the
+privilege of watching my rate limits evaporate after two prompts.</p>
+<p>That&rsquo;s where <a href="https://www.minimax.io/"><strong>MiniMax-M2.7</strong></a> entered the picture.
+It&rsquo;s a Chinese model, backed by a company that apparently decided the path to
+world domination did not involve charging each token like it was a rare earth
+mineral. The pricing alone is a polemic against the Americans. For ten dollars
+a month, you get a subscription with API call limits so generous that I have
+never managed to push my usage above thirty percent, even during heavy agentic
+sessions spanning eight hours. Meanwhile, over in Anthropic land, developers
+<a href="https://github.com/mattpocock/skills/blob/main/skills/productivity/caveman/SKILL.md">making their LLMs roleplay as
+cavemen</a>
+in their system prompts just to shave off token counts, because every syllable
+costs as much as a sprinkle of saffron. People are literally removing
+punctuation and writing in broken pidgin to stay within their monthly
+allowance. That&rsquo;s not prompt engineering, that&rsquo;s hilarious.</p>
+<p>Now, let me be clear: I&rsquo;m not claiming MiniMax-M2.7 is outright better than
+Claude. It&rsquo;s not. From what people say: Claude&rsquo;s reasoning is sharper in some
+edge cases, its prose is often more natural, and its ability to handle truly
+massive context windows is genuinely impressive. But the question isn&rsquo;t which
+model wins in a white-glove academic benchmark. The question is which model
+lets you do real work without constantly glancing at a meter running in the
+corner of your screen. When a single afternoon of agentic coding can burn
+through a twenty-dollar Claude subscription faster than a toddler with a credit
+card in a mobile game, any marginal &ldquo;intelligence&rdquo; advantage becomes
+irrelevant. I&rsquo;m not paying a monthly tithe to Anthropic just so their model can
+occasionally be ten percent better at writing a Dockerfile. Or help missiles
+target Iranian schoolgirls.</p>
+<p>My ten dollars go through without a second thought, and I still haven&rsquo;t hit
+that ceiling. That&rsquo;s the kind of pricing that makes you stop worrying about the
+tool and start focusing on the craft. And, as I like to say, that&rsquo;s the whole
+point: a computer is supposed to be a machine that allows for magic, not a
+platform for corporate plumbing. MiniMax, remarkably, understands that.</p>
+<p>The fact that their model weights are open just sealed the deal for me, whereas
+Anthropic and ClosedAI still refuse to do such a basic thing.</p>
+<h2 id="properly-interfacing">Properly interfacing<a hidden class="anchor" aria-hidden="true" href="#properly-interfacing">#</a></h2>
+<p>As one would expect, there&rsquo;s a ton of AI coding tools out there, and most of
+them are genuinely useless. That&rsquo;s not hyperbole; it&rsquo;s what happens when a gold
+rush meets a low barrier to entry. The landscape is flooded with proprietary,
+Electron-wrapped disasters that exist solely because someone vibecoded a
+frontend onto an OpenAI API key and called it a startup. They lock you into a
+single provider, which is often with opaque pricing and zero configurability,
+and then charge a subscription for the wrapper. The irony is thick: you&rsquo;re
+paying a premium to interface with an API that already uses a well-documented,
+open standard, but you&rsquo;ve forfeited the ability to swap models or tweak
+parameters because the tool&rsquo;s developer didn&rsquo;t think that far ahead. In a world
+where the OpenAI API format and the Anthropic API format are the only de facto
+standards, there&rsquo;s no technical reason for such lock-in. It&rsquo;s a business
+decision, and a lazy one at that. A lot of people get sucked into it, from what
+I can see.</p>
+<p>The more insidious problem is that most of these tools are themselves products
+of the very vibecoding culture they enable. They are buggy, slow, and abandon
+every principle of software craftsmanship. The quality is evident in how poorly
+they function: crashes, failed edits, and the peculiar kind of jank that comes
+from a codebase nobody fully understands. I spent a solid week testing
+candidates. For instance: <a href="https://goose-docs.ai/">Goose</a>, a free software
+agent that initially seemed promising for its multi-provider support and
+decent licensing, turned out to be mediocre and prone to silent failures.
+It would occasionally spin out into a loop of edits that made things actively
+worse, and its interface felt like it was fighting me at every turn. Finding
+the right tools took time, which is why I am writing this article, so that you
+don&rsquo;t have to do this painful search yourself.</p>
+<h2 id="my-workflow">My workflow<a hidden class="anchor" aria-hidden="true" href="#my-workflow">#</a></h2>
+<p><img loading="lazy" src="/ai_assist/crush.gif"></p>
+<p>After a week of kicking tyres on every AI coding tool I could find, I landed on
+<a href="https://github.com/charmbracelet/crush"><strong>Crush</strong></a>. It is a terminal-native
+agent from the Charmbracelet ecosystem: the same people behind
+<a href="https://github.com/charmbracelet/glow">Glow</a>,
+<a href="https://github.com/charmbracelet/gum">Gum</a>, and a constellation of other tools
+that actually make the terminal look fabulous. If you have ever used a Charm
+project, you know what that means: fast, keyboard-driven, and utterly free of
+Electron-shaped bloat.</p>
+<p>Crush ticks every box I care about. It is free software with <code>crush.json</code> as
+its single configuration file. JSON is annoying to edit by hand. I would have
+preferred TOML, but it is declarative, deterministic, and trivial to parse,
+which makes it arguably the least bad choice for a tool that needs to be
+scriptable across environments. One file, and I know exactly what my agent
+believes is true.</p>
+<p>It is exactly the sort of tool I would have built myself if I had a spare
+twenty years and a lot more patience. Because everything lives in a single
+<code>crush.json</code>, I can show you the exact configuration that powers my daily work
+without any handwaving:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;$schema&#34;</span><span class="p">:</span> <span class="s2">&#34;https://charm.land/crush.json&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;mcp&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;mcp_minimax&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;stdio&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;command&#34;</span><span class="p">:</span> <span class="s2">&#34;uvx&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;args&#34;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&#34;minimax-coding-plan-mcp&#34;</span><span class="p">,</span> <span class="s2">&#34;-y&#34;</span><span class="p">],</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;env&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&#34;MINIMAX_API_KEY&#34;</span><span class="p">:</span> <span class="s2">&#34;$(echo $MINIMAX_API_KEY)&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&#34;MINIMAX_API_HOST&#34;</span><span class="p">:</span> <span class="s2">&#34;https://api.minimax.io&#34;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;mcp_browser&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;stdio&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;command&#34;</span><span class="p">:</span> <span class="s2">&#34;bunx&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;args&#34;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&#34;@browsermcp/mcp@latest&#34;</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;mcp_svelte&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;http&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;url&#34;</span><span class="p">:</span> <span class="s2">&#34;https://mcp.svelte.dev/mcp&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">},</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;lsp&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;go&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;command&#34;</span><span class="p">:</span> <span class="s2">&#34;gopls&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">},</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;permissions&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;allowed_tools&#34;</span><span class="p">:</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">      <span class="s2">&#34;view&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="s2">&#34;ls&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="s2">&#34;grep&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="s2">&#34;edit&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="s2">&#34;mcp_minimax&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="s2">&#34;mcp_svelte&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">]</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>The <a href="https://modelcontextprotocol.io/docs/getting-started/intro">Model Context Protocol
+(MCP)</a> servers are
+where most of the capability lives beyond the base model. The
+<a href="https://platform.minimax.io/docs/token-plan/mcp-guide"><code>mcp_minimax</code></a> server
+provides MiniMax&rsquo;s own coding plan capabilities over a simple <code>stdio</code> bridge:
+no proprietary daemon, no black-box background process, just a command executed
+on demand. The browser MCP server gives the agent access to live web
+documentation when it needs to pull in current API references or debug
+something that postdates its training cutoff. The Svelte MCP server is there
+because I occasionally poke at frontend work and, pragmatically, having the
+framework&rsquo;s own context server available through a standard HTTP endpoint is a
+genuine productivity win. None of these are mandatory; each is a composable
+service I can add or remove without rewriting anything, other than the JSON
+configuration file. I think it&rsquo;s amazing.</p>
+<p>The LSP block currently only specifies gopls for Go, but the point is that
+Crush is not limited to string matching. It can hook into the same language
+server my computer uses, giving it structured knowledge of types, definitions,
+and references.</p>
+<p>Finally, the permissions model is something welcome to see, given that the tool
+can edit files; explicit and restrictive. I whitelist the built-in tools (view,
+ls, grep, edit) and select MCP servers. The agent cannot spawn arbitrary
+processes, access the network outside of the defined MCP bridges, or touch
+files I haven&rsquo;t explicitly allowed. However, despite this, I still opt into the
+&ldquo;YOLO mode,&rdquo; which is what Crush calls its <a href="https://github.blog/ai-and-ml/github-copilot/agent-mode-101-all-about-github-copilots-powerful-mode/">autonomous
+agent</a>
+mode.</p>
+<h2 id="sharpening-the-tool-with-skills">Sharpening the tool with skills<a hidden class="anchor" aria-hidden="true" href="#sharpening-the-tool-with-skills">#</a></h2>
+<p>Even the best agent is only as good as the instructions you give it. A raw LLM
+dropped into a codebase has no shared language, no alignment on what you
+actually want, and a tendency to produce twenty files of code where one would
+do, because millions of assumptions are being made on part of the LLM. The fix
+for this, surprisingly, isn&rsquo;t more prompting on your end: it&rsquo;s training the
+agent to <em>grill you</em>.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/v4F1gFy-hqg?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>That realisation came from <a href="https://github.com/mattpocock/skills">Matt Pocock&rsquo;s skills
+repository</a>, which unexpectedly went
+viral for a collection of composable, model-agnostic &ldquo;skills&rdquo;, which are small markdown
+files that shape agent behavior. Pocock&rsquo;s skills do something counterintuitive:
+instead of you asking the questions, the agent interrogates you until clarity
+is achieved. The flagship is <code>/grill-me</code> (shown below), and it is single-handedly capable of
+extracting the design model out of your head and crystallising it into a living
+document. I use an adaptation that outputs to <code>ARCHITECTURE.md</code>, but the
+principle is the same: the agent walks down every branch of the decision tree,
+resolves dependencies one by one, and refuses to proceed until both parties
+understand the shape of the problem.</p>
+<pre tabindex="0"><code>---
+name: grill-me
+description: Interview the user relentlessly about a plan or design until
+reaching shared understanding, resolving each branch of the decision tree. Use
+when user wants to stress-test a plan, get grilled on their design, or mentions
+&#34;grill me&#34;.
+---
+
+Interview me relentlessly about every aspect of this plan until we reach a
+shared understanding. Walk down each branch of the design tree, resolving
+dependencies between decisions one-by-one. For each question, provide your
+recommended answer.
+
+Ask the questions one at a time.
+
+If a question can be answered by exploring the codebase, explore the codebase
+instead.
+</code></pre><p>The power of this approach is hard to overstate. Before I adopted it, I&rsquo;d watch
+agents build the wrong thing at lightning speed because they made a hidden
+assumption five turns ago. Now, the grilling session surfaces those assumptions
+before a single line of code is written. Pocock&rsquo;s repository has a whole
+ecosystem of these skills: <code>/grill-with-docs</code> for domain-driven design
+sessions, <code>/diagnose</code> for disciplined debugging loops, <code>/tdd</code> for
+red-green-refactor cycles, and so on. Each a small, composable piece of
+engineering wisdom that you can drop into any agent. Crush&rsquo;s support for the
+<a href="https://agentskills.io/home">Agent Skills</a> standard means they plug directly
+into my workflow with no adaptation required.</p>
+<p>Combined with a tool like Crush, these skills transform the agent from a script
+kiddie on too many energy drinks into something closer to a sharp, methodical
+junior developer who demands clarity before making a mess of your codebase.
+They don&rsquo;t just make the LLM context-aware; they make it context-<em>driven</em>. And
+that, in a domain where misalignment is the single most common failure mode, is
+the difference between a tool you trust and a toy you tolerate. The talk on
+YouTube linked earlier is a good watch.</p>
+<h2 id="putting-it-all-together">Putting it all together<a hidden class="anchor" aria-hidden="true" href="#putting-it-all-together">#</a></h2>
+<p>I would gladly write a neat explanation approximating a list of steps, like <code>Do this → Do that → Then finally this</code>, in order to hand you the perfect
+workflow, but that&rsquo;s not really how any of this works. Everyone has different
+needs, different operating systems, different levels of tolerance for JSON, or
+whatever else. Most of what I&rsquo;m describing probably wouldn&rsquo;t work as well on
+Windows; I have no idea how Crush behaves under PowerShell, and I&rsquo;d rather not
+pretend it&rsquo;s a universal turnkey solution. What I can do, however, is lay out
+what I found to work best, what fell flat, and the principles that helped me
+stop wasting time.</p>
+<h3 id="programming-skills">Programming skills<a hidden class="anchor" aria-hidden="true" href="#programming-skills">#</a></h3>
+<p>A blank-slate agent is a stupid agent. Every new conversation forces it to
+rediscover your project structure, your naming conventions, your architectural
+preferences, all of which you already know. The agent can, too! The solution is
+to preload context. In the case of Go, <a href="https://github.com/samber/cc-skills-golang">Samber&rsquo;s
+<code>cc-skills-golang</code></a> is the best
+example I&rsquo;ve found of how to do that in practice. It shows how to seed your
+agent with a cache of project conventions, file layout, testing strategy, and
+idiomatic patterns for the Go programming language, so that every interaction
+doesn&rsquo;t start from zero.</p>
+<p>Adapt the concept to your own stack. It&rsquo;s not just for Go. You&rsquo;ll stop paying
+tokens to re-teach the same lessons every session.</p>
+<h3 id="-or-make-your-own-skill">&hellip; or make your own skill<a hidden class="anchor" aria-hidden="true" href="#-or-make-your-own-skill">#</a></h3>
+<p>Once you&rsquo;ve seen what a well-crafted skill does, the natural next step is
+setting up your own. That&rsquo;s where Pocock&rsquo;s
+<a href="https://github.com/mattpocock/skills/blob/main/skills/productivity/write-a-skill/SKILL.md"><code>/write-a-skill</code></a>
+skill closes the loop. It teaches the agent how to write skills, which means
+the agent can then generate new skills on demand. Makes sense, right?</p>
+<p>Say you want the agent to become fluent in a niche programming language. You
+feed it the language reference, like a PDF spec, or a markdown cheat sheet, or the
+official docs, and invoke <code>/write-a-skill</code>. The agent follows the
+skill-writing process: it asks you about the specific use cases, decides
+whether utility scripts are needed, and drafts a <code>SKILL.md</code> with the correct
+structure. Two minutes later you have a composable, reusable skill file
+that permanently encodes the language&rsquo;s idioms, footguns, and standard library
+patterns. Every future session starts with the agent already speaking the
+dialect correctly.</p>
+<p>The same pattern works for any domain that requires repeated context: a
+company&rsquo;s internal API conventions, a specific database schema, the rules of a
+board game you&rsquo;re implementing. Instead of re-pasting reference material into
+every conversation, you crystallise it once into a skill and move on.</p>
+<p>The structure the agent follows is straightforward: a <code>SKILL.md</code> with a
+description that tells the agent:</p>
+<ul>
+<li><em>when</em> to trigger the skill,</li>
+<li>the description,</li>
+<li>and, optionally, references to other files whenever needed (according to
+standard: under a <code>/references</code> directory next to the <code>SKILL.md</code>).</li>
+</ul>
+<p>It is the only thing the agent sees when deciding which skill to load. The
+description format is deliberately constrained: one sentence on what the skill
+does, another on triggers, written in third person, under 1024 characters. It&rsquo;s
+just enough for the agent to know the skill exists and when to use it.</p>
+<p>This bootstrapping property is what makes the skills ecosystem
+self-reinforcing. Each new skill makes the agent more capable, which makes it
+faster to produce the next skill. I haven&rsquo;t tested this extensively to say
+anything more, but skills should not be ignored.</p>
+<h3 id="finding-good-mcps">Finding good MCPs<a hidden class="anchor" aria-hidden="true" href="#finding-good-mcps">#</a></h3>
+<p>The Model Context Protocol ecosystem is expanding rapidly, and the difference
+between a mediocre agent and a great one often comes down to having the right
+MCP server plugged in. A good resource to use is the <a href="https://github.com/punkpeye/awesome-mcp-servers">Awesome MCP
+Servers</a> list as a starting
+point: it&rsquo;s a community-curated directory of servers for everything from
+filesystem access to database introspection to browser automation. A standout
+example, and one I started leaning on, is <a href="https://github.com/browsermcp/mcp">Browser
+MCP</a>, which gives the agent a headless
+browser for extremely fast testing of web UIs, documentation scraping, or
+checking live deployment output. It&rsquo;s lightweight, composable, and does exactly
+one thing well.</p>
+<h3 id="prompting-sanely">Prompting sanely<a hidden class="anchor" aria-hidden="true" href="#prompting-sanely">#</a></h3>
+<p>Perhaps this is obvious by now, but do not type &ldquo;Make a financial payment app&rdquo;
+and expect anything other than a profoundly undercooked, useless bundle of
+files. Vague prompts produce vague code, and the agent will happily oblige. The
+skills I discussed earlier, especially <code>/grill-me</code>, are essentially a forcing
+function for precise thinking. Digesting a problem into its constituent pieces,
+if you will. Before you let the agent touch a file, you should be able to
+describe, in concrete terms, what success looks like, which invariants must
+hold, and where the boundaries of the current task lie. If you can&rsquo;t do that,
+you&rsquo;re not ready to prompt; you&rsquo;re just vibecoding with extra steps, and the
+results will reflect that. I treat the craft of prompting as an extension of
+software design itself: the clearer my intent, the less I have to fix
+afterwards.</p>
+<p><img loading="lazy" src="/ai_assist/rubber_duck.jpg"></p>
+<p>It turns out that&rsquo;s a skill that transfers straight back into writing better
+code on my own, too, because it&rsquo;s a two-for-one: I let a bot do boring work,
+but also talk to a <a href="https://en.wikipedia.org/wiki/Rubber_duck_debugging">rubber
+duck</a> at the same time,
+getting a better understanding of the problem I am trying to solve.</p>
+<h2 id="conclusion">Conclusion<a hidden class="anchor" aria-hidden="true" href="#conclusion">#</a></h2>
+<p>So that&rsquo;s the stack: Crush as the agent, Deepseek as the heavy lifter, MiniMax
+as the quick runner, a handful of well-chosen MCP servers, and a growing
+collection of composable skills that keep every session from starting at zero.
+It&rsquo;s not the only way to do AI-assisted programming, and I don&rsquo;t claim it is
+the best. I&rsquo;ve been doing it only for a short while. But it&rsquo;s the first setup
+I&rsquo;ve used that feels like a genuine multiplier rather than a toy I&rsquo;m
+perpetually debugging and getting bored with after a few days.</p>
+<p>If you take one thing away from this, it should be that experimentation is
+mandatory. The landscape is moving too fast for dogma. Try different providers,
+test free software tools before paying for proprietary ones, and if a piece of
+software feels like it&rsquo;s fighting you, throw it out. There&rsquo;s thousands out
+there. Most importantly, there are tools that respect your workflow, that load
+in under two seconds, that don&rsquo;t lock you to a single AI vendor, that don&rsquo;t
+punish you financially for iterating. Those are the ones worth keeping. The
+ones that don&rsquo;t are somebody else&rsquo;s business model.</p>
+<p>But the far more important point, the one I would carve into the monitor bezel
+of every junior developer if I could, is this: prompt engineering is not a
+substitute for software engineering skill. You can prompt your way into a
+working prototype, but you cannot prompt your way into a system that is
+maintainable, secure, or well-architected. That still requires you to
+understand data structures, to reason about state, to anticipate failure modes,
+and to recognise when the agent has confidently produced something dangerously
+wrong. The agent amplifies skill; it does not replace it. A sharp developer
+with a mediocre model will consistently destroy a vibecoder with a
+state-of-the-art one.</p>
+<p>What I&rsquo;ve described is a set of tools that, together, help me write better
+software more quickly, but only because I already knew what good software
+looks like. I am an intermediate programmer. Treat AI as a force multiplier for
+your existing discipline, not as a shortcut around the hard parts. Learn the
+craft first. Then let the agent handle the boilerplate while you focus on the
+magic.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://maxwelljensen.eu/tags/guide/">Guide</a></li>
+      <li><a href="https://maxwelljensen.eu/tags/software/">Software</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="next" href="https://maxwelljensen.eu/posts/atlas_turns/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Atlas Turns</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share AI-Assisted Programming: My Workflow on x"
+            href="https://x.com/intent/tweet/?text=AI-Assisted%20Programming%3a%20My%20Workflow&amp;url=https%3a%2f%2fmaxwelljensen.eu%2fposts%2fai_assist%2f&amp;hashtags=guide%2csoftware">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share AI-Assisted Programming: My Workflow on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fmaxwelljensen.eu%2fposts%2fai_assist%2f&amp;title=AI-Assisted%20Programming%3a%20My%20Workflow&amp;summary=AI-Assisted%20Programming%3a%20My%20Workflow&amp;source=https%3a%2f%2fmaxwelljensen.eu%2fposts%2fai_assist%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share AI-Assisted Programming: My Workflow on reddit"
+            href="https://reddit.com/submit?url=https%3a%2f%2fmaxwelljensen.eu%2fposts%2fai_assist%2f&title=AI-Assisted%20Programming%3a%20My%20Workflow">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share AI-Assisted Programming: My Workflow on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fmaxwelljensen.eu%2fposts%2fai_assist%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share AI-Assisted Programming: My Workflow on whatsapp"
+            href="https://api.whatsapp.com/send?text=AI-Assisted%20Programming%3a%20My%20Workflow%20-%20https%3a%2f%2fmaxwelljensen.eu%2fposts%2fai_assist%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share AI-Assisted Programming: My Workflow on telegram"
+            href="https://telegram.me/share/url?text=AI-Assisted%20Programming%3a%20My%20Workflow&amp;url=https%3a%2f%2fmaxwelljensen.eu%2fposts%2fai_assist%2f">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share AI-Assisted Programming: My Workflow on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=AI-Assisted%20Programming%3a%20My%20Workflow&u=https%3a%2f%2fmaxwelljensen.eu%2fposts%2fai_assist%2f">
+            <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
+                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+                <path
+                    d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>© Maxwell Jensen</span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+<div class="bg-element"></div>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const toc = document.querySelector(".floating-toc");
+  if (!toc) return;
+
+  const tocLinks = toc.querySelectorAll('a[href^="#"]');
+  if (tocLinks.length === 0) return;
+
+  const headingIds = Array.from(tocLinks).map((link) => link.getAttribute("href").substring(1));
+  const headings = headingIds.map((id) => document.getElementById(decodeURIComponent(id))).filter(Boolean);
+  if (headings.length === 0) return;
+
+  let currentActiveLink = null;
+  let isHashNavigation = false;
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      if (isHashNavigation) return;
+
+      const visibleHeadings = entries.filter((entry) => entry.isIntersecting).map((entry) => entry.target);
+      if (visibleHeadings.length === 0) return;
+
+      const topMostHeading = visibleHeadings.reduce((closest, heading) => {
+        const headingTop = heading.getBoundingClientRect().top;
+        const closestTop = closest.getBoundingClientRect().top;
+        return Math.abs(headingTop) < Math.abs(closestTop) ? heading : closest;
+      });
+
+      const targetId = encodeURIComponent(topMostHeading.id).toLowerCase();
+      const targetLink = toc.querySelector(`a[href="#${targetId}"]`);
+
+      if (targetLink && targetLink !== currentActiveLink) {
+        if (currentActiveLink) {
+          currentActiveLink.classList.remove("active-toc-link");
+        }
+        targetLink.classList.add("active-toc-link");
+        currentActiveLink = targetLink;
+      }
+    },
+    {
+      rootMargin: "-20px 0px -60% 0px", 
+      threshold:[0, 0.1, 0.5, 1],
+    }
+  );
+
+  headings.forEach((heading) => observer.observe(heading));
+
+  function handleHashNavigation() {
+    const hash = window.location.hash; 
+    if (hash) {
+      const targetLink = toc.querySelector(`a[href="${hash}"]`);
+      if (targetLink) {
+        isHashNavigation = true;
+        if (currentActiveLink) {
+          currentActiveLink.classList.remove("active-toc-link");
+        }
+        targetLink.classList.add("active-toc-link");
+        currentActiveLink = targetLink;
+        setTimeout(() => { isHashNavigation = false; }, 500);
+      }
+    }
+  }
+
+  window.addEventListener("hashchange", handleHashNavigation);
+  setTimeout(handleHashNavigation, 100);
+});
+</script>
+
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

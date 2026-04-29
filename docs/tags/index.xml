@@ -7,8 +7,22 @@
     <generator>Hugo -- 0.148.1</generator>
     <language>en</language>
     <copyright>Maxwell Jensen</copyright>
-    <lastBuildDate>Fri, 24 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://maxwelljensen.eu/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Guide</title>
+      <link>https://maxwelljensen.eu/tags/guide/</link>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://maxwelljensen.eu/tags/guide/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software</title>
+      <link>https://maxwelljensen.eu/tags/software/</link>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://maxwelljensen.eu/tags/software/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Christianity</title>
       <link>https://maxwelljensen.eu/tags/christianity/</link>
@@ -35,13 +49,6 @@
       <link>https://maxwelljensen.eu/tags/godot/</link>
       <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
       <guid>https://maxwelljensen.eu/tags/godot/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Software</title>
-      <link>https://maxwelljensen.eu/tags/software/</link>
-      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://maxwelljensen.eu/tags/software/</guid>
       <description></description>
     </item>
     <item>
@@ -98,13 +105,6 @@
       <link>https://maxwelljensen.eu/tags/poland/</link>
       <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://maxwelljensen.eu/tags/poland/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Guide</title>
-      <link>https://maxwelljensen.eu/tags/guide/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://maxwelljensen.eu/tags/guide/</guid>
       <description></description>
     </item>
   </channel>
