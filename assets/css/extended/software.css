@@ -17,6 +17,19 @@
 
 .software-info {
   padding-right: 2rem;
+  display: grid;
+}
+
+/* Info content panels use CSS grid to stack */
+.software-info-content {
+  grid-area: 1 / 1;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.software-info-content.hidden {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .software-info-title {
@@ -105,14 +118,11 @@
 .software-card.active {
   background: var(--accent-bg);
   border-color: var(--dark-text);
-  transform: translateY(-2px);
+  transform: translateX(4px);
 }
 
 .software-card:hover .software-card-title,
-.software-card.active .software-card-title {
-  color: var(--dark-text);
-}
-
+.software-card.active .software-card-title,
 .software-card:hover .software-card-description,
 .software-card.active .software-card-description {
   color: var(--dark-text);
@@ -120,8 +130,20 @@
 
 .software-card:hover .software-card-link,
 .software-card.active .software-card-link {
+  border-color: var(--dark-text);
   background: var(--dark-text);
   color: var(--accent-bg);
+}
+
+.software-card:hover .software-card-link:hover,
+.software-card.active .software-card-link:hover {
+  background: var(--primary);
+  color: var(--theme);
+}
+
+.software-card:hover .software-card-link:hover i,
+.software-card.active .software-card-link:hover i {
+  transform: translateX(4px);
 }
 
 .software-card-header {
@@ -229,31 +251,5 @@
   .software-card:hover .software-card-link,
   .software-card.active .software-card-link {
     transform: none;
-  }
-}
-
-/* Logo Marquee Container */
-.logo-marquee-container {
-  width: 100%;
-  max-width: var(--main-width, 720px);
-  padding-top: 2rem;
-  margin-top: 2rem;
-  overflow: hidden;
-}
-
-.logo-marquee-header {
-  color: var(--secondary);
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin: 0 0 1rem 0;
-  text-align: center;
-}
-
-@media screen and (max-width: 768px) {
-  .logo-marquee-container {
-    max-width: 100%;
-    padding-top: 1.5rem;
-    margin-top: 1rem;
   }
 }

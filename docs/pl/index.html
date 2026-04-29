@@ -11,7 +11,7 @@
 <meta name="description" content="My website">
 <meta name="author" content="Maxwell Jensen">
 <link rel="canonical" href="https://maxwelljensen.eu/pl/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.d8363b514cb4c5329f75059bde8c56e01e18610e331cf16ced4c67b67f309dbc.css" integrity="sha256-2DY7UUy0xTKfdQWb3oxW4B4YYQ4zHPFs7Uxntn8wnbw=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.e5924672573f388a2ed43ac66e92d97efb9ff4f3fbbe58cf6cb475afcdbf3ff6.css" integrity="sha256-5ZJGclc/OIou1DrGbpLZfvuf9PP7vljPbLR1r82/P/Y=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://maxwelljensen.eu/favicon/favicon.svg">
 <link rel="icon" type="image/png" sizes="16x16" href="https://maxwelljensen.eu/favicon/favicon16x16">
 <link rel="icon" type="image/png" sizes="32x32" href="https://maxwelljensen.eu/favicon/favicon32x32">
@@ -477,13 +477,10 @@ document.addEventListener('DOMContentLoaded', function() {
 </div><section class="software-section" aria-label="Software">
   <div class="software-layout">
     <div class="software-info" id="software-info" role="tabpanel">
-      <h2 class="software-info-title">Select a project</h2>
-      <p class="software-info-description">Click a project on the right to learn more about it.</p>
-      <ul class="software-info-topics hidden"></ul>
-      <a href="#" class="software-info-link hidden" target="_blank" rel="noopener">
-        <span>View Repository</span>
-        <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
-      </a>
+      <div class="software-info-content" data-index="0"></div>
+      <div class="software-info-content hidden" data-index="1"></div>
+      <div class="software-info-content hidden" data-index="2"></div>
+      <div class="software-info-content hidden" data-index="3"></div>
     </div>
 
     <div class="software-buttons" role="tablist" aria-label="Software projects">
@@ -619,18 +616,16 @@ document.addEventListener('DOMContentLoaded', function() {
 <script>
 (function() {
   const buttons = document.querySelectorAll('.software-card');
-  const infoPanel = document.getElementById('software-info');
-  const infoTitle = infoPanel.querySelector('.software-info-title');
-  const infoDesc = infoPanel.querySelector('.software-info-description');
-  const infoTopics = infoPanel.querySelector('.software-info-topics');
-  const infoLink = infoPanel.querySelector('.software-info-link');
+  const infoPanels = document.querySelectorAll('.software-info-content');
+  let currentIndex = 0;
+  let initialized = false;
 
   function activateSoftware(button) {
-    const index = button.dataset.index;
     const name = button.dataset.name;
     const description = button.dataset.description;
     const url = button.dataset.url;
     const topicsStr = button.dataset.topics;
+    const buttonIndex = parseInt(button.dataset.index);
 
     buttons.forEach(b => {
       b.classList.remove('active');
@@ -641,30 +636,87 @@ document.addEventListener('DOMContentLoaded', function() {
     button.setAttribute('aria-selected', 'true');
     button.setAttribute('tabindex', '0');
 
-    infoTitle.textContent = name;
-    infoDesc.textContent = description || '';
-    infoLink.href = url;
+    const oldPanel = infoPanels[currentIndex];
+    const newPanel = infoPanels[buttonIndex];
 
-    if (topicsStr) {
-      const topics = topicsStr.split(',');
-      infoTopics.innerHTML = topics.map(t => `<li>${t}</li>`).join('');
-      infoTopics.classList.remove('hidden');
-    } else {
-      infoTopics.innerHTML = '';
-      infoTopics.classList.add('hidden');
+    if (!initialized) {
+      initialized = true;
+      oldPanel.innerHTML = '<h2 class="software-info-title">' + name + '</h2><p class="software-info-description">' + (description || '') + '</p><ul class="software-info-topics">' + (topicsStr ? topicsStr.split(',').map(t => '<li>' + t + '</li>').join('') : '') + '</ul><a href="' + url + '" class="software-info-link" target="_blank" rel="noopener"><span>View Repository</span><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>';
+      oldPanel.classList.remove('hidden');
+      currentIndex = buttonIndex;
+      return;
     }
 
-    infoLink.classList.remove('hidden');
+    if (buttonIndex === currentIndex) return;
+
+    const title = newPanel.querySelector('.software-info-title') || document.createElement('h2');
+    title.className = 'software-info-title';
+    title.textContent = name;
+
+    const desc = newPanel.querySelector('.software-info-description') || document.createElement('p');
+    desc.className = 'software-info-description';
+    desc.textContent = description || '';
+
+    const topics = newPanel.querySelector('.software-info-topics') || document.createElement('ul');
+    topics.className = 'software-info-topics';
+    if (topicsStr) {
+      topics.innerHTML = topicsStr.split(',').map(t => '<li>' + t + '</li>').join('');
+    } else {
+      topics.innerHTML = '';
+    }
+
+    const link = newPanel.querySelector('.software-info-link') || document.createElement('a');
+    link.className = 'software-info-link';
+    link.href = url;
+    link.target = '_blank';
+    link.rel = 'noopener';
+    link.innerHTML = '<span>View Repository</span><i class="fa-solid fa-arrow-right" aria-hidden="true"></i>';
+
+    newPanel.innerHTML = '';
+    newPanel.appendChild(title);
+    newPanel.appendChild(desc);
+    newPanel.appendChild(topics);
+    newPanel.appendChild(link);
+
+    oldPanel.classList.add('hidden');
+    newPanel.classList.remove('hidden');
+
+    currentIndex = buttonIndex;
   }
 
   buttons.forEach(button => {
     button.addEventListener('click', function(e) {
-      if (e.target.closest('.software-card-title a')) return;
+      if (e.target.closest('.software-card-link')) return;
       activateSoftware(this);
     });
 
     button.addEventListener('keydown', function(e) {
       const currentIndex = parseInt(this.dataset.index);
+      let targetIndex = null;
+
+      if (e.key === 'ArrowDown' || e.key === 'ArrowRight') {
+        targetIndex = (currentIndex + 1) % buttons.length;
+      } else if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') {
+        targetIndex = (currentIndex - 1 + buttons.length) % buttons.length;
+      } else if (e.key === 'Home') {
+        targetIndex = 0;
+      } else if (e.key === 'End') {
+        targetIndex = buttons.length - 1;
+      }
+
+      if (targetIndex !== null) {
+        e.preventDefault();
+        buttons[targetIndex].focus();
+        activateSoftware(buttons[targetIndex]);
+      }
+    });
+  });
+
+  const activeButton = document.querySelector('.software-card.active');
+  if (activeButton) {
+    activateSoftware(activeButton);
+  }
+})();
 </script><div class="section-divider">
   <span class="section-divider-line"></span>
   <span class="section-divider-label">Rekomendacje</span>
