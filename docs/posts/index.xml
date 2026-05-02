@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.148.1</generator>
     <language>en</language>
     <copyright>Maxwell Jensen</copyright>
-    <lastBuildDate>Tue, 28 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://maxwelljensen.eu/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The New Sparse Frontier: Flattening by AI</title>
+      <link>https://maxwelljensen.eu/posts/new_sparse_frontier/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://maxwelljensen.eu/posts/new_sparse_frontier/</guid>
+      <description>AI is flattening the software landscape. The only escape is to move into the space it cannot occupy.</description>
+    </item>
     <item>
       <title>AI-Assisted Programming: My Workflow</title>
       <link>https://maxwelljensen.eu/posts/ai_assist/</link>

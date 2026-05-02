@@ -7,8 +7,22 @@
     <generator>Hugo -- 0.148.1</generator>
     <language>en</language>
     <copyright>Maxwell Jensen</copyright>
-    <lastBuildDate>Tue, 28 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://maxwelljensen.eu/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Programming</title>
+      <link>https://maxwelljensen.eu/tags/programming/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://maxwelljensen.eu/tags/programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technology</title>
+      <link>https://maxwelljensen.eu/tags/technology/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://maxwelljensen.eu/tags/technology/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Guide</title>
       <link>https://maxwelljensen.eu/tags/guide/</link>
@@ -70,13 +84,6 @@
       <link>https://maxwelljensen.eu/tags/internet/</link>
       <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://maxwelljensen.eu/tags/internet/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Technology</title>
-      <link>https://maxwelljensen.eu/tags/technology/</link>
-      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://maxwelljensen.eu/tags/technology/</guid>
       <description></description>
     </item>
     <item>

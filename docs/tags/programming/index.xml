@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Programming on Maxwell Jensen&#39;s Personal Website</title>
+    <link>https://maxwelljensen.eu/tags/programming/</link>
+    <description>Recent content in Programming on Maxwell Jensen&#39;s Personal Website</description>
+    <generator>Hugo -- 0.148.1</generator>
+    <language>en</language>
+    <copyright>Maxwell Jensen</copyright>
+    <lastBuildDate>Sat, 02 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://maxwelljensen.eu/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The New Sparse Frontier: Flattening by AI</title>
+      <link>https://maxwelljensen.eu/posts/new_sparse_frontier/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://maxwelljensen.eu/posts/new_sparse_frontier/</guid>
+      <description>AI is flattening the software landscape. The only escape is to move into the space it cannot occupy.</description>
+    </item>
+  </channel>
+</rss>
