@@ -12,6 +12,7 @@
               data-index="{{ $index }}"
               data-name="{{ $repo.name }}"
               data-description="{{ $repo.description }}"
+              data-extended-description="{{ $repo.extended_description }}"
               data-url="{{ $repo.url }}"
               {{- if $repo.topics }}
               data-topics="{{ delimit $repo.topics "," }}"
@@ -55,7 +56,7 @@
 
   function activateSoftware(button) {
     const name = button.dataset.name;
-    const description = button.dataset.description;
+    const description = button.dataset.extendedDescription || button.dataset.description;
     const url = button.dataset.url;
     const topicsStr = button.dataset.topics;
     const buttonIndex = parseInt(button.dataset.index);

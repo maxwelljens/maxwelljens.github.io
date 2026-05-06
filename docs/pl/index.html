@@ -488,6 +488,7 @@ document.addEventListener('DOMContentLoaded', function() {
               data-index="0"
               data-name="bibel"
               data-description="MOTD dla Pisma. Wyświetla dzisiejsze czytanie z Ewangelii po otwarciu terminala."
+              data-extended-description="bibel to nie kolejna uniwersalna aplikacja biblijna. To małe narzędzie CLI/TUI, którego jedynym zadaniem jest wyświetlanie dzisiejszego czytania z Ewangelii po otwarciu terminala. Pomyśl o tym jak o MOTD dla Pisma Świętego: 12 wersetów dziennie, opartych na kalendarzu, bez menu, wyszukiwania czy zbędnych funkcji. Większość zachowania można dostosować przez plik konfiguracyjny, w tym czytanie z całego Nowego Testamentu, Starego Testamentu lub całej Biblii."
               data-url="https://codeberg.org/maxwelljensen/bibel"
               data-topics="go,cli,tui"
               role="tab"
@@ -513,6 +514,7 @@ document.addEventListener('DOMContentLoaded', function() {
               data-index="1"
               data-name="gibman"
               data-description="Menadżer WADów DOOM-a dla nerdów"
+              data-extended-description="gibman to proste narzędzie CLI, którego jedynym celem jest uruchamianie presetów dla twojego ulubionego enginu DOOM-a. Opiera się na pojedynczym pliku YAML, w którym deklarujesz enginy (GZDoom, Woof!, Eternity Engine itp.), IWAD-y i WAD-y oraz presety łączące je w całość. Po wywołaniu preset gibman składa pełne polecenie i wykonuje je w shellu. Niezależny od platformy — działa na Windows, Linux i macOS."
               data-url="https://github.com/maxwelljens/gibman"
               data-topics="nim,cli,doom"
               role="tab"
@@ -538,6 +540,7 @@ document.addEventListener('DOMContentLoaded', function() {
               data-index="2"
               data-name="llm_aggregator"
               data-description="CLI do agregacji kanałów RSS i podsumowywania ich za pomocą LLM"
+              data-extended-description="llm_aggregator pobiera artykuły z wielu kanałów RSS, Atom i JSON, filtruje i przetwarza treść, a następnie wysyła ją do dowolnego LLM zgodnego z API OpenAI, aby wygenerować zwięzłe podsumowanie — dzięki czemu nie musisz czytać dziesiątek czy setek postów samodzielnie. Oferuje interaktywny TUI z paskiem postępu, współbieżne pobieranie z limitowaniem szybkości, filtrowanie po słowach kluczowych i dacie, wiele formatów wyjściowych oraz elastyczną konfigurację przez flagi CLI, zmienne środowiskowe lub plik konfiguracyjny."
               data-url="https://codeberg.org/maxwelljensen/llm_aggregator"
               data-topics="go,cli,rss"
               role="tab"
@@ -563,6 +566,7 @@ document.addEventListener('DOMContentLoaded', function() {
               data-index="3"
               data-name="mdget"
               data-description="Pobiera stronę i konwertuje HTML na czysty Markdown"
+              data-extended-description="mdget to proste narzędzie CLI, które pobiera stronę przez HTTP GET i konwertuje HTML na czysty, czytelny Markdown. Zaprojektowane do szybkiego, skryptowalnego wyciągania treści z sieci w przenośnym formacie tekstowym. Wynik trafia na STDOUT lub do pliku z flagą --output. Oferuje konfigurowalny timeout, własny User-Agent i flagę no-clobber zapobiegającą nadpisywaniu istniejących plików."
               data-url="https://codeberg.org/maxwelljensen/mdget"
               data-topics="go,cli,markdown"
               role="tab"
@@ -622,7 +626,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function activateSoftware(button) {
     const name = button.dataset.name;
-    const description = button.dataset.description;
+    const description = button.dataset.extendedDescription || button.dataset.description;
     const url = button.dataset.url;
     const topicsStr = button.dataset.topics;
     const buttonIndex = parseInt(button.dataset.index);
