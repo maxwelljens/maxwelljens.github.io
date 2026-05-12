@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.148.1</generator>
     <language>en</language>
     <copyright>Maxwell Jensen</copyright>
-    <lastBuildDate>Sat, 02 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://maxwelljensen.eu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Extremely Easy Hosting with Caddy</title>
+      <link>https://maxwelljensen.eu/posts/caddy_guide/</link>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://maxwelljensen.eu/posts/caddy_guide/</guid>
+      <description>How to stop fighting with web server configuration and just get your site online, with automatic HTTPS.</description>
+    </item>
     <item>
       <title>The New Sparse Frontier: Flattening by AI</title>
       <link>https://maxwelljensen.eu/posts/new_sparse_frontier/</link>

@@ -89,19 +89,19 @@
 .tabs-container {
   margin: var(--content-gap) 0;
   border-radius: var(--radius);
-  overflow: hidden;
+  overflow: clip;
   border: 1px solid var(--border);
 }
 
 .tabs-scrollbar {
   overflow-x: auto;
   overflow-y: hidden;
+  background-color: var(--entry);
 }
 
 .tabs-header {
   display: flex;
   border-bottom: 1px solid var(--border);
-  background-color: var(--entry);
   min-width: 100%;
 }
 

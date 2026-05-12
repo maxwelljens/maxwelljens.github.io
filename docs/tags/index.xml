@@ -7,8 +7,29 @@
     <generator>Hugo -- 0.148.1</generator>
     <language>en</language>
     <copyright>Maxwell Jensen</copyright>
-    <lastBuildDate>Sat, 02 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://maxwelljensen.eu/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Guide</title>
+      <link>https://maxwelljensen.eu/tags/guide/</link>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://maxwelljensen.eu/tags/guide/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Internet</title>
+      <link>https://maxwelljensen.eu/tags/internet/</link>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://maxwelljensen.eu/tags/internet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software</title>
+      <link>https://maxwelljensen.eu/tags/software/</link>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://maxwelljensen.eu/tags/software/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Programming</title>
       <link>https://maxwelljensen.eu/tags/programming/</link>
@@ -21,20 +42,6 @@
       <link>https://maxwelljensen.eu/tags/technology/</link>
       <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
       <guid>https://maxwelljensen.eu/tags/technology/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Guide</title>
-      <link>https://maxwelljensen.eu/tags/guide/</link>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://maxwelljensen.eu/tags/guide/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Software</title>
-      <link>https://maxwelljensen.eu/tags/software/</link>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://maxwelljensen.eu/tags/software/</guid>
       <description></description>
     </item>
     <item>
@@ -77,13 +84,6 @@
       <link>https://maxwelljensen.eu/tags/politics/</link>
       <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://maxwelljensen.eu/tags/politics/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Internet</title>
-      <link>https://maxwelljensen.eu/tags/internet/</link>
-      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://maxwelljensen.eu/tags/internet/</guid>
       <description></description>
     </item>
     <item>

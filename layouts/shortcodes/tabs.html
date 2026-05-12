@@ -109,6 +109,9 @@ function switchTab(containerId, tabIndex) {
     btn.classList.toggle('tabs-button-active', isActive);
     btn.setAttribute('aria-selected', isActive);
     btn.setAttribute('tabindex', isActive ? '0' : '-1');
+    if (isActive) {
+      btn.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+    }
   });
   
   // Update panes
@@ -129,6 +132,9 @@ function switchTab(containerId, tabIndex) {
           btn.classList.toggle('tabs-button-active', isActive);
           btn.setAttribute('aria-selected', isActive);
           btn.setAttribute('tabindex', isActive ? '0' : '-1');
+          if (isActive) {
+            btn.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+          }
         });
         otherContainer.querySelectorAll('.tabs-panel').forEach((pane, idx) => {
           pane.classList.toggle('tabs-panel-hidden', idx !== tabIndex);
@@ -149,7 +155,10 @@ document.addEventListener('DOMContentLoaded', function() {
         firstButton.classList.add('tabs-button-active');
         firstButton.setAttribute('aria-selected', 'true');
         firstButton.setAttribute('tabindex', '0');
+        firstButton.scrollIntoView({ behavior: 'instant', inline: 'center', block: 'nearest' });
       }
+    } else {
+      activeButton.scrollIntoView({ behavior: 'instant', inline: 'center', block: 'nearest' });
     }
   });
 });
