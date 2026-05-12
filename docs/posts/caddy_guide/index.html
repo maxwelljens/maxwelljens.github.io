@@ -440,10 +440,7 @@ document.addEventListener('DOMContentLoaded', function() {
         firstButton.classList.add('tabs-button-active');
         firstButton.setAttribute('aria-selected', 'true');
         firstButton.setAttribute('tabindex', '0');
-        firstButton.scrollIntoView({ behavior: 'instant', inline: 'center', block: 'nearest' });
       }
-    } else {
-      activeButton.scrollIntoView({ behavior: 'instant', inline: 'center', block: 'nearest' });
     }
   });
 });

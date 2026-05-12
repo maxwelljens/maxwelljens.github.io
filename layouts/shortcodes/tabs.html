@@ -145,7 +145,7 @@ function switchTab(containerId, tabIndex) {
   }
 }
 
-// Initialize tabs on page load
+// Initialize tabs on page load — no scrolling
 document.addEventListener('DOMContentLoaded', function() {
   document.querySelectorAll('.tabs-container').forEach(container => {
     const activeButton = container.querySelector('.tabs-button-active');
@@ -155,10 +155,7 @@ document.addEventListener('DOMContentLoaded', function() {
         firstButton.classList.add('tabs-button-active');
         firstButton.setAttribute('aria-selected', 'true');
         firstButton.setAttribute('tabindex', '0');
-        firstButton.scrollIntoView({ behavior: 'instant', inline: 'center', block: 'nearest' });
       }
-    } else {
-      activeButton.scrollIntoView({ behavior: 'instant', inline: 'center', block: 'nearest' });
     }
   });
 });

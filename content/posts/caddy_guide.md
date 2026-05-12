@@ -63,7 +63,7 @@ documentation](https://caddyserver.com/docs/install) covers all of them, but
 here are the sensible options.
 
 {{< tabs >}}
-{{< tab name="Fedora (DNF)" selected=true >}}
+{{< tab name="Fedora (DNF)" >}}
 ```bash
 sudo dnf copr enable @caddy/caddy
 sudo dnf install caddy
