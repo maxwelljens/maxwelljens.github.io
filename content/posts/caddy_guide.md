@@ -442,8 +442,8 @@ post explaining how to set up HTTPS. You just write a domain name and it works.
 I have been running web servers since I was a teenager, and I have accumulated
 a healthy collection of war stories about misconfiguration and virtual hosts,
 and the peculiar brand of despair that comes from debugging an Apache rewrite
-rule. Caddy eliminated most of those failure modes in a that is truly mystical,
-but I am not complaining.
+rule. Caddy eliminated most of those failure modes in a way that is truly
+mystical, but I am not complaining.
 
 If you are hosting a personal blog, a small business site, or an API, Caddy is
 the correct choice. The configuration is simpler, which means the security is
