@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.148.1</generator>
     <language>en</language>
     <copyright>Maxwell Jensen</copyright>
-    <lastBuildDate>Mon, 11 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://maxwelljensen.eu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Should Code be Copyrighted?</title>
+      <link>https://maxwelljensen.eu/posts/should_code_be_copyrighted/</link>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://maxwelljensen.eu/posts/should_code_be_copyrighted/</guid>
+      <description>An exploration of whether copyright law, designed for creative works, should apply to something as functional and mathematical as source code.</description>
+    </item>
     <item>
       <title>Extremely Easy Hosting with Caddy</title>
       <link>https://maxwelljensen.eu/posts/caddy_guide/</link>

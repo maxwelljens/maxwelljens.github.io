@@ -17,11 +17,11 @@ The amount of developers who do not understand licensing is staggering, and it
 has serious consequences; a lot of corporate exploitation. Developers after
 developers keep getting tricked.
 
-{{< notice warning >}}
+{{< callout type="warning" >}}
 THIS ARTICLE IS NOT LEGAL ADVICE. I am not a lawyer, neither
 former nor currently practising. If you are uncertain about this topic, and
 valuable assets are at stake, come into contact with qualified legal counsel.
-{{< /notice >}}
+{{< /callout >}}
 
 ## Copyright
 
@@ -118,14 +118,14 @@ software](https://www.britannica.com/science/free-software) as follows:
 > Foundation (FSF) in 1985, an organization that remains a leading voice in the
 > movement today.
 
-{{< notice note >}}
-**Disambiguation**: "Open source" is often used as a synonym for free software,
-which is incorrect. To learn more, read ["Why Open Source Misses the Point of
-Free Software"](https://www.gnu.org/philosophy/open-source-misses-the-point.html) by Richard
+{{< callout type="info" title="Disambiguation" >}}
+"Open source" is often used as a synonym for free software, which is incorrect.
+To learn more, read ["Why Open Source Misses the Point of Free
+Software"](https://www.gnu.org/philosophy/open-source-misses-the-point.html) by Richard
 Stallman.
-{{< /notice >}}
+{{< /callout >}}
 
-{{< notice note >}}
+{{< callout type="info" title="Gratis vs Libre" >}}
 **The word "free" in this context means freedom, not absence of price.**
 When we talk about free software, we talk about software that respects freedom
 of the individual, for fair competition and transparency. The English language
@@ -133,7 +133,7 @@ just has an unfortunate limitation, where the word "free" can mean two things.
 Often, in other languages, there is a difference between something being free
 and something being
 [gratis](https://dictionary.cambridge.org/dictionary/english/gratis).
-{{< /notice >}}
+{{< /callout >}}
 
 The question of free software and proprietary software continues to cause
 controversy in the tech world. Proponents of free software claim that
@@ -344,7 +344,7 @@ ill-advised decision as being inevitable:
 > separate issue from the code it runs. A company as big as Intel could
 > obviously write its own OS if it had to.
 >
-> –-- Andrew Tanenbaum
+> --- Andrew Tanenbaum
 
 Tanenbaum is correct in that Intel would, at some point, write their own
 operating system to become hardware-level spyware on all of their products, but

@@ -2,17 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://maxwelljensen.eu/posts/caddy_guide/</loc>
-    <lastmod>2026-05-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://maxwelljensen.eu/tags/guide/</loc>
-    <lastmod>2026-05-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://maxwelljensen.eu/tags/internet/</loc>
-    <lastmod>2026-05-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://maxwelljensen.eu/</loc>
-    <lastmod>2026-05-11T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
@@ -24,8 +15,11 @@
                 href="https://maxwelljensen.eu/"
                 />
   </url><url>
+    <loc>https://maxwelljensen.eu/tags/politics/</loc>
+    <lastmod>2026-05-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://maxwelljensen.eu/posts/</loc>
-    <lastmod>2026-05-11T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
@@ -37,11 +31,14 @@
                 href="https://maxwelljensen.eu/posts/"
                 />
   </url><url>
+    <loc>https://maxwelljensen.eu/posts/should_code_be_copyrighted/</loc>
+    <lastmod>2026-05-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://maxwelljensen.eu/tags/software/</loc>
-    <lastmod>2026-05-11T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/tags/</loc>
-    <lastmod>2026-05-11T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
@@ -53,10 +50,19 @@
                 href="https://maxwelljensen.eu/tags/"
                 />
   </url><url>
-    <loc>https://maxwelljensen.eu/tags/programming/</loc>
-    <lastmod>2026-05-02T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://maxwelljensen.eu/tags/technology/</loc>
+    <lastmod>2026-05-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maxwelljensen.eu/posts/caddy_guide/</loc>
+    <lastmod>2026-05-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maxwelljensen.eu/tags/guide/</loc>
+    <lastmod>2026-05-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maxwelljensen.eu/tags/internet/</loc>
+    <lastmod>2026-05-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maxwelljensen.eu/tags/programming/</loc>
     <lastmod>2026-05-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/posts/new_sparse_frontier/</loc>
@@ -139,9 +145,6 @@
     <lastmod>2025-12-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/tags/culture/</loc>
-    <lastmod>2025-12-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://maxwelljensen.eu/tags/politics/</loc>
     <lastmod>2025-12-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/posts/age_of_weimarica/</loc>
