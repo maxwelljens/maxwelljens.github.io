@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.148.1</generator>
     <language>en</language>
     <copyright>Maxwell Jensen</copyright>
-    <lastBuildDate>Thu, 14 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://maxwelljensen.eu/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claude: A Waste of Money</title>
+      <link>https://maxwelljensen.eu/posts/claude_a_waste_of_money/</link>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://maxwelljensen.eu/posts/claude_a_waste_of_money/</guid>
+      <description>DeepSeek V4 has made Claude and other premium AI subscriptions almost impossible to justify on a cost-benefit basis.</description>
+    </item>
     <item>
       <title>Should Code be Copyrighted?</title>
       <link>https://maxwelljensen.eu/posts/should_code_be_copyrighted/</link>

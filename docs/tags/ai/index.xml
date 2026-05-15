@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AI on Maxwell Jensen&#39;s Personal Website</title>
+    <link>https://maxwelljensen.eu/tags/ai/</link>
+    <description>Recent content in AI on Maxwell Jensen&#39;s Personal Website</description>
+    <generator>Hugo -- 0.148.1</generator>
+    <language>en</language>
+    <copyright>Maxwell Jensen</copyright>
+    <lastBuildDate>Fri, 15 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://maxwelljensen.eu/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claude: A Waste of Money</title>
+      <link>https://maxwelljensen.eu/posts/claude_a_waste_of_money/</link>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://maxwelljensen.eu/posts/claude_a_waste_of_money/</guid>
+      <description>DeepSeek V4 has made Claude and other premium AI subscriptions almost impossible to justify on a cost-benefit basis.</description>
+    </item>
+  </channel>
+</rss>
