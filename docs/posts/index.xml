@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.148.1</generator>
     <language>en</language>
     <copyright>Maxwell Jensen</copyright>
-    <lastBuildDate>Fri, 15 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://maxwelljensen.eu/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>You Don&#39;t Need Docker for Everything</title>
+      <link>https://maxwelljensen.eu/posts/you_dont_need_docker/</link>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://maxwelljensen.eu/posts/you_dont_need_docker/</guid>
+      <description>Docker is an unnecessary abstraction for small-scale sysadmins, and the rise of Rust and Go makes it even more indefensible.</description>
+    </item>
     <item>
       <title>Claude: A Waste of Money</title>
       <link>https://maxwelljensen.eu/posts/claude_a_waste_of_money/</link>
