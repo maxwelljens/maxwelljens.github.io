@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
@@ -6,39 +7,39 @@
     <lastmod>2026-05-21T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="pl"
-                href="https://maxwelljensen.eu/pl/"
+                hreflang="en"
+                href="https://maxwelljensen.eu/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://maxwelljensen.eu/"
+                hreflang="pl"
+                href="https://maxwelljensen.eu/pl/"
                 />
   </url><url>
     <loc>https://maxwelljensen.eu/posts/</loc>
     <lastmod>2026-05-21T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="pl"
-                href="https://maxwelljensen.eu/pl/posts/"
+                hreflang="en"
+                href="https://maxwelljensen.eu/posts/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://maxwelljensen.eu/posts/"
+                hreflang="pl"
+                href="https://maxwelljensen.eu/pl/posts/"
                 />
   </url><url>
     <loc>https://maxwelljensen.eu/tags/</loc>
     <lastmod>2026-05-21T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="pl"
-                href="https://maxwelljensen.eu/pl/tags/"
+                hreflang="en"
+                href="https://maxwelljensen.eu/tags/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://maxwelljensen.eu/tags/"
+                hreflang="pl"
+                href="https://maxwelljensen.eu/pl/tags/"
                 />
   </url><url>
     <loc>https://maxwelljensen.eu/tags/technology/</loc>
@@ -90,52 +91,52 @@
     <lastmod>2026-04-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="pl"
-                href="https://maxwelljensen.eu/pl/posts/atlas_turns/"
+                hreflang="en"
+                href="https://maxwelljensen.eu/posts/atlas_turns/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://maxwelljensen.eu/posts/atlas_turns/"
+                hreflang="pl"
+                href="https://maxwelljensen.eu/pl/posts/atlas_turns/"
                 />
   </url><url>
     <loc>https://maxwelljensen.eu/tags/christianity/</loc>
     <lastmod>2026-04-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="pl"
-                href="https://maxwelljensen.eu/pl/tags/christianity/"
+                hreflang="en"
+                href="https://maxwelljensen.eu/tags/christianity/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://maxwelljensen.eu/tags/christianity/"
+                hreflang="pl"
+                href="https://maxwelljensen.eu/pl/tags/christianity/"
                 />
   </url><url>
     <loc>https://maxwelljensen.eu/tags/creative/</loc>
     <lastmod>2026-04-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="pl"
-                href="https://maxwelljensen.eu/pl/tags/creative/"
+                hreflang="en"
+                href="https://maxwelljensen.eu/tags/creative/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://maxwelljensen.eu/tags/creative/"
+                hreflang="pl"
+                href="https://maxwelljensen.eu/pl/tags/creative/"
                 />
   </url><url>
     <loc>https://maxwelljensen.eu/posts/i_died_yesterday/</loc>
     <lastmod>2026-04-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="pl"
-                href="https://maxwelljensen.eu/pl/posts/i_died_yesterday/"
+                hreflang="en"
+                href="https://maxwelljensen.eu/posts/i_died_yesterday/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://maxwelljensen.eu/posts/i_died_yesterday/"
+                hreflang="pl"
+                href="https://maxwelljensen.eu/pl/posts/i_died_yesterday/"
                 />
   </url><url>
     <loc>https://maxwelljensen.eu/tags/gamedev/</loc>
@@ -204,13 +205,13 @@
     <loc>https://maxwelljensen.eu/categories/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="pl"
-                href="https://maxwelljensen.eu/pl/categories/"
+                hreflang="en"
+                href="https://maxwelljensen.eu/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://maxwelljensen.eu/categories/"
+                hreflang="pl"
+                href="https://maxwelljensen.eu/pl/categories/"
                 />
   </url><url>
     <loc>https://maxwelljensen.eu/search/</loc>
@@ -218,13 +219,13 @@
     <loc>https://maxwelljensen.eu/series/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="pl"
-                href="https://maxwelljensen.eu/pl/series/"
+                hreflang="en"
+                href="https://maxwelljensen.eu/series/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://maxwelljensen.eu/series/"
+                hreflang="pl"
+                href="https://maxwelljensen.eu/pl/series/"
                 />
   </url>
 </urlset>

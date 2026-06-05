@@ -1,5 +1,4 @@
 ---
-title: "Marco Høyvang"
 date: 2024-02-06
 draft: false
 

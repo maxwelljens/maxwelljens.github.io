@@ -1,5 +1,4 @@
 ---
-title: "Janrik Oberholzer"
 date: 2024-02-26
 draft: false
 

@@ -10,7 +10,7 @@
 <meta name="description" content="How to stop fighting with web server configuration and just get your site online, with automatic HTTPS.">
 <meta name="author" content="Maxwell Jensen">
 <link rel="canonical" href="https://maxwelljensen.eu/posts/caddy_guide/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.9d46c764380a9dc4b9207d80a490cf7f7f43dbd7c64fcd9ce8464ebca1003330.css" integrity="sha256-nUbHZDgKncS5IH2ApJDPf39D29fGT82c6EZOvKEAMzA=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.89dc6310db7df7bfd81258b15608f5d8d49e34c225be420f81f75473d6212b37.css" integrity="sha256-idxjENt997/YElixVgj12NSeNMIlvkIPgfdUc9YhKzc=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://maxwelljensen.eu/favicon/favicon.svg">
 <link rel="icon" type="image/png" sizes="16x16" href="https://maxwelljensen.eu/favicon/favicon16x16">
 <link rel="icon" type="image/png" sizes="32x32" href="https://maxwelljensen.eu/favicon/favicon32x32">
@@ -459,7 +459,7 @@ follow along with the manual examples.</div>
 for a file named <code>Caddyfile</code> in the current directory. Let&rsquo;s start with the
 simplest possible configuration:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-caddy" data-lang="caddy"><span class="line"><span class="cl"><span class="gh">localhost:8080</span><span class="p">
-</span></span></span><span class="line"><span class="cl"><span class="p"></span>
+</span></span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="k">respond</span> <span class="s2">&#34;Hello, world!&#34;</span>
 </span></span></code></pre></div><p>Save this to a file named <code>Caddyfile</code> and run:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">caddy run
@@ -644,10 +644,10 @@ expand to partial or multiple tokens.</p>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span><span class="c1">
 </span></span></span><span class="line"><span class="cl"><span class="c1">
 </span></span></span><span class="line"><span class="cl"><span class="c1">    # Only reverse-proxy POST requests
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="k">reverse_proxy</span> <span class="nd">@post</span> <span class="n">localhost</span><span class="p">:</span><span class="mi">9000</span><span class="c1">
+</span></span></span><span class="line"><span class="cl">    <span class="k">reverse_proxy</span> <span class="nd">@post</span> <span class="n">localhost</span><span class="p">:</span><span class="mi">9000</span><span class="c1">
 </span></span></span><span class="line"><span class="cl"><span class="c1">
 </span></span></span><span class="line"><span class="cl"><span class="c1">    # Serve everything else as static files
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="k">file_server</span>
+</span></span></span><span class="line"><span class="cl">    <span class="k">file_server</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div><p>Caddy supports path matchers (<code>/api/*</code>), header matchers, query matchers,
 protocol matchers, remote IP matchers, and more. These are detailed in <a href="https://caddyserver.com/docs/caddyfile/matchers">the
@@ -656,64 +656,64 @@ matchers documentation</a>.</p>
 <p>The technical merits of Caddy compared to other web servers are straightforward
 enough.</p>
 <table>
-  <thead>
-      <tr>
-          <th>Feature</th>
-          <th>Caddy</th>
-          <th>nginx</th>
-          <th>Apache</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>Automatic HTTPS</td>
-          <td>Built-in, default</td>
-          <td>Requires Certbot + cron</td>
-          <td>Requires Certbot + cron</td>
-      </tr>
-      <tr>
-          <td>Config format</td>
-          <td>Caddyfile (human-friendly)</td>
-          <td>nginx.conf (error-prone)</td>
-          <td>.htaccess + httpd.conf</td>
-      </tr>
-      <tr>
-          <td>TLS renewal</td>
-          <td>Automatic, daemon-managed</td>
-          <td>Manual cron job</td>
-          <td>Manual cron job</td>
-      </tr>
-      <tr>
-          <td>Default HTTPS</td>
-          <td>Yes</td>
-          <td>No</td>
-          <td>No</td>
-      </tr>
-      <tr>
-          <td>OCSP stapling</td>
-          <td>Built-in</td>
-          <td>Manual config</td>
-          <td>Manual config</td>
-      </tr>
-      <tr>
-          <td>Layer 4 (TCP/stream) proxy</td>
-          <td>Not supported</td>
-          <td>Built-in</td>
-          <td>Built-in</td>
-      </tr>
-      <tr>
-          <td>HTTP/2, HTTP/3</td>
-          <td>Built-in</td>
-          <td>Requires config</td>
-          <td>Requires config</td>
-      </tr>
-      <tr>
-          <td>Config reload</td>
-          <td>Graceful, zero-downtime</td>
-          <td>Graceful</td>
-          <td>Requires restart</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>Feature</th>
+					<th>Caddy</th>
+					<th>nginx</th>
+					<th>Apache</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Automatic HTTPS</td>
+					<td>Built-in, default</td>
+					<td>Requires Certbot + cron</td>
+					<td>Requires Certbot + cron</td>
+			</tr>
+			<tr>
+					<td>Config format</td>
+					<td>Caddyfile (human-friendly)</td>
+					<td>nginx.conf (error-prone)</td>
+					<td>.htaccess + httpd.conf</td>
+			</tr>
+			<tr>
+					<td>TLS renewal</td>
+					<td>Automatic, daemon-managed</td>
+					<td>Manual cron job</td>
+					<td>Manual cron job</td>
+			</tr>
+			<tr>
+					<td>Default HTTPS</td>
+					<td>Yes</td>
+					<td>No</td>
+					<td>No</td>
+			</tr>
+			<tr>
+					<td>OCSP stapling</td>
+					<td>Built-in</td>
+					<td>Manual config</td>
+					<td>Manual config</td>
+			</tr>
+			<tr>
+					<td>Layer 4 (TCP/stream) proxy</td>
+					<td>Not supported</td>
+					<td>Built-in</td>
+					<td>Built-in</td>
+			</tr>
+			<tr>
+					<td>HTTP/2, HTTP/3</td>
+					<td>Built-in</td>
+					<td>Requires config</td>
+					<td>Requires config</td>
+			</tr>
+			<tr>
+					<td>Config reload</td>
+					<td>Graceful, zero-downtime</td>
+					<td>Graceful</td>
+					<td>Requires restart</td>
+			</tr>
+	</tbody>
 </table>
 <p>The table makes the choice look obvious, and in most cases it is. If you are
 setting up a new server today, I cannot think of a compelling reason to use
