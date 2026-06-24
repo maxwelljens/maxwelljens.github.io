@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Gaming on Maxwell Jensen&#39;s Personal Website</title>
+    <link>https://maxwelljensen.eu/tags/gaming/</link>
+    <description>Recent content in Gaming on Maxwell Jensen&#39;s Personal Website</description>
+    <generator>Hugo -- 0.162.1</generator>
+    <language>en</language>
+    <copyright>Maxwell Jensen</copyright>
+    <lastBuildDate>Wed, 24 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://maxwelljensen.eu/tags/gaming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Play Hideous Destructor</title>
+      <link>https://maxwelljensen.eu/posts/how_to_play_hd/</link>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://maxwelljensen.eu/posts/how_to_play_hd/</guid>
+      <description>A practical guide to surviving DOOM&amp;#39;s most punishing tactical realism mod, with focus on movement, the medical system, and ammunition management.</description>
+    </item>
+  </channel>
+</rss>
