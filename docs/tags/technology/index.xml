@@ -7,40 +7,47 @@
     <generator>Hugo -- 0.162.1</generator>
     <language>en</language>
     <copyright>Maxwell Jensen</copyright>
-    <lastBuildDate>Thu, 21 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2026 10:55:00 +0200</lastBuildDate>
     <atom:link href="https://maxwelljensen.eu/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why I Don&#39;t Buy American</title>
+      <link>https://maxwelljensen.eu/posts/why_i_dont_buy_american/</link>
+      <pubDate>Wed, 24 Jun 2026 10:55:00 +0200</pubDate>
+      <guid>https://maxwelljensen.eu/posts/why_i_dont_buy_american/</guid>
+      <description>American companies are not consumer-friendly, the economy is protectionist, the government is interventionist, and the culture is inflexible. A European perspective.</description>
+    </item>
     <item>
       <title>You Don&#39;t Need Docker for Everything</title>
       <link>https://maxwelljensen.eu/posts/you_dont_need_docker/</link>
-      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0200</pubDate>
       <guid>https://maxwelljensen.eu/posts/you_dont_need_docker/</guid>
       <description>Docker is an unnecessary abstraction for small-scale sysadmins, and the rise of Rust and Go makes it even more indefensible.</description>
     </item>
     <item>
       <title>Claude: A Waste of Money</title>
       <link>https://maxwelljensen.eu/posts/claude_a_waste_of_money/</link>
-      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0200</pubDate>
       <guid>https://maxwelljensen.eu/posts/claude_a_waste_of_money/</guid>
       <description>DeepSeek V4 has made Claude and other premium AI subscriptions almost impossible to justify on a cost-benefit basis.</description>
     </item>
     <item>
       <title>Should Code be Copyrighted?</title>
       <link>https://maxwelljensen.eu/posts/should_code_be_copyrighted/</link>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0200</pubDate>
       <guid>https://maxwelljensen.eu/posts/should_code_be_copyrighted/</guid>
       <description>An exploration of whether copyright law, designed for creative works, should apply to something as functional and mathematical as source code.</description>
     </item>
     <item>
       <title>The New Sparse Frontier: Flattening by AI</title>
       <link>https://maxwelljensen.eu/posts/new_sparse_frontier/</link>
-      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0200</pubDate>
       <guid>https://maxwelljensen.eu/posts/new_sparse_frontier/</guid>
       <description>AI is flattening the software landscape. The only escape is to move into the space it cannot occupy.</description>
     </item>
     <item>
       <title>Debunking the Anti-AI Cult</title>
       <link>https://maxwelljensen.eu/posts/debunking_anti_ai_cult/</link>
-      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 03 Aug 2025 00:00:00 +0200</pubDate>
       <guid>https://maxwelljensen.eu/posts/debunking_anti_ai_cult/</guid>
       <description>Is AI the first stepping stone to an utopia, or the downfall of civilisation as we know it? There&amp;#39;s a lot to be said, but let&amp;#39;s address the doom and gloom.</description>
     </item>

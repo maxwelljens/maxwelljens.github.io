@@ -4,7 +4,7 @@ description: "A practical guide to surviving DOOM's most punishing tactical real
 tags: ["gaming", "doom"]
 cover:
   image: /how_to_play_hd/card.png
-date: 2026-06-24
+date: 2026-06-24T10:00:00
 ---
 
 [Hideous Destructor](https://doomwiki.org/wiki/Hideous_Destructor) is what

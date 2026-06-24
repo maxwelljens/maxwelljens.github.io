@@ -1,6 +1,7 @@
 baseURL: https://maxwelljensen.eu/
 title: Maxwell Jensen's Personal Website
 theme: [PaperMod]
+timezone: Europe/Warsaw
 copyright: "© Maxwell Jensen"
 module:
   imports:

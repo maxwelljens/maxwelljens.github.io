@@ -7,61 +7,61 @@
     <generator>Hugo -- 0.162.1</generator>
     <language>en</language>
     <copyright>Maxwell Jensen</copyright>
-    <lastBuildDate>Thu, 14 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 00:00:00 +0200</lastBuildDate>
     <atom:link href="https://maxwelljensen.eu/tags/software/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Should Code be Copyrighted?</title>
       <link>https://maxwelljensen.eu/posts/should_code_be_copyrighted/</link>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0200</pubDate>
       <guid>https://maxwelljensen.eu/posts/should_code_be_copyrighted/</guid>
       <description>An exploration of whether copyright law, designed for creative works, should apply to something as functional and mathematical as source code.</description>
     </item>
     <item>
       <title>Extremely Easy Hosting with Caddy</title>
       <link>https://maxwelljensen.eu/posts/caddy_guide/</link>
-      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0200</pubDate>
       <guid>https://maxwelljensen.eu/posts/caddy_guide/</guid>
       <description>How to stop fighting with web server configuration and just get your site online, with automatic HTTPS.</description>
     </item>
     <item>
       <title>AI-Assisted Programming: My Workflow</title>
       <link>https://maxwelljensen.eu/posts/ai_assist/</link>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0200</pubDate>
       <guid>https://maxwelljensen.eu/posts/ai_assist/</guid>
       <description>In this article, I go through my setup and workflow for AI-assisted programming.</description>
     </item>
     <item>
       <title>GDScript Enums: The Backbone of Clean Architecture</title>
       <link>https://maxwelljensen.eu/posts/gdscript_enums/</link>
-      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0100</pubDate>
       <guid>https://maxwelljensen.eu/posts/gdscript_enums/</guid>
       <description>Simple introduction for novices: why enumerations in GDScript are the ultimate antidote to spaghetti code and magic numbers in game development.</description>
     </item>
     <item>
       <title>My Thoughts on Unreal Engine, Unity, and Godot</title>
       <link>https://maxwelljensen.eu/posts/game_engine_thoughts/</link>
-      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0100</pubDate>
       <guid>https://maxwelljensen.eu/posts/game_engine_thoughts/</guid>
       <description>As a Linux user, after having tried all the major game engines, I can give an honest review and overview. Here are my thoughts.</description>
     </item>
     <item>
       <title>AI on Fedora</title>
       <link>https://maxwelljensen.eu/posts/ai_on_fedora/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 06 Feb 2025 00:00:00 +0100</pubDate>
       <guid>https://maxwelljensen.eu/posts/ai_on_fedora/</guid>
       <description>This article goes through some technical details of getting certain Fedora-specific problems out of the way when setting up your AI on Fedora.</description>
     </item>
     <item>
       <title>Creating a Website</title>
       <link>https://maxwelljensen.eu/posts/websites_for_beginners/</link>
-      <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 04 Feb 2025 00:00:00 +0100</pubDate>
       <guid>https://maxwelljensen.eu/posts/websites_for_beginners/</guid>
       <description> In this beginner&amp;#39;s guide, we will go through the simplest method of creating a statically generated website, which you can host anywhere easily, using Hugo.</description>
     </item>
     <item>
       <title>Licensing for Beginners</title>
       <link>https://maxwelljensen.eu/posts/licensing_for_beginners/</link>
-      <pubDate>Tue, 22 Mar 2022 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 22 Mar 2022 00:00:00 +0100</pubDate>
       <guid>https://maxwelljensen.eu/posts/licensing_for_beginners/</guid>
       <description>Here&amp;#39;s how to correctly licence your software, and what licensing means to begin with.</description>
     </item>

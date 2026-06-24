@@ -7,33 +7,33 @@
     <generator>Hugo -- 0.162.1</generator>
     <language>en</language>
     <copyright>Maxwell Jensen</copyright>
-    <lastBuildDate>Mon, 11 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 00:00:00 +0200</lastBuildDate>
     <atom:link href="https://maxwelljensen.eu/tags/internet/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Extremely Easy Hosting with Caddy</title>
       <link>https://maxwelljensen.eu/posts/caddy_guide/</link>
-      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0200</pubDate>
       <guid>https://maxwelljensen.eu/posts/caddy_guide/</guid>
       <description>How to stop fighting with web server configuration and just get your site online, with automatic HTTPS.</description>
     </item>
     <item>
       <title>Debunking the Anti-AI Cult</title>
       <link>https://maxwelljensen.eu/posts/debunking_anti_ai_cult/</link>
-      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 03 Aug 2025 00:00:00 +0200</pubDate>
       <guid>https://maxwelljensen.eu/posts/debunking_anti_ai_cult/</guid>
       <description>Is AI the first stepping stone to an utopia, or the downfall of civilisation as we know it? There&amp;#39;s a lot to be said, but let&amp;#39;s address the doom and gloom.</description>
     </item>
     <item>
       <title>AI on Fedora</title>
       <link>https://maxwelljensen.eu/posts/ai_on_fedora/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 06 Feb 2025 00:00:00 +0100</pubDate>
       <guid>https://maxwelljensen.eu/posts/ai_on_fedora/</guid>
       <description>This article goes through some technical details of getting certain Fedora-specific problems out of the way when setting up your AI on Fedora.</description>
     </item>
     <item>
       <title>Creating a Website</title>
       <link>https://maxwelljensen.eu/posts/websites_for_beginners/</link>
-      <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 04 Feb 2025 00:00:00 +0100</pubDate>
       <guid>https://maxwelljensen.eu/posts/websites_for_beginners/</guid>
       <description> In this beginner&amp;#39;s guide, we will go through the simplest method of creating a statically generated website, which you can host anywhere easily, using Hugo.</description>
     </item>

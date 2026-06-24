@@ -3,17 +3,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://maxwelljensen.eu/tags/doom/</loc>
-    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+    <loc>https://maxwelljensen.eu/tags/culture/</loc>
+    <lastmod>2026-06-24T10:55:00+02:00</lastmod>
+  </url><url>
+    <loc>https://maxwelljensen.eu/tags/economics/</loc>
+    <lastmod>2026-06-24T10:55:00+02:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/tags/gaming/</loc>
-    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://maxwelljensen.eu/posts/how_to_play_hd/</loc>
-    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-24T10:55:00+02:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/</loc>
-    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-24T10:55:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -25,8 +25,11 @@
                 href="https://maxwelljensen.eu/pl/"
                 />
   </url><url>
+    <loc>https://maxwelljensen.eu/tags/politics/</loc>
+    <lastmod>2026-06-24T10:55:00+02:00</lastmod>
+  </url><url>
     <loc>https://maxwelljensen.eu/posts/</loc>
-    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-24T10:55:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -39,7 +42,7 @@
                 />
   </url><url>
     <loc>https://maxwelljensen.eu/tags/</loc>
-    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-24T10:55:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -51,59 +54,62 @@
                 href="https://maxwelljensen.eu/pl/tags/"
                 />
   </url><url>
-    <loc>https://maxwelljensen.eu/tags/culture/</loc>
-    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
+    <loc>https://maxwelljensen.eu/tags/technology/</loc>
+    <lastmod>2026-06-24T10:55:00+02:00</lastmod>
+  </url><url>
+    <loc>https://maxwelljensen.eu/posts/why_i_dont_buy_american/</loc>
+    <lastmod>2026-06-24T10:55:00+02:00</lastmod>
+  </url><url>
+    <loc>https://maxwelljensen.eu/tags/doom/</loc>
+    <lastmod>2026-06-24T10:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://maxwelljensen.eu/posts/how_to_play_hd/</loc>
+    <lastmod>2026-06-24T10:00:00+02:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/posts/you_are_next/</loc>
-    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://maxwelljensen.eu/tags/technology/</loc>
-    <lastmod>2026-05-21T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-05T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/posts/you_dont_need_docker/</loc>
-    <lastmod>2026-05-21T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-21T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/tags/ai/</loc>
-    <lastmod>2026-05-15T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-15T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/posts/claude_a_waste_of_money/</loc>
-    <lastmod>2026-05-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://maxwelljensen.eu/tags/politics/</loc>
-    <lastmod>2026-05-14T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-15T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/posts/should_code_be_copyrighted/</loc>
-    <lastmod>2026-05-14T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-14T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/tags/software/</loc>
-    <lastmod>2026-05-14T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-14T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/posts/caddy_guide/</loc>
-    <lastmod>2026-05-11T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-11T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/tags/guide/</loc>
-    <lastmod>2026-05-11T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-11T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/tags/internet/</loc>
-    <lastmod>2026-05-11T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-11T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/tags/programming/</loc>
-    <lastmod>2026-05-02T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-02T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/posts/new_sparse_frontier/</loc>
-    <lastmod>2026-05-02T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-02T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/curios/</loc>
-    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-29T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/curios/classic_pbbgs/</loc>
-    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-29T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/posts/ai_assist/</loc>
-    <lastmod>2026-04-28T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-28T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/posts/atlas_turns/</loc>
-    <lastmod>2026-04-24T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-24T00:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -116,7 +122,7 @@
                 />
   </url><url>
     <loc>https://maxwelljensen.eu/tags/christianity/</loc>
-    <lastmod>2026-04-24T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-24T00:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -129,7 +135,7 @@
                 />
   </url><url>
     <loc>https://maxwelljensen.eu/tags/creative/</loc>
-    <lastmod>2026-04-24T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-24T00:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -142,7 +148,7 @@
                 />
   </url><url>
     <loc>https://maxwelljensen.eu/posts/i_died_yesterday/</loc>
-    <lastmod>2026-04-05T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-05T00:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -155,64 +161,61 @@
                 />
   </url><url>
     <loc>https://maxwelljensen.eu/tags/gamedev/</loc>
-    <lastmod>2026-03-23T00:00:00+00:00</lastmod>
+    <lastmod>2026-03-23T00:00:00+01:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/posts/gdscript_enums/</loc>
-    <lastmod>2026-03-23T00:00:00+00:00</lastmod>
+    <lastmod>2026-03-23T00:00:00+01:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/tags/godot/</loc>
-    <lastmod>2026-03-23T00:00:00+00:00</lastmod>
+    <lastmod>2026-03-23T00:00:00+01:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/posts/game_engine_thoughts/</loc>
-    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
+    <lastmod>2026-03-19T00:00:00+01:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/posts/post_european_world/</loc>
-    <lastmod>2025-12-16T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-16T00:00:00+01:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/posts/age_of_weimarica/</loc>
-    <lastmod>2025-09-13T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-13T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/posts/public_education_prison/</loc>
-    <lastmod>2025-09-04T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-04T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/posts/debunking_anti_ai_cult/</loc>
-    <lastmod>2025-08-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://maxwelljensen.eu/tags/economics/</loc>
-    <lastmod>2025-07-28T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-03T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/tags/european-union/</loc>
-    <lastmod>2025-07-28T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-28T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/tags/norway/</loc>
-    <lastmod>2025-07-28T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-28T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/posts/norway_vs_eu/</loc>
-    <lastmod>2025-07-28T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-28T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/posts/why_i_left/</loc>
-    <lastmod>2025-07-24T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-24T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/tags/poland/</loc>
-    <lastmod>2025-07-24T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-24T00:00:00+02:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/posts/ai_on_fedora/</loc>
-    <lastmod>2025-02-06T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-06T00:00:00+01:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/posts/websites_for_beginners/</loc>
-    <lastmod>2025-02-04T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-04T00:00:00+01:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/testimonial/janrik_oberholzer/</loc>
-    <lastmod>2024-02-26T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-26T00:00:00+01:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/testimonial/</loc>
-    <lastmod>2024-02-26T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-26T00:00:00+01:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/testimonial/marco_hoyvang/</loc>
-    <lastmod>2024-02-06T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-06T00:00:00+01:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/posts/licensing_for_beginners/</loc>
-    <lastmod>2025-02-02T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-02T00:00:00+01:00</lastmod>
   </url><url>
     <loc>https://maxwelljensen.eu/categories/</loc>
     <xhtml:link
