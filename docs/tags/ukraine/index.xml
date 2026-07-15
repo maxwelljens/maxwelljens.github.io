@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Poland on Maxwell Jensen&#39;s Personal Website</title>
-    <link>https://maxwelljensen.eu/tags/poland/</link>
-    <description>Recent content in Poland on Maxwell Jensen&#39;s Personal Website</description>
+    <title>Ukraine on Maxwell Jensen&#39;s Personal Website</title>
+    <link>https://maxwelljensen.eu/tags/ukraine/</link>
+    <description>Recent content in Ukraine on Maxwell Jensen&#39;s Personal Website</description>
     <generator>Hugo -- 0.162.1</generator>
     <language>en</language>
     <copyright>Maxwell Jensen</copyright>
     <lastBuildDate>Wed, 15 Jul 2026 09:20:00 +0200</lastBuildDate>
-    <atom:link href="https://maxwelljensen.eu/tags/poland/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://maxwelljensen.eu/tags/ukraine/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction to the East for Western Friends</title>
       <link>https://maxwelljensen.eu/posts/ua_intro/</link>
       <pubDate>Wed, 15 Jul 2026 09:20:00 +0200</pubDate>
       <guid>https://maxwelljensen.eu/posts/ua_intro/</guid>
       <description>In light of recent events that led to a serious divide between Poland and Ukraine, it is essential to understand cursory history of the region.</description>
-    </item>
-    <item>
-      <title>My Life in Norway, and Why I Moved On</title>
-      <link>https://maxwelljensen.eu/posts/why_i_left/</link>
-      <pubDate>Thu, 24 Jul 2025 00:00:00 +0200</pubDate>
-      <guid>https://maxwelljensen.eu/posts/why_i_left/</guid>
-      <description>I want to talk a bit about some important decisions I undertook recently in my life.</description>
     </item>
   </channel>
 </rss>
